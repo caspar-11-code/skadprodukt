@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zgłoś poprawkę lub sugestię | Skąd Produkt?</title>
+<meta name="description" content="Formularz sugestii: zgłoś poprawkę danych, nowy produkt lub lepsze źródło. Każde zgłoszenie weryfikujemy przed publikacją.">
+<link rel="canonical" href="https://skadprodukt.org/zglos/">
+<meta name="theme-color" content="#12161b">
+<meta property="og:site_name" content="Skąd Produkt? — Portal świadomego konsumenta">
+<meta property="og:title" content="Zgłoś poprawkę lub sugestię | Skąd Produkt?">
+<meta property="og:description" content="Formularz sugestii: zgłoś poprawkę danych, nowy produkt lub lepsze źródło. Każde zgłoszenie weryfikujemy przed publikacją.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:url" content="https://skadprodukt.org/zglos/">
+<meta property="og:image" content="https://skadprodukt.org/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zgłoś poprawkę lub sugestię | Skąd Produkt?">
+<meta name="twitter:description" content="Formularz sugestii: zgłoś poprawkę danych, nowy produkt lub lepsze źródło. Każde zgłoszenie weryfikujemy przed publikacją.">
+<meta name="twitter:image" content="https://skadprodukt.org/assets/og.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%A7%AD%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://skadprodukt.org">
+<link rel="stylesheet" href="/assets/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Przejdź do treści</a>
+<header class="site-header">
+  <a class="logo" href="/"><span class="logo-icon">🧭</span> Skąd<span class="accent">Produkt</span>?</a>
+  <nav>
+    <a href="/marki/" data-i18n="nav.brands">Marki</a>
+    <a href="/skladniki/" data-i18n="nav.ingredients">Składniki</a>
+    <a href="/statystyki/" data-i18n="nav.stats">Statystyki</a>
+    <a href="/metodologia/" data-i18n="nav.method">Metodologia</a>
+    <button id="lang-toggle" class="lang-btn" title="PL / EN" aria-label="Language">EN</button>
+  </nav>
+</header>
+<main id="main">
+
+<article class="form-page">
+  <h1 data-i18n="form.title">Zgłoś poprawkę lub sugestię</h1>
+  <p class="lead" data-i18n="form.lead">Znalazłeś błąd, znasz lepsze źródło albo brakuje Ci marki/składnika? Napisz — każde zgłoszenie weryfikujemy w źródłach przed publikacją. Nie musisz podawać danych kontaktowych.</p>
+  <form id="suggest-form" novalidate>
+    <label data-i18n="form.type">Rodzaj zgłoszenia</label>
+    <select name="type" id="f-type">
+      <option value="poprawka" data-i18n="form.t1">Poprawka istniejących danych</option>
+      <option value="nowy-produkt" data-i18n="form.t2">Nowy produkt / marka / składnik</option>
+      <option value="nowe-zrodlo" data-i18n="form.t3">Lepsze / dodatkowe źródło</option>
+      <option value="inne" data-i18n="form.t4">Inne</option>
+    </select>
+    <label data-i18n="form.msg">Treść zgłoszenia *</label>
+    <textarea name="message" id="f-message" rows="6" maxlength="2000" required placeholder="Opisz, czego dotyczy zgłoszenie…"></textarea>
+    <label data-i18n="form.src">Źródło (link, jeśli masz)</label>
+    <input type="url" name="source" id="f-source" placeholder="https://…">
+    <label data-i18n="form.contact">Kontakt zwrotny (opcjonalnie)</label>
+    <input type="text" name="contact" id="f-contact" placeholder="e-mail lub nick — jeśli chcesz odpowiedź">
+    <input type="text" name="website" id="f-website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button type="submit" class="btn" id="f-submit" data-i18n="form.send">Wyślij zgłoszenie</button>
+    <p id="f-status" class="form-status" role="status" aria-live="polite"></p>
+  </form>
+  <p class="disclaimer" data-i18n="form.note">Zgłoszenia trafiają do prywatnej skrzynki serwisu. Nie zbieramy danych, których nie podasz dobrowolnie.</p>
+</article>
+</main>
+<footer class="site-footer">
+  <p><strong>Skąd Produkt?</strong> — Portal świadomego konsumenta. <span data-i18n="footer.disclaimer">Serwis informacyjno-edukacyjny. Dane pochodzą z publicznych źródeł (etykiety, rejestry KRS, raporty instytucji, publikacje prasowe) — przy każdej informacji podajemy źródło. Struktury własności i pochodzenie surowców zmieniają się w czasie; przed powołaniem się na dane sprawdź źródło i jego datę.</span></p>
+  <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a></p>
+  <p class="fine">© Kacper 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> 2026-07-02 · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>

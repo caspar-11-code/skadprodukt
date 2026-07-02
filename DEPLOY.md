@@ -1,49 +1,50 @@
-# Wdrożenie SkądTo? na Cloudflare Pages (0 zł)
+# Wdrożenie SkądProdukt.org na Cloudflare Pages (0 zł + domena)
 
-Ten sam pipeline co gamestheory.org: GitHub → Cloudflare Pages auto-deploy po pushu na `main`.
+Domena **skadprodukt.org** jest już na koncie Cloudflare (account ID `2a154ac3f77283fec2b8954342fcf29c`). Pipeline jak w gamestheory.org: GitHub → Cloudflare Pages auto-deploy po pushu na `main`.
 
-## Kroki (jednorazowo, ~10 min)
+## 1. Repo na GitHub
+Konto `caspar-11-code`, repo np. `skadprodukt`:
+```
+cd "W:\OneDrive - Politechnika Śląska\!AI-fableTest-serwisPochodzenieProd"
+git remote add origin https://github.com/caspar-11-code/skadprodukt.git
+git push -u origin main
+```
 
-### 1. Repo na GitHub
-Konto `caspar-11-code`, nowe **prywatne lub publiczne** repo, np. `skad-to-pochodzi`:
-- wejdź na https://github.com/new → nazwa `skad-to-pochodzi` → Create.
-- lokalnie (git już jest zainicjowany i zacommitowany):
-  ```
-  cd "W:\OneDrive - Politechnika Śląska\!AI-fableTest-serwisPochodzenieProd"
-  git remote add origin https://github.com/caspar-11-code/skad-to-pochodzi.git
-  git push -u origin main
-  ```
+## 2. Dostęp aplikacji Cloudflare do repo
+https://github.com/settings/installations → „Cloudflare Workers and Pages" → Configure → dodaj repo `skadprodukt`.
 
-### 2. Dostęp aplikacji Cloudflare do repo
-https://github.com/settings/installations → „Cloudflare Workers and Pages" → Configure → dodaj repo `skad-to-pochodzi` (tak samo jak przy candle/hub).
-
-### 3. Projekt Pages
-Dashboard Cloudflare (konto hkacper111@gmail.com) → Workers & Pages → **Create → Pages → Connect to Git** → wybierz `skad-to-pochodzi`:
-- **Build command:** *(puste — public/ jest commitowane)*
+## 3. Projekt Pages
+Dashboard Cloudflare → Workers & Pages → **Create → Pages → Connect to Git** → `skadprodukt`:
+- **Build command:** *(puste — `public/` jest commitowane)*
 - **Build output directory:** `public`
-- Save and Deploy.
+- Save and Deploy → dostajesz `https://skadprodukt.pages.dev`.
 
-Dostajesz darmowy adres `https://<nazwa-projektu>.pages.dev` (np. `skadto.pages.dev` — jeśli wolny, nazwij projekt `skadto`).
+## 4. Custom domain
+Pages → Custom domains → **Add** → `skadprodukt.org` oraz `www.skadprodukt.org`. Cloudflare sam doda rekordy (domena w tej samej strefie). Ustaw przekierowanie www → apex (Rules → Redirect) jeśli chcesz jedną wersję kanoniczną.
 
-### 4. (Opcjonalnie) własny URL pod gamestheory.org
-Jeśli nie chcesz kupować domeny: Pages → Custom domains → `skadto.gamestheory.org` (subdomena istniejącej strefy Cloudflare — 0 zł). Branding jest neutralny, więc docelowo lepsza osobna domena (np. skadto.pl, ~50 zł/rok — ale to już płatne, więc decyzja Twoja).
+## 5. Backend formularza sugestii (KV)
+Formularz `/zglos/` zapisuje zgłoszenia do KV.
+1. Workers & Pages → **KV** → Create namespace: `skadprodukt-zgloszenia`.
+2. Projekt Pages `skadprodukt` → Settings → **Bindings** (Functions) → Add → **KV namespace**: Variable name `ZGLOSZENIA`, namespace `skadprodukt-zgloszenia`. (Dodaj dla Production i Preview.)
+3. Redeploy. Zgłoszenia czytasz w dashboardzie: KV → namespace → klucze `z:...` (JSON). Klucze `rl:...` to licznik antyspamowy (wygasają po dobie).
 
-### 5. Ustaw docelowy adres w buildzie
-Po ustaleniu finalnego URL przebuduj z poprawnym adresem (wpływa na canonical/sitemap/karty):
-```
-set SITE_URL=https://skadto.pages.dev && node build.js
-```
-(albo na stałe zmień domyślną wartość `SITE_URL` na górze `build.js`), potem `tools\publish.ps1`.
+> Bez bindingu formularz zwraca komunikat „chwilowo niedostępny" (503) — serwis nadal działa, tylko zgłoszenia nie zapisują się.
 
-## Alternatywa bez GitHuba (szybki test)
+## 6. SITE_URL w buildzie
+Domyślnie `https://skadprodukt.org` (canonical/OG/sitemap/karty). Jeśli zmienisz domenę:
 ```
-npx wrangler pages deploy public --project-name=skadto
+set SITE_URL=https://skadprodukt.org && node build.js
 ```
-(wymaga zalogowania `npx wrangler login`).
 
-## Weryfikacja po wdrożeniu (jak zwykle — na produkcji)
+## 7. Weryfikacja po wdrożeniu (na produkcji)
 ```
-curl -s https://skadto.pages.dev/ | findstr "SkądTo"
-curl -s https://skadto.pages.dev/p/wedel/ | findstr "LOTTE"
-curl -s https://skadto.pages.dev/sitemap.xml | findstr "statystyki"
+curl -s https://skadprodukt.org/ | findstr "SkądProdukt"
+curl -s https://skadprodukt.org/skladnik/kakao/ | findstr "NORC"
+curl -s https://skadprodukt.org/p/mercedes-benz/ | findstr "BAIC"
+curl -sI https://skadprodukt.org/ | findstr "Content-Security-Policy"
+curl -s https://skadprodukt.org/sitemap.xml | findstr "skladnik"
 ```
+
+## 8. SEO / Google
+- **Google Search Console** (search.google.com/search-console): dodaj właściwość domenową `skadprodukt.org`, zweryfikuj rekordem TXT DNS w Cloudflare, prześlij `https://skadprodukt.org/sitemap.xml`.
+- Sitemap i robots.txt generują się automatycznie; canonical/OG są w każdej stronie.

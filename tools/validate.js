@@ -34,6 +34,37 @@ if (errors.length) {
   errors.forEach(e => console.error('  - ' + e));
   process.exit(1);
 }
+// --- walidacja składników (opcjonalny plik) ---
+const ingFile = path.join(__dirname, '..', 'data', 'ingredients.json');
+let ingCount = 0;
+if (fs.existsSync(ingFile)) {
+  const idb = JSON.parse(fs.readFileSync(ingFile, 'utf8'));
+  const islugs = new Set();
+  (idb.ingredients || []).forEach((ing, i) => {
+    const id = ing.slug || `ing#${i}`;
+    ingCount++;
+    ['slug', 'name', 'category', 'originCountries', 'plRelevance', 'updated'].forEach(f => {
+      if (ing[f] === undefined || ing[f] === '') errors.push(`${id}: brak pola "${f}"`);
+    });
+    if (ing.slug && islugs.has(ing.slug)) errors.push(`${id}: zdublowany slug składnika`);
+    islugs.add(ing.slug);
+    if (ing.slug && !/^[a-z0-9-]+$/.test(ing.slug)) errors.push(`${id}: slug tylko [a-z0-9-]`);
+    (ing.originCountries || []).forEach((o, j) => {
+      if (!o.cc || !CC.test(o.cc)) errors.push(`${id}: originCountries#${j} cc="${o.cc}" — wymagany ISO-2 (wielkie litery)`);
+    });
+    // każdy stat/issue musi mieć działający-wyglądający URL
+    (ing.stats || []).concat(ing.issues || []).forEach((s, j) => {
+      if (s.sourceUrl && !/^https?:\/\//.test(s.sourceUrl)) errors.push(`${id}: źródło#${j} url musi zaczynać się od http(s)`);
+    });
+    if (ing.updated && !/^\d{4}-\d{2}-\d{2}$/.test(ing.updated)) errors.push(`${id}: updated w formacie YYYY-MM-DD`);
+  });
+  if (errors.length) {
+    console.error(`BŁĘDY (${errors.length}):`);
+    errors.forEach(e => console.error('  - ' + e));
+    process.exit(1);
+  }
+}
+
 const toVerify = db.products.filter(p => p.confidence === 'do-weryfikacji').map(p => p.slug);
-console.log(`OK: ${db.products.length} rekordów poprawnych.`);
+console.log(`OK: ${db.products.length} marek + ${ingCount} składników — poprawne.`);
 if (toVerify.length) console.log(`Uwaga — oznaczone "do-weryfikacji" (${toVerify.length}): ${toVerify.join(', ')}`);

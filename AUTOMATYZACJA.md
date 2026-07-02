@@ -17,7 +17,7 @@ Rekordy `do-weryfikacji` są **celowo pomijane** — nie publikujemy niepotwierd
 
 ## 2. Montaż wideo — istniejący silnik `auto-content-engine`
 
-Masz już działający pipeline w `C:\Users\hkacp\auto-content-engine` (edge-tts + ffmpeg, zweryfikowany 2026-06-30). Adaptacja pod SkądTo:
+Masz już działający pipeline w `C:\Users\hkacp\auto-content-engine` (edge-tts + ffmpeg, zweryfikowany 2026-06-30). Adaptacja pod SkądProdukt.org:
 
 1. Skopiuj `output/shorts/*.json` do katalogu roboczego silnika.
 2. W `make_short.py` podmień źródło skryptu na pola `hook` + `lines` + `cta` (struktura celowo taka sama) i głos na `pl-PL-MarekNeural`.

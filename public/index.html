@@ -3,61 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SkądTo? — sprawdź, skąd naprawdę pochodzi produkt</title>
-<meta name="description" content="Kraj produkcji, producent, właściciel marki i pochodzenie kapitału — publiczne dane o markach z polskich sklepów zebrane w jednym miejscu.">
-<link rel="canonical" href="https://skadto.pages.dev/">
-<meta property="og:title" content="SkądTo? — sprawdź, skąd naprawdę pochodzi produkt">
-<meta property="og:description" content="Kraj produkcji, producent, właściciel marki i pochodzenie kapitału — publiczne dane o markach z polskich sklepów zebrane w jednym miejscu.">
+<title>Skąd Produkt? — Portal świadomego konsumenta</title>
+<meta name="description" content="Sprawdź, skąd naprawdę pochodzi produkt: kraj produkcji, właściciel marki, pochodzenie kapitału i surowców. Publiczne, udokumentowane dane o markach z polskich sklepów — portal świadomego konsumenta.">
+<link rel="canonical" href="https://skadprodukt.org/">
+<meta name="theme-color" content="#12161b">
+<meta property="og:site_name" content="Skąd Produkt? — Portal świadomego konsumenta">
+<meta property="og:title" content="Skąd Produkt? — Portal świadomego konsumenta">
+<meta property="og:description" content="Sprawdź, skąd naprawdę pochodzi produkt: kraj produkcji, właściciel marki, pochodzenie kapitału i surowców. Publiczne, udokumentowane dane o markach z polskich sklepów — portal świadomego konsumenta.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://skadto.pages.dev/">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:url" content="https://skadprodukt.org/">
+<meta property="og:image" content="https://skadprodukt.org/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Skąd Produkt? — Portal świadomego konsumenta">
+<meta name="twitter:description" content="Sprawdź, skąd naprawdę pochodzi produkt: kraj produkcji, właściciel marki, pochodzenie kapitału i surowców. Publiczne, udokumentowane dane o markach z polskich sklepów — portal świadomego konsumenta.">
+<meta name="twitter:image" content="https://skadprodukt.org/assets/og.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%A7%AD%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://skadprodukt.org">
 <link rel="stylesheet" href="/assets/style.css">
 
 </head>
 <body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Przejdź do treści</a>
 <header class="site-header">
-  <a class="logo" href="/"><span class="logo-icon">🧭</span> Skąd<span class="accent">To</span>?</a>
+  <a class="logo" href="/"><span class="logo-icon">🧭</span> Skąd<span class="accent">Produkt</span>?</a>
   <nav>
-    <a href="/" data-i18n="nav.home">Baza</a>
+    <a href="/marki/" data-i18n="nav.brands">Marki</a>
+    <a href="/skladniki/" data-i18n="nav.ingredients">Składniki</a>
     <a href="/statystyki/" data-i18n="nav.stats">Statystyki</a>
     <a href="/metodologia/" data-i18n="nav.method">Metodologia</a>
-    <button id="lang-toggle" class="lang-btn" title="PL / EN">EN</button>
+    <button id="lang-toggle" class="lang-btn" title="PL / EN" aria-label="Language">EN</button>
   </nav>
 </header>
-<main>
+<main id="main">
 
 <section class="hero">
   <h1 data-i18n="hero.title">Skąd naprawdę pochodzi to, co kupujesz?</h1>
-  <p class="lead" data-i18n="hero.sub">Kraj produkcji · producent · właściciel marki · pochodzenie kapitału. Publiczne dane zebrane w jednym miejscu.</p>
-  <input type="search" id="search" placeholder="Szukaj marki, producenta, właściciela…" autocomplete="off">
-  <div class="filters">
-    <button class="chip chip-on" data-filter="*" data-i18n="filter.all">wszystkie</button>
-    <button class="chip" data-filter="PL">🇵🇱 Polska</button>
-    <button class="chip" data-filter="US">🇺🇸 USA</button>
-    <button class="chip" data-filter="DE">🇩🇪 Niemcy</button>
-    <button class="chip" data-filter="CH">🇨🇭 Szwajcaria</button>
-    <button class="chip" data-filter="PT">🇵🇹 Portugalia</button>
-    <button class="chip" data-filter="KR">🇰🇷 Korea Płd.</button>
-    <button class="chip" data-filter="UA">🇺🇦 Ukraina</button>
-    <button class="chip" data-filter="JP">🇯🇵 Japonia</button>
-    <button class="chip" data-filter="LU">🇱🇺 Luksemburg</button>
-    <button class="chip" data-filter="NL">🇳🇱 Holandia</button>
-  </div>
-  <div class="filters filters-cat">
-    <button class="chip chip-cat" data-cat="alkohole">alkohole</button>
-    <button class="chip chip-cat" data-cat="chemia domowa">chemia domowa</button>
-    <button class="chip chip-cat" data-cat="mrożonki">mrożonki</button>
-    <button class="chip chip-cat" data-cat="nabiał">nabiał</button>
-    <button class="chip chip-cat" data-cat="napoje">napoje</button>
-    <button class="chip chip-cat" data-cat="piwo">piwo</button>
-    <button class="chip chip-cat" data-cat="sieci handlowe">sieci handlowe</button>
-    <button class="chip chip-cat" data-cat="słodycze">słodycze</button>
-    <button class="chip chip-cat" data-cat="spożywcze">spożywcze</button>
-    <button class="chip chip-cat" data-cat="woda">woda</button>
+  <p class="tagline" data-i18n="hero.tagline">Portal świadomego konsumenta</p>
+  <p class="lead" data-i18n="hero.sub">Kraj produkcji, producent, właściciel marki, pochodzenie kapitału i surowców — publiczne dane zebrane i udokumentowane w jednym miejscu. Bez emocji, bez bojkotów: same fakty ze źródłami.</p>
+  <form class="search-form" role="search" action="/marki/">
+    <input type="search" id="search" name="q" placeholder="Szukaj marki, producenta, właściciela…" autocomplete="off" aria-label="Szukaj">
+  </form>
+  <div class="hub-tiles">
+    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">37 marek — kto jest właścicielem</span></a>
+    <a class="tile" href="/skladniki/"><span class="tile-ico">🌍</span><strong data-i18n="tile.ing">Składniki i mapa</strong><span data-i18n="tile.ingSub">10 surowców — skąd pochodzą</span></a>
+    <a class="tile" href="/statystyki/"><span class="tile-ico">📊</span><strong data-i18n="tile.stats">Statystyki</strong><span data-i18n="tile.statsSub">produkcja vs kapitał</span></a>
   </div>
 </section>
-<div class="grid" id="grid">
-<a class="card" href="/p/biedronka/" data-search="biedronka — (sieć handlowa; marki własne od dostawców, głównie z polski) jerónimo martins sieci handlowe" data-capital="PT" data-category="sieci handlowe">
+
+<section class="home-sec">
+  <div class="sec-head"><h2 data-i18n="home.brands">Wybrane marki</h2><a href="/marki/" data-i18n="home.allBrands">wszystkie →</a></div>
+  <div class="grid">
+    <a class="card card-foreign" href="/p/biedronka/" data-search="biedronka — (sieć handlowa; marki własne od dostawców, głównie z polski) jerónimo martins sieci handlowe" data-capital="PT" data-category="sieci handlowe">
   <div class="card-head"><h3>Biedronka</h3><span class="cat">sieci handlowe</span></div>
   <div class="card-flags">
     <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
@@ -67,27 +66,7 @@
   <p class="card-owner">Jerónimo Martins</p>
   
 </a>
-<a class="card" href="/p/cisowianka/" data-search="cisowianka polskie zdroje (nałęczów zdrój) polskie zdroje sp. z o.o. sp.k. woda" data-capital="PL" data-category="woda">
-  <div class="card-head"><h3>Cisowianka</h3><span class="cat">woda</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Polskie Zdroje sp. z o.o. sp.k.</p>
-  
-</a>
-<a class="card" href="/p/coca-cola/" data-search="coca-cola coca-cola hbc polska (rozlewnie w polsce) the coca-cola company napoje" data-capital="US" data-category="napoje">
-  <div class="card-head"><h3>Coca-Cola</h3><span class="cat">napoje</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇺🇸 USA</span>
-  </div>
-  <p class="card-owner">The Coca-Cola Company</p>
-  
-</a>
-<a class="card" href="/p/wedel/" data-search="e. wedel lotte wedel sp. z o.o. lotte corporation słodycze" data-capital="KR" data-category="słodycze">
+<a class="card card-foreign" href="/p/wedel/" data-search="e. wedel lotte wedel sp. z o.o. lotte corporation słodycze" data-capital="KR" data-category="słodycze">
   <div class="card-head"><h3>E. Wedel</h3><span class="cat">słodycze</span></div>
   <div class="card-flags">
     <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
@@ -97,157 +76,27 @@
   <p class="card-owner">LOTTE Corporation</p>
   
 </a>
-<a class="card" href="/p/frosta/" data-search="frosta frosta sp. z o.o. (zakład bydgoszcz) frosta ag mrożonki" data-capital="DE" data-category="mrożonki">
-  <div class="card-head"><h3>FRoSTA</h3><span class="cat">mrożonki</span></div>
+<a class="card card-foreign" href="/p/nutella-kinder/" data-search="nutella / kinder ferrero polska commercial (zakład belsk duży) ferrero international s.a. słodycze" data-capital="IT" data-category="słodycze">
+  <div class="card-head"><h3>Nutella / Kinder</h3><span class="cat">słodycze</span></div>
   <div class="card-flags">
     <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
     <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇩🇪 Niemcy</span>
+    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇮🇹 Włochy</span>
   </div>
-  <p class="card-owner">FRoSTA AG</p>
+  <p class="card-owner">Ferrero International S.A.</p>
   
 </a>
-<a class="card" href="/p/grzeski/" data-search="grześki / jeżyki / goplana colian sp. z o.o. colian (rodzina kolańskich) słodycze" data-capital="PL" data-category="słodycze">
-  <div class="card-head"><h3>Grześki / Jeżyki / Goplana</h3><span class="cat">słodycze</span></div>
+<a class="card card-foreign" href="/p/pirelli/" data-search="pirelli (opony) pirelli &amp; c. s.p.a. pirelli &amp; c. s.p.a. (gpw: mediolan) motoryzacja" data-capital="CN" data-category="motoryzacja">
+  <div class="card-head"><h3>Pirelli (opony)</h3><span class="cat">motoryzacja</span></div>
   <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
+    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇮🇹 Włochy</span>
     <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
+    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇨🇳 Chiny</span>
   </div>
-  <p class="card-owner">Colian (rodzina Kolańskich)</p>
+  <p class="card-owner">Pirelli &amp; C. S.p.A. (GPW: Mediolan)</p>
   
 </a>
-<a class="card" href="/p/lidl-marki-wlasne/" data-search="lidl (marki własne, np. pilos, bluedino) różni dostawcy — sprawdź kod zakładu na opakowaniu (owal weterynaryjny pl/de/...) schwarz gruppe (lidl stiftung) sieci handlowe" data-capital="DE" data-category="sieci handlowe">
-  <div class="card-head"><h3>Lidl (marki własne, np. Pilos, Bluedino)</h3><span class="cat">sieci handlowe</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇩🇪 Niemcy</span>
-  </div>
-  <p class="card-owner">Schwarz Gruppe (Lidl Stiftung)</p>
-  
-</a>
-<a class="card" href="/p/lubella/" data-search="lubella maspex (zakład lublin) grupa maspex spożywcze" data-capital="PL" data-category="spożywcze">
-  <div class="card-head"><h3>Lubella</h3><span class="cat">spożywcze</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Grupa Maspex</p>
-  
-</a>
-<a class="card" href="/p/ludwik/" data-search="ludwik grupa inco s.a. grupa inco s.a. chemia domowa" data-capital="PL" data-category="chemia domowa">
-  <div class="card-head"><h3>Ludwik</h3><span class="cat">chemia domowa</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Grupa INCO S.A.</p>
-  
-</a>
-<a class="card" href="/p/lomza/" data-search="łomża van pur s.a. (browar łomża) van pur s.a. piwo" data-capital="PL" data-category="piwo">
-  <div class="card-head"><h3>Łomża</h3><span class="cat">piwo</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Van Pur S.A.</p>
-  
-</a>
-<a class="card" href="/p/milka/" data-search="milka mondelēz international (zakłady w ue, m.in. w polsce) mondelēz international słodycze" data-capital="US" data-category="słodycze">
-  <div class="card-head"><h3>Milka</h3><span class="cat">słodycze</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇪🇺 Unia Europejska (różne)</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇺🇸 USA</span>
-  </div>
-  <p class="card-owner">Mondelēz International</p>
-  <span class="badge-verify" data-i18n="card.verify">⚠ do weryfikacji</span>
-</a>
-<a class="card" href="/p/mlekovita/" data-search="mlekovita sm mlekovita spółdzielnia mleczarska mlekovita (własność rolników-członków) nabiał" data-capital="PL" data-category="nabiał">
-  <div class="card-head"><h3>Mlekovita</h3><span class="cat">nabiał</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Spółdzielnia Mleczarska Mlekovita (własność rolników-członków)</p>
-  
-</a>
-<a class="card" href="/p/nalenczowianka/" data-search="nałęczowianka nestlé waters (zakład nałęczów) nestlé woda" data-capital="CH" data-category="woda">
-  <div class="card-head"><h3>Nałęczowianka</h3><span class="cat">woda</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇨🇭 Szwajcaria</span>
-  </div>
-  <p class="card-owner">Nestlé</p>
-  
-</a>
-<a class="card" href="/p/oshee/" data-search="oshee oshee polska sp. z o.o. oshee polska (założyciele prywatni) napoje" data-capital="PL" data-category="napoje">
-  <div class="card-head"><h3>OSHEE</h3><span class="cat">napoje</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">OSHEE Polska (założyciele prywatni)</p>
-  
-</a>
-<a class="card" href="/p/persil/" data-search="persil henkel (zakład racibórz) henkel ag &amp; co. kgaa chemia domowa" data-capital="DE" data-category="chemia domowa">
-  <div class="card-head"><h3>Persil</h3><span class="cat">chemia domowa</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇩🇪 Niemcy</span>
-  </div>
-  <p class="card-owner">Henkel AG &amp; Co. KGaA</p>
-  
-</a>
-<a class="card" href="/p/prince-polo/" data-search="prince polo mondelēz polska (zakład cieszyn — d. olza) mondelēz international słodycze" data-capital="US" data-category="słodycze">
-  <div class="card-head"><h3>Prince Polo</h3><span class="cat">słodycze</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇺🇸 USA</span>
-  </div>
-  <p class="card-owner">Mondelēz International</p>
-  
-</a>
-<a class="card" href="/p/pudliszki/" data-search="pudliszki foodwell (zakład pudliszki, wielkopolska) foodwell spożywcze" data-capital="PL" data-category="spożywcze">
-  <div class="card-head"><h3>Pudliszki</h3><span class="cat">spożywcze</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Foodwell</p>
-  
-</a>
-<a class="card" href="/p/roshen/" data-search="roshen roshen (zakłady na ukrainie i w ue) roshen confectionery corporation słodycze" data-capital="UA" data-category="słodycze">
-  <div class="card-head"><h3>Roshen</h3><span class="cat">słodycze</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇺🇦 Ukraina</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇺🇦 Ukraina</span>
-  </div>
-  <p class="card-owner">Roshen Confectionery Corporation</p>
-  
-</a>
-<a class="card" href="/p/tymbark/" data-search="tymbark grupa maspex grupa maspex napoje" data-capital="PL" data-category="napoje">
-  <div class="card-head"><h3>Tymbark</h3><span class="cat">napoje</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Grupa Maspex</p>
-  
-</a>
-<a class="card" href="/p/tyskie/" data-search="tyskie kompania piwowarska s.a. asahi group holdings piwo" data-capital="JP" data-category="piwo">
+<a class="card card-foreign" href="/p/tyskie/" data-search="tyskie kompania piwowarska s.a. asahi group holdings piwo" data-capital="JP" data-category="piwo">
   <div class="card-head"><h3>Tyskie</h3><span class="cat">piwo</span></div>
   <div class="card-flags">
     <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
@@ -257,7 +106,7 @@
   <p class="card-owner">Asahi Group Holdings</p>
   
 </a>
-<a class="card" href="/p/wawel/" data-search="wawel wawel s.a. (zakład dobczyce) wawel s.a. (gpw; znaczący akcjonariusz: hosta international ag) słodycze" data-capital="CH" data-category="słodycze">
+<a class="card card-foreign" href="/p/wawel/" data-search="wawel wawel s.a. (zakład dobczyce) wawel s.a. (gpw; znaczący akcjonariusz: hosta international ag) słodycze" data-capital="CH" data-category="słodycze">
   <div class="card-head"><h3>Wawel</h3><span class="cat">słodycze</span></div>
   <div class="card-flags">
     <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
@@ -267,106 +116,131 @@
   <p class="card-owner">Wawel S.A. (GPW; znaczący akcjonariusz: Hosta International AG)</p>
   <span class="badge-verify" data-i18n="card.verify">⚠ do weryfikacji</span>
 </a>
-<a class="card" href="/p/winiary/" data-search="winiary nestlé polska s.a. nestlé s.a. spożywcze" data-capital="CH" data-category="spożywcze">
-  <div class="card-head"><h3>Winiary</h3><span class="cat">spożywcze</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇨🇭 Szwajcaria</span>
   </div>
-  <p class="card-owner">Nestlé S.A.</p>
-  
+</section>
+
+<section class="home-sec">
+  <div class="sec-head"><h2 data-i18n="home.ing">Składniki na mapie świata</h2><a href="/skladniki/" data-i18n="home.allIng">wszystkie →</a></div>
+  <p class="lead" data-i18n="home.ingLead">Zboże, kakao, olej palmowy, ryby… To, czego nie przeczytasz drobnym drukiem: skąd naprawdę pochodzi surowiec i co się z nim wiąże.</p>
+  <div class="grid grid-ing">
+    <a class="card card-ing" href="/skladnik/czosnek/" data-search="czosnek czosnek świeży granulat/suszony mrożonki mieszanki przypraw dania gotowe">
+  <div class="card-head"><h3>🧄 Czosnek</h3></div>
+  <div class="ing-origins">🇨🇳 🇪🇸 🇵🇱</div>
+  <p class="card-owner">czosnek świeży, granulat/suszony, mrożonki</p>
+  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
 </a>
-<a class="card" href="/p/zabka/" data-search="żabka — (sieć convenience, franczyza) żabka group s.a. (gpw; główny akcjonariusz: fundusz cvc capital partners) sieci handlowe" data-capital="LU" data-category="sieci handlowe">
-  <div class="card-head"><h3>Żabka</h3><span class="cat">sieci handlowe</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇱🇺 Luksemburg</span>
+<a class="card card-ing" href="/skladnik/kakao/" data-search="kakao czekolada batony wafle kremy czekoladowe kakao do picia">
+  <div class="card-head"><h3>🍫 Kakao</h3></div>
+  <div class="ing-origins">🇨🇮 🇬🇭 🇪🇨</div>
+  <p class="card-owner">czekolada, batony, wafle</p>
+  <span class="badge-issue">3 <span data-i18n="card.issues">zagadnień</span></span>
+</a>
+<a class="card card-ing" href="/skladnik/kawa/" data-search="kawa kawa mielona kawa ziarnista kawa rozpuszczalna kapsułki">
+  <div class="card-head"><h3>☕ Kawa</h3></div>
+  <div class="ing-origins">🇧🇷 🇻🇳 🇨🇴</div>
+  <p class="card-owner">kawa mielona, kawa ziarnista, kawa rozpuszczalna</p>
+  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+</a>
+<a class="card card-ing" href="/skladnik/koncentrat-pomidorowy/" data-search="koncentrat pomidorowy ketchup passata sosy koncentrat pizza dania gotowe">
+  <div class="card-head"><h3>🍅 Koncentrat pomidorowy</h3></div>
+  <div class="ing-origins">🇨🇳 🇮🇹 🇪🇸</div>
+  <p class="card-owner">ketchup, passata, sosy</p>
+  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+</a>
+<a class="card card-ing" href="/skladnik/miod/" data-search="miód miód w słoikach produkty z miodem pieczywo i słodycze z miodem">
+  <div class="card-head"><h3>🍯 Miód</h3></div>
+  <div class="ing-origins">🇨🇳 🇺🇦 🇵🇱</div>
+  <p class="card-owner">miód w słoikach, produkty z miodem, pieczywo i słodycze z miodem</p>
+  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+</a>
+<a class="card card-ing" href="/skladnik/olej-palmowy/" data-search="olej palmowy słodycze kremy czekoladowe margaryny chipsy dania gotowe kosmetyki">
+  <div class="card-head"><h3>🌴 Olej palmowy</h3></div>
+  <div class="ing-origins">🇮🇩 🇲🇾</div>
+  <p class="card-owner">słodycze, kremy czekoladowe, margaryny</p>
+  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+</a>
   </div>
-  <p class="card-owner">Żabka Group S.A. (GPW; główny akcjonariusz: fundusz CVC Capital Partners)</p>
-  
-</a>
-<a class="card" href="/p/zubrowka/" data-search="żubrówka / soplica cedc (polmos białystok, obory) grupa maspex alkohole" data-capital="PL" data-category="alkohole">
-  <div class="card-head"><h3>Żubrówka / Soplica</h3><span class="cat">alkohole</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇵🇱 Polska</span>
-  </div>
-  <p class="card-owner">Grupa Maspex</p>
-  
-</a>
-<a class="card" href="/p/zywiec/" data-search="żywiec grupa żywiec s.a. heineken n.v. piwo" data-capital="NL" data-category="piwo">
-  <div class="card-head"><h3>Żywiec</h3><span class="cat">piwo</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇳🇱 Holandia</span>
-  </div>
-  <p class="card-owner">Heineken N.V.</p>
-  
-</a>
-</div>
-<p id="no-results" class="hidden" data-i18n="search.none">Brak wyników. Brakuje produktu? <a href="/metodologia/#zglos">Zgłoś go</a>.</p>
-<section class="stats-teaser">
+</section>
+
+<section class="home-sec stats-teaser">
   <h2 data-i18n="stats.title">Skąd pochodzi kapitał marek w bazie?</h2>
   <div class="bars"><a class="bar-row" href="/kraj/pl/">
       <span class="bar-label">🇵🇱 Polska</span>
-      <span class="bar-track"><span class="bar-fill bar-pl" style="width:100%"></span></span>
+      <span class="bar-track"><span class="bar-fill bar-pl" data-pct="100"></span></span>
       <span class="bar-num">10</span>
-    </a>
-<a class="bar-row" href="/kraj/us/">
-      <span class="bar-label">🇺🇸 USA</span>
-      <span class="bar-track"><span class="bar-fill" style="width:30%"></span></span>
-      <span class="bar-num">3</span>
     </a>
 <a class="bar-row" href="/kraj/de/">
       <span class="bar-label">🇩🇪 Niemcy</span>
-      <span class="bar-track"><span class="bar-fill" style="width:30%"></span></span>
-      <span class="bar-num">3</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="60"></span></span>
+      <span class="bar-num">6</span>
+    </a>
+<a class="bar-row" href="/kraj/us/">
+      <span class="bar-label">🇺🇸 USA</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="40"></span></span>
+      <span class="bar-num">4</span>
+    </a>
+<a class="bar-row" href="/kraj/cn/">
+      <span class="bar-label">🇨🇳 Chiny</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="40"></span></span>
+      <span class="bar-num">4</span>
     </a>
 <a class="bar-row" href="/kraj/ch/">
       <span class="bar-label">🇨🇭 Szwajcaria</span>
-      <span class="bar-track"><span class="bar-fill" style="width:30%"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="30"></span></span>
       <span class="bar-num">3</span>
+    </a>
+<a class="bar-row" href="/kraj/nl/">
+      <span class="bar-label">🇳🇱 Holandia</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="20"></span></span>
+      <span class="bar-num">2</span>
     </a>
 <a class="bar-row" href="/kraj/pt/">
       <span class="bar-label">🇵🇹 Portugalia</span>
-      <span class="bar-track"><span class="bar-fill" style="width:10%"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/kr/">
       <span class="bar-label">🇰🇷 Korea Płd.</span>
-      <span class="bar-track"><span class="bar-fill" style="width:10%"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-num">1</span>
+    </a>
+<a class="bar-row" href="/kraj/in/">
+      <span class="bar-label">🇮🇳 Indie</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-num">1</span>
+    </a>
+<a class="bar-row" href="/kraj/it/">
+      <span class="bar-label">🇮🇹 Włochy</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/ua/">
       <span class="bar-label">🇺🇦 Ukraina</span>
-      <span class="bar-track"><span class="bar-fill" style="width:10%"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-num">1</span>
+    </a>
+<a class="bar-row" href="/kraj/dk/">
+      <span class="bar-label">🇩🇰 Dania</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/jp/">
       <span class="bar-label">🇯🇵 Japonia</span>
-      <span class="bar-track"><span class="bar-fill" style="width:10%"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/lu/">
       <span class="bar-label">🇱🇺 Luksemburg</span>
-      <span class="bar-track"><span class="bar-fill" style="width:10%"></span></span>
-      <span class="bar-num">1</span>
-    </a>
-<a class="bar-row" href="/kraj/nl/">
-      <span class="bar-label">🇳🇱 Holandia</span>
-      <span class="bar-track"><span class="bar-fill" style="width:10%"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
       <span class="bar-num">1</span>
     </a></div>
   <p><a href="/statystyki/" data-i18n="stats.more">Zobacz pełne statystyki →</a></p>
 </section>
 </main>
 <footer class="site-footer">
-  <p data-i18n="footer.disclaimer">Dane zebrane z publicznych źródeł (etykiety, KRS, rejestry, strony producentów, prasa). Mogą być nieaktualne — zawsze sprawdź źródła podane przy produkcie. To serwis informacyjno-edukacyjny, nie porada zakupowa.</p>
-  <p>© Kacper 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> 2026-07-02 · <a href="/metodologia/#zglos" data-i18n="footer.report">zgłoś poprawkę</a></p>
+  <p><strong>Skąd Produkt?</strong> — Portal świadomego konsumenta. <span data-i18n="footer.disclaimer">Serwis informacyjno-edukacyjny. Dane pochodzą z publicznych źródeł (etykiety, rejestry KRS, raporty instytucji, publikacje prasowe) — przy każdej informacji podajemy źródło. Struktury własności i pochodzenie surowców zmieniają się w czasie; przed powołaniem się na dane sprawdź źródło i jego datę.</span></p>
+  <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a></p>
+  <p class="fine">© Kacper 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> 2026-07-02 · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
 </footer>
 <script src="/assets/app.js"></script>
 </body>

@@ -13,6 +13,7 @@
       "capitalCountry": "KR",
       "capitalNote": "Koreańska grupa LOTTE kupiła Wedla w 2010 r. od Kraft Foods. Produkcja pozostała w Warszawie.",
       "story": "Najbardziej 'polska' czekolada od 2010 r. należy do koreańskiego giganta LOTTE — ale nadal powstaje w Warszawie.",
+      "ingredients": ["kakao"],
       "sources": [
         {"label": "Oficjalna strona E. Wedel", "url": "https://www.wedel.pl"},
         {"label": "LOTTE Corporation", "url": "https://www.lotte.co.kr"}
@@ -68,6 +69,7 @@
       "capitalCountry": "PL",
       "capitalNote": "Makarony Lubella powstają w Lublinie, marka należy do polskiego Maspeksu.",
       "story": "Lubella to od ponad 130 lat Lublin — dziś w rękach polskiego Maspeksu.",
+      "ingredients": ["pszenica-zboza"],
       "sources": [
         {"label": "Lubella", "url": "https://www.lubella.pl"}
       ],
@@ -199,6 +201,7 @@
       "capitalCountry": "US",
       "capitalNote": "Alpejska krowa, szwajcarskie skojarzenia — ale Milka należy do amerykańskiego Mondelēz. Miejsce produkcji zależy od konkretnego produktu (sprawdź etykietę).",
       "story": "Milka = Szwajcaria? Nie. Marka należy do amerykańskiego Mondelēz, a tabliczki powstają m.in. w Niemczech i w Polsce.",
+      "ingredients": ["kakao", "olej-palmowy"],
       "sources": [
         {"label": "Mondelēz International", "url": "https://www.mondelezinternational.com"}
       ],
@@ -217,6 +220,7 @@
       "capitalCountry": "US",
       "capitalNote": "Kultowy wafelek z Cieszyna — fabryka Olza działa od dekad, ale marka należy do amerykańskiego Mondelēz.",
       "story": "Prince Polo to narodowy przysmak Islandii i duma Cieszyna — a właścicielem jest amerykański gigant Mondelēz.",
+      "ingredients": ["kakao", "pszenica-zboza"],
       "sources": [
         {"label": "Mondelēz International", "url": "https://www.mondelezinternational.com"}
       ],
@@ -235,6 +239,7 @@
       "capitalCountry": "PL",
       "capitalNote": "Colian to prywatna polska grupa (rodzina Kolańskich) — właściciel Grześków, Jeżyków, Goplany i Helleny.",
       "story": "Grześki i Jeżyki to w 100% polski kapitał — kaliska grupa Colian rodziny Kolańskich.",
+      "ingredients": ["kakao", "pszenica-zboza"],
       "sources": [
         {"label": "Colian", "url": "https://www.colian.com"}
       ],
@@ -455,6 +460,253 @@
         {"label": "Wawel S.A. — relacje inwestorskie", "url": "https://www.wawel.com.pl"}
       ],
       "confidence": "do-weryfikacji",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "nutella-kinder",
+      "brand": "Nutella / Kinder",
+      "category": "słodycze",
+      "producer": "Ferrero Polska Commercial (zakład Belsk Duży)",
+      "productionCountry": "PL",
+      "plants": ["Belsk Duży k. Grójca"],
+      "brandOwner": "Ferrero International S.A.",
+      "ownerCountry": "LU",
+      "capitalCountry": "IT",
+      "capitalNote": "Ferrero to włoska firma rodzinna, z holdingiem Ferrero International S.A. zarejestrowanym w Luksemburgu. Fabryka w Belsku Dużym to jeden z największych zakładów Ferrero na świecie — produkuje m.in. Nutellę i jajka Kinder, w większości na eksport.",
+      "story": "Nutella i Kinder na pół Europy powstają pod Warszawą — w Belsku Dużym, trzeciej co do wielkości fabryce Ferrero na świecie. Marka włoska, produkcja polska.",
+      "ingredients": ["kakao", "olej-palmowy", "orzechy-laskowe"],
+      "sources": [
+        {"label": "Ferrero w Polsce", "url": "https://www.ferrero.pl/Ferrero-w-Polsce/"},
+        {"label": "portalspozywczy.pl — polska fabryka filarem Ferrero", "url": "https://www.portalspozywczy.pl/slodycze-przekaski/wiadomosci/polska-fabryka-filarem-ferrero-strategiczna-rola-w-globalnej-strukturze-grupy,286043.html"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "krakus-morliny-berlinki",
+      "brand": "Krakus / Morliny / Berlinki",
+      "category": "mięso i wędliny",
+      "producer": "Animex Foods sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": ["zakłady Animex w Polsce (m.in. Morliny, Starachowice)"],
+      "brandOwner": "Animex (Smithfield Foods → WH Group)",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "Animex — producent m.in. Krakusa, Morlinów i Berlinek — należy do amerykańskiego Smithfield Foods, który od 2013 r. jest częścią chińskiej WH Group (największego producenta wieprzowiny na świecie, dawniej Shuanghui).",
+      "story": "Kultowe „polskie\" wędliny Krakus, Morliny i Berlinki należą — przez Smithfield — do chińskiej WH Group, największego producenta wieprzowiny na świecie.",
+      "ingredients": ["soja-pasze"],
+      "sources": [
+        {"label": "WH Group — działalność w Europie", "url": "https://www.wh-group.com/html/bp_europe.php"},
+        {"label": "Smithfield Foods (Wikipedia, z odnośnikami do źródeł)", "url": "https://en.wikipedia.org/wiki/Smithfield_Foods"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "sokolow",
+      "brand": "Sokołów",
+      "category": "mięso i wędliny",
+      "producer": "Sokołów S.A.",
+      "productionCountry": "PL",
+      "plants": ["Sokołów Podlaski", "Robakowo", "Jarosław", "Tarnów", "Dębica", "Koło"],
+      "brandOwner": "Danish Crown",
+      "ownerCountry": "DK",
+      "capitalCountry": "DK",
+      "capitalNote": "Sokołów należy do duńskiej grupy Danish Crown — największego eksportera mięsa na świecie. Danish Crown przejął pełną kontrolę nad spółką w 2014 r., odkupując pozostałe 50% udziałów.",
+      "story": "Sokołów, jedna z najbardziej rozpoznawalnych „polskich\" marek wędlin, w całości należy do duńskiej Danish Crown.",
+      "ingredients": ["soja-pasze"],
+      "sources": [
+        {"label": "Sokołów S.A. (strona firmy)", "url": "https://sokolow.pl/en"},
+        {"label": "GlobalMeatNews — Danish Crown przejmuje 100% Sokołowa", "url": "https://www.globalmeatnews.com/Article/2014/03/05/Danish-Crown-acquires-total-shares-of-Polish-meat-producer-Sokolow"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "rama-flora-delma",
+      "brand": "Rama / Flora / Delma",
+      "category": "spożywcze",
+      "producer": "Flora Food Group (dawniej Upfield)",
+      "productionCountry": "EU",
+      "plants": ["zakłady grupy w Europie"],
+      "brandOwner": "Flora Food Group (fundusz KKR)",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "Margaryny i tłuszcze Rama, Flora i Delma należą do grupy Flora Food Group (do 2024 r. „Upfield\"), wydzielonej z Unilevera i kupionej w 2018 r. przez amerykański fundusz private equity KKR za ok. 8 mld USD.",
+      "story": "Rama, Flora i Delma to nie Unilever — od 2018 r. należą do amerykańskiego funduszu KKR (grupa Flora Food Group).",
+      "ingredients": ["olej-palmowy"],
+      "sources": [
+        {"label": "Flora Food Group / Upfield — o firmie", "url": "https://upfield.com/about/"},
+        {"label": "Upfield / Flora Food Group (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Upfield_(company)"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "mercedes-benz",
+      "brand": "Mercedes-Benz",
+      "category": "motoryzacja",
+      "producer": "Mercedes-Benz Group AG",
+      "productionCountry": "DE",
+      "plants": ["Sindelfingen, Bremen, Rastatt (DE) i zakłady na świecie"],
+      "brandOwner": "Mercedes-Benz Group AG (akcjonariat rozproszony, GPW: Frankfurt)",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Mercedes-Benz pozostaje niemiecką spółką o rozproszonym akcjonariacie — ale jego dwaj najwięksi pojedynczy akcjonariusze są chińscy. To nie czyni marki „chińską\", pokazuje jednak, jak spleciony bywa kapitał wielkich koncernów.",
+      "story": "Najwięksi pojedynczy akcjonariusze „niemieckiego\" Mercedesa są chińscy: BAIC (9,98%) i Geely (9,7%) — razem ok. 20%. Firma i tak pozostaje niemiecka i niezależna.",
+      "stakes": [
+        {"holder": "BAIC Group", "holderCountry": "CN", "pct": "9,98%", "note": "chiński koncern państwowy; od grudnia 2021 największy pojedynczy akcjonariusz"},
+        {"holder": "Geely (Li Shufu / Tenaciou3)", "holderCountry": "CN", "pct": "9,7%", "note": "chiński koncern prywatny; udziały objęte w 2018 r."}
+      ],
+      "sources": [
+        {"label": "Mercedes-Benz Group — struktura akcjonariatu", "url": "https://group.mercedes-benz.com/investors/share/shareholder-structure/"},
+        {"label": "China Daily — BAIC największym akcjonariuszem Daimlera", "url": "https://www.chinadaily.com.cn/a/202112/14/WS61b8313ca310cdd39bc7b440.html"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "mg",
+      "brand": "MG",
+      "category": "motoryzacja",
+      "producer": "SAIC Motor (MG Motor)",
+      "productionCountry": "CN",
+      "plants": ["Chiny (m.in. Ningde, Nanjing); montaż także w Tajlandii"],
+      "brandOwner": "SAIC Motor",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "MG (Morris Garages) to historycznie brytyjska marka, ale od 2007 r. należy do chińskiego, państwowego koncernu SAIC Motor, a samochody powstają w Chinach. „Brytyjskość\" pozostała w logo i nazwie.",
+      "story": "MG wygląda na brytyjską markę, ale od 2007 r. jest własnością chińskiego, państwowego SAIC — i to w Chinach powstają dzisiejsze MG.",
+      "sources": [
+        {"label": "MG Motor (Wikipedia, z odnośnikami do źródeł)", "url": "https://en.wikipedia.org/wiki/MG_Motor"},
+        {"label": "SAIC Motor — strona koncernu", "url": "https://www.saicmotor.com/english/index.shtml"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "volvo-cars",
+      "brand": "Volvo (samochody osobowe)",
+      "category": "motoryzacja",
+      "producer": "Volvo Car Group",
+      "productionCountry": "SE",
+      "plants": ["Göteborg (SE), Gandawa (BE), Chiny, USA"],
+      "brandOwner": "Zhejiang Geely Holding",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "Volvo Cars (samochody osobowe) od 2010 r. należy do chińskiego Geely, które kupiło markę od Forda. Uwaga: to inna firma niż szwedzki AB Volvo (ciężarówki, autobusy), który NIE należy do Geely.",
+      "story": "„Szwedzkie\" Volvo osobowe od 2010 r. jest własnością chińskiego Geely — ale ciężarówki Volvo to zupełnie inna, wciąż szwedzka firma. Klasyczne pomylenie dwóch Volvo.",
+      "stakes": [
+        {"holder": "Zhejiang Geely Holding", "holderCountry": "CN", "pct": "większość", "note": "właściciel Volvo Cars, Polestar, Lotus; udziałowiec Mercedesa"}
+      ],
+      "sources": [
+        {"label": "Volvo Cars (Wikipedia, z odnośnikami do źródeł)", "url": "https://en.wikipedia.org/wiki/Volvo_Cars"},
+        {"label": "Geely Holding (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Geely"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "skoda",
+      "brand": "Škoda",
+      "category": "motoryzacja",
+      "producer": "Škoda Auto a.s.",
+      "productionCountry": "CZ",
+      "plants": ["Mladá Boleslav, Kvasiny (CZ)"],
+      "brandOwner": "Volkswagen AG",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Škoda to czeska marka i czeska produkcja, ale od 1991 r. (a w 100% od 2000 r.) należy do niemieckiego koncernu Volkswagen. VW to także Audi, SEAT/Cupra, Porsche, Lamborghini, Bentley i Bugatti.",
+      "story": "Škoda jest czeska z ducha i z fabryk, ale kapitałowo — niemiecka: należy do Volkswagena, tak jak Audi, Porsche czy Bentley.",
+      "sources": [
+        {"label": "Volkswagen Group — marki", "url": "https://www.volkswagen-group.com/en/brands-and-models-15805"},
+        {"label": "Škoda Auto (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Skoda_Auto"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "opel",
+      "brand": "Opel",
+      "category": "motoryzacja",
+      "producer": "Opel Automobile GmbH (Stellantis)",
+      "productionCountry": "DE",
+      "plants": ["Rüsselsheim, Eisenach (DE), Zaragoza (ES)"],
+      "brandOwner": "Stellantis N.V.",
+      "ownerCountry": "NL",
+      "capitalCountry": "NL",
+      "capitalNote": "„Niemiecki\" Opel od 2017 r. nie jest już niemiecki — najpierw przejął go francuski PSA, a od 2021 r. należy do koncernu Stellantis (siedziba w Holandii), kontrolowanego głównie przez włoską rodzinę Agnellich (Exor) i francuskich akcjonariuszy.",
+      "story": "Opel przestał być niemiecki w 2017 r. Dziś to część Stellantis (obok Fiata, Peugeota, Jeepa i Citroëna), z głównym kapitałem włoskim (Exor) i francuskim.",
+      "stakes": [
+        {"holder": "Exor (rodzina Agnellich)", "holderCountry": "IT", "pct": "~14%", "note": "włoski holding, największy akcjonariusz Stellantis"},
+        {"holder": "Rodzina Peugeot (EPF/FFP)", "holderCountry": "FR", "pct": "~7%", "note": "francuscy założyciele Peugeota"},
+        {"holder": "Bpifrance", "holderCountry": "FR", "pct": "~6%", "note": "francuski państwowy bank rozwoju"}
+      ],
+      "sources": [
+        {"label": "Stellantis — marki", "url": "https://www.stellantis.com/en/brands"},
+        {"label": "Opel / Stellantis (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Opel"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "jaguar-land-rover",
+      "brand": "Jaguar / Land Rover",
+      "category": "motoryzacja",
+      "producer": "JLR Limited",
+      "productionCountry": "GB",
+      "plants": ["Solihull, Halewood, Wolverhampton (GB); Nitra (SK)"],
+      "brandOwner": "Tata Motors",
+      "ownerCountry": "IN",
+      "capitalCountry": "IN",
+      "capitalNote": "Kwintesencja brytyjskiej motoryzacji — Jaguar i Land Rover — od 2008 r. w całości należą do indyjskiego Tata Motors, który odkupił obie marki od amerykańskiego Forda.",
+      "story": "Jaguar i Land Rover — ikony brytyjskiej motoryzacji — od 2008 r. są własnością indyjskiego koncernu Tata.",
+      "sources": [
+        {"label": "JLR — o firmie", "url": "https://www.jlr.com/overview"},
+        {"label": "Jaguar Land Rover (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Jaguar_Land_Rover"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "rolls-royce-auta",
+      "brand": "Rolls-Royce (samochody)",
+      "category": "motoryzacja",
+      "producer": "Rolls-Royce Motor Cars Ltd",
+      "productionCountry": "GB",
+      "plants": ["Goodwood (GB)"],
+      "brandOwner": "BMW AG",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Samochody Rolls-Royce od 2003 r. produkuje i posiada niemieckie BMW. To zupełnie inna firma niż brytyjski Rolls-Royce Holdings (silniki lotnicze i morskie), z którym marka aut dzieli tylko nazwę i historię.",
+      "story": "Najbardziej brytyjskie auto świata — Rolls-Royce — od 2003 r. należy do niemieckiego BMW. Silniki lotnicze Rolls-Royce to już inna, brytyjska firma.",
+      "sources": [
+        {"label": "BMW Group — marki", "url": "https://www.bmwgroup.com/en/brands.html"},
+        {"label": "Rolls-Royce Motor Cars (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "pirelli",
+      "brand": "Pirelli (opony)",
+      "category": "motoryzacja",
+      "producer": "Pirelli & C. S.p.A.",
+      "productionCountry": "IT",
+      "plants": ["Włochy i zakłady na świecie"],
+      "brandOwner": "Pirelli & C. S.p.A. (GPW: Mediolan)",
+      "ownerCountry": "IT",
+      "capitalCountry": "CN",
+      "capitalNote": "Włoskie opony Pirelli mają największego akcjonariusza w chińskim, państwowym Sinochem (dawniej ChemChina), który wszedł do spółki w 2015 r. (początkowo 26,2%). Relacje między włoskim zarządem a chińskim udziałowcem bywają napięte i budzą uwagę rządu Włoch.",
+      "story": "Włoska legenda opon Pirelli ma dziś największego akcjonariusza w chińskim koncernie państwowym Sinochem — co stało się przedmiotem sporu o kontrolę nad firmą.",
+      "stakes": [
+        {"holder": "Sinochem (d. ChemChina)", "holderCountry": "CN", "pct": "~37%", "note": "chiński koncern państwowy, największy akcjonariusz; wejście w 2015 r. (26,2%)"}
+      ],
+      "sources": [
+        {"label": "Decode39 — Pirelli i udział Sinochem", "url": "https://decode39.com/10311/pirelli-confronts-chinese-influence-as-scenarios-emerge-over-sinochem-stake/"},
+        {"label": "Pirelli (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Pirelli"}
+      ],
+      "confidence": "publiczne",
       "updated": "2026-07-02"
     }
   ]

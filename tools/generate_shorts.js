@@ -13,10 +13,10 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const SITE = (process.env.SITE_URL || 'https://skadto.pages.dev').replace('https://', '');
+const SITE = (process.env.SITE_URL || 'https://skadprodukt.org').replace('https://', '');
 const db = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
 
-const COUNTRY_PL = { PL: 'Polska', DE: 'Niemcy', CH: 'Szwajcaria', US: 'USA', NL: 'Holandia', JP: 'Japonia', KR: 'Korea Południowa', PT: 'Portugalia', LU: 'Luksemburg', UA: 'Ukraina', LT: 'Litwa', HU: 'Węgry', EU: 'Unia Europejska' };
+const COUNTRY_PL = { PL: 'Polska', DE: 'Niemcy', CH: 'Szwajcaria', US: 'USA', NL: 'Holandia', JP: 'Japonia', KR: 'Korea Południowa', PT: 'Portugalia', LU: 'Luksemburg', UA: 'Ukraina', LT: 'Litwa', HU: 'Węgry', CN: 'Chiny', DK: 'Dania', IT: 'Włochy', IN: 'Indie', SE: 'Szwecja', CZ: 'Czechy', GB: 'Wielka Brytania', EU: 'Unia Europejska' };
 const cname = cc => COUNTRY_PL[cc] || cc;
 const flag = cc => cc === 'EU' ? '🇪🇺' : String.fromCodePoint(...[...cc].map(c => 0x1f1a5 + c.charCodeAt(0)));
 
@@ -41,7 +41,7 @@ function shortScript(p, i) {
     hook,
     lines,
     cta: `Więcej marek sprawdzisz na ${SITE}. Obserwuj po kolejne!`,
-    hashtags: ['#skadto', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#ciekawostki',
+    hashtags: ['#skadprodukt', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#swiadomykonsument',
       p.capitalCountry === 'PL' ? '#polskamarka' : '#zagranicznykapital'],
     voice: 'pl-PL-MarekNeural',
     card: `output/cards/${p.slug}.svg`,
@@ -57,7 +57,7 @@ function cardSVG(p) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" font-family="Segoe UI, Arial, sans-serif">
 <rect width="1080" height="1350" fill="#101418"/>
 <rect x="0" y="0" width="1080" height="14" fill="${accent}"/>
-<text x="70" y="140" font-size="52" fill="#8a94a0">🧭 SkądTo?</text>
+<text x="70" y="140" font-size="48" fill="#8a94a0">SkądProdukt.org</text>
 <text x="70" y="300" font-size="96" font-weight="bold" fill="#ffffff">${esc(p.brand).slice(0, 40)}</text>
 <text x="70" y="380" font-size="44" fill="#8a94a0">${esc(p.category)}</text>
 <text x="70" y="540" font-size="46" fill="#8a94a0">PRODUKCJA</text>
