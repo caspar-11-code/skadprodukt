@@ -19,8 +19,8 @@ Dashboard Cloudflare → Workers & Pages → **Create → Pages → Connect to G
 - **Build output directory:** `public`
 - Save and Deploy → dostajesz `https://skadprodukt.pages.dev`.
 
-## 4. Custom domain
-Pages → Custom domains → **Add** → `skadprodukt.org` oraz `www.skadprodukt.org`. Cloudflare sam doda rekordy (domena w tej samej strefie). Ustaw przekierowanie www → apex (Rules → Redirect) jeśli chcesz jedną wersję kanoniczną.
+## 4. Custom domain — ZROBIONE (2026-07-02)
+`skadprodukt.org` (Active) i `www.skadprodukt.org` dodane w Pages → Custom domains (rekordy DNS utworzone automatycznie). Przekierowanie **301 www → apex** robi plik `public/_redirects` (generowany w build.js) — działa, gdy www jest podpięte do projektu. Uwaga: po dodaniu domeny status „Initializing"/błąd 522 może potrwać do kilkudziesięciu minut (prowizjonowanie certyfikatu).
 
 ## 5. Backend formularza sugestii (KV)
 Formularz `/zglos/` zapisuje zgłoszenia do KV.
@@ -37,12 +37,13 @@ set SITE_URL=https://skadprodukt.org && node build.js
 ```
 
 ## 7. Weryfikacja po wdrożeniu (na produkcji)
+UWAGA (sieć uczelni / TLS-inspection): curl na tej maszynie wymaga flagi `--ssl-no-revoke`, inaczej zwraca 000 (CRYPT_E_NO_REVOCATION_CHECK).
 ```
-curl -s https://skadprodukt.org/ | findstr "SkądProdukt"
-curl -s https://skadprodukt.org/skladnik/kakao/ | findstr "NORC"
-curl -s https://skadprodukt.org/p/mercedes-benz/ | findstr "BAIC"
-curl -sI https://skadprodukt.org/ | findstr "Content-Security-Policy"
-curl -s https://skadprodukt.org/sitemap.xml | findstr "skladnik"
+curl -s --ssl-no-revoke https://skadprodukt.org/ | findstr "SkądProdukt"
+curl -s --ssl-no-revoke https://skadprodukt.org/skladnik/czosnek/ | findstr "PARADOKS"
+curl -s --ssl-no-revoke https://skadprodukt.org/p/rossmann/ | findstr "Hongkong"
+curl -sI --ssl-no-revoke https://skadprodukt.org/ | findstr "Content-Security-Policy"
+curl -s --ssl-no-revoke -o NUL -w "%{http_code} -> %{redirect_url}" https://www.skadprodukt.org/
 ```
 
 ## 8. SEO / Google
