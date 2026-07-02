@@ -72,7 +72,12 @@ main{max-width:1040px;margin:0 auto;padding:0 20px 70px}
 .card-owner{margin:0;color:var(--muted);font-size:.88rem}
 .ing-origins{font-size:1.3rem;letter-spacing:2px}
 .badge-verify{font-size:.74rem;color:#8a5a00;background:#fff3cd;border-radius:6px;padding:2px 8px;align-self:flex-start}
-.badge-issue{font-size:.74rem;color:var(--accent);background:var(--accent-ink);border-radius:6px;padding:2px 8px;align-self:flex-start}
+.badge-issue{font-size:.74rem;color:var(--accent);background:var(--accent-ink);border-radius:6px;padding:2px 8px}
+.card-badges{display:flex;gap:6px;flex-wrap:wrap}
+.badge-paradox{font-size:.74rem;color:#b3321b;background:#fde3dd;border-radius:6px;padding:2px 8px;font-weight:600}
+/* kluczowa informacja w karcie zagranicznej marki — na czerwono */
+.card-foreign .card-flags span:nth-child(3){color:#b3321b;font-weight:600}
+.card-foreign .card-flags span:nth-child(3) small{color:#b3321b}
 .hidden{display:none}
 #no-results{text-align:center;color:var(--muted);margin-top:30px}
 
@@ -128,6 +133,15 @@ table.facts tr:last-child th,table.facts tr:last-child td{border-bottom:none}
 .oshare{color:var(--accent);font-weight:700;margin-left:6px}
 .onote{display:block;color:var(--muted);font-size:.9rem;margin-top:2px}
 
+/* wyróżnienie kluczowych informacji (==...== w danych) */
+mark{background:#fde3dd;color:#b3321b;font-weight:650;padding:0 3px;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.paradox mark,.issue mark{background:#fbd2c9}
+
+/* paradoks półki */
+.paradox{background:#fdf1ee;border:1px solid #f3c9c0;border-left:5px solid var(--foreign);border-radius:10px;padding:14px 16px;margin:14px 0}
+.paradox p{margin:8px 0 6px}
+.paradox-tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#b3321b;background:#fde3dd;border-radius:6px;padding:3px 9px}
+
 /* facts + issues */
 .factlist{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
 .factline{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
@@ -173,4 +187,7 @@ table.facts tr:last-child th,table.facts tr:last-child td{border-bottom:none}
   .chain{flex-direction:column}
   .chain-arrow{transform:rotate(90deg);align-self:flex-start;margin-left:20px}
   table.facts th{width:44%}
+  /* justowanie dłuższych tekstów na mobile */
+  .lead,.product p,.ingredient p,.issue p,.paradox p,.factext,.onote,article p,.site-footer p,table.facts td{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+  .crumbs,.issue-src,.factsrc,.form-status{text-align:left}
 }

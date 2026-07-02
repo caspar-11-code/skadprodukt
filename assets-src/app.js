@@ -37,7 +37,11 @@
     'form.type': 'Type of submission', 'form.t1': 'Correction to existing data', 'form.t2': 'New product / brand / ingredient', 'form.t3': 'Better / additional source', 'form.t4': 'Other',
     'form.msg': 'Message *', 'form.src': 'Source (link, if any)', 'form.contact': 'Reply contact (optional)', 'form.send': 'Send submission',
     'form.note': 'Submissions go to a private inbox. We don’t collect data you don’t volunteer.',
-    'about.title': 'About', 'tile.brandsSub': 'brands — who owns them', 'tile.ingSub': 'raw materials — where from'
+    'about.title': 'About', 'tile.brandsSub': 'brands — who owns them', 'tile.ingSub': 'raw materials — where from',
+    'ing.paradox': 'SHELF PARADOX', 'card.paradox': 'shelf paradox',
+    'stats.paradoxTitle': 'Paradoxes of the shop shelf',
+    'stats.paradoxLead': 'Cases where the market defies common sense — documented, with sources.',
+    'stats.paradoxMore': 'full data and sources →'
   };
 
   var lang = localStorage.getItem('skadprodukt-lang') || ((navigator.language || 'pl').slice(0, 2) === 'pl' ? 'pl' : 'en');

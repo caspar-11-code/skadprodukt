@@ -47,8 +47,8 @@
     <input type="search" id="search" name="q" placeholder="Szukaj marki, producenta, właściciela…" autocomplete="off" aria-label="Szukaj">
   </form>
   <div class="hub-tiles">
-    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">37 marek — kto jest właścicielem</span></a>
-    <a class="tile" href="/skladniki/"><span class="tile-ico">🌍</span><strong data-i18n="tile.ing">Składniki i mapa</strong><span data-i18n="tile.ingSub">10 surowców — skąd pochodzą</span></a>
+    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">56 marek — kto jest właścicielem</span></a>
+    <a class="tile" href="/skladniki/"><span class="tile-ico">🌍</span><strong data-i18n="tile.ing">Składniki i mapa</strong><span data-i18n="tile.ingSub">11 surowców — skąd pochodzą</span></a>
     <a class="tile" href="/statystyki/"><span class="tile-ico">📊</span><strong data-i18n="tile.stats">Statystyki</strong><span data-i18n="tile.statsSub">produkcja vs kapitał</span></a>
   </div>
 </section>
@@ -96,6 +96,16 @@
   <p class="card-owner">Pirelli &amp; C. S.p.A. (GPW: Mediolan)</p>
   
 </a>
+<a class="card card-foreign" href="/p/saga-lipton/" data-search="saga / lipton (herbata) lipton teas and infusions (fabryka katowice-szopienice) lipton teas and infusions (fundusz cvc capital partners) napoje" data-capital="LU" data-category="napoje">
+  <div class="card-head"><h3>Saga / Lipton (herbata)</h3><span class="cat">napoje</span></div>
+  <div class="card-flags">
+    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
+    <span class="arrow">→</span>
+    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇱🇺 Luksemburg</span>
+  </div>
+  <p class="card-owner">Lipton Teas and Infusions (fundusz CVC Capital Partners)</p>
+  
+</a>
 <a class="card card-foreign" href="/p/tyskie/" data-search="tyskie kompania piwowarska s.a. asahi group holdings piwo" data-capital="JP" data-category="piwo">
   <div class="card-head"><h3>Tyskie</h3><span class="cat">piwo</span></div>
   <div class="card-flags">
@@ -105,16 +115,6 @@
   </div>
   <p class="card-owner">Asahi Group Holdings</p>
   
-</a>
-<a class="card card-foreign" href="/p/wawel/" data-search="wawel wawel s.a. (zakład dobczyce) wawel s.a. (gpw; znaczący akcjonariusz: hosta international ag) słodycze" data-capital="CH" data-category="słodycze">
-  <div class="card-head"><h3>Wawel</h3><span class="cat">słodycze</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇨🇭 Szwajcaria</span>
-  </div>
-  <p class="card-owner">Wawel S.A. (GPW; znaczący akcjonariusz: Hosta International AG)</p>
-  <span class="badge-verify" data-i18n="card.verify">⚠ do weryfikacji</span>
 </a>
   </div>
 </section>
@@ -127,37 +127,55 @@
   <div class="card-head"><h3>🧄 Czosnek</h3></div>
   <div class="ing-origins">🇨🇳 🇪🇸 🇵🇱</div>
   <p class="card-owner">czosnek świeży, granulat/suszony, mrożonki</p>
-  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  <div class="card-badges">
+    <span class="badge-paradox" data-i18n="card.paradox">paradoks półki</span>
+    <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  </div>
+</a>
+<a class="card card-ing" href="/skladnik/drob-jaja/" data-search="drób i jaja mięso świeże wędliny drobiowe dania gotowe gastronomia/kebab proszek jajeczny w przetworach">
+  <div class="card-head"><h3>🐔 Drób i jaja</h3></div>
+  <div class="ing-origins">🇵🇱 🇺🇦 🇧🇷</div>
+  <p class="card-owner">mięso świeże, wędliny drobiowe, dania gotowe</p>
+  <div class="card-badges">
+    <span class="badge-paradox" data-i18n="card.paradox">paradoks półki</span>
+    <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  </div>
 </a>
 <a class="card card-ing" href="/skladnik/kakao/" data-search="kakao czekolada batony wafle kremy czekoladowe kakao do picia">
   <div class="card-head"><h3>🍫 Kakao</h3></div>
   <div class="ing-origins">🇨🇮 🇬🇭 🇪🇨</div>
   <p class="card-owner">czekolada, batony, wafle</p>
-  <span class="badge-issue">3 <span data-i18n="card.issues">zagadnień</span></span>
+  <div class="card-badges">
+    
+    <span class="badge-issue">3 <span data-i18n="card.issues">zagadnień</span></span>
+  </div>
 </a>
 <a class="card card-ing" href="/skladnik/kawa/" data-search="kawa kawa mielona kawa ziarnista kawa rozpuszczalna kapsułki">
   <div class="card-head"><h3>☕ Kawa</h3></div>
   <div class="ing-origins">🇧🇷 🇻🇳 🇨🇴</div>
   <p class="card-owner">kawa mielona, kawa ziarnista, kawa rozpuszczalna</p>
-  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  <div class="card-badges">
+    
+    <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  </div>
 </a>
 <a class="card card-ing" href="/skladnik/koncentrat-pomidorowy/" data-search="koncentrat pomidorowy ketchup passata sosy koncentrat pizza dania gotowe">
   <div class="card-head"><h3>🍅 Koncentrat pomidorowy</h3></div>
   <div class="ing-origins">🇨🇳 🇮🇹 🇪🇸</div>
   <p class="card-owner">ketchup, passata, sosy</p>
-  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  <div class="card-badges">
+    <span class="badge-paradox" data-i18n="card.paradox">paradoks półki</span>
+    <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  </div>
 </a>
 <a class="card card-ing" href="/skladnik/miod/" data-search="miód miód w słoikach produkty z miodem pieczywo i słodycze z miodem">
   <div class="card-head"><h3>🍯 Miód</h3></div>
   <div class="ing-origins">🇨🇳 🇺🇦 🇵🇱</div>
   <p class="card-owner">miód w słoikach, produkty z miodem, pieczywo i słodycze z miodem</p>
-  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
-</a>
-<a class="card card-ing" href="/skladnik/olej-palmowy/" data-search="olej palmowy słodycze kremy czekoladowe margaryny chipsy dania gotowe kosmetyki">
-  <div class="card-head"><h3>🌴 Olej palmowy</h3></div>
-  <div class="ing-origins">🇮🇩 🇲🇾</div>
-  <p class="card-owner">słodycze, kremy czekoladowe, margaryny</p>
-  <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  <div class="card-badges">
+    <span class="badge-paradox" data-i18n="card.paradox">paradoks półki</span>
+    <span class="badge-issue">2 <span data-i18n="card.issues">zagadnień</span></span>
+  </div>
 </a>
   </div>
 </section>
@@ -167,71 +185,91 @@
   <div class="bars"><a class="bar-row" href="/kraj/pl/">
       <span class="bar-label">🇵🇱 Polska</span>
       <span class="bar-track"><span class="bar-fill bar-pl" data-pct="100"></span></span>
-      <span class="bar-num">10</span>
+      <span class="bar-num">11</span>
     </a>
 <a class="bar-row" href="/kraj/de/">
       <span class="bar-label">🇩🇪 Niemcy</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="60"></span></span>
-      <span class="bar-num">6</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="82"></span></span>
+      <span class="bar-num">9</span>
     </a>
 <a class="bar-row" href="/kraj/us/">
       <span class="bar-label">🇺🇸 USA</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="40"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="55"></span></span>
+      <span class="bar-num">6</span>
+    </a>
+<a class="bar-row" href="/kraj/nl/">
+      <span class="bar-label">🇳🇱 Holandia</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="36"></span></span>
       <span class="bar-num">4</span>
     </a>
 <a class="bar-row" href="/kraj/cn/">
       <span class="bar-label">🇨🇳 Chiny</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="40"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="36"></span></span>
       <span class="bar-num">4</span>
+    </a>
+<a class="bar-row" href="/kraj/fr/">
+      <span class="bar-label">🇫🇷 Francja</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="27"></span></span>
+      <span class="bar-num">3</span>
     </a>
 <a class="bar-row" href="/kraj/ch/">
       <span class="bar-label">🇨🇭 Szwajcaria</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="30"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="27"></span></span>
       <span class="bar-num">3</span>
     </a>
-<a class="bar-row" href="/kraj/nl/">
-      <span class="bar-label">🇳🇱 Holandia</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="20"></span></span>
+<a class="bar-row" href="/kraj/dk/">
+      <span class="bar-label">🇩🇰 Dania</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="27"></span></span>
+      <span class="bar-num">3</span>
+    </a>
+<a class="bar-row" href="/kraj/lu/">
+      <span class="bar-label">🇱🇺 Luksemburg</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="27"></span></span>
+      <span class="bar-num">3</span>
+    </a>
+<a class="bar-row" href="/kraj/es/">
+      <span class="bar-label">🇪🇸 Hiszpania</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="18"></span></span>
       <span class="bar-num">2</span>
     </a>
 <a class="bar-row" href="/kraj/pt/">
       <span class="bar-label">🇵🇹 Portugalia</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/kr/">
       <span class="bar-label">🇰🇷 Korea Płd.</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
+      <span class="bar-num">1</span>
+    </a>
+<a class="bar-row" href="/kraj/gb/">
+      <span class="bar-label">🇬🇧 Wielka Brytania</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/in/">
       <span class="bar-label">🇮🇳 Indie</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/it/">
       <span class="bar-label">🇮🇹 Włochy</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/ua/">
       <span class="bar-label">🇺🇦 Ukraina</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
-      <span class="bar-num">1</span>
-    </a>
-<a class="bar-row" href="/kraj/dk/">
-      <span class="bar-label">🇩🇰 Dania</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/jp/">
       <span class="bar-label">🇯🇵 Japonia</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">1</span>
     </a>
-<a class="bar-row" href="/kraj/lu/">
-      <span class="bar-label">🇱🇺 Luksemburg</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="10"></span></span>
+<a class="bar-row" href="/kraj/lt/">
+      <span class="bar-label">🇱🇹 Litwa</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">1</span>
     </a></div>
   <p><a href="/statystyki/" data-i18n="stats.more">Zobacz pełne statystyki →</a></p>
@@ -245,4 +283,3 @@
 <script src="/assets/app.js"></script>
 </body>
 </html>
-<!-- deploy: KV binding ZGLOSZENIA active 2026-07-02 -->

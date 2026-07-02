@@ -7,16 +7,26 @@
       "category": "słodycze",
       "producer": "LOTTE Wedel sp. z o.o.",
       "productionCountry": "PL",
-      "plants": ["Warszawa (Praga-Południe)"],
+      "plants": [
+        "Warszawa (Praga-Południe)"
+      ],
       "brandOwner": "LOTTE Corporation",
       "ownerCountry": "KR",
       "capitalCountry": "KR",
-      "capitalNote": "Koreańska grupa LOTTE kupiła Wedla w 2010 r. od Kraft Foods. Produkcja pozostała w Warszawie.",
+      "capitalNote": "==Koreańska grupa LOTTE kupiła Wedla w 2010 r.== od Kraft Foods. Produkcja pozostała w Warszawie.",
       "story": "Najbardziej 'polska' czekolada od 2010 r. należy do koreańskiego giganta LOTTE — ale nadal powstaje w Warszawie.",
-      "ingredients": ["kakao"],
+      "ingredients": [
+        "kakao"
+      ],
       "sources": [
-        {"label": "Oficjalna strona E. Wedel", "url": "https://www.wedel.pl"},
-        {"label": "LOTTE Corporation", "url": "https://www.lotte.co.kr"}
+        {
+          "label": "Oficjalna strona E. Wedel",
+          "url": "https://www.wedel.pl"
+        },
+        {
+          "label": "LOTTE Corporation",
+          "url": "https://www.lotte.co.kr"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -27,14 +37,19 @@
       "category": "spożywcze",
       "producer": "Nestlé Polska S.A.",
       "productionCountry": "PL",
-      "plants": ["Kalisz"],
+      "plants": [
+        "Kalisz"
+      ],
       "brandOwner": "Nestlé S.A.",
       "ownerCountry": "CH",
       "capitalCountry": "CH",
-      "capitalNote": "Marka Winiary należy do szwajcarskiego koncernu Nestlé. Główny zakład działa w Kaliszu.",
+      "capitalNote": "==Marka Winiary należy do szwajcarskiego koncernu Nestlé.== Główny zakład działa w Kaliszu.",
       "story": "Majonez Dekoracyjny Winiary to kaliska produkcja — ale zyski płyną do Szwajcarii, do największego koncernu spożywczego świata.",
       "sources": [
-        {"label": "Nestlé Polska", "url": "https://www.nestle.pl"}
+        {
+          "label": "Nestlé Polska",
+          "url": "https://www.nestle.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -45,14 +60,20 @@
       "category": "napoje",
       "producer": "Grupa Maspex",
       "productionCountry": "PL",
-      "plants": ["Tymbark (Małopolska)", "Olsztynek"],
+      "plants": [
+        "Tymbark (Małopolska)",
+        "Olsztynek"
+      ],
       "brandOwner": "Grupa Maspex",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "Maspex z Wadowic to jedna z największych prywatnych polskich firm spożywczych — kapitał w całości polski.",
+      "capitalNote": "==Maspex z Wadowic to jedna z największych prywatnych polskich firm spożywczych — kapitał w całości polski.==",
       "story": "Tymbark, Kubuś, Lubella, Tiger — wszystko to jeden polski właściciel: Maspex z Wadowic, prywatna firma bez zagranicznego kapitału.",
       "sources": [
-        {"label": "Grupa Maspex", "url": "https://www.maspex.com"}
+        {
+          "label": "Grupa Maspex",
+          "url": "https://www.maspex.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -63,15 +84,22 @@
       "category": "spożywcze",
       "producer": "Maspex (zakład Lublin)",
       "productionCountry": "PL",
-      "plants": ["Lublin"],
+      "plants": [
+        "Lublin"
+      ],
       "brandOwner": "Grupa Maspex",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "Makarony Lubella powstają w Lublinie, marka należy do polskiego Maspeksu.",
+      "capitalNote": "==Makarony Lubella powstają w Lublinie, marka należy do polskiego Maspeksu.==",
       "story": "Lubella to od ponad 130 lat Lublin — dziś w rękach polskiego Maspeksu.",
-      "ingredients": ["pszenica-zboza"],
+      "ingredients": [
+        "pszenica-zboza"
+      ],
       "sources": [
-        {"label": "Lubella", "url": "https://www.lubella.pl"}
+        {
+          "label": "Lubella",
+          "url": "https://www.lubella.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -82,14 +110,20 @@
       "category": "alkohole",
       "producer": "CEDC (Polmos Białystok, Obory)",
       "productionCountry": "PL",
-      "plants": ["Białystok", "Obory k. Warszawy"],
+      "plants": [
+        "Białystok",
+        "Obory k. Warszawy"
+      ],
       "brandOwner": "Grupa Maspex",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
       "capitalNote": "W 2022 r. Maspex odkupił CEDC (Żubrówka, Soplica, Absolwent) od rosyjskiego Roust — marki wróciły do polskiego kapitału.",
       "story": "Żubrówka przez lata należała do rosyjskiego oligarchy. Od 2022 r. znów jest polska — kupił ją Maspex, producent Tymbarku.",
       "sources": [
-        {"label": "Maspex — przejęcie CEDC (2022)", "url": "https://www.maspex.com"}
+        {
+          "label": "Maspex — przejęcie CEDC (2022)",
+          "url": "https://www.maspex.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -100,15 +134,26 @@
       "category": "piwo",
       "producer": "Grupa Żywiec S.A.",
       "productionCountry": "PL",
-      "plants": ["Żywiec", "Warka", "Elbląg", "Namysłów"],
+      "plants": [
+        "Żywiec",
+        "Warka",
+        "Elbląg",
+        "Namysłów"
+      ],
       "brandOwner": "Heineken N.V.",
       "ownerCountry": "NL",
       "capitalCountry": "NL",
-      "capitalNote": "Grupa Żywiec jest kontrolowana przez holenderski Heineken, który skupił akcje i wycofał spółkę z GPW.",
+      "capitalNote": "==Grupa Żywiec jest kontrolowana przez holenderski Heineken, który skupił akcje i wycofał spółkę z GPW.==",
       "story": "Piwo z gór? Browar tak — ale właścicielem Żywca jest holenderski Heineken.",
       "sources": [
-        {"label": "Grupa Żywiec", "url": "https://grupazywiec.pl"},
-        {"label": "Heineken N.V.", "url": "https://www.theheinekencompany.com"}
+        {
+          "label": "Grupa Żywiec",
+          "url": "https://grupazywiec.pl"
+        },
+        {
+          "label": "Heineken N.V.",
+          "url": "https://www.theheinekencompany.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -119,15 +164,25 @@
       "category": "piwo",
       "producer": "Kompania Piwowarska S.A.",
       "productionCountry": "PL",
-      "plants": ["Tychy", "Poznań", "Białystok"],
+      "plants": [
+        "Tychy",
+        "Poznań",
+        "Białystok"
+      ],
       "brandOwner": "Asahi Group Holdings",
       "ownerCountry": "JP",
       "capitalCountry": "JP",
-      "capitalNote": "Kompania Piwowarska (Tyskie, Lech, Żubr) od 2017 r. należy do japońskiego Asahi, które odkupiło marki od SABMiller.",
+      "capitalNote": "==Kompania Piwowarska (Tyskie, Lech, Żubr) od 2017 r.== należy do japońskiego Asahi, które odkupiło marki od SABMiller.",
       "story": "Tyskie, Lech i Żubr mają jednego właściciela — i to nie jest browar z Polski, tylko japońskie Asahi.",
       "sources": [
-        {"label": "Kompania Piwowarska", "url": "https://www.kp.pl"},
-        {"label": "Asahi Group", "url": "https://www.asahigroup-holdings.com"}
+        {
+          "label": "Kompania Piwowarska",
+          "url": "https://www.kp.pl"
+        },
+        {
+          "label": "Asahi Group",
+          "url": "https://www.asahigroup-holdings.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -138,15 +193,23 @@
       "category": "sieci handlowe",
       "producer": "— (sieć handlowa; marki własne od dostawców, głównie z Polski)",
       "productionCountry": "PL",
-      "plants": ["ponad 3500 sklepów w Polsce"],
+      "plants": [
+        "ponad 3500 sklepów w Polsce"
+      ],
       "brandOwner": "Jerónimo Martins",
       "ownerCountry": "PT",
       "capitalCountry": "PT",
-      "capitalNote": "Właścicielem Biedronki jest portugalska grupa Jerónimo Martins. Polska to jej największy rynek. Marki własne produkują w większości polscy dostawcy.",
+      "capitalNote": "==Właścicielem Biedronki jest portugalska grupa Jerónimo Martins.== Polska to jej największy rynek. Marki własne produkują w większości polscy dostawcy.",
       "story": "Biedronka brzmi swojsko, ale zyski lecą do Lizbony — to portugalska Jerónimo Martins. Za to większość marek własnych robią polskie firmy.",
       "sources": [
-        {"label": "Jerónimo Martins", "url": "https://www.jeronimomartins.com"},
-        {"label": "Biedronka", "url": "https://www.biedronka.pl"}
+        {
+          "label": "Jerónimo Martins",
+          "url": "https://www.jeronimomartins.com"
+        },
+        {
+          "label": "Biedronka",
+          "url": "https://www.biedronka.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -157,15 +220,23 @@
       "category": "sieci handlowe",
       "producer": "różni dostawcy — sprawdź kod zakładu na opakowaniu (owal weterynaryjny PL/DE/...)",
       "productionCountry": "PL",
-      "plants": ["zależnie od produktu — kod zakładu na etykiecie"],
+      "plants": [
+        "zależnie od produktu — kod zakładu na etykiecie"
+      ],
       "brandOwner": "Schwarz Gruppe (Lidl Stiftung)",
       "ownerCountry": "DE",
       "capitalCountry": "DE",
-      "capitalNote": "Lidl należy do niemieckiej Grupy Schwarz. Kluczowe pytanie przy markach własnych brzmi: gdzie fizycznie wyprodukowano dany produkt — odpowiedź jest w kodzie zakładu na opakowaniu (np. owal 'PL 12345678 WE' = zakład w Polsce).",
+      "capitalNote": "==Lidl należy do niemieckiej Grupy Schwarz.== Kluczowe pytanie przy markach własnych brzmi: gdzie fizycznie wyprodukowano dany produkt — odpowiedź jest w kodzie zakładu na opakowaniu (np. owal 'PL 12345678 WE' = zakład w Polsce).",
       "story": "Mleko Pilos z Lidla bywa z polskiej mleczarni — poznasz to po owalnym kodzie 'PL ... WE' na opakowaniu. Marka niemiecka, produkt często polski.",
       "sources": [
-        {"label": "Lidl Polska", "url": "https://www.lidl.pl"},
-        {"label": "Wyszukiwarka zakładów (GIW)", "url": "https://www.wetgiw.gov.pl"}
+        {
+          "label": "Lidl Polska",
+          "url": "https://www.lidl.pl"
+        },
+        {
+          "label": "Wyszukiwarka zakładów (GIW)",
+          "url": "https://www.wetgiw.gov.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -176,15 +247,23 @@
       "category": "sieci handlowe",
       "producer": "— (sieć convenience, franczyza)",
       "productionCountry": "PL",
-      "plants": ["ponad 10 000 sklepów franczyzowych"],
+      "plants": [
+        "ponad 10 000 sklepów franczyzowych"
+      ],
       "brandOwner": "Żabka Group S.A. (GPW; główny akcjonariusz: fundusz CVC Capital Partners)",
       "ownerCountry": "LU",
       "capitalCountry": "LU",
-      "capitalNote": "Żabka od 2024 r. jest notowana na GPW, ale kontrolę zachowuje międzynarodowy fundusz private equity CVC Capital Partners (struktury w Luksemburgu).",
+      "capitalNote": "==Żabka od 2024 r.== jest notowana na GPW, ale kontrolę zachowuje międzynarodowy fundusz private equity CVC Capital Partners (struktury w Luksemburgu).",
       "story": "Żabka jest na polskiej giełdzie, ale największym udziałowcem pozostaje zagraniczny fundusz CVC — ten sam, który kupił ją w 2017 r.",
       "sources": [
-        {"label": "Żabka Group — relacje inwestorskie", "url": "https://www.zabkagroup.com"},
-        {"label": "CVC Capital Partners", "url": "https://www.cvc.com"}
+        {
+          "label": "Żabka Group — relacje inwestorskie",
+          "url": "https://www.zabkagroup.com"
+        },
+        {
+          "label": "CVC Capital Partners",
+          "url": "https://www.cvc.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -195,15 +274,23 @@
       "category": "słodycze",
       "producer": "Mondelēz International (zakłady w UE, m.in. w Polsce)",
       "productionCountry": "EU",
-      "plants": ["m.in. Lörrach (DE); część produkcji w zakładach Mondelēz w Polsce"],
+      "plants": [
+        "m.in. Lörrach (DE); część produkcji w zakładach Mondelēz w Polsce"
+      ],
       "brandOwner": "Mondelēz International",
       "ownerCountry": "US",
       "capitalCountry": "US",
-      "capitalNote": "Alpejska krowa, szwajcarskie skojarzenia — ale Milka należy do amerykańskiego Mondelēz. Miejsce produkcji zależy od konkretnego produktu (sprawdź etykietę).",
+      "capitalNote": "==Alpejska krowa, szwajcarskie skojarzenia — ale Milka należy do amerykańskiego Mondelēz.== Miejsce produkcji zależy od konkretnego produktu (sprawdź etykietę).",
       "story": "Milka = Szwajcaria? Nie. Marka należy do amerykańskiego Mondelēz, a tabliczki powstają m.in. w Niemczech i w Polsce.",
-      "ingredients": ["kakao", "olej-palmowy"],
+      "ingredients": [
+        "kakao",
+        "olej-palmowy"
+      ],
       "sources": [
-        {"label": "Mondelēz International", "url": "https://www.mondelezinternational.com"}
+        {
+          "label": "Mondelēz International",
+          "url": "https://www.mondelezinternational.com"
+        }
       ],
       "confidence": "do-weryfikacji",
       "updated": "2026-07-02"
@@ -214,15 +301,23 @@
       "category": "słodycze",
       "producer": "Mondelēz Polska (zakład Cieszyn — d. Olza)",
       "productionCountry": "PL",
-      "plants": ["Cieszyn"],
+      "plants": [
+        "Cieszyn"
+      ],
       "brandOwner": "Mondelēz International",
       "ownerCountry": "US",
       "capitalCountry": "US",
-      "capitalNote": "Kultowy wafelek z Cieszyna — fabryka Olza działa od dekad, ale marka należy do amerykańskiego Mondelēz.",
+      "capitalNote": "==Kultowy wafelek z Cieszyna — fabryka Olza działa od dekad, ale marka należy do amerykańskiego Mondelēz.==",
       "story": "Prince Polo to narodowy przysmak Islandii i duma Cieszyna — a właścicielem jest amerykański gigant Mondelēz.",
-      "ingredients": ["kakao", "pszenica-zboza"],
+      "ingredients": [
+        "kakao",
+        "pszenica-zboza"
+      ],
       "sources": [
-        {"label": "Mondelēz International", "url": "https://www.mondelezinternational.com"}
+        {
+          "label": "Mondelēz International",
+          "url": "https://www.mondelezinternational.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -233,15 +328,25 @@
       "category": "słodycze",
       "producer": "Colian sp. z o.o.",
       "productionCountry": "PL",
-      "plants": ["Kalisz", "Opatówek", "Poznań"],
+      "plants": [
+        "Kalisz",
+        "Opatówek",
+        "Poznań"
+      ],
       "brandOwner": "Colian (rodzina Kolańskich)",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "Colian to prywatna polska grupa (rodzina Kolańskich) — właściciel Grześków, Jeżyków, Goplany i Helleny.",
+      "capitalNote": "==Colian to prywatna polska grupa (rodzina Kolańskich) — właściciel Grześków, Jeżyków, Goplany i Helleny.==",
       "story": "Grześki i Jeżyki to w 100% polski kapitał — kaliska grupa Colian rodziny Kolańskich.",
-      "ingredients": ["kakao", "pszenica-zboza"],
+      "ingredients": [
+        "kakao",
+        "pszenica-zboza"
+      ],
       "sources": [
-        {"label": "Colian", "url": "https://www.colian.com"}
+        {
+          "label": "Colian",
+          "url": "https://www.colian.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -252,14 +357,19 @@
       "category": "spożywcze",
       "producer": "Foodwell (zakład Pudliszki, Wielkopolska)",
       "productionCountry": "PL",
-      "plants": ["Pudliszki (gm. Krobia)"],
+      "plants": [
+        "Pudliszki (gm. Krobia)"
+      ],
       "brandOwner": "Foodwell",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
       "capitalNote": "W 2022 r. polska grupa Foodwell odkupiła Pudliszki od amerykańskiego Kraft Heinz — marka wróciła do polskiego kapitału.",
       "story": "Ketchup Pudliszki przez ćwierć wieku był amerykański (Heinz). Od 2022 r. znów należy do Polaków — grupy Foodwell.",
       "sources": [
-        {"label": "Pudliszki", "url": "https://www.pudliszki.pl"}
+        {
+          "label": "Pudliszki",
+          "url": "https://www.pudliszki.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -270,14 +380,21 @@
       "category": "piwo",
       "producer": "Van Pur S.A. (browar Łomża)",
       "productionCountry": "PL",
-      "plants": ["Łomża", "Rakszawa", "Zabrze"],
+      "plants": [
+        "Łomża",
+        "Rakszawa",
+        "Zabrze"
+      ],
       "brandOwner": "Van Pur S.A.",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "Van Pur to największy niezależny polski producent piwa — kapitał polski.",
+      "capitalNote": "==Van Pur to największy niezależny polski producent piwa — kapitał polski.==",
       "story": "Wielkie browary są japońskie i holenderskie — a Łomża to największy browar, który został w polskich rękach (Van Pur).",
       "sources": [
-        {"label": "Van Pur", "url": "https://www.vanpur.com"}
+        {
+          "label": "Van Pur",
+          "url": "https://www.vanpur.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -288,14 +405,19 @@
       "category": "nabiał",
       "producer": "SM Mlekovita",
       "productionCountry": "PL",
-      "plants": ["Wysokie Mazowieckie + kilkanaście zakładów w PL"],
+      "plants": [
+        "Wysokie Mazowieckie + kilkanaście zakładów w PL"
+      ],
       "brandOwner": "Spółdzielnia Mleczarska Mlekovita (własność rolników-członków)",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "Mlekovita to spółdzielnia — właścicielami są polscy rolnicy dostarczający mleko. Największa firma mleczarska w tej części Europy.",
+      "capitalNote": "==Mlekovita to spółdzielnia — właścicielami są polscy rolnicy dostarczający mleko.== Największa firma mleczarska w tej części Europy.",
       "story": "Mlekovita nie ma zagranicznego właściciela ani funduszu — to spółdzielnia należąca do tysięcy polskich rolników.",
       "sources": [
-        {"label": "Mlekovita", "url": "https://www.mlekovita.com.pl"}
+        {
+          "label": "Mlekovita",
+          "url": "https://www.mlekovita.com.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -306,14 +428,19 @@
       "category": "chemia domowa",
       "producer": "Grupa INCO S.A.",
       "productionCountry": "PL",
-      "plants": ["Góra Kalwaria"],
+      "plants": [
+        "Góra Kalwaria"
+      ],
       "brandOwner": "Grupa INCO S.A.",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "Płyn Ludwik od 1964 r. produkuje Grupa INCO — polska firma o spółdzielczych korzeniach (fundacja ZG PCK w strukturze właścicielskiej).",
+      "capitalNote": "==Płyn Ludwik od 1964 r.== produkuje Grupa INCO — polska firma o spółdzielczych korzeniach (fundacja ZG PCK w strukturze właścicielskiej).",
       "story": "Ludwik zmywa w polskich kuchniach od 60 lat i wciąż jest polski — w przeciwieństwie do większości chemii z półki.",
       "sources": [
-        {"label": "Grupa INCO", "url": "https://www.inco.pl"}
+        {
+          "label": "Grupa INCO",
+          "url": "https://www.inco.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -324,14 +451,19 @@
       "category": "chemia domowa",
       "producer": "Henkel (zakład Racibórz)",
       "productionCountry": "PL",
-      "plants": ["Racibórz"],
+      "plants": [
+        "Racibórz"
+      ],
       "brandOwner": "Henkel AG & Co. KGaA",
       "ownerCountry": "DE",
       "capitalCountry": "DE",
-      "capitalNote": "Proszki Persil na polski rynek powstają w Raciborzu, ale marka i zyski należą do niemieckiego Henkla.",
+      "capitalNote": "==Proszki Persil na polski rynek powstają w Raciborzu, ale marka i zyski należą do niemieckiego Henkla.==",
       "story": "Persil kupowany w Polsce często jest z Raciborza — produkcja polska, kapitał niemiecki (Henkel).",
       "sources": [
-        {"label": "Henkel Polska", "url": "https://www.henkel.pl"}
+        {
+          "label": "Henkel Polska",
+          "url": "https://www.henkel.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -342,14 +474,19 @@
       "category": "napoje",
       "producer": "Coca-Cola HBC Polska (rozlewnie w Polsce)",
       "productionCountry": "PL",
-      "plants": ["m.in. Radzymin, Staniątki, Tylicz"],
+      "plants": [
+        "m.in. Radzymin, Staniątki, Tylicz"
+      ],
       "brandOwner": "The Coca-Cola Company",
       "ownerCountry": "US",
       "capitalCountry": "US",
-      "capitalNote": "Marka amerykańska, ale butelkowaniem w Polsce zajmuje się Coca-Cola HBC (grupa szwajcarsko-grecka) w polskich rozlewniach.",
+      "capitalNote": "==Marka amerykańska, ale butelkowaniem w Polsce zajmuje się Coca-Cola HBC (grupa szwajcarsko-grecka) w polskich rozlewniach.==",
       "story": "Cola z polskiego sklepu prawie na pewno powstała w Polsce — w Radzyminie albo Staniątkach. Marka: USA, rozlew: Polska.",
       "sources": [
-        {"label": "Coca-Cola HBC", "url": "https://www.coca-colahellenic.com"}
+        {
+          "label": "Coca-Cola HBC",
+          "url": "https://www.coca-colahellenic.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -360,14 +497,19 @@
       "category": "woda",
       "producer": "Nestlé Waters (zakład Nałęczów)",
       "productionCountry": "PL",
-      "plants": ["Nałęczów"],
+      "plants": [
+        "Nałęczów"
+      ],
       "brandOwner": "Nestlé",
       "ownerCountry": "CH",
       "capitalCountry": "CH",
-      "capitalNote": "Woda z Nałęczowa, ale marka należy do szwajcarskiego Nestlé.",
+      "capitalNote": "==Woda z Nałęczowa, ale marka należy do szwajcarskiego Nestlé.==",
       "story": "Nałęczowianka to polska woda ze szwajcarskim właścicielem — Nestlé.",
       "sources": [
-        {"label": "Nestlé Polska", "url": "https://www.nestle.pl"}
+        {
+          "label": "Nestlé Polska",
+          "url": "https://www.nestle.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -378,14 +520,19 @@
       "category": "woda",
       "producer": "Polskie Zdroje (Nałęczów Zdrój)",
       "productionCountry": "PL",
-      "plants": ["Drzewce k. Nałęczowa"],
+      "plants": [
+        "Drzewce k. Nałęczowa"
+      ],
       "brandOwner": "Polskie Zdroje sp. z o.o. sp.k.",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "Cisowianka należy do polskiej firmy Polskie Zdroje.",
+      "capitalNote": "==Cisowianka należy do polskiej firmy Polskie Zdroje.==",
       "story": "Dwie wody z okolic Nałęczowa: Nałęczowianka — Szwajcarzy (Nestlé), Cisowianka — kapitał polski. Ta sama półka, inne kierunki zysków.",
       "sources": [
-        {"label": "Cisowianka", "url": "https://www.cisowianka.pl"}
+        {
+          "label": "Cisowianka",
+          "url": "https://www.cisowianka.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -396,14 +543,19 @@
       "category": "mrożonki",
       "producer": "FRoSTA sp. z o.o. (zakład Bydgoszcz)",
       "productionCountry": "PL",
-      "plants": ["Bydgoszcz"],
+      "plants": [
+        "Bydgoszcz"
+      ],
       "brandOwner": "FRoSTA AG",
       "ownerCountry": "DE",
       "capitalCountry": "DE",
-      "capitalNote": "Mrożonki FRoSTA na polski rynek powstają w Bydgoszczy; właścicielem jest niemiecka rodzinna spółka FRoSTA AG.",
+      "capitalNote": "==Mrożonki FRoSTA na polski rynek powstają w Bydgoszczy; właścicielem jest niemiecka rodzinna spółka FRoSTA AG.==",
       "story": "Ryba z FRoSTY jest pakowana w Bydgoszczy — ale firma-matka siedzi w Bremerhaven.",
       "sources": [
-        {"label": "FRoSTA", "url": "https://www.frosta.pl"}
+        {
+          "label": "FRoSTA",
+          "url": "https://www.frosta.pl"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -414,14 +566,19 @@
       "category": "słodycze",
       "producer": "Roshen (zakłady na Ukrainie i w UE)",
       "productionCountry": "UA",
-      "plants": ["Kijów, Winnica (UA); Kłajpeda (LT); Bonbonetti (HU)"],
+      "plants": [
+        "Kijów, Winnica (UA); Kłajpeda (LT); Bonbonetti (HU)"
+      ],
       "brandOwner": "Roshen Confectionery Corporation",
       "ownerCountry": "UA",
       "capitalCountry": "UA",
-      "capitalNote": "Roshen to największy ukraiński producent słodyczy, powiązany z rodziną Petra Poroszenki. Część produkcji na rynek UE powstaje na Litwie i Węgrzech.",
+      "capitalNote": "==Roshen to największy ukraiński producent słodyczy, powiązany z rodziną Petra Poroszenki.== Część produkcji na rynek UE powstaje na Litwie i Węgrzech.",
       "story": "Cukierki Roshen w polskich sklepach to ukraiński kapitał — koncern związany z byłym prezydentem Ukrainy.",
       "sources": [
-        {"label": "Roshen", "url": "https://www.roshen.com"}
+        {
+          "label": "Roshen",
+          "url": "https://www.roshen.com"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -432,14 +589,19 @@
       "category": "napoje",
       "producer": "OSHEE Polska sp. z o.o.",
       "productionCountry": "PL",
-      "plants": ["produkcja kontraktowa w PL"],
+      "plants": [
+        "produkcja kontraktowa w PL"
+      ],
       "brandOwner": "OSHEE Polska (założyciele prywatni)",
       "ownerCountry": "PL",
       "capitalCountry": "PL",
-      "capitalNote": "OSHEE to krakowska firma założona w 2008 r. — polski kapitał prywatny, eksport do kilkudziesięciu krajów.",
+      "capitalNote": "==OSHEE to krakowska firma założona w 2008 r.== — polski kapitał prywatny, eksport do kilkudziesięciu krajów.",
       "story": "OSHEE brzmi japońsko, wygląda globalnie — a to firma z Krakowa, w polskich rękach.",
       "sources": [
-        {"label": "OSHEE", "url": "https://www.oshee.eu"}
+        {
+          "label": "OSHEE",
+          "url": "https://www.oshee.eu"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -450,14 +612,19 @@
       "category": "słodycze",
       "producer": "Wawel S.A. (zakład Dobczyce)",
       "productionCountry": "PL",
-      "plants": ["Dobczyce k. Krakowa"],
+      "plants": [
+        "Dobczyce k. Krakowa"
+      ],
       "brandOwner": "Wawel S.A. (GPW; znaczący akcjonariusz: Hosta International AG)",
       "ownerCountry": "PL",
       "capitalCountry": "CH",
-      "capitalNote": "Wawel jest notowany na GPW, ale pakiet kontrolny ma szwajcarska Hosta International AG. Produkcja w całości w Małopolsce.",
+      "capitalNote": "==Wawel jest notowany na GPW, ale pakiet kontrolny ma szwajcarska Hosta International AG.== Produkcja w całości w Małopolsce.",
       "story": "Czekolady 'Wawel' spod Krakowa — ale największy akcjonariusz spółki to szwajcarski holding. Niby polskie, a jednak nie do końca.",
       "sources": [
-        {"label": "Wawel S.A. — relacje inwestorskie", "url": "https://www.wawel.com.pl"}
+        {
+          "label": "Wawel S.A. — relacje inwestorskie",
+          "url": "https://www.wawel.com.pl"
+        }
       ],
       "confidence": "do-weryfikacji",
       "updated": "2026-07-02"
@@ -468,16 +635,28 @@
       "category": "słodycze",
       "producer": "Ferrero Polska Commercial (zakład Belsk Duży)",
       "productionCountry": "PL",
-      "plants": ["Belsk Duży k. Grójca"],
+      "plants": [
+        "Belsk Duży k. Grójca"
+      ],
       "brandOwner": "Ferrero International S.A.",
       "ownerCountry": "LU",
       "capitalCountry": "IT",
-      "capitalNote": "Ferrero to włoska firma rodzinna, z holdingiem Ferrero International S.A. zarejestrowanym w Luksemburgu. Fabryka w Belsku Dużym to jeden z największych zakładów Ferrero na świecie — produkuje m.in. Nutellę i jajka Kinder, w większości na eksport.",
+      "capitalNote": "==Ferrero to włoska firma rodzinna, z holdingiem Ferrero International S.A.== zarejestrowanym w Luksemburgu. Fabryka w Belsku Dużym to jeden z największych zakładów Ferrero na świecie — produkuje m.in. Nutellę i jajka Kinder, w większości na eksport.",
       "story": "Nutella i Kinder na pół Europy powstają pod Warszawą — w Belsku Dużym, trzeciej co do wielkości fabryce Ferrero na świecie. Marka włoska, produkcja polska.",
-      "ingredients": ["kakao", "olej-palmowy", "orzechy-laskowe"],
+      "ingredients": [
+        "kakao",
+        "olej-palmowy",
+        "orzechy-laskowe"
+      ],
       "sources": [
-        {"label": "Ferrero w Polsce", "url": "https://www.ferrero.pl/Ferrero-w-Polsce/"},
-        {"label": "portalspozywczy.pl — polska fabryka filarem Ferrero", "url": "https://www.portalspozywczy.pl/slodycze-przekaski/wiadomosci/polska-fabryka-filarem-ferrero-strategiczna-rola-w-globalnej-strukturze-grupy,286043.html"}
+        {
+          "label": "Ferrero w Polsce",
+          "url": "https://www.ferrero.pl/Ferrero-w-Polsce/"
+        },
+        {
+          "label": "portalspozywczy.pl — polska fabryka filarem Ferrero",
+          "url": "https://www.portalspozywczy.pl/slodycze-przekaski/wiadomosci/polska-fabryka-filarem-ferrero-strategiczna-rola-w-globalnej-strukturze-grupy,286043.html"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -488,16 +667,26 @@
       "category": "mięso i wędliny",
       "producer": "Animex Foods sp. z o.o.",
       "productionCountry": "PL",
-      "plants": ["zakłady Animex w Polsce (m.in. Morliny, Starachowice)"],
+      "plants": [
+        "zakłady Animex w Polsce (m.in. Morliny, Starachowice)"
+      ],
       "brandOwner": "Animex (Smithfield Foods → WH Group)",
       "ownerCountry": "CN",
       "capitalCountry": "CN",
-      "capitalNote": "Animex — producent m.in. Krakusa, Morlinów i Berlinek — należy do amerykańskiego Smithfield Foods, który od 2013 r. jest częścią chińskiej WH Group (największego producenta wieprzowiny na świecie, dawniej Shuanghui).",
+      "capitalNote": "==Animex — producent m.in.== Krakusa, Morlinów i Berlinek — należy do amerykańskiego Smithfield Foods, który od 2013 r. jest częścią chińskiej WH Group (największego producenta wieprzowiny na świecie, dawniej Shuanghui).",
       "story": "Kultowe „polskie\" wędliny Krakus, Morliny i Berlinki należą — przez Smithfield — do chińskiej WH Group, największego producenta wieprzowiny na świecie.",
-      "ingredients": ["soja-pasze"],
+      "ingredients": [
+        "soja-pasze"
+      ],
       "sources": [
-        {"label": "WH Group — działalność w Europie", "url": "https://www.wh-group.com/html/bp_europe.php"},
-        {"label": "Smithfield Foods (Wikipedia, z odnośnikami do źródeł)", "url": "https://en.wikipedia.org/wiki/Smithfield_Foods"}
+        {
+          "label": "WH Group — działalność w Europie",
+          "url": "https://www.wh-group.com/html/bp_europe.php"
+        },
+        {
+          "label": "Smithfield Foods (Wikipedia, z odnośnikami do źródeł)",
+          "url": "https://en.wikipedia.org/wiki/Smithfield_Foods"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -508,16 +697,31 @@
       "category": "mięso i wędliny",
       "producer": "Sokołów S.A.",
       "productionCountry": "PL",
-      "plants": ["Sokołów Podlaski", "Robakowo", "Jarosław", "Tarnów", "Dębica", "Koło"],
+      "plants": [
+        "Sokołów Podlaski",
+        "Robakowo",
+        "Jarosław",
+        "Tarnów",
+        "Dębica",
+        "Koło"
+      ],
       "brandOwner": "Danish Crown",
       "ownerCountry": "DK",
       "capitalCountry": "DK",
-      "capitalNote": "Sokołów należy do duńskiej grupy Danish Crown — największego eksportera mięsa na świecie. Danish Crown przejął pełną kontrolę nad spółką w 2014 r., odkupując pozostałe 50% udziałów.",
+      "capitalNote": "==Sokołów należy do duńskiej grupy Danish Crown — największego eksportera mięsa na świecie.== Danish Crown przejął pełną kontrolę nad spółką w 2014 r., odkupując pozostałe 50% udziałów.",
       "story": "Sokołów, jedna z najbardziej rozpoznawalnych „polskich\" marek wędlin, w całości należy do duńskiej Danish Crown.",
-      "ingredients": ["soja-pasze"],
+      "ingredients": [
+        "soja-pasze"
+      ],
       "sources": [
-        {"label": "Sokołów S.A. (strona firmy)", "url": "https://sokolow.pl/en"},
-        {"label": "GlobalMeatNews — Danish Crown przejmuje 100% Sokołowa", "url": "https://www.globalmeatnews.com/Article/2014/03/05/Danish-Crown-acquires-total-shares-of-Polish-meat-producer-Sokolow"}
+        {
+          "label": "Sokołów S.A. (strona firmy)",
+          "url": "https://sokolow.pl/en"
+        },
+        {
+          "label": "GlobalMeatNews — Danish Crown przejmuje 100% Sokołowa",
+          "url": "https://www.globalmeatnews.com/Article/2014/03/05/Danish-Crown-acquires-total-shares-of-Polish-meat-producer-Sokolow"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -528,16 +732,26 @@
       "category": "spożywcze",
       "producer": "Flora Food Group (dawniej Upfield)",
       "productionCountry": "EU",
-      "plants": ["zakłady grupy w Europie"],
+      "plants": [
+        "zakłady grupy w Europie"
+      ],
       "brandOwner": "Flora Food Group (fundusz KKR)",
       "ownerCountry": "US",
       "capitalCountry": "US",
-      "capitalNote": "Margaryny i tłuszcze Rama, Flora i Delma należą do grupy Flora Food Group (do 2024 r. „Upfield\"), wydzielonej z Unilevera i kupionej w 2018 r. przez amerykański fundusz private equity KKR za ok. 8 mld USD.",
+      "capitalNote": "==Margaryny i tłuszcze Rama, Flora i Delma należą do grupy Flora Food Group (do 2024 r.== „Upfield\"), wydzielonej z Unilevera i kupionej w 2018 r. przez amerykański fundusz private equity KKR za ok. 8 mld USD.",
       "story": "Rama, Flora i Delma to nie Unilever — od 2018 r. należą do amerykańskiego funduszu KKR (grupa Flora Food Group).",
-      "ingredients": ["olej-palmowy"],
+      "ingredients": [
+        "olej-palmowy"
+      ],
       "sources": [
-        {"label": "Flora Food Group / Upfield — o firmie", "url": "https://upfield.com/about/"},
-        {"label": "Upfield / Flora Food Group (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Upfield_(company)"}
+        {
+          "label": "Flora Food Group / Upfield — o firmie",
+          "url": "https://upfield.com/about/"
+        },
+        {
+          "label": "Upfield / Flora Food Group (Wikipedia, z odnośnikami)",
+          "url": "https://en.wikipedia.org/wiki/Upfield_(company)"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -548,19 +762,37 @@
       "category": "motoryzacja",
       "producer": "Mercedes-Benz Group AG",
       "productionCountry": "DE",
-      "plants": ["Sindelfingen, Bremen, Rastatt (DE) i zakłady na świecie"],
+      "plants": [
+        "Sindelfingen, Bremen, Rastatt (DE) i zakłady na świecie"
+      ],
       "brandOwner": "Mercedes-Benz Group AG (akcjonariat rozproszony, GPW: Frankfurt)",
       "ownerCountry": "DE",
       "capitalCountry": "DE",
-      "capitalNote": "Mercedes-Benz pozostaje niemiecką spółką o rozproszonym akcjonariacie — ale jego dwaj najwięksi pojedynczy akcjonariusze są chińscy. To nie czyni marki „chińską\", pokazuje jednak, jak spleciony bywa kapitał wielkich koncernów.",
+      "capitalNote": "==Mercedes-Benz pozostaje niemiecką spółką o rozproszonym akcjonariacie — ale jego dwaj najwięksi pojedynczy akcjonariusze są chińscy.== To nie czyni marki „chińską\", pokazuje jednak, jak spleciony bywa kapitał wielkich koncernów.",
       "story": "Najwięksi pojedynczy akcjonariusze „niemieckiego\" Mercedesa są chińscy: BAIC (9,98%) i Geely (9,7%) — razem ok. 20%. Firma i tak pozostaje niemiecka i niezależna.",
       "stakes": [
-        {"holder": "BAIC Group", "holderCountry": "CN", "pct": "9,98%", "note": "chiński koncern państwowy; od grudnia 2021 największy pojedynczy akcjonariusz"},
-        {"holder": "Geely (Li Shufu / Tenaciou3)", "holderCountry": "CN", "pct": "9,7%", "note": "chiński koncern prywatny; udziały objęte w 2018 r."}
+        {
+          "holder": "BAIC Group",
+          "holderCountry": "CN",
+          "pct": "9,98%",
+          "note": "chiński koncern państwowy; od grudnia 2021 największy pojedynczy akcjonariusz"
+        },
+        {
+          "holder": "Geely (Li Shufu / Tenaciou3)",
+          "holderCountry": "CN",
+          "pct": "9,7%",
+          "note": "chiński koncern prywatny; udziały objęte w 2018 r."
+        }
       ],
       "sources": [
-        {"label": "Mercedes-Benz Group — struktura akcjonariatu", "url": "https://group.mercedes-benz.com/investors/share/shareholder-structure/"},
-        {"label": "China Daily — BAIC największym akcjonariuszem Daimlera", "url": "https://www.chinadaily.com.cn/a/202112/14/WS61b8313ca310cdd39bc7b440.html"}
+        {
+          "label": "Mercedes-Benz Group — struktura akcjonariatu",
+          "url": "https://group.mercedes-benz.com/investors/share/shareholder-structure/"
+        },
+        {
+          "label": "China Daily — BAIC największym akcjonariuszem Daimlera",
+          "url": "https://www.chinadaily.com.cn/a/202112/14/WS61b8313ca310cdd39bc7b440.html"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -571,15 +803,23 @@
       "category": "motoryzacja",
       "producer": "SAIC Motor (MG Motor)",
       "productionCountry": "CN",
-      "plants": ["Chiny (m.in. Ningde, Nanjing); montaż także w Tajlandii"],
+      "plants": [
+        "Chiny (m.in. Ningde, Nanjing); montaż także w Tajlandii"
+      ],
       "brandOwner": "SAIC Motor",
       "ownerCountry": "CN",
       "capitalCountry": "CN",
-      "capitalNote": "MG (Morris Garages) to historycznie brytyjska marka, ale od 2007 r. należy do chińskiego, państwowego koncernu SAIC Motor, a samochody powstają w Chinach. „Brytyjskość\" pozostała w logo i nazwie.",
+      "capitalNote": "==MG (Morris Garages) to historycznie brytyjska marka, ale od 2007 r.== należy do chińskiego, państwowego koncernu SAIC Motor, a samochody powstają w Chinach. „Brytyjskość\" pozostała w logo i nazwie.",
       "story": "MG wygląda na brytyjską markę, ale od 2007 r. jest własnością chińskiego, państwowego SAIC — i to w Chinach powstają dzisiejsze MG.",
       "sources": [
-        {"label": "MG Motor (Wikipedia, z odnośnikami do źródeł)", "url": "https://en.wikipedia.org/wiki/MG_Motor"},
-        {"label": "SAIC Motor — strona koncernu", "url": "https://www.saicmotor.com/english/index.shtml"}
+        {
+          "label": "MG Motor (Wikipedia, z odnośnikami do źródeł)",
+          "url": "https://en.wikipedia.org/wiki/MG_Motor"
+        },
+        {
+          "label": "SAIC Motor — strona koncernu",
+          "url": "https://www.saicmotor.com/english/index.shtml"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -590,18 +830,31 @@
       "category": "motoryzacja",
       "producer": "Volvo Car Group",
       "productionCountry": "SE",
-      "plants": ["Göteborg (SE), Gandawa (BE), Chiny, USA"],
+      "plants": [
+        "Göteborg (SE), Gandawa (BE), Chiny, USA"
+      ],
       "brandOwner": "Zhejiang Geely Holding",
       "ownerCountry": "CN",
       "capitalCountry": "CN",
-      "capitalNote": "Volvo Cars (samochody osobowe) od 2010 r. należy do chińskiego Geely, które kupiło markę od Forda. Uwaga: to inna firma niż szwedzki AB Volvo (ciężarówki, autobusy), który NIE należy do Geely.",
+      "capitalNote": "==Volvo Cars (samochody osobowe) od 2010 r.== należy do chińskiego Geely, które kupiło markę od Forda. Uwaga: to inna firma niż szwedzki AB Volvo (ciężarówki, autobusy), który NIE należy do Geely.",
       "story": "„Szwedzkie\" Volvo osobowe od 2010 r. jest własnością chińskiego Geely — ale ciężarówki Volvo to zupełnie inna, wciąż szwedzka firma. Klasyczne pomylenie dwóch Volvo.",
       "stakes": [
-        {"holder": "Zhejiang Geely Holding", "holderCountry": "CN", "pct": "większość", "note": "właściciel Volvo Cars, Polestar, Lotus; udziałowiec Mercedesa"}
+        {
+          "holder": "Zhejiang Geely Holding",
+          "holderCountry": "CN",
+          "pct": "większość",
+          "note": "właściciel Volvo Cars, Polestar, Lotus; udziałowiec Mercedesa"
+        }
       ],
       "sources": [
-        {"label": "Volvo Cars (Wikipedia, z odnośnikami do źródeł)", "url": "https://en.wikipedia.org/wiki/Volvo_Cars"},
-        {"label": "Geely Holding (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Geely"}
+        {
+          "label": "Volvo Cars (Wikipedia, z odnośnikami do źródeł)",
+          "url": "https://en.wikipedia.org/wiki/Volvo_Cars"
+        },
+        {
+          "label": "Geely Holding (Wikipedia, z odnośnikami)",
+          "url": "https://en.wikipedia.org/wiki/Geely"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -612,15 +865,23 @@
       "category": "motoryzacja",
       "producer": "Škoda Auto a.s.",
       "productionCountry": "CZ",
-      "plants": ["Mladá Boleslav, Kvasiny (CZ)"],
+      "plants": [
+        "Mladá Boleslav, Kvasiny (CZ)"
+      ],
       "brandOwner": "Volkswagen AG",
       "ownerCountry": "DE",
       "capitalCountry": "DE",
-      "capitalNote": "Škoda to czeska marka i czeska produkcja, ale od 1991 r. (a w 100% od 2000 r.) należy do niemieckiego koncernu Volkswagen. VW to także Audi, SEAT/Cupra, Porsche, Lamborghini, Bentley i Bugatti.",
+      "capitalNote": "==Škoda to czeska marka i czeska produkcja, ale od 1991 r.== (a w 100% od 2000 r.) należy do niemieckiego koncernu Volkswagen. VW to także Audi, SEAT/Cupra, Porsche, Lamborghini, Bentley i Bugatti.",
       "story": "Škoda jest czeska z ducha i z fabryk, ale kapitałowo — niemiecka: należy do Volkswagena, tak jak Audi, Porsche czy Bentley.",
       "sources": [
-        {"label": "Volkswagen Group — marki", "url": "https://www.volkswagen-group.com/en/brands-and-models-15805"},
-        {"label": "Škoda Auto (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Skoda_Auto"}
+        {
+          "label": "Volkswagen Group — marki",
+          "url": "https://www.volkswagen-group.com/en/brands-and-models-15805"
+        },
+        {
+          "label": "Škoda Auto (Wikipedia, z odnośnikami)",
+          "url": "https://en.wikipedia.org/wiki/Skoda_Auto"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -631,20 +892,43 @@
       "category": "motoryzacja",
       "producer": "Opel Automobile GmbH (Stellantis)",
       "productionCountry": "DE",
-      "plants": ["Rüsselsheim, Eisenach (DE), Zaragoza (ES)"],
+      "plants": [
+        "Rüsselsheim, Eisenach (DE), Zaragoza (ES)"
+      ],
       "brandOwner": "Stellantis N.V.",
       "ownerCountry": "NL",
       "capitalCountry": "NL",
-      "capitalNote": "„Niemiecki\" Opel od 2017 r. nie jest już niemiecki — najpierw przejął go francuski PSA, a od 2021 r. należy do koncernu Stellantis (siedziba w Holandii), kontrolowanego głównie przez włoską rodzinę Agnellich (Exor) i francuskich akcjonariuszy.",
+      "capitalNote": "==„Niemiecki\" Opel od 2017 r.== nie jest już niemiecki — najpierw przejął go francuski PSA, a od 2021 r. należy do koncernu Stellantis (siedziba w Holandii), kontrolowanego głównie przez włoską rodzinę Agnellich (Exor) i francuskich akcjonariuszy.",
       "story": "Opel przestał być niemiecki w 2017 r. Dziś to część Stellantis (obok Fiata, Peugeota, Jeepa i Citroëna), z głównym kapitałem włoskim (Exor) i francuskim.",
       "stakes": [
-        {"holder": "Exor (rodzina Agnellich)", "holderCountry": "IT", "pct": "~14%", "note": "włoski holding, największy akcjonariusz Stellantis"},
-        {"holder": "Rodzina Peugeot (EPF/FFP)", "holderCountry": "FR", "pct": "~7%", "note": "francuscy założyciele Peugeota"},
-        {"holder": "Bpifrance", "holderCountry": "FR", "pct": "~6%", "note": "francuski państwowy bank rozwoju"}
+        {
+          "holder": "Exor (rodzina Agnellich)",
+          "holderCountry": "IT",
+          "pct": "~14%",
+          "note": "włoski holding, największy akcjonariusz Stellantis"
+        },
+        {
+          "holder": "Rodzina Peugeot (EPF/FFP)",
+          "holderCountry": "FR",
+          "pct": "~7%",
+          "note": "francuscy założyciele Peugeota"
+        },
+        {
+          "holder": "Bpifrance",
+          "holderCountry": "FR",
+          "pct": "~6%",
+          "note": "francuski państwowy bank rozwoju"
+        }
       ],
       "sources": [
-        {"label": "Stellantis — marki", "url": "https://www.stellantis.com/en/brands"},
-        {"label": "Opel / Stellantis (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Opel"}
+        {
+          "label": "Stellantis — marki",
+          "url": "https://www.stellantis.com/en/brands"
+        },
+        {
+          "label": "Opel / Stellantis (Wikipedia, z odnośnikami)",
+          "url": "https://en.wikipedia.org/wiki/Opel"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -655,15 +939,23 @@
       "category": "motoryzacja",
       "producer": "JLR Limited",
       "productionCountry": "GB",
-      "plants": ["Solihull, Halewood, Wolverhampton (GB); Nitra (SK)"],
+      "plants": [
+        "Solihull, Halewood, Wolverhampton (GB); Nitra (SK)"
+      ],
       "brandOwner": "Tata Motors",
       "ownerCountry": "IN",
       "capitalCountry": "IN",
-      "capitalNote": "Kwintesencja brytyjskiej motoryzacji — Jaguar i Land Rover — od 2008 r. w całości należą do indyjskiego Tata Motors, który odkupił obie marki od amerykańskiego Forda.",
+      "capitalNote": "==Kwintesencja brytyjskiej motoryzacji — Jaguar i Land Rover — od 2008 r.== w całości należą do indyjskiego Tata Motors, który odkupił obie marki od amerykańskiego Forda.",
       "story": "Jaguar i Land Rover — ikony brytyjskiej motoryzacji — od 2008 r. są własnością indyjskiego koncernu Tata.",
       "sources": [
-        {"label": "JLR — o firmie", "url": "https://www.jlr.com/overview"},
-        {"label": "Jaguar Land Rover (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Jaguar_Land_Rover"}
+        {
+          "label": "JLR — o firmie",
+          "url": "https://www.jlr.com/overview"
+        },
+        {
+          "label": "Jaguar Land Rover (Wikipedia, z odnośnikami)",
+          "url": "https://en.wikipedia.org/wiki/Jaguar_Land_Rover"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -674,15 +966,23 @@
       "category": "motoryzacja",
       "producer": "Rolls-Royce Motor Cars Ltd",
       "productionCountry": "GB",
-      "plants": ["Goodwood (GB)"],
+      "plants": [
+        "Goodwood (GB)"
+      ],
       "brandOwner": "BMW AG",
       "ownerCountry": "DE",
       "capitalCountry": "DE",
-      "capitalNote": "Samochody Rolls-Royce od 2003 r. produkuje i posiada niemieckie BMW. To zupełnie inna firma niż brytyjski Rolls-Royce Holdings (silniki lotnicze i morskie), z którym marka aut dzieli tylko nazwę i historię.",
+      "capitalNote": "==Samochody Rolls-Royce od 2003 r.== produkuje i posiada niemieckie BMW. To zupełnie inna firma niż brytyjski Rolls-Royce Holdings (silniki lotnicze i morskie), z którym marka aut dzieli tylko nazwę i historię.",
       "story": "Najbardziej brytyjskie auto świata — Rolls-Royce — od 2003 r. należy do niemieckiego BMW. Silniki lotnicze Rolls-Royce to już inna, brytyjska firma.",
       "sources": [
-        {"label": "BMW Group — marki", "url": "https://www.bmwgroup.com/en/brands.html"},
-        {"label": "Rolls-Royce Motor Cars (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars"}
+        {
+          "label": "BMW Group — marki",
+          "url": "https://www.bmwgroup.com/en/brands.html"
+        },
+        {
+          "label": "Rolls-Royce Motor Cars (Wikipedia, z odnośnikami)",
+          "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars"
+        }
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
@@ -693,20 +993,592 @@
       "category": "motoryzacja",
       "producer": "Pirelli & C. S.p.A.",
       "productionCountry": "IT",
-      "plants": ["Włochy i zakłady na świecie"],
+      "plants": [
+        "Włochy i zakłady na świecie"
+      ],
       "brandOwner": "Pirelli & C. S.p.A. (GPW: Mediolan)",
       "ownerCountry": "IT",
       "capitalCountry": "CN",
-      "capitalNote": "Włoskie opony Pirelli mają największego akcjonariusza w chińskim, państwowym Sinochem (dawniej ChemChina), który wszedł do spółki w 2015 r. (początkowo 26,2%). Relacje między włoskim zarządem a chińskim udziałowcem bywają napięte i budzą uwagę rządu Włoch.",
+      "capitalNote": "==Włoskie opony Pirelli mają największego akcjonariusza w chińskim, państwowym Sinochem (dawniej ChemChina), który wszedł do spółki w 2015 r.== (początkowo 26,2%). Relacje między włoskim zarządem a chińskim udziałowcem bywają napięte i budzą uwagę rządu Włoch.",
       "story": "Włoska legenda opon Pirelli ma dziś największego akcjonariusza w chińskim koncernie państwowym Sinochem — co stało się przedmiotem sporu o kontrolę nad firmą.",
       "stakes": [
-        {"holder": "Sinochem (d. ChemChina)", "holderCountry": "CN", "pct": "~37%", "note": "chiński koncern państwowy, największy akcjonariusz; wejście w 2015 r. (26,2%)"}
+        {
+          "holder": "Sinochem (d. ChemChina)",
+          "holderCountry": "CN",
+          "pct": "~37%",
+          "note": "chiński koncern państwowy, największy akcjonariusz; wejście w 2015 r. (26,2%)"
+        }
       ],
       "sources": [
-        {"label": "Decode39 — Pirelli i udział Sinochem", "url": "https://decode39.com/10311/pirelli-confronts-chinese-influence-as-scenarios-emerge-over-sinochem-stake/"},
-        {"label": "Pirelli (Wikipedia, z odnośnikami)", "url": "https://en.wikipedia.org/wiki/Pirelli"}
+        {
+          "label": "Decode39 — Pirelli i udział Sinochem",
+          "url": "https://decode39.com/10311/pirelli-confronts-chinese-influence-as-scenarios-emerge-over-sinochem-stake/"
+        },
+        {
+          "label": "Pirelli (Wikipedia, z odnośnikami)",
+          "url": "https://en.wikipedia.org/wiki/Pirelli"
+        }
       ],
       "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "kamis",
+      "brand": "Kamis",
+      "category": "spożywcze",
+      "producer": "McCormick Polska S.A.",
+      "productionCountry": "PL",
+      "plants": [
+        "Stefanowo k. Warszawy (gm. Lesznowola)"
+      ],
+      "brandOwner": "McCormick & Company",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "==Przyprawy Kamis od 2011 r. należą do amerykańskiego McCormick==, światowego lidera rynku przypraw, który zapłacił za polską firmę ok. 830 mln zł. W 2012 r. Kamis S.A. zmienił nazwę na McCormick Polska.",
+      "story": "Kamis — symbol polskich przypraw — od 2011 r. jest amerykański: kupił go McCormick za ok. 830 mln zł.",
+      "sources": [
+        {
+          "label": "rp.pl — „McCormick przejmuje Kamisa\"",
+          "url": "https://www.rp.pl/finanse/art14420281-mccormick-przejmuje-kamisa"
+        },
+        {
+          "label": "Wiadomości Handlowe — 5 lat po transakcji",
+          "url": "https://www.wiadomoscihandlowe.pl/artykul/amerykanski-mccormick-nie-zaluje-ze-kupil-kamis"
+        },
+        {
+          "label": "Kamis — o nas",
+          "url": "https://www.kamis.pl/o-nas"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "wyborowa",
+      "brand": "Wyborowa",
+      "category": "alkohole",
+      "producer": "Wyborowa S.A. (Poznań)",
+      "productionCountry": "PL",
+      "plants": [
+        "Poznań"
+      ],
+      "brandOwner": "Pernod Ricard",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Legendarna polska wódka ==od 2001 r. należy do francuskiego koncernu Pernod Ricard==. Produkcja pozostała w Poznaniu.",
+      "story": "Wyborowa — ikona polskiej wódki — od ćwierć wieku płaci dywidendę do Paryża (Pernod Ricard).",
+      "sources": [
+        {
+          "label": "Pernod Ricard — marki grupy",
+          "url": "https://www.pernod-ricard.com"
+        },
+        {
+          "label": "Wikipedia — Wyborowa",
+          "url": "https://pl.wikipedia.org/wiki/Wyborowa"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "zoladkowa-stock",
+      "brand": "Żołądkowa Gorzka / Stock",
+      "category": "alkohole",
+      "producer": "Stock Polska sp. z o.o. (Lublin)",
+      "productionCountry": "PL",
+      "plants": [
+        "Lublin"
+      ],
+      "brandOwner": "Stock Spirits Group",
+      "ownerCountry": "GB",
+      "capitalCountry": "LU",
+      "capitalNote": "Żołądkowa Gorzka powstaje w Lublinie, ale grupa Stock Spirits ==od 2021 r. należy do funduszu CVC Capital Partners== — tego samego, który jest głównym akcjonariuszem Żabki i właścicielem herbat Lipton/Saga.",
+      "story": "Żołądkowa Gorzka, Żabka i herbata Saga mają wspólny mianownik: fundusz CVC.",
+      "sources": [
+        {
+          "label": "Stock Spirits Group",
+          "url": "https://www.stockspirits.com"
+        },
+        {
+          "label": "Wikipedia — Stock Polska",
+          "url": "https://pl.wikipedia.org/wiki/Stock_Polska"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "hortex",
+      "brand": "Hortex",
+      "category": "napoje",
+      "producer": "Hortex sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "zakłady w Polsce, m.in. Przysucha"
+      ],
+      "brandOwner": "Grupa Hortex (fundusz Mid Europa Partners)",
+      "ownerCountry": "GB",
+      "capitalCountry": "GB",
+      "capitalNote": "Symbol polskich soków i mrożonek ==od 2018 r. należy do funduszu private equity Mid Europa Partners== (transakcja szacowana na ok. 200 mln €). Wcześniej przez 11 lat właścicielem był londyński fundusz Argan Capital.",
+      "story": "Hortex od lat nie jest „polski\" — to własność kolejnych zagranicznych funduszy: Argan Capital, a od 2018 r. Mid Europa.",
+      "sources": [
+        {
+          "label": "money.pl — Hortex sprzedany po 11 latach",
+          "url": "https://www.money.pl/gospodarka/wiadomosci/artykul/hortex-argan-capital-mid-europa-partners,15,0,2384143.html"
+        },
+        {
+          "label": "Wiadomości Handlowe — Mid Europa kupuje Hortex",
+          "url": "https://www.wiadomoscihandlowe.pl/artykul/byly-wlasciciel-zabki-kupuje-hortex-od-argan-capital"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "solaris",
+      "brand": "Solaris (autobusy)",
+      "category": "motoryzacja",
+      "producer": "Solaris Bus & Coach sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "Bolechowo-Osiedle k. Poznania"
+      ],
+      "brandOwner": "CAF — Construcciones y Auxiliar de Ferrocarriles",
+      "ownerCountry": "ES",
+      "capitalCountry": "ES",
+      "capitalNote": "Duma polskiej motoryzacji: ==od 2018 r. w 100% własność hiszpańskiej grupy CAF==. Założyciele (Solange i Krzysztof Olszewscy) sprzedali firmę za ok. 300 mln €. Produkcja pozostała w Bolechowie.",
+      "story": "Autobusy Solaris wożą pół Europy — ale od 2018 r. zyski jadą do Hiszpanii (CAF).",
+      "sources": [
+        {
+          "label": "Transport Publiczny — CAF kupił 100% akcji",
+          "url": "https://www.transport-publiczny.pl/wiadomosci/solaris-sprzedany-caf-kupil-100-proc-akcji-59535.html"
+        },
+        {
+          "label": "300gospodarka — dlaczego PFR nie odkupił pakietu",
+          "url": "https://300gospodarka.pl/news/dlaczego-polski-fundusz-rozwoju-nie-wykupil-od-hiszpanow-pakietu-akcji-solarisa"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "zelmer",
+      "brand": "Zelmer",
+      "category": "AGD",
+      "producer": "B&B Trends (produkcja zlecana poza Polską)",
+      "productionCountry": "XX",
+      "plants": [
+        "produkcja małego AGD pod marką Zelmer w Rzeszowie zakończona w 2019 r. decyzją BSH; dawne fabryki produkują dziś pod markami Bosch/Siemens"
+      ],
+      "brandOwner": "B&B Trends S.L. (Barcelona)",
+      "ownerCountry": "ES",
+      "capitalCountry": "ES",
+      "capitalNote": "Kultowa rzeszowska marka AGD: w 2013 r. przejęta przez niemieckie BSH (Bosch/Siemens), ==które w 2019 r. zakończyło produkcję pod marką Zelmer==. ==Od 2020 r. prawa do nazwy ma hiszpańska firma B&B Trends== — „Zelmer\" na półce to dziś hiszpańska marka handlowa.",
+      "story": "Zelmer istnieje już tylko jako naklejka: produkcję wygasili Niemcy (BSH), a markę kupili Hiszpanie (B&B Trends).",
+      "sources": [
+        {
+          "label": "Wikipedia — Zelmer (historia i właściciele)",
+          "url": "https://pl.wikipedia.org/wiki/Zelmer"
+        },
+        {
+          "label": "rp.pl — Niemcy sprzedali Zelmera Hiszpanom",
+          "url": "https://www.rp.pl/biznes/art940501-kultowa-marka-zostanie-niemcy-sprzedali-zelmera-hiszpanom"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "debica-opony",
+      "brand": "Dębica (opony)",
+      "category": "motoryzacja",
+      "producer": "Firma Oponiarska Dębica S.A.",
+      "productionCountry": "PL",
+      "plants": [
+        "Dębica (Podkarpacie)"
+      ],
+      "brandOwner": "The Goodyear Tire & Rubber Company",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "stakes": [
+        {
+          "holder": "Goodyear (przez Goodyear Holdings S.à r.l., Luksemburg)",
+          "holderCountry": "US",
+          "pct": "~87,3%",
+          "note": "kontrola od prywatyzacji w 1995 r.; spółka pozostaje notowana na GPW"
+        }
+      ],
+      "capitalNote": "„Polskie\" opony z Dębicy: spółka jest na warszawskiej giełdzie, ale ==ok. 87% akcji kontroluje amerykański Goodyear== (poprzez holding w Luksemburgu) — nieprzerwanie od 1995 r.",
+      "story": "Opony Dębica są z Podkarpacia, ale od 30 lat firma należy do amerykańskiego Goodyeara.",
+      "sources": [
+        {
+          "label": "Dębica S.A. — informacje o spółce (akcjonariat)",
+          "url": "https://www.debica.com.pl/s/informacje_glowne"
+        },
+        {
+          "label": "Wikipedia — Firma Oponiarska Dębica",
+          "url": "https://pl.wikipedia.org/wiki/Firma_Oponiarska_D%C4%99bica"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "kormoran-stomil",
+      "brand": "Kormoran (Stomil Olsztyn)",
+      "category": "motoryzacja",
+      "producer": "Michelin Polska (Olsztyn)",
+      "productionCountry": "PL",
+      "plants": [
+        "Olsztyn — największa fabryka opon w Polsce"
+      ],
+      "brandOwner": "Michelin",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Olsztyński Stomil ==od 1995 r. należy do francuskiego Michelin==. Marka Kormoran — nazwą nawiązująca do Warmii i Mazur — to dziś francuska własność, a olsztyński zakład to jedna z największych fabryk Michelin na świecie.",
+      "story": "Kormoran brzmi mazursko, ale to marka Michelin — Francuzi kupili olsztyński Stomil już w 1995 r.",
+      "sources": [
+        {
+          "label": "WNP — 30 lat temu Michelin kupił Stomil Olsztyn",
+          "url": "https://www.wnp.pl/przemysl/30-lat-temu-michelin-kupil-stomil-olsztyn,935958.html"
+        },
+        {
+          "label": "Michelin Polska",
+          "url": "https://www.michelin.pl"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "okocim",
+      "brand": "Okocim / Harnaś",
+      "category": "piwo",
+      "producer": "Carlsberg Polska (Browar Okocim, Brzesko)",
+      "productionCountry": "PL",
+      "plants": [
+        "Brzesko",
+        "Sierpc",
+        "Szczecin"
+      ],
+      "brandOwner": "Carlsberg Group",
+      "ownerCountry": "DK",
+      "capitalCountry": "DK",
+      "capitalNote": "Browar Okocim w Brzesku ==należy do duńskiego Carlsberga== — podobnie jak marki Harnaś i Kasztelan na polskim rynku.",
+      "story": "Harnaś z reklam to góral, ale właściciel browaru siedzi w Kopenhadze (Carlsberg).",
+      "sources": [
+        {
+          "label": "Carlsberg Polska — nasze browary i marki",
+          "url": "https://www.carlsbergpolska.pl"
+        },
+        {
+          "label": "Carlsberg Group",
+          "url": "https://www.carlsberggroup.com"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "warka",
+      "brand": "Warka / Tatra",
+      "category": "piwo",
+      "producer": "Grupa Żywiec (browar Warka)",
+      "productionCountry": "PL",
+      "plants": [
+        "Warka"
+      ],
+      "brandOwner": "Grupa Żywiec / Heineken",
+      "ownerCountry": "NL",
+      "capitalCountry": "NL",
+      "capitalNote": "Warka i Tatra to marki Grupy Żywiec, ==kontrolowanej przez holenderski Heineken==.",
+      "story": "Warka, Tatra, Żywiec, Specjal — różne etykiety, jeden holenderski właściciel: Heineken.",
+      "sources": [
+        {
+          "label": "Grupa Żywiec — marki",
+          "url": "https://grupazywiec.pl"
+        },
+        {
+          "label": "Heineken N.V.",
+          "url": "https://www.theheinekencompany.com"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "lisner",
+      "brand": "Lisner",
+      "category": "ryby i przetwory",
+      "producer": "Lisner sp. z o.o. (Poznań)",
+      "productionCountry": "PL",
+      "plants": [
+        "Poznań"
+      ],
+      "brandOwner": "Unternehmensgruppe Theo Müller",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Poznańskie śledzie, pasty i sałatki Lisner ==należą do niemieckiej grupy Theo Müller== (tej samej, do której należy nabiałowy Müller) — w ramach europejskiej grupy rybnej wyrosłej z Homann.",
+      "story": "Śledzik Lisnera z Poznania? Owszem — ale zyski płyną do niemieckiej rodziny Müller.",
+      "sources": [
+        {
+          "label": "Lisner — o firmie (struktura grupy)",
+          "url": "https://www.lisner.pl/en/about-us"
+        },
+        {
+          "label": "Wikipedia — Lisner",
+          "url": "https://pl.wikipedia.org/wiki/Lisner"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02",
+      "ingredients": [
+        "ryby-owoce-morza"
+      ]
+    },
+    {
+      "slug": "saga-lipton",
+      "brand": "Saga / Lipton (herbata)",
+      "category": "napoje",
+      "producer": "Lipton Teas and Infusions (fabryka Katowice-Szopienice)",
+      "productionCountry": "PL",
+      "plants": [
+        "Katowice (Szopienice) — jedna z największych fabryk herbaty w Europie"
+      ],
+      "brandOwner": "Lipton Teas and Infusions (fundusz CVC Capital Partners)",
+      "ownerCountry": "NL",
+      "capitalCountry": "LU",
+      "capitalNote": "„Polska\" herbata Saga jest pakowana w Katowicach, ale marka ==należy do Lipton Teas and Infusions — spółki odkupionej od Unilevera przez fundusz CVC za ok. 4,5 mld €== (finalizacja 2022). Ten sam fundusz jest głównym akcjonariuszem Żabki.",
+      "story": "Herbata Saga z Katowic ma tego samego właściciela-fundusza co Żabka: CVC.",
+      "sources": [
+        {
+          "label": "money.pl — właściciel Żabki kupuje herbaty Unilevera",
+          "url": "https://www.money.pl/gospodarka/wlasciciel-zabki-inwestuje-w-biznes-herbaciany-unilever-sprzedaje-marke-lipton-6706567769398016a.html"
+        },
+        {
+          "label": "Wikipedia — Lipton Teas and Infusions",
+          "url": "https://en.wikipedia.org/wiki/Lipton_Teas_and_Infusions"
+        },
+        {
+          "label": "Interia Biznes — Lipton stawia na Polskę (fabryka Katowice)",
+          "url": "https://biznes.interia.pl/gospodarka/news-lipton-stawia-na-polske-jego-inwestycje-ozywia-nie-tylko-nas,nId,7901916"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "vici",
+      "brand": "VICI (paluszki krabowe)",
+      "category": "ryby i przetwory",
+      "producer": "Vičiūnai Group (zakłady grupy na Litwie; polska spółka Vicziunai-Pol w Suwałkach)",
+      "productionCountry": "LT",
+      "plants": [
+        "zakłady grupy na Litwie; spółka dystrybucyjna: Suwałki"
+      ],
+      "brandOwner": "Vičiūnai Group",
+      "ownerCountry": "LT",
+      "capitalCountry": "LT",
+      "capitalNote": "Popularne paluszki krabowe (surimi) VICI to ==litewska grupa Vičiūnai==, jeden z największych producentów surimi w Europie. W Polsce od 2002 r. działa jej spółka w Suwałkach.",
+      "story": "Paluszki krabowe VICI nie mają w sobie kraba — a firma nie jest polska, tylko litewska (Vičiūnai).",
+      "sources": [
+        {
+          "label": "Vičiūnai Group",
+          "url": "https://www.viciunaigroup.eu"
+        },
+        {
+          "label": "VIČI Polska (oficjalny profil)",
+          "url": "https://www.facebook.com/vicipolska/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02",
+      "ingredients": [
+        "ryby-owoce-morza"
+      ]
+    },
+    {
+      "slug": "rossmann",
+      "brand": "Rossmann",
+      "category": "drogerie",
+      "producer": "Rossmann SDP sp. z o.o. (centrala: Łódź) — sieć drogerii",
+      "productionCountry": "PL",
+      "plants": [
+        "ok. 2000 drogerii w Polsce; centrala Łódź"
+      ],
+      "brandOwner": "Dirk Rossmann GmbH",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "stakes": [
+        {
+          "holder": "Rodzina Rossmann (Dirk Rossmann GmbH)",
+          "holderCountry": "DE",
+          "pct": "60%",
+          "note": "większość udziałów niemieckiej grupy; firmą kieruje syn założyciela"
+        },
+        {
+          "holder": "A.S. Watson Group (CK Hutchison)",
+          "holderCountry": "HK",
+          "pct": "40%",
+          "note": "koncern z Hongkongu, udziały od 2004 r.; wg rp.pl w polskiej spółce Rossmann DE i A.S. Watson mają po połowie"
+        }
+      ],
+      "capitalNote": "„Niemiecka\" drogeria tylko w części: ==40% grupy Rossmann należy do A.S. Watson z Hongkongu== (imperium CK Hutchison), a w polskiej spółce — według prasy — udziały rozkładają się po połowie.",
+      "story": "Robisz zakupy w „niemieckim\" Rossmannie? Sporo z tego zysku płynie do Hongkongu (A.S. Watson / CK Hutchison).",
+      "sources": [
+        {
+          "label": "Wiadomości Kosmetyczne — właściciele Rossmanna na liście detalistów",
+          "url": "https://www.wiadomoscikosmetyczne.pl/dystrybucja-kosmetykow/sieci-handlowe/wlasciciele-rossmanna-i-hebe-oraz-sephora-na-liscie-najwiekszych-swiatowych-detalistow-2446762"
+        },
+        {
+          "label": "rp.pl — wywiad z Dirkiem Rossmannem (struktura udziałów)",
+          "url": "https://www.rp.pl/biznes/art6918381-ryzykowalem-wchodzac-do-polski"
+        },
+        {
+          "label": "Wikipedia — Rossmann",
+          "url": "https://en.wikipedia.org/wiki/Rossmann_(company)"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "hoop-cola",
+      "brand": "Hoop Cola",
+      "category": "napoje",
+      "producer": "Hoop Polska (grupa Ustronianka; zakład Kutno)",
+      "productionCountry": "PL",
+      "plants": [
+        "Kutno"
+      ],
+      "brandOwner": "ZMB Capital (właściciel Ustronianki)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Kierunek odwrotny niż zwykle: Hoop Cola przez dekadę należała do czeskiej Kofoli, ale ==w 2019 r. wróciła w polskie ręce== — przejęła ją grupa właściciela Ustronianki (ZMB Capital).",
+      "story": "Hoop Cola to dowód, że bywa i odwrotnie: od Czechów (Kofola) z powrotem do polskiej firmy (2019).",
+      "sources": [
+        {
+          "label": "money.pl — markę przejmuje właściciel Ustronianki",
+          "url": "https://www.money.pl/gospodarka/hoop-polska-sprzedany-marke-przejmuje-wlasciciel-ustronianki-6345920283613313a.html"
+        },
+        {
+          "label": "Wirtualne Media — Ustronianka kupuje Hoop Polska od Kofoli",
+          "url": "https://www.wirtualnemedia.pl/ustronianka-kupuje-hoop-polska-od-kofoli-wartosc-transakcji,7171159910152321a"
+        },
+        {
+          "label": "Wikipedia — Hoop Polska",
+          "url": "https://pl.wikipedia.org/wiki/Hoop_Polska"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "netto",
+      "brand": "Netto",
+      "category": "sieci handlowe",
+      "producer": "— (sieć dyskontów; marki własne od dostawców, w dużej mierze z Polski)",
+      "productionCountry": "PL",
+      "plants": [
+        "kilkaset sklepów w Polsce (przejęły m.in. dawne Tesco)"
+      ],
+      "brandOwner": "Salling Group",
+      "ownerCountry": "DK",
+      "capitalCountry": "DK",
+      "capitalNote": "Netto ==należy do duńskiej Salling Group==, kontrolowanej przez fundacje rodziny Salling. W 2021 r. Netto przejęło polskie sklepy Tesco.",
+      "story": "Po zakupach w Netto zysk jedzie do Danii — sieć należy do Salling Group, właściciela także duńskich domów towarowych.",
+      "sources": [
+        {
+          "label": "Salling Group — o grupie",
+          "url": "https://sallinggroup.com"
+        },
+        {
+          "label": "Netto Polska",
+          "url": "https://www.netto.pl"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "kaufland",
+      "brand": "Kaufland",
+      "category": "sieci handlowe",
+      "producer": "— (sieć hipermarketów; marki własne od dostawców)",
+      "productionCountry": "PL",
+      "plants": [
+        "ponad 230 marketów w Polsce"
+      ],
+      "brandOwner": "Grupa Schwarz (Schwarz Gruppe)",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Kaufland i Lidl mają ==tego samego niemieckiego właściciela — Grupę Schwarz==, największą grupę handlu detalicznego w Europie.",
+      "story": "Lidl i Kaufland to nie konkurenci, tylko rodzeństwo — obie sieci należą do niemieckiej Grupy Schwarz.",
+      "sources": [
+        {
+          "label": "Gruppe Schwarz — struktura grupy",
+          "url": "https://gruppe.schwarz"
+        },
+        {
+          "label": "Kaufland Polska",
+          "url": "https://www.kaufland.pl"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "danone",
+      "brand": "Danone / Danio / Activia",
+      "category": "nabiał",
+      "producer": "Danone Polska (zakład Bieruń)",
+      "productionCountry": "PL",
+      "plants": [
+        "Bieruń (Śląsk)"
+      ],
+      "brandOwner": "Danone S.A.",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Serki Danio i jogurty Activia powstają na Śląsku, ale marki ==należą do francuskiego koncernu Danone==.",
+      "story": "Danio brzmi swojsko i jest z Bierunia — ale to marka francuskiego Danone.",
+      "sources": [
+        {
+          "label": "Danone Polska",
+          "url": "https://www.danone.pl"
+        },
+        {
+          "label": "Danone — globalna strona grupy",
+          "url": "https://www.danone.com"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "algida",
+      "brand": "Algida",
+      "category": "lody",
+      "producer": "fabryka lodów w Baninie k. Gdańska",
+      "productionCountry": "PL",
+      "plants": [
+        "Banino k. Gdańska"
+      ],
+      "brandOwner": "The Magnum Ice Cream Company (do 2025 r. dział lodów Unilevera)",
+      "ownerCountry": "NL",
+      "capitalCountry": "NL",
+      "capitalNote": "Lody Algida z Banina przez lata były marką koncernu Unilever; ==w 2025 r. dział lodów wydzielono jako osobną spółkę The Magnum Ice Cream Company== z siedzibą w Amsterdamie.",
+      "story": "Algida brzmi włosko, produkuje pod Gdańskiem, a należy do wydzielonego z Unilevera lodowego giganta z Amsterdamu.",
+      "sources": [
+        {
+          "label": "Unilever — wydzielenie działu lodów",
+          "url": "https://www.unilever.com"
+        },
+        {
+          "label": "Wikipedia — The Magnum Ice Cream Company",
+          "url": "https://en.wikipedia.org/wiki/The_Magnum_Ice_Cream_Company"
+        }
+      ],
+      "confidence": "do-weryfikacji",
       "updated": "2026-07-02"
     }
   ]

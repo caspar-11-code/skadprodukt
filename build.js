@@ -31,17 +31,21 @@ const COUNTRIES = {
   ES: { pl: 'Hiszpania', en: 'Spain' }, NO: { pl: 'Norwegia', en: 'Norway' }, CZ: { pl: 'Czechy', en: 'Czechia' },
   EG: { pl: 'Egipt', en: 'Egypt' }, CO: { pl: 'Kolumbia', en: 'Colombia' }, PE: { pl: 'Peru', en: 'Peru' },
   EC: { pl: 'Ekwador', en: 'Ecuador' }, SK: { pl: 'Słowacja', en: 'Slovakia' }, KW: { pl: 'Kuwejt', en: 'Kuwait' },
+  HK: { pl: 'Hongkong', en: 'Hong Kong' }, XX: { pl: 'różne kraje', en: 'various countries' },
   EU: { pl: 'Unia Europejska (różne)', en: 'European Union (various)' },
 };
 
 function flag(cc) {
   if (!cc || cc === 'EU') return '🇪🇺';
+  if (cc === 'XX') return '🌐';
   return String.fromCodePoint(...[...cc.toUpperCase()].map(c => 0x1f1a5 + c.charCodeAt(0)));
 }
 function countryName(cc, lang = 'pl') { return (COUNTRIES[cc] && COUNTRIES[cc][lang]) || cc; }
 function esc(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
+// ==tekst== → czerwone wyróżnienie kluczowej informacji
+function fmt(s) { return esc(s).replace(/==([^=]+)==/g, '<mark>$1</mark>'); }
 
 // ---------- dane ----------
 const brandDb = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
@@ -137,7 +141,10 @@ function ingredientCard(ing) {
   <div class="card-head"><h3>${ing.emoji ? ing.emoji + ' ' : ''}${esc(ing.name)}</h3></div>
   <div class="ing-origins">${origins}</div>
   <p class="card-owner">${esc((ing.usedIn || []).slice(0, 3).join(', '))}</p>
-  ${ing.issues && ing.issues.length ? `<span class="badge-issue">${ing.issues.length} <span data-i18n="card.issues">zagadnień</span></span>` : ''}
+  <div class="card-badges">
+    ${ing.paradox ? '<span class="badge-paradox" data-i18n="card.paradox">paradoks półki</span>' : ''}
+    ${ing.issues && ing.issues.length ? `<span class="badge-issue">${ing.issues.length} <span data-i18n="card.issues">zagadnień</span></span>` : ''}
+  </div>
 </a>`;
 }
 
@@ -186,7 +193,7 @@ function productPage(p) {
   <h2 data-i18n="product.stakes">Powiązania kapitałowe</h2>
   <p class="muted" data-i18n="product.stakesLead">Kto realnie ma udziały — wbrew „narodowym" etykietkom.</p>
   <table class="facts stakes-table">
-    ${p.stakes.map(s => `<tr><th>${esc(s.holder)} ${flag(s.holderCountry)}</th><td>${s.pct ? `<strong>${esc(s.pct)}</strong> — ` : ''}${esc(s.note)}</td></tr>`).join('\n    ')}
+    ${p.stakes.map(s => `<tr><th>${esc(s.holder)} ${flag(s.holderCountry)}</th><td>${s.pct ? `<strong>${esc(s.pct)}</strong> — ` : ''}${fmt(s.note)}</td></tr>`).join('\n    ')}
   </table>` : '';
   const ingBlock = (p.ingredients && p.ingredients.length) ? `
   <h2 data-i18n="product.ingredients">Kluczowe składniki</h2>
@@ -195,7 +202,7 @@ function productPage(p) {
 <article class="product">
   <p class="crumbs"><a href="/marki/">← <span data-i18n="nav.backBrands">wszystkie marki</span></a></p>
   <h1>${esc(p.brand)} <span class="flags-inline">${flag(p.productionCountry)}→${flag(p.capitalCountry)}</span></h1>
-  <p class="lead">${esc(p.capitalNote)}</p>
+  <p class="lead">${fmt(p.capitalNote)}</p>
   ${p.confidence === 'do-weryfikacji' ? '<p class="verify-banner" data-i18n="product.verify">⚠ Rekord oznaczony jako „do weryfikacji" — potwierdź dane w źródłach przed cytowaniem.</p>' : ''}
   <div class="chain">
     <div class="chain-step"><small data-i18n="chain.brand">marka</small><strong>${esc(p.brand)}</strong></div>
@@ -223,7 +230,7 @@ function productPage(p) {
 </article>`;
   return page({
     title: `${p.brand} — skąd pochodzi, czyja to marka? | ${SITE_NAME}`,
-    desc: `${p.brand}: produkcja ${countryName(p.productionCountry)}, właściciel ${p.brandOwner}, kapitał ${countryName(p.capitalCountry)}. ${p.capitalNote}`,
+    desc: `${p.brand}: produkcja ${countryName(p.productionCountry)}, właściciel ${p.brandOwner}, kapitał ${countryName(p.capitalCountry)}. ${p.capitalNote.replace(/==/g, '')}`,
     urlPath: `/p/${p.slug}/`,
     body,
   });
@@ -236,15 +243,22 @@ function ingredientPage(ing) {
   const originList = (ing.originCountries || []).map(o =>
     `<li><span class="occ">${flag(o.cc)} ${esc(countryName(o.cc))}</span>${o.share ? ` <span class="oshare">${esc(o.share)}</span>` : ''}<span class="onote">${esc(o.note)}</span></li>`).join('\n    ');
   const statsList = (ing.stats || []).map(s =>
-    `<li class="factline"><span class="factext">${esc(s.text)}</span><span class="factsrc"><a href="${esc(s.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(s.sourceLabel)}</a>${s.sourceDate ? ` (${esc(s.sourceDate)})` : ''}</span></li>`).join('\n    ');
+    `<li class="factline"><span class="factext">${fmt(s.text)}</span><span class="factsrc"><a href="${esc(s.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(s.sourceLabel)}</a>${s.sourceDate ? ` (${esc(s.sourceDate)})` : ''}</span></li>`).join('\n    ');
   const issuesList = (ing.issues || []).map(i =>
-    `<div class="issue"><h3>${esc(i.title)}</h3><p>${esc(i.text)}</p><p class="issue-src"><span data-i18n="ing.source">źródło:</span> <a href="${esc(i.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(i.sourceLabel)}</a>${i.sourceDate ? ` (${esc(i.sourceDate)})` : ''}</p></div>`).join('\n    ');
+    `<div class="issue"><h3>${esc(i.title)}</h3><p>${fmt(i.text)}</p><p class="issue-src"><span data-i18n="ing.source">źródło:</span> <a href="${esc(i.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(i.sourceLabel)}</a>${i.sourceDate ? ` (${esc(i.sourceDate)})` : ''}</p></div>`).join('\n    ');
+  const paradoxBlock = ing.paradox ? `
+  <aside class="paradox">
+    <span class="paradox-tag" data-i18n="ing.paradox">PARADOKS PÓŁKI</span>
+    <p>${fmt(ing.paradox.text)}</p>
+    ${ing.paradox.sourceUrl ? `<p class="issue-src"><span data-i18n="ing.source">źródło:</span> <a href="${esc(ing.paradox.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(ing.paradox.sourceLabel)}</a>${ing.paradox.sourceDate ? ` (${esc(ing.paradox.sourceDate)})` : ''}</p>` : ''}
+  </aside>` : '';
   const body = `
 <article class="ingredient">
   <p class="crumbs"><a href="/skladniki/">← <span data-i18n="nav.backIng">wszystkie składniki</span></a></p>
   <h1>${ing.emoji ? ing.emoji + ' ' : ''}${esc(ing.name)}</h1>
-  <p class="lead">${esc(ing.plRelevance)}</p>
+  <p class="lead">${fmt(ing.plRelevance)}</p>
   ${ing.usedIn && ing.usedIn.length ? `<p class="muted"><span data-i18n="ing.usedIn">Spotkasz w:</span> ${esc(ing.usedIn.join(', '))}</p>` : ''}
+  ${paradoxBlock}
 
   <h2 data-i18n="ing.map">Skąd pochodzi na świecie</h2>
   <div class="map-wrap">
@@ -272,7 +286,7 @@ function ingredientPage(ing) {
 </article>`;
   return page({
     title: `${ing.name} — skąd pochodzi? Mapa, fakty, źródła | ${SITE_NAME}`,
-    desc: `${ing.name}: kraje pochodzenia, dane o produkcji i imporcie, udokumentowane problemy (praca, legalność, fałszowanie) i to, czego nie widać na etykiecie. ${ing.plRelevance}`.slice(0, 300),
+    desc: `${ing.name}: kraje pochodzenia, dane o produkcji i imporcie, udokumentowane problemy (praca, legalność, fałszowanie) i to, czego nie widać na etykiecie. ${ing.plRelevance.replace(/==/g, '')}`.slice(0, 300),
     urlPath: `/skladnik/${ing.slug}/`,
     body,
   });
@@ -417,6 +431,16 @@ function statsPage() {
 </div>
 <p class="lead" data-i18n="stats.gap">Ta różnica to sedno serwisu: „wyprodukowano w Polsce" nie znaczy „polska firma".</p>
 <div class="bars">${barsHtml(true)}</div>
+${ingredients.some(i => i.paradox) ? `
+<h2 data-i18n="stats.paradoxTitle">Paradoksy półki sklepowej</h2>
+<p class="lead" data-i18n="stats.paradoxLead">Sytuacje, w których rynek przeczy zdrowemu rozsądkowi — udokumentowane, ze źródłami.</p>
+<div class="issues">
+${ingredients.filter(i => i.paradox).map(i => `  <aside class="paradox">
+    <span class="paradox-tag">${i.emoji || ''} ${esc(i.name)}</span>
+    <p>${fmt(i.paradox.text)}</p>
+    <p class="issue-src"><a href="/skladnik/${i.slug}/" data-i18n="stats.paradoxMore">pełne dane i źródła →</a></p>
+  </aside>`).join('\n')}
+</div>` : ''}
 <p class="disclaimer" data-i18n="stats.disclaimer">Statystyki dotyczą wyłącznie marek obecnych w bazie — nie są reprezentatywne dla całego rynku. Baza rośnie z każdą aktualizacją.</p>`;
   return page({
     title: `Statystyki pochodzenia kapitału | ${SITE_NAME}`,
@@ -551,7 +575,10 @@ write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `<url><loc>${SITE_URL}${u}</loc><lastmod>${BUILD_DATE}</lastmod></url>`).join('\n')}
 </urlset>`);
-write('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`);
+write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: ${SITE_URL}/sitemap.xml\n`);
+
+// www → apex (Cloudflare Pages _redirects; www musi być dodane jako custom domain projektu)
+write('_redirects', `https://www.skadprodukt.org/* ${SITE_URL}/:splat 301\n`);
 
 // Twarde nagłówki bezpieczeństwa (standard jak w candle/hub + backend formularza)
 write('_headers', `/*

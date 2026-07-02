@@ -7,21 +7,61 @@
       "emoji": "🌾",
       "category": "składnik",
       "originCountries": [
-        { "cc": "UA", "note": "Duży eksporter na rynek UE; po 2022 r. skokowy wzrost przywozu do Polski." },
-        { "cc": "PL", "note": "Główny surowiec krajowy do mąki, pieczywa i makaronów." },
-        { "cc": "RU", "note": "Jeden z największych światowych eksporterów pszenicy." }
+        {
+          "cc": "UA",
+          "note": "Duży eksporter na rynek UE; po 2022 r. skokowy wzrost przywozu do Polski."
+        },
+        {
+          "cc": "PL",
+          "note": "Główny surowiec krajowy do mąki, pieczywa i makaronów."
+        },
+        {
+          "cc": "RU",
+          "note": "Jeden z największych światowych eksporterów pszenicy."
+        }
       ],
       "stats": [
-        { "text": "Od stycznia 2022 do kwietnia 2023 r. 541 podmiotów sprowadziło do Polski łącznie 4,3 mln ton zbóż i roślin oleistych z Ukrainy o wartości 6,2 mld zł; większość zamiast trafić tranzytem do krajów z niedoborem, została w Polsce.", "sourceLabel": "NIK — kontrola importu i obrotu zbożem z Ukrainy", "sourceUrl": "https://www.nik.gov.pl/aktualnosci/import-zboza-z-ukrainy.html", "sourceDate": "2023" },
-        { "text": "Import zbóż zgłoszonych jako „techniczne\" wyniósł w tym okresie ok. 103 tys. ton (nieco ponad 3% przywozu zbóż z Ukrainy).", "sourceLabel": "NIK — raport (PDF)", "sourceUrl": "https://www.nik.gov.pl/plik/id,28613,vp,31443.pdf", "sourceDate": "2023" }
+        {
+          "text": "Od stycznia 2022 do kwietnia 2023 r. 541 podmiotów sprowadziło do Polski łącznie 4,3 mln ton zbóż i roślin oleistych z Ukrainy o wartości 6,2 mld zł; większość zamiast trafić tranzytem do krajów z niedoborem, została w Polsce.",
+          "sourceLabel": "NIK — kontrola importu i obrotu zbożem z Ukrainy",
+          "sourceUrl": "https://www.nik.gov.pl/aktualnosci/import-zboza-z-ukrainy.html",
+          "sourceDate": "2023"
+        },
+        {
+          "text": "Import zbóż zgłoszonych jako „techniczne\" wyniósł w tym okresie ok. 103 tys. ton (nieco ponad 3% przywozu zbóż z Ukrainy).",
+          "sourceLabel": "NIK — raport (PDF)",
+          "sourceUrl": "https://www.nik.gov.pl/plik/id,28613,vp,31443.pdf",
+          "sourceDate": "2023"
+        }
       ],
       "issues": [
-        { "title": "„Zboże techniczne\" a brak kontroli jakości", "text": "Wg NIK zadeklarowanie zboża jako „technicznego\" skutkowało odstąpieniem organów od granicznej kontroli jakości tego towaru — mimo że urzędy dysponowały analizami ryzyka zmiany przeznaczenia. Ministerstwo Rolnictwa określa „zboże techniczne\" jako najsłabszy sort lub odpad zbożowy, nieprzeznaczony do siewu, żywności ani pasz.", "sourceLabel": "NIK — ustalenia kontroli", "sourceUrl": "https://www.nik.gov.pl/aktualnosci/import-zboza-z-ukrainy.html", "sourceDate": "2023" },
-        { "title": "Mąka nie ma kraju pochodzenia na etykiecie", "text": "Dla przetworów zbożowych (mąka, pieczywo, makaron) nie ma obowiązku podawania kraju pochodzenia ziarna — konsument nie ma jak sprawdzić, skąd pochodzi surowiec w bochenku." }
+        {
+          "title": "„Zboże techniczne\" a brak kontroli jakości",
+          "text": "Wg NIK zadeklarowanie zboża jako „technicznego\" skutkowało odstąpieniem organów od granicznej kontroli jakości tego towaru — mimo że urzędy dysponowały analizami ryzyka zmiany przeznaczenia. Ministerstwo Rolnictwa określa „zboże techniczne\" jako najsłabszy sort lub odpad zbożowy, nieprzeznaczony do siewu, żywności ani pasz.",
+          "sourceLabel": "NIK — ustalenia kontroli",
+          "sourceUrl": "https://www.nik.gov.pl/aktualnosci/import-zboza-z-ukrainy.html",
+          "sourceDate": "2023"
+        },
+        {
+          "title": "Mąka nie ma kraju pochodzenia na etykiecie",
+          "text": "Dla przetworów zbożowych (mąka, pieczywo, makaron) nie ma obowiązku podawania kraju pochodzenia ziarna — konsument nie ma jak sprawdzić, skąd pochodzi surowiec w bochenku."
+        }
       ],
       "plRelevance": "Pieczywo, makarony i mąka to codzienna podstawa koszyka. Po 2022 r. przez polski rynek przepłynęły miliony ton zboża z Ukrainy, a kontrola części tego strumienia — zwłaszcza zgłaszanego jako „techniczne\" — budziła zastrzeżenia najwyższego organu kontroli państwa.",
-      "usedIn": ["pieczywo", "makarony", "mąka", "kasze", "pasze"],
-      "updated": "2026-07-02"
+      "usedIn": [
+        "pieczywo",
+        "makarony",
+        "mąka",
+        "kasze",
+        "pasze"
+      ],
+      "updated": "2026-07-02",
+      "paradox": {
+        "text": "Polska jest jednym z największych producentów zbóż w UE — a mimo to w latach 2022–2023 ==sprowadzono z Ukrainy 4,3 mln ton zbóż i roślin oleistych==, z których większość, zamiast pojechać tranzytem dalej, została w kraju i wpłynęła na ceny skupu dla polskich rolników.",
+        "sourceLabel": "NIK — kontrola importu zboża z Ukrainy",
+        "sourceUrl": "https://www.nik.gov.pl/aktualnosci/import-zboza-z-ukrainy.html",
+        "sourceDate": "2023"
+      }
     },
     {
       "slug": "kakao",
@@ -29,20 +69,59 @@
       "emoji": "🍫",
       "category": "składnik",
       "originCountries": [
-        { "cc": "CI", "share": "~ największy producent", "note": "Wybrzeże Kości Słoniowej to czołowy producent ziarna kakaowego na świecie." },
-        { "cc": "GH", "note": "Ghana — drugi kluczowy kraj pochodzenia zachodnioafrykańskiego kakao." },
-        { "cc": "EC", "note": "Ekwador — rosnący producent kakao wysokiej jakości." }
+        {
+          "cc": "CI",
+          "share": "~ największy producent",
+          "note": "Wybrzeże Kości Słoniowej to czołowy producent ziarna kakaowego na świecie."
+        },
+        {
+          "cc": "GH",
+          "note": "Ghana — drugi kluczowy kraj pochodzenia zachodnioafrykańskiego kakao."
+        },
+        {
+          "cc": "EC",
+          "note": "Ekwador — rosnący producent kakao wysokiej jakości."
+        }
       ],
       "stats": [
-        { "text": "Badanie NORC (Uniwersytet Chicago) oszacowało, że w sezonie 2018/19 przy uprawie kakao w Wybrzeżu Kości Słoniowej i Ghanie pracowało ok. 1,56 mln dzieci (ok. 790 tys. w WKS i 770 tys. w Ghanie); ok. 95% z nich w pracy zaliczanej do niebezpiecznej.", "sourceLabel": "NORC at the University of Chicago — raport o pracy dzieci w uprawie kakao", "sourceUrl": "https://www.norc.org/research/projects/assessing-child-labor-in-west-africa-cocoa-farming.html", "sourceDate": "2020" }
+        {
+          "text": "Badanie NORC (Uniwersytet Chicago) oszacowało, że w sezonie 2018/19 przy uprawie kakao w Wybrzeżu Kości Słoniowej i Ghanie pracowało ok. 1,56 mln dzieci (ok. 790 tys. w WKS i 770 tys. w Ghanie); ok. 95% z nich w pracy zaliczanej do niebezpiecznej.",
+          "sourceLabel": "NORC at the University of Chicago — raport o pracy dzieci w uprawie kakao",
+          "sourceUrl": "https://www.norc.org/research/projects/assessing-child-labor-in-west-africa-cocoa-farming.html",
+          "sourceDate": "2020"
+        }
       ],
       "issues": [
-        { "title": "Praca dzieci", "text": "Wg raportu NORC odsetek dzieci w niebezpiecznej pracy przy kakao w regionach uprawy WKS i Ghany wzrósł o 13 punktów procentowych w ciągu dekady, w okresie 62-procentowego wzrostu produkcji kakao w obu krajach.", "sourceLabel": "NORC — ustalenia raportu", "sourceUrl": "https://www.norc.org/research/projects/assessing-child-labor-in-west-africa-cocoa-farming.html", "sourceDate": "2020" },
-        { "title": "Uprawy w chronionych lasach", "text": "Wg raportu organizacji Mighty Earth „Chocolate's Dark Secret\" znaczące ilości kakao pochodziły z nielegalnych upraw wewnątrz obszarów chronionych i parków narodowych Wybrzeża Kości Słoniowej, co napędzało wylesianie.", "sourceLabel": "Mighty Earth — „Chocolate's Dark Secret\"", "sourceUrl": "https://www.mightyearth.org/", "sourceDate": "2017" },
-        { "title": "„Szwajcarska\" czekolada z afrykańskiego ziarna", "text": "Renoma czekolady bywa kojarzona ze Szwajcarią czy Belgią, ale ziarno kakaowe niemal w całości pochodzi z Afryki Zachodniej i Ameryki Płd. — kraj marki to nie kraj pochodzenia surowca. Unijne rozporządzenie EUDR ma od 2020 r. wymagać, by kakao nie pochodziło z terenów wylesionych.", "sourceLabel": "Komisja Europejska — rozporządzenie EUDR", "sourceUrl": "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en", "sourceDate": "2023" }
+        {
+          "title": "Praca dzieci",
+          "text": "Wg raportu NORC odsetek dzieci w niebezpiecznej pracy przy kakao w regionach uprawy WKS i Ghany wzrósł o 13 punktów procentowych w ciągu dekady, w okresie 62-procentowego wzrostu produkcji kakao w obu krajach.",
+          "sourceLabel": "NORC — ustalenia raportu",
+          "sourceUrl": "https://www.norc.org/research/projects/assessing-child-labor-in-west-africa-cocoa-farming.html",
+          "sourceDate": "2020"
+        },
+        {
+          "title": "Uprawy w chronionych lasach",
+          "text": "Wg raportu organizacji Mighty Earth „Chocolate's Dark Secret\" znaczące ilości kakao pochodziły z nielegalnych upraw wewnątrz obszarów chronionych i parków narodowych Wybrzeża Kości Słoniowej, co napędzało wylesianie.",
+          "sourceLabel": "Mighty Earth — „Chocolate's Dark Secret\"",
+          "sourceUrl": "https://www.mightyearth.org/",
+          "sourceDate": "2017"
+        },
+        {
+          "title": "„Szwajcarska\" czekolada z afrykańskiego ziarna",
+          "text": "Renoma czekolady bywa kojarzona ze Szwajcarią czy Belgią, ale ziarno kakaowe niemal w całości pochodzi z Afryki Zachodniej i Ameryki Płd. — kraj marki to nie kraj pochodzenia surowca. Unijne rozporządzenie EUDR ma od 2020 r. wymagać, by kakao nie pochodziło z terenów wylesionych.",
+          "sourceLabel": "Komisja Europejska — rozporządzenie EUDR",
+          "sourceUrl": "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en",
+          "sourceDate": "2023"
+        }
       ],
       "plRelevance": "Czekolady, batony, wafle i kremy czekoladowe z polskich półek opierają się na kakao z Afryki Zachodniej. Za tabliczką „made in Poland/Switzerland\" stoi łańcuch, w którym udokumentowano pracę dzieci i wylesianie.",
-      "usedIn": ["czekolada", "batony", "wafle", "kremy czekoladowe", "kakao do picia"],
+      "usedIn": [
+        "czekolada",
+        "batony",
+        "wafle",
+        "kremy czekoladowe",
+        "kakao do picia"
+      ],
       "updated": "2026-07-02"
     },
     {
@@ -51,18 +130,46 @@
       "emoji": "🌴",
       "category": "składnik",
       "originCountries": [
-        { "cc": "ID", "share": "~54% eksportu", "note": "Indonezja — największy producent i eksporter oleju palmowego na świecie." },
-        { "cc": "MY", "note": "Malezja — drugi największy producent; razem z Indonezją ok. 85% światowej produkcji." }
+        {
+          "cc": "ID",
+          "share": "~54% eksportu",
+          "note": "Indonezja — największy producent i eksporter oleju palmowego na świecie."
+        },
+        {
+          "cc": "MY",
+          "note": "Malezja — drugi największy producent; razem z Indonezją ok. 85% światowej produkcji."
+        }
       ],
       "stats": [
-        { "text": "Indonezja i Malezja odpowiadają za ok. 85% światowej produkcji oleju palmowego; sama Indonezja wyprodukowała ok. 47 mln ton oleju palmowego w 2023 r.", "sourceLabel": "SEI / Trase — eksport oleju palmowego a wylesianie", "sourceUrl": "https://www.sei.org/features/indonesian-palm-oil-exports-and-deforestation/", "sourceDate": "2023" }
+        {
+          "text": "Indonezja i Malezja odpowiadają za ok. 85% światowej produkcji oleju palmowego; sama Indonezja wyprodukowała ok. 47 mln ton oleju palmowego w 2023 r.",
+          "sourceLabel": "SEI / Trase — eksport oleju palmowego a wylesianie",
+          "sourceUrl": "https://www.sei.org/features/indonesian-palm-oil-exports-and-deforestation/",
+          "sourceDate": "2023"
+        }
       ],
       "issues": [
-        { "title": "Nielegalne plantacje w lasach", "text": "Wg analiz cytowanych przez Mongabay nielegalne plantacje palmy olejowej zajmowały w Indonezji ok. 3,37 mln ha terenów leśnych (obszar większy niż Belgia) i odpowiadały za istotną część produkcji.", "sourceLabel": "Mongabay — powrót wylesiania pod palmę w Indonezji", "sourceUrl": "https://news.mongabay.com/2024/02/palm-oil-deforestation-makes-comeback-in-indonesia-after-decade-long-slump/", "sourceDate": "2024" },
-        { "title": "Ukryte pod nazwą „tłuszcz roślinny\"", "text": "Olej palmowy bywa wskazany w składzie jako „olej roślinny\" lub „tłuszcz roślinny (palmowy)\" — łatwo go przeoczyć, choć jest w ogromnej części słodyczy, margaryn, chipsów i wyrobów cukierniczych na polskich półkach." }
+        {
+          "title": "Nielegalne plantacje w lasach",
+          "text": "Wg analiz cytowanych przez Mongabay nielegalne plantacje palmy olejowej zajmowały w Indonezji ok. 3,37 mln ha terenów leśnych (obszar większy niż Belgia) i odpowiadały za istotną część produkcji.",
+          "sourceLabel": "Mongabay — powrót wylesiania pod palmę w Indonezji",
+          "sourceUrl": "https://news.mongabay.com/2024/02/palm-oil-deforestation-makes-comeback-in-indonesia-after-decade-long-slump/",
+          "sourceDate": "2024"
+        },
+        {
+          "title": "Ukryte pod nazwą „tłuszcz roślinny\"",
+          "text": "Olej palmowy bywa wskazany w składzie jako „olej roślinny\" lub „tłuszcz roślinny (palmowy)\" — łatwo go przeoczyć, choć jest w ogromnej części słodyczy, margaryn, chipsów i wyrobów cukierniczych na polskich półkach."
+        }
       ],
       "plRelevance": "Olej palmowy jest w setkach produktów w polskich sklepach — od kremów i batonów po margaryny i dania gotowe. Jego pochodzenie (Azja Płd.-Wsch.) i związane z nim wylesianie są niewidoczne na froncie opakowania.",
-      "usedIn": ["słodycze", "kremy czekoladowe", "margaryny", "chipsy", "dania gotowe", "kosmetyki"],
+      "usedIn": [
+        "słodycze",
+        "kremy czekoladowe",
+        "margaryny",
+        "chipsy",
+        "dania gotowe",
+        "kosmetyki"
+      ],
       "updated": "2026-07-02"
     },
     {
@@ -71,18 +178,44 @@
       "emoji": "🌰",
       "category": "składnik",
       "originCountries": [
-        { "cc": "TR", "share": "~70% świat. produkcji", "note": "Turcja dostarcza ok. 70% światowej podaży orzechów laskowych, głównie z regionu czarnomorskiego." },
-        { "cc": "IT", "note": "Włochy — drugi znaczący producent, kojarzony z przemysłem cukierniczym." }
+        {
+          "cc": "TR",
+          "share": "~70% świat. produkcji",
+          "note": "Turcja dostarcza ok. 70% światowej podaży orzechów laskowych, głównie z regionu czarnomorskiego."
+        },
+        {
+          "cc": "IT",
+          "note": "Włochy — drugi znaczący producent, kojarzony z przemysłem cukierniczym."
+        }
       ],
       "stats": [
-        { "text": "Turcja dostarcza ok. 70% światowej podaży orzechów laskowych, w dużej części dla przemysłu cukierniczego (m.in. Nestlé, Ferrero, Godiva).", "sourceLabel": "Global Citizen (za Fair Labor Association)", "sourceUrl": "https://www.globalcitizen.org/en/content/hazelnut-syrian-refugees-turkey-exploit/", "sourceDate": "2019" }
+        {
+          "text": "Turcja dostarcza ok. 70% światowej podaży orzechów laskowych, w dużej części dla przemysłu cukierniczego (m.in. Nestlé, Ferrero, Godiva).",
+          "sourceLabel": "Global Citizen (za Fair Labor Association)",
+          "sourceUrl": "https://www.globalcitizen.org/en/content/hazelnut-syrian-refugees-turkey-exploit/",
+          "sourceDate": "2019"
+        }
       ],
       "issues": [
-        { "title": "Praca dzieci i syryjskich uchodźców", "text": "Wg doniesień opartych na monitoringu Fair Labor Association tureckie plantacje orzechów laskowych są dotknięte pracą dzieci, kradzieżą wynagrodzeń i niebezpiecznymi warunkami; problem nasilił napływ syryjskich uchodźców. FLA podaje, że przez lata monitoringu nie znalazła plantacji spełniającej wszystkie standardy godnej pracy.", "sourceLabel": "Business & Human Rights Resource Centre", "sourceUrl": "https://www.business-humanrights.org/en/latest-news/turkey-hazelnuts-in-ferrero-rocher-supply-chain-linked-to-child-labour-includes-company-comments/", "sourceDate": "2019" },
-        { "title": "Krem czekoladowy = orzechy z Turcji", "text": "Duża część światowych orzechów laskowych trafia do kremów czekoladowo-orzechowych i pralinek. Konsument w Polsce nie ma tej informacji na słoiku." }
+        {
+          "title": "Praca dzieci i syryjskich uchodźców",
+          "text": "Wg doniesień opartych na monitoringu Fair Labor Association tureckie plantacje orzechów laskowych są dotknięte pracą dzieci, kradzieżą wynagrodzeń i niebezpiecznymi warunkami; problem nasilił napływ syryjskich uchodźców. FLA podaje, że przez lata monitoringu nie znalazła plantacji spełniającej wszystkie standardy godnej pracy.",
+          "sourceLabel": "Business & Human Rights Resource Centre",
+          "sourceUrl": "https://www.business-humanrights.org/en/latest-news/turkey-hazelnuts-in-ferrero-rocher-supply-chain-linked-to-child-labour-includes-company-comments/",
+          "sourceDate": "2019"
+        },
+        {
+          "title": "Krem czekoladowy = orzechy z Turcji",
+          "text": "Duża część światowych orzechów laskowych trafia do kremów czekoladowo-orzechowych i pralinek. Konsument w Polsce nie ma tej informacji na słoiku."
+        }
       ],
       "plRelevance": "Kremy czekoladowo-orzechowe, pralinki i batony to popularne produkty na polskich półkach. Za smakiem orzechów stoi w większości Turcja i udokumentowane problemy z warunkami pracy przy zbiorach.",
-      "usedIn": ["kremy czekoladowo-orzechowe", "pralinki", "batony", "ciastka"],
+      "usedIn": [
+        "kremy czekoladowo-orzechowe",
+        "pralinki",
+        "batony",
+        "ciastka"
+      ],
       "updated": "2026-07-02"
     },
     {
@@ -91,20 +224,57 @@
       "emoji": "🍅",
       "category": "składnik",
       "originCountries": [
-        { "cc": "CN", "share": "czołowy eksporter", "note": "Chiny (m.in. region Xinjiang) to jeden z największych producentów koncentratu pomidorowego." },
-        { "cc": "IT", "note": "Włochy — kraj kojarzony z przetworami pomidorowymi; część surowca bywa importowana." },
-        { "cc": "ES", "note": "Hiszpania — duży producent przetworów pomidorowych w UE." }
+        {
+          "cc": "CN",
+          "share": "czołowy eksporter",
+          "note": "Chiny (m.in. region Xinjiang) to jeden z największych producentów koncentratu pomidorowego."
+        },
+        {
+          "cc": "IT",
+          "note": "Włochy — kraj kojarzony z przetworami pomidorowymi; część surowca bywa importowana."
+        },
+        {
+          "cc": "ES",
+          "note": "Hiszpania — duży producent przetworów pomidorowych w UE."
+        }
       ],
       "stats": [
-        { "text": "Śledztwo BBC Eye („Blood on the Shelves\", grudzień 2024) wskazało, że spośród 64 testowanych przecierów pomidorowych 17 — w tym produkty marek własnych brytyjskich sieci — „wydawało się zawierać chińskie pomidory\", mimo deklaracji o pomidorach włoskich.", "sourceLabel": "Business & Human Rights Resource Centre (za BBC)", "sourceUrl": "https://www.business-humanrights.org/en/latest-news/uk-bbc-finds-supermarket-italian-tomato-purees-likely-contain-ingredients-produced-with-forced-labour-in-china-incl-cos-comments/", "sourceDate": "2024" }
+        {
+          "text": "Śledztwo BBC Eye („Blood on the Shelves\", grudzień 2024) wskazało, że spośród 64 testowanych przecierów pomidorowych 17 — w tym produkty marek własnych brytyjskich sieci — „wydawało się zawierać chińskie pomidory\", mimo deklaracji o pomidorach włoskich.",
+          "sourceLabel": "Business & Human Rights Resource Centre (za BBC)",
+          "sourceUrl": "https://www.business-humanrights.org/en/latest-news/uk-bbc-finds-supermarket-italian-tomato-purees-likely-contain-ingredients-produced-with-forced-labour-in-china-incl-cos-comments/",
+          "sourceDate": "2024"
+        }
       ],
       "issues": [
-        { "title": "Praca przymusowa i reeksport przez Włochy", "text": "Wg śledztwa BBC pomidory z Xinjiangu — regionu wiązanego z pracą przymusową Ujgurów — trafiają koleją przez Kazachstan i Gruzję do Włoch, skąd bywają dystrybuowane jako produkt „włoski\". Firmy zaprzeczają lub deklarują weryfikację łańcucha dostaw.", "sourceLabel": "Radio Free Asia (relacja o śledztwie BBC)", "sourceUrl": "https://www.rfa.org/english/uyghur/2024/12/03/uk-parliament-confronts-italian-tomato-puree-uyghur-forced-labor/", "sourceDate": "2024" },
-        { "title": "„Włoski\" nie znaczy „z włoskich pomidorów\"", "text": "Napis o włoskim pochodzeniu może dotyczyć miejsca przetworzenia, a nie uprawy pomidorów. Rozróżnienie „wyprodukowano w\" od „pomidory pochodzą z\" bywa dla konsumenta nieczytelne." }
+        {
+          "title": "Praca przymusowa i reeksport przez Włochy",
+          "text": "Wg śledztwa BBC pomidory z Xinjiangu — regionu wiązanego z pracą przymusową Ujgurów — trafiają koleją przez Kazachstan i Gruzję do Włoch, skąd bywają dystrybuowane jako produkt „włoski\". Firmy zaprzeczają lub deklarują weryfikację łańcucha dostaw.",
+          "sourceLabel": "Radio Free Asia (relacja o śledztwie BBC)",
+          "sourceUrl": "https://www.rfa.org/english/uyghur/2024/12/03/uk-parliament-confronts-italian-tomato-puree-uyghur-forced-labor/",
+          "sourceDate": "2024"
+        },
+        {
+          "title": "„Włoski\" nie znaczy „z włoskich pomidorów\"",
+          "text": "Napis o włoskim pochodzeniu może dotyczyć miejsca przetworzenia, a nie uprawy pomidorów. Rozróżnienie „wyprodukowano w\" od „pomidory pochodzą z\" bywa dla konsumenta nieczytelne."
+        }
       ],
       "plRelevance": "Ketchupy, passaty, sosy i pizza to codzienne zakupy. Śledztwa dziennikarskie pokazały, że część „włoskich\" przetworów pomidorowych w europejskim handlu może zawierać surowiec z Chin, wiązany z pracą przymusową.",
-      "usedIn": ["ketchup", "passata", "sosy", "koncentrat", "pizza", "dania gotowe"],
-      "updated": "2026-07-02"
+      "usedIn": [
+        "ketchup",
+        "passata",
+        "sosy",
+        "koncentrat",
+        "pizza",
+        "dania gotowe"
+      ],
+      "updated": "2026-07-02",
+      "paradox": {
+        "text": "Kupując passatę „prosto z Włoch\", możesz kupować pomidory z Chin: według śledztwa BBC surowiec z Xinjiangu jedzie koleją przez Kazachstan do Włoch i ==wraca na półki jako produkt „włoski\"==.",
+        "sourceLabel": "Business & Human Rights Resource Centre (za BBC Eye)",
+        "sourceUrl": "https://www.business-humanrights.org/en/latest-news/uk-bbc-finds-supermarket-italian-tomato-purees-likely-contain-ingredients-produced-with-forced-labour-in-china-incl-cos-comments/",
+        "sourceDate": "2024"
+      }
     },
     {
       "slug": "miod",
@@ -112,20 +282,54 @@
       "emoji": "🍯",
       "category": "składnik",
       "originCountries": [
-        { "cc": "CN", "share": "duży udział w imporcie UE", "note": "Chiny — największe źródło importowanego miodu do UE; wg badania KE najczęściej wiązane z podejrzeniem fałszowania." },
-        { "cc": "UA", "note": "Ukraina — znaczący eksporter miodu do UE." },
-        { "cc": "PL", "note": "Polska ma własnych pszczelarzy, ale tani miód importowany zbija ceny krajowe." }
+        {
+          "cc": "CN",
+          "share": "duży udział w imporcie UE",
+          "note": "Chiny — największe źródło importowanego miodu do UE; wg badania KE najczęściej wiązane z podejrzeniem fałszowania."
+        },
+        {
+          "cc": "UA",
+          "note": "Ukraina — znaczący eksporter miodu do UE."
+        },
+        {
+          "cc": "PL",
+          "note": "Polska ma własnych pszczelarzy, ale tani miód importowany zbija ceny krajowe."
+        }
       ],
       "stats": [
-        { "text": "W unijnej akcji „From the Hives\" (DG SANTE + Wspólne Centrum Badawcze KE) 147 z 320 zbadanych partii importowanego miodu (46%) było podejrzanych o fałszowanie — niezgodność z dyrektywą miodową, m.in. dodatek syropów cukrowych (ryżowego, pszennego, buraczanego).", "sourceLabel": "Komisja Europejska / JRC — „Food fraud: how genuine is your honey?\"", "sourceUrl": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/food-fraud-how-genuine-your-honey-2023-03-23_en", "sourceDate": "2023" }
+        {
+          "text": "W unijnej akcji „From the Hives\" (DG SANTE + Wspólne Centrum Badawcze KE) 147 z 320 zbadanych partii importowanego miodu (46%) było podejrzanych o fałszowanie — niezgodność z dyrektywą miodową, m.in. dodatek syropów cukrowych (ryżowego, pszennego, buraczanego).",
+          "sourceLabel": "Komisja Europejska / JRC — „Food fraud: how genuine is your honey?\"",
+          "sourceUrl": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/food-fraud-how-genuine-your-honey-2023-03-23_en",
+          "sourceDate": "2023"
+        }
       ],
       "issues": [
-        { "title": "Fałszowanie syropem cukrowym", "text": "Wg KE fałszerstwa polegały m.in. na dodawaniu tanich syropów cukrowych, użyciu barwników i maskowaniu prawdziwego pochodzenia geograficznego miodu. Miód importowany kosztuje średnio ok. 2,17 €/kg, a syrop ryżowy 0,40–0,60 €/kg — stąd opłacalność procederu.", "sourceLabel": "Komisja Europejska — akcja „From the Hives\"", "sourceUrl": "https://food.ec.europa.eu/food-safety/eu-agri-food-fraud-network/eu-coordinated-actions/honey-2021-2022_en", "sourceDate": "2023" },
-        { "title": "„Mieszanka miodów z UE i spoza UE\"", "text": "Taki napis na słoiku oznacza, że pochodzenie jest w praktyce nieokreślone — miód może być w większości importowany. Nowa unijna „dyrektywa śniadaniowa\" ma wymusić podawanie krajów pochodzenia na etykiecie." }
+        {
+          "title": "Fałszowanie syropem cukrowym",
+          "text": "Wg KE fałszerstwa polegały m.in. na dodawaniu tanich syropów cukrowych, użyciu barwników i maskowaniu prawdziwego pochodzenia geograficznego miodu. Miód importowany kosztuje średnio ok. 2,17 €/kg, a syrop ryżowy 0,40–0,60 €/kg — stąd opłacalność procederu.",
+          "sourceLabel": "Komisja Europejska — akcja „From the Hives\"",
+          "sourceUrl": "https://food.ec.europa.eu/food-safety/eu-agri-food-fraud-network/eu-coordinated-actions/honey-2021-2022_en",
+          "sourceDate": "2023"
+        },
+        {
+          "title": "„Mieszanka miodów z UE i spoza UE\"",
+          "text": "Taki napis na słoiku oznacza, że pochodzenie jest w praktyce nieokreślone — miód może być w większości importowany. Nowa unijna „dyrektywa śniadaniowa\" ma wymusić podawanie krajów pochodzenia na etykiecie."
+        }
       ],
       "plRelevance": "Tani miód „z UE i spoza UE\" na półce bywa mieszanką importu (m.in. z Chin i Ukrainy), a unijne badania wykazały masowe podejrzenia fałszowania. To bezpośrednio uderza w polskich pszczelarzy i w to, co realnie kupujesz.",
-      "usedIn": ["miód w słoikach", "produkty z miodem", "pieczywo i słodycze z miodem"],
-      "updated": "2026-07-02"
+      "usedIn": [
+        "miód w słoikach",
+        "produkty z miodem",
+        "pieczywo i słodycze z miodem"
+      ],
+      "updated": "2026-07-02",
+      "paradox": {
+        "text": "Polska ma tysiące pszczelarzy i własny miód — a słoiki w marketach wypełnia głównie tańsza „mieszanka miodów z UE i spoza UE\". Unijne badanie wykazało, że ==46% partii importowanego miodu było podejrzanych o fałszowanie== syropami cukrowymi.",
+        "sourceLabel": "Komisja Europejska / JRC — akcja „From the Hives\"",
+        "sourceUrl": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/food-fraud-how-genuine-your-honey-2023-03-23_en",
+        "sourceDate": "2023"
+      }
     },
     {
       "slug": "kawa",
@@ -133,19 +337,48 @@
       "emoji": "☕",
       "category": "składnik",
       "originCountries": [
-        { "cc": "BR", "share": "największy producent", "note": "Brazylia — największy producent kawy na świecie (arabika i robusta/conilon)." },
-        { "cc": "VN", "note": "Wietnam — drugi producent i największy dostawca robusty (ok. 38% światowego rynku robusty)." },
-        { "cc": "CO", "note": "Kolumbia — czołowy producent arabiki." }
+        {
+          "cc": "BR",
+          "share": "największy producent",
+          "note": "Brazylia — największy producent kawy na świecie (arabika i robusta/conilon)."
+        },
+        {
+          "cc": "VN",
+          "note": "Wietnam — drugi producent i największy dostawca robusty (ok. 38% światowego rynku robusty)."
+        },
+        {
+          "cc": "CO",
+          "note": "Kolumbia — czołowy producent arabiki."
+        }
       ],
       "stats": [
-        { "text": "Największym producentem kawy jest Brazylia (prognozy USDA rzędu kilkudziesięciu mln worków rocznie), drugim — Wietnam, dominujący w produkcji robusty.", "sourceLabel": "USDA FAS — Coffee: World Markets and Trade", "sourceUrl": "https://www.fas.usda.gov/data/coffee-world-markets-and-trade", "sourceDate": "2025" }
+        {
+          "text": "Największym producentem kawy jest Brazylia (prognozy USDA rzędu kilkudziesięciu mln worków rocznie), drugim — Wietnam, dominujący w produkcji robusty.",
+          "sourceLabel": "USDA FAS — Coffee: World Markets and Trade",
+          "sourceUrl": "https://www.fas.usda.gov/data/coffee-world-markets-and-trade",
+          "sourceDate": "2025"
+        }
       ],
       "issues": [
-        { "title": "Wylesianie pod uprawy", "text": "Kawa jest jednym z głównych towarowych czynników wylesiania; unijne rozporządzenie EUDR ma wymagać, by kawa wprowadzana na rynek UE nie pochodziła z terenów wylesionych po 2020 r. Analitycy wskazują, że łańcuchy dostaw kawy są na to bardziej gotowe, niż deklarują.", "sourceLabel": "Mongabay — komentarz o gotowości branży kawowej na EUDR", "sourceUrl": "https://news.mongabay.com/2025/02/coffee-companies-are-readier-for-the-eudr-than-they-claim-commentary/", "sourceDate": "2025" },
-        { "title": "„Palona we Włoszech\" ≠ włoska kawa", "text": "Kraj palenia/pakowania (często Włochy, Niemcy) nie jest krajem uprawy ziarna. Ziarno niemal zawsze pochodzi ze strefy międzyzwrotnikowej — Ameryki Płd., Azji, Afryki." }
+        {
+          "title": "Wylesianie pod uprawy",
+          "text": "Kawa jest jednym z głównych towarowych czynników wylesiania; unijne rozporządzenie EUDR ma wymagać, by kawa wprowadzana na rynek UE nie pochodziła z terenów wylesionych po 2020 r. Analitycy wskazują, że łańcuchy dostaw kawy są na to bardziej gotowe, niż deklarują.",
+          "sourceLabel": "Mongabay — komentarz o gotowości branży kawowej na EUDR",
+          "sourceUrl": "https://news.mongabay.com/2025/02/coffee-companies-are-readier-for-the-eudr-than-they-claim-commentary/",
+          "sourceDate": "2025"
+        },
+        {
+          "title": "„Palona we Włoszech\" ≠ włoska kawa",
+          "text": "Kraj palenia/pakowania (często Włochy, Niemcy) nie jest krajem uprawy ziarna. Ziarno niemal zawsze pochodzi ze strefy międzyzwrotnikowej — Ameryki Płd., Azji, Afryki."
+        }
       ],
       "plRelevance": "Kawa to jeden z najczęściej kupowanych produktów. „Włoska\" marka mówi o miejscu palenia, nie o pochodzeniu ziarna — a to ono wiąże się z wylesianiem i warunkami uprawy w krajach tropikalnych.",
-      "usedIn": ["kawa mielona", "kawa ziarnista", "kawa rozpuszczalna", "kapsułki"],
+      "usedIn": [
+        "kawa mielona",
+        "kawa ziarnista",
+        "kawa rozpuszczalna",
+        "kapsułki"
+      ],
       "updated": "2026-07-02"
     },
     {
@@ -154,19 +387,48 @@
       "emoji": "🫘",
       "category": "składnik",
       "originCountries": [
-        { "cc": "BR", "share": "kluczowy dostawca UE", "note": "Brazylia — największy eksporter soi; uprawy napędzają wylesianie sawann Cerrado." },
-        { "cc": "AR", "note": "Argentyna — soja m.in. z regionu Gran Chaco trafia do UE jako pasza." },
-        { "cc": "US", "note": "USA — jeden z największych producentów soi (w dużej części GMO)." }
+        {
+          "cc": "BR",
+          "share": "kluczowy dostawca UE",
+          "note": "Brazylia — największy eksporter soi; uprawy napędzają wylesianie sawann Cerrado."
+        },
+        {
+          "cc": "AR",
+          "note": "Argentyna — soja m.in. z regionu Gran Chaco trafia do UE jako pasza."
+        },
+        {
+          "cc": "US",
+          "note": "USA — jeden z największych producentów soi (w dużej części GMO)."
+        }
       ],
       "stats": [
-        { "text": "UE jest drugim importerem brazylijskiej soi (deficyt białka paszowego); śruta sojowa jest niemal wyłącznie paszą dla zwierząt — największym „konsumentem\" soi jest drób (ok. 37% światowego zużycia), potem trzoda chlewna (ok. 20%).", "sourceLabel": "Chain Reaction Research — Cerrado soy i sektor paszowo-hodowlany", "sourceUrl": "https://chainreactionresearch.com/report/feed-and-livestock-in-brazil-china-eu-consume-most-cerrado-soy/", "sourceDate": "2020" }
+        {
+          "text": "UE jest drugim importerem brazylijskiej soi (deficyt białka paszowego); śruta sojowa jest niemal wyłącznie paszą dla zwierząt — największym „konsumentem\" soi jest drób (ok. 37% światowego zużycia), potem trzoda chlewna (ok. 20%).",
+          "sourceLabel": "Chain Reaction Research — Cerrado soy i sektor paszowo-hodowlany",
+          "sourceUrl": "https://chainreactionresearch.com/report/feed-and-livestock-in-brazil-china-eu-consume-most-cerrado-soy/",
+          "sourceDate": "2020"
+        }
       ],
       "issues": [
-        { "title": "Ukryty łańcuch: importowana soja → „polskie\" mięso", "text": "Soja rzadko trafia do nas wprost — jest paszą. „Polski\" kurczak, wieprzowina, jaja czy nabiał są w dużej części produkowane na importowanej soi z Ameryki Płd., co czyni pochodzenie surowca praktycznie niewidocznym dla konsumenta.", "sourceLabel": "Greenpeace Unearthed — soja z wylesiania w paszy dla drobiu", "sourceUrl": "https://unearthed.greenpeace.org/2020/11/25/brazil-fires-deforestation-tesco-nandos-mcdonalds/", "sourceDate": "2020" },
-        { "title": "Wylesianie Cerrado i Gran Chaco", "text": "Cerrado w Brazylii bywa wylesiane pod soję szybciej niż Amazonia; ekspansja upraw dotyka też argentyńskiego Gran Chaco. Trudna identyfikowalność soi w paszy utrudnia rozliczenie tego śladu." }
+        {
+          "title": "Ukryty łańcuch: importowana soja → „polskie\" mięso",
+          "text": "Soja rzadko trafia do nas wprost — jest paszą. „Polski\" kurczak, wieprzowina, jaja czy nabiał są w dużej części produkowane na importowanej soi z Ameryki Płd., co czyni pochodzenie surowca praktycznie niewidocznym dla konsumenta.",
+          "sourceLabel": "Greenpeace Unearthed — soja z wylesiania w paszy dla drobiu",
+          "sourceUrl": "https://unearthed.greenpeace.org/2020/11/25/brazil-fires-deforestation-tesco-nandos-mcdonalds/",
+          "sourceDate": "2020"
+        },
+        {
+          "title": "Wylesianie Cerrado i Gran Chaco",
+          "text": "Cerrado w Brazylii bywa wylesiane pod soję szybciej niż Amazonia; ekspansja upraw dotyka też argentyńskiego Gran Chaco. Trudna identyfikowalność soi w paszy utrudnia rozliczenie tego śladu."
+        }
       ],
       "plRelevance": "Choć soi nie widać na talerzu, to ona stoi za „krajowym\" mięsem, jajami i nabiałem — jako importowana pasza. To najlepszy przykład tego, że „wyprodukowano w Polsce\" nie mówi nic o pochodzeniu surowców.",
-      "usedIn": ["pasza dla drobiu i trzody", "mięso (pośrednio)", "jaja (pośrednio)", "nabiał (pośrednio)"],
+      "usedIn": [
+        "pasza dla drobiu i trzody",
+        "mięso (pośrednio)",
+        "jaja (pośrednio)",
+        "nabiał (pośrednio)"
+      ],
       "updated": "2026-07-02"
     },
     {
@@ -175,20 +437,56 @@
       "emoji": "🧄",
       "category": "składnik",
       "originCountries": [
-        { "cc": "CN", "share": "~73% produkcji", "note": "Chiny — wg danych FAO ok. 73% światowej produkcji czosnku i dominacja w światowym handlu." },
-        { "cc": "ES", "note": "Hiszpania — największy europejski producent czosnku." },
-        { "cc": "PL", "note": "Polska ma własną, sezonową produkcję czosnku, wypieraną cenowo przez import." }
+        {
+          "cc": "CN",
+          "share": "~73% produkcji",
+          "note": "Chiny — wg danych FAO ok. 73% światowej produkcji czosnku i dominacja w światowym handlu."
+        },
+        {
+          "cc": "ES",
+          "note": "Hiszpania — największy europejski producent czosnku."
+        },
+        {
+          "cc": "PL",
+          "note": "Polska ma własną, sezonową produkcję czosnku, wypieraną cenowo przez import."
+        }
       ],
       "stats": [
-        { "text": "Wg danych FAO Chiny odpowiadają za ok. 73% światowej produkcji czosnku (ok. 21 mln ton w 2022 r.) i za większość światowego eksportu.", "sourceLabel": "FAOSTAT — dane o produkcji rolnej", "sourceUrl": "https://www.fao.org/faostat/en/#data/QCL", "sourceDate": "2022" }
+        {
+          "text": "Wg danych FAO Chiny odpowiadają za ok. 73% światowej produkcji czosnku (ok. 21 mln ton w 2022 r.) i za większość światowego eksportu.",
+          "sourceLabel": "FAOSTAT — dane o produkcji rolnej",
+          "sourceUrl": "https://www.fao.org/faostat/en/#data/QCL",
+          "sourceDate": "2022"
+        }
       ],
       "issues": [
-        { "title": "Obowiązek kraju pochodzenia — tylko dla świeżych", "text": "W UE obowiązek podawania kraju pochodzenia dotyczył świeżych warzyw i owoców; dla przetworzonych (suszony granulat, mrożonki, mieszanki przypraw) był ograniczony. Od 1 stycznia 2025 r. przepisy rozszerzono na pakowane i suszone owoce/warzywa — ale w daniach gotowych pochodzenie czosnku pozostaje niewidoczne.", "sourceLabel": "Komisja Europejska — znakowanie pochodzenia żywności", "sourceUrl": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/origin-labelling_en", "sourceDate": "2025" },
-        { "title": "Jak rozpoznać chiński czosnek", "text": "Chiński czosnek bywa większy, jaśniejszy i pozbawiony korzonków (usuwanych do transportu); polski jest zwykle mniejszy, z resztką korzeni i szypułką. Na luzem sprzedawanym czosnku pochodzenie musi być podane przy cenie." }
+        {
+          "title": "Obowiązek kraju pochodzenia — tylko dla świeżych",
+          "text": "W UE obowiązek podawania kraju pochodzenia dotyczył świeżych warzyw i owoców; dla przetworzonych (suszony granulat, mrożonki, mieszanki przypraw) był ograniczony. Od 1 stycznia 2025 r. przepisy rozszerzono na pakowane i suszone owoce/warzywa — ale w daniach gotowych pochodzenie czosnku pozostaje niewidoczne.",
+          "sourceLabel": "Komisja Europejska — znakowanie pochodzenia żywności",
+          "sourceUrl": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/origin-labelling_en",
+          "sourceDate": "2025"
+        },
+        {
+          "title": "Jak rozpoznać chiński czosnek",
+          "text": "Chiński czosnek bywa większy, jaśniejszy i pozbawiony korzonków (usuwanych do transportu); polski jest zwykle mniejszy, z resztką korzeni i szypułką. Na luzem sprzedawanym czosnku pochodzenie musi być podane przy cenie."
+        }
       ],
       "plRelevance": "Czosnek to codzienna przyprawa, a znaczna część tego z polskich sklepów pochodzi z Chin. W produktach przetworzonych (granulat, mrożonki, dania gotowe) jego pochodzenie bywa dla konsumenta niewidoczne.",
-      "usedIn": ["czosnek świeży", "granulat/suszony", "mrożonki", "mieszanki przypraw", "dania gotowe"],
-      "updated": "2026-07-02"
+      "usedIn": [
+        "czosnek świeży",
+        "granulat/suszony",
+        "mrożonki",
+        "mieszanki przypraw",
+        "dania gotowe"
+      ],
+      "updated": "2026-07-02",
+      "paradox": {
+        "text": "Chiny produkują ==ok. 73% czosnku na świecie==, a według doniesień branżowych ==ponad 80% marketów w Polsce sprzedaje głównie czosnek chiński== — mimo że Polska ma własne, cenione uprawy. Powód jest prozaiczny: import bywa o połowę tańszy, a sieci wybierają cenę i całoroczną dostępność.",
+        "sourceLabel": "Pysznosci.pl — chiński czosnek w polskich sklepach; FAOSTAT",
+        "sourceUrl": "https://pysznosci.pl/chinski-czosnek-w-polskich-sklepach-jak-go-rozpoznac,6919182873589889a",
+        "sourceDate": "2024"
+      }
     },
     {
       "slug": "ryby-owoce-morza",
@@ -196,19 +494,122 @@
       "emoji": "🐟",
       "category": "składnik",
       "originCountries": [
-        { "cc": "CN", "share": "największa flota dalekomorska", "note": "Chiny dysponują największą na świecie flotą dalekomorską; jej łowiska zaopatrują m.in. rynki UE." },
-        { "cc": "TH", "note": "Tajlandia — przetwórstwo owoców morza wiązane w śledztwach z pracą przymusową." },
-        { "cc": "VN", "note": "Wietnam — duża akwakultura (m.in. panga) na eksport." }
+        {
+          "cc": "CN",
+          "share": "największa flota dalekomorska",
+          "note": "Chiny dysponują największą na świecie flotą dalekomorską; jej łowiska zaopatrują m.in. rynki UE."
+        },
+        {
+          "cc": "TH",
+          "note": "Tajlandia — przetwórstwo owoców morza wiązane w śledztwach z pracą przymusową."
+        },
+        {
+          "cc": "VN",
+          "note": "Wietnam — duża akwakultura (m.in. panga) na eksport."
+        }
       ],
       "stats": [
-        { "text": "Śledztwo EJF oparte na ok. 5 latach badań i ponad 430 wywiadach z rybakami na 249 statkach dalekomorskich ujawniło powszechne nielegalne połowy i poważne naruszenia praw człowieka w globalnym przemyśle połowu kalmarów.", "sourceLabel": "Environmental Justice Foundation — śledztwo o flotach dalekomorskich", "sourceUrl": "https://ejfoundation.org/news-media/global-squid-fleets-exposed-new-investigation-reveals-rampant-forced-labour-illegal-fishing-and-abuse", "sourceDate": "2024" }
+        {
+          "text": "Śledztwo EJF oparte na ok. 5 latach badań i ponad 430 wywiadach z rybakami na 249 statkach dalekomorskich ujawniło powszechne nielegalne połowy i poważne naruszenia praw człowieka w globalnym przemyśle połowu kalmarów.",
+          "sourceLabel": "Environmental Justice Foundation — śledztwo o flotach dalekomorskich",
+          "sourceUrl": "https://ejfoundation.org/news-media/global-squid-fleets-exposed-new-investigation-reveals-rampant-forced-labour-illegal-fishing-and-abuse",
+          "sourceDate": "2024"
+        }
       ],
       "issues": [
-        { "title": "Praca przymusowa na morzu", "text": "Organizacje badawcze dokumentują na flotach dalekomorskich długi „uwięzienia\" na morzu, przemoc, kradzież wynagrodzeń i przetrzymywanie załóg. Ryby złowione w takich warunkach mogą trafiać do łańcuchów dostaw UE i UK.", "sourceLabel": "Walk Free — Global Slavery Index (praca przymusowa na morzu)", "sourceUrl": "https://www.walkfree.org/global-slavery-index/findings/spotlights/forced-labour-at-sea/", "sourceDate": "2023" },
-        { "title": "Glazura i podwójne mrożenie", "text": "Waga mrożonej ryby zawiera lód (glazurę), a surowiec bywa mrożony, przewożony do przetworzenia (np. do Azji) i mrożony ponownie — co utrudnia ocenę pochodzenia i świeżości." }
+        {
+          "title": "Praca przymusowa na morzu",
+          "text": "Organizacje badawcze dokumentują na flotach dalekomorskich długi „uwięzienia\" na morzu, przemoc, kradzież wynagrodzeń i przetrzymywanie załóg. Ryby złowione w takich warunkach mogą trafiać do łańcuchów dostaw UE i UK.",
+          "sourceLabel": "Walk Free — Global Slavery Index (praca przymusowa na morzu)",
+          "sourceUrl": "https://www.walkfree.org/global-slavery-index/findings/spotlights/forced-labour-at-sea/",
+          "sourceDate": "2023"
+        },
+        {
+          "title": "Glazura i podwójne mrożenie",
+          "text": "Waga mrożonej ryby zawiera lód (glazurę), a surowiec bywa mrożony, przewożony do przetworzenia (np. do Azji) i mrożony ponownie — co utrudnia ocenę pochodzenia i świeżości."
+        }
       ],
       "plRelevance": "Paluszki rybne, mrożone filety, krewetki i kalmary to popularne produkty. Ich łańcuch dostaw bywa globalny i nieprzejrzysty, a śledztwa wiążą część flot dalekomorskich z pracą przymusową i nielegalnymi połowami.",
-      "usedIn": ["paluszki rybne", "mrożone filety", "krewetki", "kalmary", "konserwy", "sushi"],
+      "usedIn": [
+        "paluszki rybne",
+        "mrożone filety",
+        "krewetki",
+        "kalmary",
+        "konserwy",
+        "sushi"
+      ],
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "drob-jaja",
+      "name": "Drób i jaja",
+      "emoji": "🐔",
+      "category": "składnik",
+      "originCountries": [
+        {
+          "cc": "PL",
+          "share": "~21% produkcji UE",
+          "note": "Polska jest największym producentem mięsa drobiowego w Unii Europejskiej."
+        },
+        {
+          "cc": "UA",
+          "note": "Ukraina — główne pozaunijne źródło importu drobiu do UE (kontyngenty bezcłowe)."
+        },
+        {
+          "cc": "BR",
+          "note": "Brazylia — czołowy światowy eksporter drobiu, obecny także na rynku UE."
+        }
+      ],
+      "stats": [
+        {
+          "text": "Polska to największy producent drobiu w UE — ok. 21% unijnej produkcji — i trzeci eksporter drobiu na świecie.",
+          "sourceLabel": "ING — raport sektorowy „Drób\"",
+          "sourceUrl": "https://www.ing.pl/spolki/raporty-agro/2025-01-drob",
+          "sourceDate": "2025"
+        },
+        {
+          "text": "W 2022 r. import mięsa drobiowego z Ukrainy do UE wzrósł o ok. 80% rok do roku po zniesieniu ceł; w kolejnych latach UE wprowadziła limity oparte o średnią z lat 2021–2023.",
+          "sourceLabel": "Demagog — import drobiu do UE i Polski (dane KE)",
+          "sourceUrl": "https://demagog.org.pl/wypowiedzi/import-drobiu-do-ue-i-polski-ile-miesa-kupujemy-z-ukrainy/",
+          "sourceDate": "2024"
+        },
+        {
+          "text": "Szacowany bezcłowy kontyngent na ukraiński drób dla całej UE to ok. 160 tys. ton rocznie; mimo limitów ukraiński sektor drobiarski notuje rekordowe przychody.",
+          "sourceLabel": "Drobiarze.pl — ukraiński drób a limity UE",
+          "sourceUrl": "https://drobiarze.pl/2026/01/26/ukrainski-drob-zmienia-reguly-gry-rekordowe-przychody-mimo-limitow-ue-i-kontroli-w-polsce/",
+          "sourceDate": "2026"
+        }
+      ],
+      "issues": [
+        {
+          "title": "Mięso w przetworach bez kraju pochodzenia",
+          "text": "Obowiązek podawania kraju pochodzenia dotyczy świeżego mięsa — ==w daniach gotowych, wędlinach czy gastronomii kraju pochodzenia kurczaka nie zobaczysz==. Importowany surowiec „znika\" w produkcie przetworzonym.",
+          "sourceLabel": "Demagog — zasady znakowania i dane importowe",
+          "sourceUrl": "https://demagog.org.pl/wypowiedzi/import-drobiu-do-ue-i-polski-ile-miesa-kupujemy-z-ukrainy/",
+          "sourceDate": "2024"
+        },
+        {
+          "title": "Różnice standardów produkcji",
+          "text": "Polska branża drobiarska alarmuje, że tanie mięso z Ukrainy, Mercosuru i Chin powstaje w reżimach regulacyjnych innych niż unijne (np. wymogi dobrostanu, dozwolone praktyki), co obniża koszty producentów spoza UE.",
+          "sourceLabel": "AgroNews — stanowisko branży drobiarskiej",
+          "sourceUrl": "https://agronews.com.pl/artykul/polska-branza-drobiu-alarmuje-tanie-mieso-z-mercosuru-chin-i-ukrainy-moze-uderzyc-w-hodowcow/",
+          "sourceDate": "2025"
+        }
+      ],
+      "paradox": {
+        "text": "Polska jest ==największym producentem drobiu w UE i trzecim eksporterem świata== — a mimo to do UE płynie strumień tańszego kurczaka z Ukrainy, bo wygrywa cena. Konsument tego nie zauważy: ==w przetworach i gastronomii kraj pochodzenia mięsa nie jest podawany==.",
+        "sourceLabel": "ING / Demagog (dane KE)",
+        "sourceUrl": "https://demagog.org.pl/wypowiedzi/import-drobiu-do-ue-i-polski-ile-miesa-kupujemy-z-ukrainy/",
+        "sourceDate": "2024–2025"
+      },
+      "plRelevance": "Kurczak to najczęściej kupowane mięso w Polsce. Na świeżej piersi z kurczaka zobaczysz kraj pochodzenia — ale już w parówkach, nuggetsach, kebabie czy daniu gotowym nie. To tam najłatwiej trafia tańszy importowany surowiec.",
+      "usedIn": [
+        "mięso świeże",
+        "wędliny drobiowe",
+        "dania gotowe",
+        "gastronomia/kebab",
+        "proszek jajeczny w przetworach"
+      ],
       "updated": "2026-07-02"
     }
   ]

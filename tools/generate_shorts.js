@@ -16,9 +16,10 @@ const ROOT = path.join(__dirname, '..');
 const SITE = (process.env.SITE_URL || 'https://skadprodukt.org').replace('https://', '');
 const db = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
 
-const COUNTRY_PL = { PL: 'Polska', DE: 'Niemcy', CH: 'Szwajcaria', US: 'USA', NL: 'Holandia', JP: 'Japonia', KR: 'Korea Południowa', PT: 'Portugalia', LU: 'Luksemburg', UA: 'Ukraina', LT: 'Litwa', HU: 'Węgry', CN: 'Chiny', DK: 'Dania', IT: 'Włochy', IN: 'Indie', SE: 'Szwecja', CZ: 'Czechy', GB: 'Wielka Brytania', EU: 'Unia Europejska' };
+const COUNTRY_PL = { PL: 'Polska', DE: 'Niemcy', CH: 'Szwajcaria', US: 'USA', NL: 'Holandia', JP: 'Japonia', KR: 'Korea Południowa', PT: 'Portugalia', LU: 'Luksemburg', UA: 'Ukraina', LT: 'Litwa', HU: 'Węgry', CN: 'Chiny', DK: 'Dania', IT: 'Włochy', IN: 'Indie', SE: 'Szwecja', CZ: 'Czechy', GB: 'Wielka Brytania', FR: 'Francja', ES: 'Hiszpania', HK: 'Hongkong', XX: 'różne kraje', EU: 'Unia Europejska' };
 const cname = cc => COUNTRY_PL[cc] || cc;
-const flag = cc => cc === 'EU' ? '🇪🇺' : String.fromCodePoint(...[...cc].map(c => 0x1f1a5 + c.charCodeAt(0)));
+const flag = cc => cc === 'EU' ? '🇪🇺' : cc === 'XX' ? '🌐' : String.fromCodePoint(...[...cc].map(c => 0x1f1a5 + c.charCodeAt(0)));
+const clean = s => String(s == null ? '' : s).replace(/==/g, ''); // ==wyróżnienia== są tylko dla www
 
 const HOOKS = [
   b => `Czy wiesz, do kogo naprawdę należy ${b}?`,
@@ -30,10 +31,10 @@ const HOOKS = [
 function shortScript(p, i) {
   const hook = HOOKS[i % HOOKS.length](p.brand);
   const lines = [
-    `Produkcja: ${cname(p.productionCountry)}. ${p.plants[0] ? 'Konkretnie: ' + p.plants[0] + '.' : ''}`,
+    `Produkcja: ${cname(p.productionCountry)}. ${p.plants[0] && p.plants[0].length < 80 ? 'Konkretnie: ' + p.plants[0] + '.' : ''}`,
     `Właściciel marki: ${p.brandOwner}.`,
     `A kapitał? ${cname(p.capitalCountry)}.`,
-    p.story,
+    clean(p.story),
   ].filter(Boolean);
   return {
     slug: p.slug,
