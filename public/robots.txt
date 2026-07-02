@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skadto.pages.dev/sitemap.xml

@@ -1,0 +1,461 @@
+{
+  "$schemaInfo": "Jeden rekord = jedna marka/produkt. Pola: slug (url), brand, category, producer (podmiot produkujący), productionCountry (ISO-2, gdzie fizycznie produkowane), plants (lokalizacje zakładów), brandOwner (właściciel marki), ownerCountry (ISO-2 siedziby właściciela), capitalCountry (ISO-2 pochodzenia kapitału kontrolującego), capitalNote (1-2 zdania kontekstu), story (ciekawostka do Shorts/kart), sources (label+url), confidence ('publiczne' = szeroko potwierdzone | 'do-weryfikacji' = sprawdź przed publikacją), updated (YYYY-MM-DD).",
+  "products": [
+    {
+      "slug": "wedel",
+      "brand": "E. Wedel",
+      "category": "słodycze",
+      "producer": "LOTTE Wedel sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": ["Warszawa (Praga-Południe)"],
+      "brandOwner": "LOTTE Corporation",
+      "ownerCountry": "KR",
+      "capitalCountry": "KR",
+      "capitalNote": "Koreańska grupa LOTTE kupiła Wedla w 2010 r. od Kraft Foods. Produkcja pozostała w Warszawie.",
+      "story": "Najbardziej 'polska' czekolada od 2010 r. należy do koreańskiego giganta LOTTE — ale nadal powstaje w Warszawie.",
+      "sources": [
+        {"label": "Oficjalna strona E. Wedel", "url": "https://www.wedel.pl"},
+        {"label": "LOTTE Corporation", "url": "https://www.lotte.co.kr"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "winiary",
+      "brand": "Winiary",
+      "category": "spożywcze",
+      "producer": "Nestlé Polska S.A.",
+      "productionCountry": "PL",
+      "plants": ["Kalisz"],
+      "brandOwner": "Nestlé S.A.",
+      "ownerCountry": "CH",
+      "capitalCountry": "CH",
+      "capitalNote": "Marka Winiary należy do szwajcarskiego koncernu Nestlé. Główny zakład działa w Kaliszu.",
+      "story": "Majonez Dekoracyjny Winiary to kaliska produkcja — ale zyski płyną do Szwajcarii, do największego koncernu spożywczego świata.",
+      "sources": [
+        {"label": "Nestlé Polska", "url": "https://www.nestle.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "tymbark",
+      "brand": "Tymbark",
+      "category": "napoje",
+      "producer": "Grupa Maspex",
+      "productionCountry": "PL",
+      "plants": ["Tymbark (Małopolska)", "Olsztynek"],
+      "brandOwner": "Grupa Maspex",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Maspex z Wadowic to jedna z największych prywatnych polskich firm spożywczych — kapitał w całości polski.",
+      "story": "Tymbark, Kubuś, Lubella, Tiger — wszystko to jeden polski właściciel: Maspex z Wadowic, prywatna firma bez zagranicznego kapitału.",
+      "sources": [
+        {"label": "Grupa Maspex", "url": "https://www.maspex.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "lubella",
+      "brand": "Lubella",
+      "category": "spożywcze",
+      "producer": "Maspex (zakład Lublin)",
+      "productionCountry": "PL",
+      "plants": ["Lublin"],
+      "brandOwner": "Grupa Maspex",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Makarony Lubella powstają w Lublinie, marka należy do polskiego Maspeksu.",
+      "story": "Lubella to od ponad 130 lat Lublin — dziś w rękach polskiego Maspeksu.",
+      "sources": [
+        {"label": "Lubella", "url": "https://www.lubella.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "zubrowka",
+      "brand": "Żubrówka / Soplica",
+      "category": "alkohole",
+      "producer": "CEDC (Polmos Białystok, Obory)",
+      "productionCountry": "PL",
+      "plants": ["Białystok", "Obory k. Warszawy"],
+      "brandOwner": "Grupa Maspex",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "W 2022 r. Maspex odkupił CEDC (Żubrówka, Soplica, Absolwent) od rosyjskiego Roust — marki wróciły do polskiego kapitału.",
+      "story": "Żubrówka przez lata należała do rosyjskiego oligarchy. Od 2022 r. znów jest polska — kupił ją Maspex, producent Tymbarku.",
+      "sources": [
+        {"label": "Maspex — przejęcie CEDC (2022)", "url": "https://www.maspex.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "zywiec",
+      "brand": "Żywiec",
+      "category": "piwo",
+      "producer": "Grupa Żywiec S.A.",
+      "productionCountry": "PL",
+      "plants": ["Żywiec", "Warka", "Elbląg", "Namysłów"],
+      "brandOwner": "Heineken N.V.",
+      "ownerCountry": "NL",
+      "capitalCountry": "NL",
+      "capitalNote": "Grupa Żywiec jest kontrolowana przez holenderski Heineken, który skupił akcje i wycofał spółkę z GPW.",
+      "story": "Piwo z gór? Browar tak — ale właścicielem Żywca jest holenderski Heineken.",
+      "sources": [
+        {"label": "Grupa Żywiec", "url": "https://grupazywiec.pl"},
+        {"label": "Heineken N.V.", "url": "https://www.theheinekencompany.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "tyskie",
+      "brand": "Tyskie",
+      "category": "piwo",
+      "producer": "Kompania Piwowarska S.A.",
+      "productionCountry": "PL",
+      "plants": ["Tychy", "Poznań", "Białystok"],
+      "brandOwner": "Asahi Group Holdings",
+      "ownerCountry": "JP",
+      "capitalCountry": "JP",
+      "capitalNote": "Kompania Piwowarska (Tyskie, Lech, Żubr) od 2017 r. należy do japońskiego Asahi, które odkupiło marki od SABMiller.",
+      "story": "Tyskie, Lech i Żubr mają jednego właściciela — i to nie jest browar z Polski, tylko japońskie Asahi.",
+      "sources": [
+        {"label": "Kompania Piwowarska", "url": "https://www.kp.pl"},
+        {"label": "Asahi Group", "url": "https://www.asahigroup-holdings.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "biedronka",
+      "brand": "Biedronka",
+      "category": "sieci handlowe",
+      "producer": "— (sieć handlowa; marki własne od dostawców, głównie z Polski)",
+      "productionCountry": "PL",
+      "plants": ["ponad 3500 sklepów w Polsce"],
+      "brandOwner": "Jerónimo Martins",
+      "ownerCountry": "PT",
+      "capitalCountry": "PT",
+      "capitalNote": "Właścicielem Biedronki jest portugalska grupa Jerónimo Martins. Polska to jej największy rynek. Marki własne produkują w większości polscy dostawcy.",
+      "story": "Biedronka brzmi swojsko, ale zyski lecą do Lizbony — to portugalska Jerónimo Martins. Za to większość marek własnych robią polskie firmy.",
+      "sources": [
+        {"label": "Jerónimo Martins", "url": "https://www.jeronimomartins.com"},
+        {"label": "Biedronka", "url": "https://www.biedronka.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "lidl-marki-wlasne",
+      "brand": "Lidl (marki własne, np. Pilos, Bluedino)",
+      "category": "sieci handlowe",
+      "producer": "różni dostawcy — sprawdź kod zakładu na opakowaniu (owal weterynaryjny PL/DE/...)",
+      "productionCountry": "PL",
+      "plants": ["zależnie od produktu — kod zakładu na etykiecie"],
+      "brandOwner": "Schwarz Gruppe (Lidl Stiftung)",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Lidl należy do niemieckiej Grupy Schwarz. Kluczowe pytanie przy markach własnych brzmi: gdzie fizycznie wyprodukowano dany produkt — odpowiedź jest w kodzie zakładu na opakowaniu (np. owal 'PL 12345678 WE' = zakład w Polsce).",
+      "story": "Mleko Pilos z Lidla bywa z polskiej mleczarni — poznasz to po owalnym kodzie 'PL ... WE' na opakowaniu. Marka niemiecka, produkt często polski.",
+      "sources": [
+        {"label": "Lidl Polska", "url": "https://www.lidl.pl"},
+        {"label": "Wyszukiwarka zakładów (GIW)", "url": "https://www.wetgiw.gov.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "zabka",
+      "brand": "Żabka",
+      "category": "sieci handlowe",
+      "producer": "— (sieć convenience, franczyza)",
+      "productionCountry": "PL",
+      "plants": ["ponad 10 000 sklepów franczyzowych"],
+      "brandOwner": "Żabka Group S.A. (GPW; główny akcjonariusz: fundusz CVC Capital Partners)",
+      "ownerCountry": "LU",
+      "capitalCountry": "LU",
+      "capitalNote": "Żabka od 2024 r. jest notowana na GPW, ale kontrolę zachowuje międzynarodowy fundusz private equity CVC Capital Partners (struktury w Luksemburgu).",
+      "story": "Żabka jest na polskiej giełdzie, ale największym udziałowcem pozostaje zagraniczny fundusz CVC — ten sam, który kupił ją w 2017 r.",
+      "sources": [
+        {"label": "Żabka Group — relacje inwestorskie", "url": "https://www.zabkagroup.com"},
+        {"label": "CVC Capital Partners", "url": "https://www.cvc.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "milka",
+      "brand": "Milka",
+      "category": "słodycze",
+      "producer": "Mondelēz International (zakłady w UE, m.in. w Polsce)",
+      "productionCountry": "EU",
+      "plants": ["m.in. Lörrach (DE); część produkcji w zakładach Mondelēz w Polsce"],
+      "brandOwner": "Mondelēz International",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "Alpejska krowa, szwajcarskie skojarzenia — ale Milka należy do amerykańskiego Mondelēz. Miejsce produkcji zależy od konkretnego produktu (sprawdź etykietę).",
+      "story": "Milka = Szwajcaria? Nie. Marka należy do amerykańskiego Mondelēz, a tabliczki powstają m.in. w Niemczech i w Polsce.",
+      "sources": [
+        {"label": "Mondelēz International", "url": "https://www.mondelezinternational.com"}
+      ],
+      "confidence": "do-weryfikacji",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "prince-polo",
+      "brand": "Prince Polo",
+      "category": "słodycze",
+      "producer": "Mondelēz Polska (zakład Cieszyn — d. Olza)",
+      "productionCountry": "PL",
+      "plants": ["Cieszyn"],
+      "brandOwner": "Mondelēz International",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "Kultowy wafelek z Cieszyna — fabryka Olza działa od dekad, ale marka należy do amerykańskiego Mondelēz.",
+      "story": "Prince Polo to narodowy przysmak Islandii i duma Cieszyna — a właścicielem jest amerykański gigant Mondelēz.",
+      "sources": [
+        {"label": "Mondelēz International", "url": "https://www.mondelezinternational.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "grzeski",
+      "brand": "Grześki / Jeżyki / Goplana",
+      "category": "słodycze",
+      "producer": "Colian sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": ["Kalisz", "Opatówek", "Poznań"],
+      "brandOwner": "Colian (rodzina Kolańskich)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Colian to prywatna polska grupa (rodzina Kolańskich) — właściciel Grześków, Jeżyków, Goplany i Helleny.",
+      "story": "Grześki i Jeżyki to w 100% polski kapitał — kaliska grupa Colian rodziny Kolańskich.",
+      "sources": [
+        {"label": "Colian", "url": "https://www.colian.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "pudliszki",
+      "brand": "Pudliszki",
+      "category": "spożywcze",
+      "producer": "Foodwell (zakład Pudliszki, Wielkopolska)",
+      "productionCountry": "PL",
+      "plants": ["Pudliszki (gm. Krobia)"],
+      "brandOwner": "Foodwell",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "W 2022 r. polska grupa Foodwell odkupiła Pudliszki od amerykańskiego Kraft Heinz — marka wróciła do polskiego kapitału.",
+      "story": "Ketchup Pudliszki przez ćwierć wieku był amerykański (Heinz). Od 2022 r. znów należy do Polaków — grupy Foodwell.",
+      "sources": [
+        {"label": "Pudliszki", "url": "https://www.pudliszki.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "lomza",
+      "brand": "Łomża",
+      "category": "piwo",
+      "producer": "Van Pur S.A. (browar Łomża)",
+      "productionCountry": "PL",
+      "plants": ["Łomża", "Rakszawa", "Zabrze"],
+      "brandOwner": "Van Pur S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Van Pur to największy niezależny polski producent piwa — kapitał polski.",
+      "story": "Wielkie browary są japońskie i holenderskie — a Łomża to największy browar, który został w polskich rękach (Van Pur).",
+      "sources": [
+        {"label": "Van Pur", "url": "https://www.vanpur.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "mlekovita",
+      "brand": "Mlekovita",
+      "category": "nabiał",
+      "producer": "SM Mlekovita",
+      "productionCountry": "PL",
+      "plants": ["Wysokie Mazowieckie + kilkanaście zakładów w PL"],
+      "brandOwner": "Spółdzielnia Mleczarska Mlekovita (własność rolników-członków)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Mlekovita to spółdzielnia — właścicielami są polscy rolnicy dostarczający mleko. Największa firma mleczarska w tej części Europy.",
+      "story": "Mlekovita nie ma zagranicznego właściciela ani funduszu — to spółdzielnia należąca do tysięcy polskich rolników.",
+      "sources": [
+        {"label": "Mlekovita", "url": "https://www.mlekovita.com.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "ludwik",
+      "brand": "Ludwik",
+      "category": "chemia domowa",
+      "producer": "Grupa INCO S.A.",
+      "productionCountry": "PL",
+      "plants": ["Góra Kalwaria"],
+      "brandOwner": "Grupa INCO S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Płyn Ludwik od 1964 r. produkuje Grupa INCO — polska firma o spółdzielczych korzeniach (fundacja ZG PCK w strukturze właścicielskiej).",
+      "story": "Ludwik zmywa w polskich kuchniach od 60 lat i wciąż jest polski — w przeciwieństwie do większości chemii z półki.",
+      "sources": [
+        {"label": "Grupa INCO", "url": "https://www.inco.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "persil",
+      "brand": "Persil",
+      "category": "chemia domowa",
+      "producer": "Henkel (zakład Racibórz)",
+      "productionCountry": "PL",
+      "plants": ["Racibórz"],
+      "brandOwner": "Henkel AG & Co. KGaA",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Proszki Persil na polski rynek powstają w Raciborzu, ale marka i zyski należą do niemieckiego Henkla.",
+      "story": "Persil kupowany w Polsce często jest z Raciborza — produkcja polska, kapitał niemiecki (Henkel).",
+      "sources": [
+        {"label": "Henkel Polska", "url": "https://www.henkel.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "coca-cola",
+      "brand": "Coca-Cola",
+      "category": "napoje",
+      "producer": "Coca-Cola HBC Polska (rozlewnie w Polsce)",
+      "productionCountry": "PL",
+      "plants": ["m.in. Radzymin, Staniątki, Tylicz"],
+      "brandOwner": "The Coca-Cola Company",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "Marka amerykańska, ale butelkowaniem w Polsce zajmuje się Coca-Cola HBC (grupa szwajcarsko-grecka) w polskich rozlewniach.",
+      "story": "Cola z polskiego sklepu prawie na pewno powstała w Polsce — w Radzyminie albo Staniątkach. Marka: USA, rozlew: Polska.",
+      "sources": [
+        {"label": "Coca-Cola HBC", "url": "https://www.coca-colahellenic.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "nalenczowianka",
+      "brand": "Nałęczowianka",
+      "category": "woda",
+      "producer": "Nestlé Waters (zakład Nałęczów)",
+      "productionCountry": "PL",
+      "plants": ["Nałęczów"],
+      "brandOwner": "Nestlé",
+      "ownerCountry": "CH",
+      "capitalCountry": "CH",
+      "capitalNote": "Woda z Nałęczowa, ale marka należy do szwajcarskiego Nestlé.",
+      "story": "Nałęczowianka to polska woda ze szwajcarskim właścicielem — Nestlé.",
+      "sources": [
+        {"label": "Nestlé Polska", "url": "https://www.nestle.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "cisowianka",
+      "brand": "Cisowianka",
+      "category": "woda",
+      "producer": "Polskie Zdroje (Nałęczów Zdrój)",
+      "productionCountry": "PL",
+      "plants": ["Drzewce k. Nałęczowa"],
+      "brandOwner": "Polskie Zdroje sp. z o.o. sp.k.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Cisowianka należy do polskiej firmy Polskie Zdroje.",
+      "story": "Dwie wody z okolic Nałęczowa: Nałęczowianka — Szwajcarzy (Nestlé), Cisowianka — kapitał polski. Ta sama półka, inne kierunki zysków.",
+      "sources": [
+        {"label": "Cisowianka", "url": "https://www.cisowianka.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "frosta",
+      "brand": "FRoSTA",
+      "category": "mrożonki",
+      "producer": "FRoSTA sp. z o.o. (zakład Bydgoszcz)",
+      "productionCountry": "PL",
+      "plants": ["Bydgoszcz"],
+      "brandOwner": "FRoSTA AG",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Mrożonki FRoSTA na polski rynek powstają w Bydgoszczy; właścicielem jest niemiecka rodzinna spółka FRoSTA AG.",
+      "story": "Ryba z FRoSTY jest pakowana w Bydgoszczy — ale firma-matka siedzi w Bremerhaven.",
+      "sources": [
+        {"label": "FRoSTA", "url": "https://www.frosta.pl"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "roshen",
+      "brand": "Roshen",
+      "category": "słodycze",
+      "producer": "Roshen (zakłady na Ukrainie i w UE)",
+      "productionCountry": "UA",
+      "plants": ["Kijów, Winnica (UA); Kłajpeda (LT); Bonbonetti (HU)"],
+      "brandOwner": "Roshen Confectionery Corporation",
+      "ownerCountry": "UA",
+      "capitalCountry": "UA",
+      "capitalNote": "Roshen to największy ukraiński producent słodyczy, powiązany z rodziną Petra Poroszenki. Część produkcji na rynek UE powstaje na Litwie i Węgrzech.",
+      "story": "Cukierki Roshen w polskich sklepach to ukraiński kapitał — koncern związany z byłym prezydentem Ukrainy.",
+      "sources": [
+        {"label": "Roshen", "url": "https://www.roshen.com"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "oshee",
+      "brand": "OSHEE",
+      "category": "napoje",
+      "producer": "OSHEE Polska sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": ["produkcja kontraktowa w PL"],
+      "brandOwner": "OSHEE Polska (założyciele prywatni)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "OSHEE to krakowska firma założona w 2008 r. — polski kapitał prywatny, eksport do kilkudziesięciu krajów.",
+      "story": "OSHEE brzmi japońsko, wygląda globalnie — a to firma z Krakowa, w polskich rękach.",
+      "sources": [
+        {"label": "OSHEE", "url": "https://www.oshee.eu"}
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "wawel",
+      "brand": "Wawel",
+      "category": "słodycze",
+      "producer": "Wawel S.A. (zakład Dobczyce)",
+      "productionCountry": "PL",
+      "plants": ["Dobczyce k. Krakowa"],
+      "brandOwner": "Wawel S.A. (GPW; znaczący akcjonariusz: Hosta International AG)",
+      "ownerCountry": "PL",
+      "capitalCountry": "CH",
+      "capitalNote": "Wawel jest notowany na GPW, ale pakiet kontrolny ma szwajcarska Hosta International AG. Produkcja w całości w Małopolsce.",
+      "story": "Czekolady 'Wawel' spod Krakowa — ale największy akcjonariusz spółki to szwajcarski holding. Niby polskie, a jednak nie do końca.",
+      "sources": [
+        {"label": "Wawel S.A. — relacje inwestorskie", "url": "https://www.wawel.com.pl"}
+      ],
+      "confidence": "do-weryfikacji",
+      "updated": "2026-07-02"
+    }
+  ]
+}

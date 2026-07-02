@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "skadto",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "public", "-p", "8377", "-c-1"],
+      "port": 8377
+    }
+  ]
+}
