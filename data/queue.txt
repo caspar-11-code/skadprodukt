@@ -1,0 +1,14 @@
+# Kolejka marek/składników do dodania (jedna nazwa na linię).
+# Przetwarzanie: skill /dodaj-marke ("przerób kolejkę"). Po dodaniu usuń linię.
+# Poniżej propozycje na start — do przejrzenia:
+Pepco
+Drosed (kurczaki)
+Krakus chrzan/przetwory (Maspex?)
+Mieszko (słodycze)
+MK Cafe
+Chery / Ebro (fabryka Barcelona)
+Xiaomi (auta SU7?)
+InPost
+Wódka Soplica — osobny wpis?
+składnik: olej rzepakowy
+składnik: ziemniaki/frytki (Belgia?)

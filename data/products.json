@@ -822,7 +822,21 @@
         }
       ],
       "confidence": "publiczne",
-      "updated": "2026-07-02"
+      "updated": "2026-07-02",
+      "stateAid": {
+        "text": "Komisja Europejska ustaliła w postępowaniu antysubsydyjnym, że grupa SAIC (właściciel MG) korzystała z subsydiów państwa chińskiego i odmówiła pełnej współpracy w dochodzeniu. Rozporządzeniem (UE) 2024/2754 na auta elektryczne SAIC importowane z Chin nałożono ==najwyższe cło wyrównawcze: 35,3%==.",
+        "sources": [
+          {
+            "label": "Rozporządzenie wykonawcze (UE) 2024/2754 — ostateczne cła wyrównawcze",
+            "url": "https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html"
+          },
+          {
+            "label": "PISM — Komisja Europejska nakłada cła na chińskie pojazdy elektryczne",
+            "url": "https://www.pism.pl/publikacje/komisja-europejska-naklada-cla-na-chinskie-pojazdy-elektryczne"
+          }
+        ],
+        "sourceDate": "2024"
+      }
     },
     {
       "slug": "volvo-cars",
@@ -857,7 +871,21 @@
         }
       ],
       "confidence": "publiczne",
-      "updated": "2026-07-02"
+      "updated": "2026-07-02",
+      "stateAid": {
+        "text": "Postępowanie antysubsydyjne KE objęło grupę Geely — właściciela Volvo Cars. Na auta elektryczne grupy Geely importowane z Chin (dotyczy modeli produkowanych w Chinach, np. części produkcji EX30) rozporządzeniem (UE) 2024/2754 nałożono ==cło wyrównawcze 18,8%==.",
+        "sources": [
+          {
+            "label": "Rozporządzenie wykonawcze (UE) 2024/2754 — ostateczne cła wyrównawcze",
+            "url": "https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html"
+          },
+          {
+            "label": "PISM — Komisja Europejska nakłada cła na chińskie pojazdy elektryczne",
+            "url": "https://www.pism.pl/publikacje/komisja-europejska-naklada-cla-na-chinskie-pojazdy-elektryczne"
+          }
+        ],
+        "sourceDate": "2024"
+      }
     },
     {
       "slug": "skoda",
@@ -1579,6 +1607,156 @@
         }
       ],
       "confidence": "do-weryfikacji",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "byd",
+      "brand": "BYD",
+      "category": "motoryzacja",
+      "producer": "BYD Auto (Chiny; w budowie fabryka europejska w Szegedzie, Węgry)",
+      "productionCountry": "CN",
+      "plants": [
+        "Chiny (m.in. Shenzhen, Xi’an); zapowiedziana fabryka UE: Szeged (Węgry)"
+      ],
+      "brandOwner": "BYD Company Ltd.",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "==Największy chiński producent aut elektrycznych==. Buduje fabrykę w Szegedzie na Węgrzech — auta „made in EU\" pozwolą omijać unijne cła wyrównawcze nałożone na import z Chin.",
+      "stateAid": {
+        "text": "Komisja Europejska w postępowaniu antysubsydyjnym ustaliła, że grupa BYD korzystała z subsydiów państwa chińskiego (m.in. preferencyjne finansowanie, granty, tani dostęp do surowców). Rozporządzeniem (UE) 2024/2754 nałożono ==ostateczne cło wyrównawcze 17%== na auta elektryczne BYD importowane z Chin do UE.",
+        "sources": [
+          {
+            "label": "Rozporządzenie wykonawcze (UE) 2024/2754 — ostateczne cła wyrównawcze",
+            "url": "https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html"
+          },
+          {
+            "label": "PISM — Komisja Europejska nakłada cła na chińskie pojazdy elektryczne",
+            "url": "https://www.pism.pl/publikacje/komisja-europejska-naklada-cla-na-chinskie-pojazdy-elektryczne"
+          }
+        ],
+        "sourceDate": "2024"
+      },
+      "story": "BYD urósł na subsydiach — KE udokumentowała wsparcie państwa i nałożyła cło 17%, więc BYD buduje fabrykę na Węgrzech, żeby je ominąć.",
+      "sources": [
+        {
+          "label": "Rozporządzenie (UE) 2024/2754 (cła wyrównawcze)",
+          "url": "https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html"
+        },
+        {
+          "label": "Wikipedia — BYD Auto",
+          "url": "https://en.wikipedia.org/wiki/BYD_Auto"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "leapmotor",
+      "brand": "Leapmotor",
+      "category": "motoryzacja",
+      "producer": "Leapmotor (Chiny); sprzedaż poza Chinami: Leapmotor International — JV ze Stellantis",
+      "productionCountry": "CN",
+      "plants": [
+        "Chiny (Jinhua); montaż europejski w zakładach Stellantis (m.in. Hiszpania)"
+      ],
+      "brandOwner": "Zhejiang Leapmotor Technology",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "stakes": [
+        {
+          "holder": "Stellantis (Fiat, Opel, Peugeot, Jeep…)",
+          "holderCountry": "NL",
+          "pct": "~21%",
+          "note": "największy pojedynczy akcjonariusz Leapmotora (inwestycja 1,5 mld €, 2023)"
+        },
+        {
+          "holder": "Stellantis — w JV Leapmotor International",
+          "holderCountry": "NL",
+          "pct": "51%",
+          "note": "JV z wyłącznością na sprzedaż i produkcję aut Leapmotor poza Chinami"
+        }
+      ],
+      "capitalNote": "„Chiński\" Leapmotor w Europie to w praktyce ==spółka, w której 51% ma europejski Stellantis== (właściciel Fiata, Opla i Peugeota) — a sam Stellantis jest też ==największym akcjonariuszem Leapmotora (ok. 21%)==.",
+      "story": "Narzekasz na „zalew chińskich aut\" Leapmotor? Połowę tego biznesu w Europie kontroluje Stellantis — właściciel Fiata i Opla.",
+      "sources": [
+        {
+          "label": "Stellantis — inwestycja 1,5 mld € w Leapmotor (2023)",
+          "url": "https://www.stellantis.com/en/news/press-releases/2023/october/stellantis-to-become-a-strategic-shareholder-of-leapmotor-with-1-5-billion-investment-and-bolster-leapmotor-s-global-electric-vehicle-business"
+        },
+        {
+          "label": "Stellantis — start Leapmotor International (JV 51/49)",
+          "url": "https://www.stellantis.com/en/news/press-releases/2024/may/leapmotor-international-begins-operations-to-expand-global-electric-vehicle-sales-starting-september-2024-in-nine-european-countries-followed-by-other-key-growth-regions"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "smart",
+      "brand": "Smart",
+      "category": "motoryzacja",
+      "producer": "smart Automobile Co. (produkcja: Xi’an, Chiny)",
+      "productionCountry": "CN",
+      "plants": [
+        "Xi’an (Chiny); dawniej Hambach (Francja)"
+      ],
+      "brandOwner": "smart Automobile Co. — JV 50/50 Mercedes-Benz i Geely",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "stakes": [
+        {
+          "holder": "Mercedes-Benz Group",
+          "holderCountry": "DE",
+          "pct": "50%",
+          "note": "współwłaściciel JV od 2019 r."
+        },
+        {
+          "holder": "Zhejiang Geely Holding",
+          "holderCountry": "CN",
+          "pct": "50%",
+          "note": "współwłaściciel JV; produkcja przeniesiona do Chin"
+        }
+      ],
+      "capitalNote": "Dawna marka Daimlera produkowana we Francji: ==od 2019 r. spółka 50/50 Mercedes-Benz i chińskiego Geely==, a auta powstają w Chinach. „Niemiecki\" smart jest w połowie chiński — i odwrotnie.",
+      "story": "Smart: pół-niemiecki, pół-chiński, produkowany w Xi’an. Etykietki narodowe przestały cokolwiek znaczyć.",
+      "sources": [
+        {
+          "label": "Wikipedia — Smart (marque): JV Mercedes-Benz/Geely",
+          "url": "https://en.wikipedia.org/wiki/Smart_(marque)"
+        },
+        {
+          "label": "smart — strona globalna",
+          "url": "https://global.smart.com"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-02"
+    },
+    {
+      "slug": "polestar",
+      "brand": "Polestar",
+      "category": "motoryzacja",
+      "producer": "Polestar (HQ: Göteborg; produkcja: Chiny, USA)",
+      "productionCountry": "CN",
+      "plants": [
+        "Chengdu i Hangzhou Bay (Chiny), Ridgeville (USA); HQ Göteborg"
+      ],
+      "brandOwner": "Polestar Automotive Holding (kontrola: Geely Holding i Li Shufu)",
+      "ownerCountry": "SE",
+      "capitalCountry": "CN",
+      "capitalNote": "„Szwedzki\" Polestar ma centralę w Göteborgu, ale ==kontrolę nad spółką sprawują chińskie Geely Holding i jego założyciel Li Shufu== — zwłaszcza po tym, jak Volvo Cars (też należące do Geely) zredukowało swój pakiet w 2024 r. Produkcja głównie w Chinach.",
+      "story": "Polestar reklamuje się skandynawskim designem — kapitałowo to chińskie Geely, a auta jadą do Europy z Chin.",
+      "sources": [
+        {
+          "label": "Wikipedia — Polestar (struktura właścicielska)",
+          "url": "https://en.wikipedia.org/wiki/Polestar"
+        },
+        {
+          "label": "Polestar — relacje inwestorskie",
+          "url": "https://investors.polestar.com"
+        }
+      ],
+      "confidence": "publiczne",
       "updated": "2026-07-02"
     }
   ]

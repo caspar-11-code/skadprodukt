@@ -131,7 +131,10 @@ function brandCard(p) {
     <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> ${flag(p.capitalCountry)} ${esc(countryName(p.capitalCountry))}</span>
   </div>
   <p class="card-owner">${esc(p.brandOwner)}</p>
-  ${p.confidence === 'do-weryfikacji' ? '<span class="badge-verify" data-i18n="card.verify">⚠ do weryfikacji</span>' : ''}
+  <div class="card-badges">
+    ${p.stateAid ? '<span class="badge-aid" data-i18n="card.aid">💰 udokumentowane wsparcie państwa</span>' : ''}
+    ${p.confidence === 'do-weryfikacji' ? '<span class="badge-verify" data-i18n="card.verify">⚠ do weryfikacji</span>' : ''}
+  </div>
 </a>`;
 }
 
@@ -195,6 +198,12 @@ function productPage(p) {
   <table class="facts stakes-table">
     ${p.stakes.map(s => `<tr><th>${esc(s.holder)} ${flag(s.holderCountry)}</th><td>${s.pct ? `<strong>${esc(s.pct)}</strong> — ` : ''}${fmt(s.note)}</td></tr>`).join('\n    ')}
   </table>` : '';
+  const aidBlock = p.stateAid ? `
+  <aside class="state-aid">
+    <span class="aid-tag" data-i18n="product.aidTag">💰 UDOKUMENTOWANE WSPARCIE PAŃSTWA</span>
+    <p>${fmt(p.stateAid.text)}</p>
+    <p class="issue-src"><span data-i18n="ing.source">źródło:</span> ${(p.stateAid.sources || []).map(s => `<a href="${esc(s.url)}" rel="nofollow noopener" target="_blank">${esc(s.label)}</a>`).join(' · ')}${p.stateAid.sourceDate ? ` (${esc(p.stateAid.sourceDate)})` : ''}</p>
+  </aside>` : '';
   const ingBlock = (p.ingredients && p.ingredients.length) ? `
   <h2 data-i18n="product.ingredients">Kluczowe składniki</h2>
   <div class="chips-row">${p.ingredients.filter(s => ingBySlug[s]).map(s => `<a class="chip-link" href="/skladnik/${s}/">${ingBySlug[s].emoji || ''} ${esc(ingBySlug[s].name)}</a>`).join(' ')}</div>` : '';
@@ -218,6 +227,7 @@ function productPage(p) {
     <tr><th data-i18n="field.updated">Stan na</th><td>${esc(p.updated)}</td></tr>
   </table>
   ${stakesBlock}
+  ${aidBlock}
   ${ingBlock}
   <h2 data-i18n="product.sources">Źródła</h2>
   <ul class="sources">
@@ -517,11 +527,11 @@ function formPage() {
       <option value="inne" data-i18n="form.t4">Inne</option>
     </select>
     <label data-i18n="form.msg">Treść zgłoszenia *</label>
-    <textarea name="message" id="f-message" rows="6" maxlength="2000" required placeholder="Opisz, czego dotyczy zgłoszenie…"></textarea>
+    <textarea name="message" id="f-message" rows="6" minlength="10" maxlength="2000" required placeholder="Opisz, czego dotyczy zgłoszenie… (10–2000 znaków)"></textarea>
     <label data-i18n="form.src">Źródło (link, jeśli masz)</label>
-    <input type="url" name="source" id="f-source" placeholder="https://…">
+    <input type="url" name="source" id="f-source" maxlength="500" placeholder="https://…">
     <label data-i18n="form.contact">Kontakt zwrotny (opcjonalnie)</label>
-    <input type="text" name="contact" id="f-contact" placeholder="e-mail lub nick — jeśli chcesz odpowiedź">
+    <input type="text" name="contact" id="f-contact" maxlength="200" placeholder="e-mail lub nick — jeśli chcesz odpowiedź">
     <input type="text" name="website" id="f-website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
     <button type="submit" class="btn" id="f-submit" data-i18n="form.send">Wyślij zgłoszenie</button>
     <p id="f-status" class="form-status" role="status" aria-live="polite"></p>
@@ -588,7 +598,19 @@ write('_headers', `/*
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), camera=(), microphone=(), interest-cohort=()
   Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  X-Permitted-Cross-Domain-Policies: none
   Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
+
+/api/*
+  Cache-Control: no-store
+`);
+
+// security.txt (RFC 9116) — kontakt dla zgłoszeń bezpieczeństwa
+write('.well-known/security.txt', `Contact: ${SITE_URL}/zglos/
+Expires: 2027-07-01T00:00:00.000Z
+Preferred-Languages: pl, en
+Canonical: ${SITE_URL}/.well-known/security.txt
 `);
 
 console.log(`OK: ${products.length} marek, ${ingredients.length} składników, ${urls.length} stron → public/ (${SITE_URL})`);

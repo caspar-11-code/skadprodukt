@@ -51,11 +51,11 @@
       <option value="inne" data-i18n="form.t4">Inne</option>
     </select>
     <label data-i18n="form.msg">Treść zgłoszenia *</label>
-    <textarea name="message" id="f-message" rows="6" maxlength="2000" required placeholder="Opisz, czego dotyczy zgłoszenie…"></textarea>
+    <textarea name="message" id="f-message" rows="6" minlength="10" maxlength="2000" required placeholder="Opisz, czego dotyczy zgłoszenie… (10–2000 znaków)"></textarea>
     <label data-i18n="form.src">Źródło (link, jeśli masz)</label>
-    <input type="url" name="source" id="f-source" placeholder="https://…">
+    <input type="url" name="source" id="f-source" maxlength="500" placeholder="https://…">
     <label data-i18n="form.contact">Kontakt zwrotny (opcjonalnie)</label>
-    <input type="text" name="contact" id="f-contact" placeholder="e-mail lub nick — jeśli chcesz odpowiedź">
+    <input type="text" name="contact" id="f-contact" maxlength="200" placeholder="e-mail lub nick — jeśli chcesz odpowiedź">
     <input type="text" name="website" id="f-website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
     <button type="submit" class="btn" id="f-submit" data-i18n="form.send">Wyślij zgłoszenie</button>
     <p id="f-status" class="form-status" role="status" aria-live="polite"></p>

@@ -133,6 +133,17 @@ table.facts tr:last-child th,table.facts tr:last-child td{border-bottom:none}
 .oshare{color:var(--accent);font-weight:700;margin-left:6px}
 .onote{display:block;color:var(--muted);font-size:.9rem;margin-top:2px}
 
+/* czytelniejsze podziały sekcji: akcentowy pasek + oddech + linia */
+main h2{position:relative;padding-left:14px;margin-top:2.4em;padding-top:.4em}
+main h2::before{content:'';position:absolute;left:0;top:.5em;width:5px;height:1em;border-radius:3px;background:var(--accent)}
+main article > h2:not(:first-of-type),main > h2:not(:first-of-type){border-top:1px solid var(--line)}
+
+/* wsparcie państwa (udokumentowane) */
+.state-aid{background:#fff8e6;border:1px solid #f0dfae;border-left:5px solid #d99a06;border-radius:10px;padding:14px 16px;margin:14px 0}
+.state-aid p{margin:8px 0 6px}
+.aid-tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:#8a5a00;background:#fdedc2;border-radius:6px;padding:3px 9px}
+.badge-aid{font-size:.74rem;color:#8a5a00;background:#fdedc2;border-radius:6px;padding:2px 8px;font-weight:600}
+
 /* wyróżnienie kluczowych informacji (==...== w danych) */
 mark{background:#fde3dd;color:#b3321b;font-weight:650;padding:0 3px;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .paradox mark,.issue mark{background:#fbd2c9}

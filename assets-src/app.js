@@ -39,6 +39,7 @@
     'form.note': 'Submissions go to a private inbox. We don’t collect data you don’t volunteer.',
     'about.title': 'About', 'tile.brandsSub': 'brands — who owns them', 'tile.ingSub': 'raw materials — where from',
     'ing.paradox': 'SHELF PARADOX', 'card.paradox': 'shelf paradox',
+    'card.aid': '💰 documented state support', 'product.aidTag': '💰 DOCUMENTED STATE SUPPORT',
     'stats.paradoxTitle': 'Paradoxes of the shop shelf',
     'stats.paradoxLead': 'Cases where the market defies common sense — documented, with sources.',
     'stats.paradoxMore': 'full data and sources →'

@@ -1,4 +1,17 @@
-# Automatyzacja treści: serwis → YouTube Shorts / social (0 zł)
+# Automatyzacja: dane → serwis → YouTube Shorts / social (0 zł)
+
+## 0. Pętla automatyzacji danych (dodawanie + weryfikacja)
+
+**Dodawanie (półautomat, jedna komenda):**
+1. Dopisz nazwy do `data/queue.txt` (albo od razu podaj w rozmowie).
+2. W Claude Code: **`/dodaj-marke`** (skill w `.claude/skills/`) — sam robi research w internecie, weryfikuje źródła, tworzy rekord z `==wyróżnieniami==`/`stakes`/`stateAid`, waliduje, buduje i po Twojej zgodzie publikuje.
+3. Zgłoszenia czytelników: dashboard Cloudflare → KV `skadprodukt-zgloszenia` (klucze `z:...`) — wklej treść do sesji, reszta jak wyżej.
+
+**Weryfikacja (pełny automat, cotygodniowa):**
+- GitHub Actions `weryfikacja-zrodel.yml` — w każdy poniedziałek sprawdza WSZYSTKIE URL-e źródeł w bazie (`tools/check_sources.js`), commituje `SOURCES-REPORT.md`, a przy martwym linku run robi się czerwony i **GitHub sam wysyła maila** — wtedy jedna sesja `/dodaj-marke` z poleceniem „napraw martwe źródła z SOURCES-REPORT.md".
+- Walidacja schematu przy każdej publikacji: `tools/publish.ps1` → `tools/validate.js`.
+- Rekordy `do-weryfikacji` mają baner ⚠ na stronie i są pomijane w generatorze wideo.
+
 
 Jedna baza (`data/products.json`) zasila trzy kanały: **serwis www**, **karty graficzne**, **Shorty**.
 
