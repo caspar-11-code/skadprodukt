@@ -343,7 +343,7 @@ function indexPage() {
   <p class="tagline" data-i18n="hero.tagline">Portal świadomego konsumenta</p>
   <p class="lead" data-i18n="hero.sub">Kraj produkcji, producent, właściciel marki, pochodzenie kapitału i surowców — publiczne dane zebrane i udokumentowane w jednym miejscu. Bez emocji, bez bojkotów: same fakty ze źródłami.</p>
   <form class="search-form" role="search" action="/marki/">
-    <input type="search" id="search" name="q" placeholder="Szukaj marki, producenta, właściciela…" autocomplete="off" aria-label="Szukaj">
+    <input type="search" id="search" name="q" placeholder="Szukaj marki, producenta, właściciela…" data-i18n-ph="search.ph" autocomplete="off" aria-label="Szukaj">
   </form>
   <div class="hub-tiles">
     <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">${products.length} marek — kto jest właścicielem</span></a>
@@ -387,7 +387,7 @@ function brandsPage() {
   <h1 data-i18n="brands.title">Marki i kapitał</h1>
   <p class="lead" data-i18n="brands.sub">Kto jest właścicielem marki i skąd pochodzi kapitał. Filtruj po kraju kapitału i kategorii.</p>
   <form class="search-form" role="search" onsubmit="return false">
-    <input type="search" id="search" placeholder="Szukaj marki, producenta, właściciela…" autocomplete="off" aria-label="Szukaj">
+    <input type="search" id="search" placeholder="Szukaj marki, producenta, właściciela…" data-i18n-ph="search.ph" autocomplete="off" aria-label="Szukaj">
   </form>
   <div class="filters">
     <button class="chip chip-on" data-filter="*" data-i18n="filter.all">wszystkie</button>
@@ -416,7 +416,7 @@ function ingredientsPage() {
   <h1 data-i18n="ing.pageTitle">Składniki i ich pochodzenie</h1>
   <p class="lead" data-i18n="ing.pageSub">Skąd na świecie pochodzą surowce w Twoim koszyku — z mapą, danymi i udokumentowanymi problemami, których nie widać na opakowaniu.</p>
   <form class="search-form" role="search" onsubmit="return false">
-    <input type="search" id="search" placeholder="Szukaj składnika…" autocomplete="off" aria-label="Szukaj">
+    <input type="search" id="search" placeholder="Szukaj składnika…" data-i18n-ph="search.phIng" autocomplete="off" aria-label="Szukaj">
   </form>
 </section>
 <div class="grid grid-ing" id="grid">

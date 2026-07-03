@@ -195,6 +195,7 @@ mark{background:#fde3dd;color:#b3321b;font-weight:650;padding:0 3px;border-radiu
 
 /* footer */
 .site-footer{max-width:1040px;margin:0 auto;padding:26px 20px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+.site-footer p:first-child{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
 .site-footer a{color:var(--muted)}
 .site-footer a:hover{color:var(--accent)}
 .site-footer .fine{font-size:.78rem;margin-top:8px}

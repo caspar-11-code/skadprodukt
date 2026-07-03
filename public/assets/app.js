@@ -42,11 +42,12 @@
     'card.aid': '💰 documented state support', 'product.aidTag': '💰 DOCUMENTED STATE SUPPORT',
     'stats.paradoxTitle': 'Paradoxes of the shop shelf',
     'stats.paradoxLead': 'Cases where the market defies common sense — documented, with sources.',
-    'stats.paradoxMore': 'full data and sources →'
+    'stats.paradoxMore': 'full data and sources →',
+    'search.ph': 'Search a brand, manufacturer, owner…', 'search.phIng': 'Search an ingredient…'
   };
 
   var lang = localStorage.getItem('skadprodukt-lang') || ((navigator.language || 'pl').slice(0, 2) === 'pl' ? 'pl' : 'en');
-  var plCache = {};
+  var plCache = {}, phCache = {};
   function applyLang() {
     var nodes = document.querySelectorAll('[data-i18n]');
     for (var i = 0; i < nodes.length; i++) {
@@ -54,6 +55,13 @@
       if (!(k in plCache)) plCache[k] = el.innerHTML;
       if (lang === 'en' && EN[k]) el.textContent = EN[k];
       else el.innerHTML = plCache[k];
+    }
+    // placeholdery pól (atrybut nie da się objąć innerHTML)
+    var phs = document.querySelectorAll('[data-i18n-ph]');
+    for (var j = 0; j < phs.length; j++) {
+      var pe = phs[j], pk = pe.getAttribute('data-i18n-ph');
+      if (!(pk in phCache)) phCache[pk] = pe.getAttribute('placeholder') || '';
+      pe.setAttribute('placeholder', (lang === 'en' && EN[pk]) ? EN[pk] : phCache[pk]);
     }
     var btn = document.getElementById('lang-toggle');
     if (btn) btn.textContent = lang === 'pl' ? 'EN' : 'PL';
