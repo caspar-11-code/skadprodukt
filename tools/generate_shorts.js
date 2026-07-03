@@ -48,7 +48,7 @@ function shortScript(p, i) {
     cta: `Więcej marek sprawdzisz na ${SITE}. Obserwuj po kolejne!`,
     hashtags: ['#skadprodukt', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#swiadomykonsument',
       p.capitalCountry === 'PL' ? '#polskamarka' : '#zagranicznykapital'],
-    voice: 'de-DE-FlorianMultilingualNeural',
+    voice: 'piper:pl_PL-mc_speech-medium',
     card: `output/cards/${p.slug}.svg`,
     disclaimer: `Dane z publicznych źródeł, stan na ${p.updated}. Szczegóły i źródła: ${SITE}/p/${p.slug}/`,
     confidence: p.confidence,

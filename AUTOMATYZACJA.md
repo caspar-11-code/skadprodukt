@@ -22,7 +22,7 @@ node tools/generate_shorts.js
 ```
 
 Tworzy dla każdego rekordu z `confidence: "publiczne"`:
-- `output/shorts/<slug>.json` — hook, linie narracji, CTA, hashtagi, głos (`pl-PL-MarekNeural`) — format pod istniejący silnik wideo,
+- `output/shorts/<slug>.json` — hook, linie narracji, CTA, hashtagi, głos (`piper:pl_PL-mc_speech-medium`) — format pod silnik `make_short_v2.py`,
 - `output/shorts/<slug>.txt` — ten sam skrypt czytelny dla człowieka (do ręcznego nagrania/opisu),
 - `output/cards/<slug>.svg` — karta 1080×1350 do posta (Instagram/FB/X); PNG pobierzesz też przyciskiem na stronie produktu.
 
@@ -36,14 +36,22 @@ Rekordy `do-weryfikacji` są **celowo pomijane** — nie publikujemy niepotwierd
 - **Automat dzienny:** Task Scheduler „SkadProdukt Daily Short" — codziennie 16:00 uruchamia `skadprodukt_daily.py` (render kolejnego z `output/shorts/` + upload; stan w `content/skadprodukt_state.json`, log w `logs/skadprodukt_daily.log`). Ręczne sterowanie: `python skadprodukt_daily.py [--slug X] [--dry-run]`.
 - Opis każdego filmu = `disclaimer` z JSON-a (źródła + link do strony marki) — ruch wraca do serwisu. Rekordy „do-weryfikacji" nie mają plików w output/shorts, więc nigdy nie trafią na kanał.
 
-## 2. Montaż wideo — istniejący silnik `auto-content-engine`
+## 2. Montaż wideo — WZORZEC (`make_short_v2.py`, zatwierdzony 2026-07-04)
 
-Masz już działający pipeline w `C:\Users\hkacp\auto-content-engine` (edge-tts + ffmpeg, zweryfikowany 2026-06-30). Adaptacja pod SkądProdukt.org:
+Silnik: `C:\Users\hkacp\auto-content-engine\make_short_v2.py`. Daily (`skadprodukt_daily.py`) używa `generate_v2`, więc **każdy short automatycznie dostaje pełny wzorzec** — nic nie trzeba ustawiać per film.
 
-1. Skopiuj `output/shorts/*.json` do katalogu roboczego silnika.
-2. W `make_short.py` podmień źródło skryptu na pola `hook` + `lines` + `cta` (struktura celowo taka sama) i głos na `pl-PL-MarekNeural`.
-3. Tło Shorta: wyrenderowana karta `output/cards/<slug>.svg` (ffmpeg przyjmie PNG — konwersja: otwórz SVG w przeglądarce albo `magick` jeśli jest; na stronie produktu jest też przycisk „Pobierz PNG").
-4. Auto-post: gotowy `youtube_upload.py` + `run_daily.py` (YouTube Data API v3) — wymaga tylko Twojego OAuth (kroki w `SETUP.md` silnika).
+**Kanon (nie zmieniać bez powodu):**
+- **Głos:** Piper `pl_PL-mc_speech-medium` (natywny PL — NIGDY nie przełącza na angielski), `SynthesisConfig(length_scale=0.95, noise_w_scale=0.62, noise_scale=0.58)` = pewny, stabilny ton.
+- **Audio:** mastering (odszum+kompresja+limiter), muzyka proceduralna (0 licencji) głośno (`MUSIC_VOL=0.95`) z delikatnym duckingiem, napisy wyprzedzają mowę o 170 ms.
+- **Obraz:** granat+pomarańcz, słowa PISANE WERSALIKAMI → pomarańczowe, pasek postępu, hook-karta, podpis jako sprite skalowany w „pop" (bez przeskoku wersów).
+
+**Fonetyka (automatyczna — to sprawia, że wzorzec skaluje się na wszystkie marki):**
+- Liczby (lata, %, liczebniki) → słowa po polsku — automatycznie, nic nie trzeba wpisywać.
+- Obce nazwy (Heineken→Hajneken, Goodyear→Gud Jer, SAIC, Geely…) → słownik **`auto-content-engine/custom/pronunciations.json`**. Gdy nowa marka ma obcą nazwę, którą lektor przekręca: **dopisz jedną linię do tego pliku** (klucz = oryginał, wartość = zapis fonetyczny PL) i gotowe dla wszystkich shortów.
+- Napisy zawsze pokazują ORYGINAŁ; fonetyka dotyczy tylko tego, co czyta lektor.
+- Hero-short (ręcznie dopieszczony) może mieć w JSON pole `speak` = pełny tekst fonetyczny (wtedy pomija słownik/liczby) — musi mieć tę samą liczbę zdań co napisy. Przykład: `custom/top5-niby-polskie.json`.
+
+Ręczne sterowanie: `python make_short_v2.py custom/plik.json` (render) lub `python skadprodukt_daily.py --slug <marka> --dry-run`.
 
 Pamiętaj o gotchy sieci uczelni: `truststore.inject_into_ssl()` i napisy synchronizowane per zdanie (edge-tts za TLS-inspection gubi WordBoundary).
 
