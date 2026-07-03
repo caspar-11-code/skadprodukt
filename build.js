@@ -65,6 +65,9 @@ for (const p of products) capitalStats[p.capitalCountry] = (capitalStats[p.capit
 const statsSorted = Object.entries(capitalStats).sort((a, b) => b[1] - a[1]);
 const categories = [...new Set(products.map(p => p.category))].sort((a, b) => a.localeCompare(b, 'pl'));
 
+// ikona YouTube (inline SVG — zgodne z CSP, bez zewnętrznych zasobów)
+const YT_ICON = `<svg class="yt-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.5 15.5v-7L15.8 12l-6.3 3.5z"/></svg>`;
+
 // ---------- szablon strony ----------
 function page({ title, desc, urlPath, body, extraHead = '', bodyClass = '' }) {
   const ogImg = `${SITE_URL}/assets/og.png`;
@@ -104,6 +107,7 @@ ${extraHead}
     <a href="/skladniki/" data-i18n="nav.ingredients">Składniki</a>
     <a href="/statystyki/" data-i18n="nav.stats">Statystyki</a>
     <a href="/metodologia/" data-i18n="nav.method">Metodologia</a>
+    <a class="yt-btn" href="https://www.youtube.com/@skadprodukt" target="_blank" rel="noopener" title="Nasz kanał YouTube" aria-label="YouTube @skadprodukt">${YT_ICON}</a>
     <button id="lang-toggle" class="lang-btn" title="PL / EN" aria-label="Language">EN</button>
   </nav>
 </header>
@@ -112,8 +116,8 @@ ${body}
 </main>
 <footer class="site-footer">
   <p><strong>${esc(SITE_NAME)}</strong> — ${esc(TAGLINE)}. <span data-i18n="footer.disclaimer">Serwis informacyjno-edukacyjny. Dane pochodzą z publicznych źródeł (etykiety, rejestry KRS, raporty instytucji, publikacje prasowe) — przy każdej informacji podajemy źródło. Struktury własności i pochodzenie surowców zmieniają się w czasie; przed powołaniem się na dane sprawdź źródło i jego datę.</span></p>
-  <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a></p>
-  <p class="fine">© Kacper 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> ${BUILD_DATE} · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
+  <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a> · <a class="yt-link" href="https://www.youtube.com/@skadprodukt" target="_blank" rel="noopener">${YT_ICON} YouTube: @skadprodukt</a></p>
+  <p class="fine">© skadprodukt.org 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> ${BUILD_DATE} · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
 </footer>
 <script src="/assets/app.js"></script>
 </body>

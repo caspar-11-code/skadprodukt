@@ -23,6 +23,13 @@ main{max-width:1040px;margin:0 auto;padding:0 20px 70px}
 .site-header nav a:hover{color:var(--ink)}
 .lang-btn{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:5px 11px;cursor:pointer;font-weight:700;color:var(--muted)}
 .lang-btn:hover{border-color:var(--accent);color:var(--accent)}
+/* YouTube */
+.yt-btn{display:inline-flex;align-items:center;color:#e02f2f;padding:4px;text-decoration:none}
+.yt-btn:hover{color:#b31f1f}
+.yt-ico{vertical-align:-4px}
+.yt-link{color:#b31f1f;text-decoration:none;font-weight:600;white-space:nowrap}
+.yt-link:hover{text-decoration:underline}
+.yt-link .yt-ico{width:16px;height:16px;vertical-align:-3px;margin-right:2px}
 
 /* hero */
 .hero{text-align:center;padding:40px 0 12px}
