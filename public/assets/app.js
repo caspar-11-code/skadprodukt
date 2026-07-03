@@ -43,7 +43,37 @@
     'stats.paradoxTitle': 'Paradoxes of the shop shelf',
     'stats.paradoxLead': 'Cases where the market defies common sense — documented, with sources.',
     'stats.paradoxMore': 'full data and sources →',
-    'search.ph': 'Search a brand, manufacturer, owner…', 'search.phIng': 'Search an ingredient…'
+    'search.ph': 'Search a brand, manufacturer, owner…', 'search.phIng': 'Search an ingredient…',
+    'footer.privacy': 'Privacy & cookies',
+    'note.text': 'This site only stores your language choice and uses technical hosting files (Cloudflare). We collect no analytics or marketing data and do not track you.',
+    'note.more': 'Details', 'note.ok': 'Got it',
+    'priv.title': 'Privacy & cookies',
+    'priv.lead': 'In short: we don’t track you. No analytics, no ads, no marketing cookies. Below — exactly what, why and on what legal basis.',
+    'priv.h1': 'Data controller',
+    'priv.admin': 'The controller of personal data processed in connection with skadprodukt.org is ' + 'Kacper Hołda' + '. Contact:',
+    'priv.adminOr': 'or via', 'priv.form': 'the suggestion form', 'priv.showEmail': 'Show e-mail address',
+    'priv.h2': 'What we store on your device (cookies / localStorage)',
+    'priv.storeIntro': 'The site is static and keeps this to an absolute minimum. We use no Google Analytics, pixels, ads or trackers (a strict CSP allows only resources from our own domain).',
+    'priv.tWhat': 'What', 'priv.tPurpose': 'Purpose', 'priv.tBasis': 'Basis',
+    'priv.langP': 'Remembering your chosen language (PL/EN) — stored only when you click the toggle.',
+    'priv.langB': 'Function requested by the user — no consent required (art. 399(3)(2) PKE).',
+    'priv.noteP': 'Remembering that you dismissed the info note (so it isn’t shown again).',
+    'priv.noteB': 'Function requested by the user — no consent required.',
+    'priv.cfC': '__cf_bm and similar (Cloudflare)',
+    'priv.cfP': 'Technical hosting/security files (bot protection), set by Cloudflare.',
+    'priv.cfB': 'Technically necessary — no consent required.',
+    'priv.noConsent': 'That is why <strong>we show no cookie-consent popup</strong> — we use no files that would require it. Storing information on end devices is governed by art. 399 of the Electronic Communications Law (Journal of Laws 2024 item 1221); our uses fall under the “necessity” exception in paragraph 3.',
+    'priv.browser': 'You can remove the stored language and note dismissal at any time by clearing site data in your browser.',
+    'priv.h3': 'Data from the suggestion form',
+    'priv.formIntro': 'If you use the <a href="/zglos/">suggestion form</a>, we process:',
+    'priv.f1': '<strong>the submission content</strong> and optional <strong>source</strong> — to verify and correct site data;',
+    'priv.f2': '<strong>reply contact</strong> (optional, only if you provide it) — to respond;',
+    'priv.f3': '<strong>IP address</strong> — server-side only, for the anti-spam limit; we do not store it together with the submission.',
+    'priv.formBasis': '<strong>Legal basis:</strong> art. 6(1)(f) GDPR (legitimate interest — handling the submission and protecting the site from abuse), and for voluntary contact art. 6(1)(a) GDPR (consent by providing the data). <strong>Retention:</strong> submissions are kept until handled plus a reasonable archival period, then deleted; the IP-based anti-spam counter expires automatically after 24 hours.',
+    'priv.processor': '<strong>Processors:</strong> the site is hosted by Cloudflare, Inc. (Cloudflare Pages and KV storage) — data may be processed on the provider’s infrastructure under its policy and standard data-protection clauses.',
+    'priv.h4': 'Your rights',
+    'priv.rights': 'You have the right to: access, rectification, erasure, restriction of processing, objection and data portability. You may also lodge a complaint with the President of the Personal Data Protection Office (<a href="https://uodo.gov.pl" rel="nofollow noopener" target="_blank">uodo.gov.pl</a>). For data matters write to',
+    'priv.updated': 'Informational document, as of'
   };
 
   var lang = localStorage.getItem('skadprodukt-lang') || ((navigator.language || 'pl').slice(0, 2) === 'pl' ? 'pl' : 'en');
@@ -53,8 +83,8 @@
     for (var i = 0; i < nodes.length; i++) {
       var el = nodes[i], k = el.getAttribute('data-i18n');
       if (!(k in plCache)) plCache[k] = el.innerHTML;
-      if (lang === 'en' && EN[k]) el.textContent = EN[k];
-      else el.innerHTML = plCache[k];
+      // innerHTML (nie textContent) — teksty EN mogą zawierać <strong>/<a>; są nasze, zaufane
+      el.innerHTML = (lang === 'en' && EN[k]) ? EN[k] : plCache[k];
     }
     // placeholdery pól (atrybut nie da się objąć innerHTML)
     var phs = document.querySelectorAll('[data-i18n-ph]');
@@ -221,4 +251,34 @@
         submit.disabled = false;
       });
   });
+
+  // ---------- nota informacyjna (NIE baner zgody — cookies niezbędne nie wymagają zgody) ----------
+  var note = document.getElementById('info-note');
+  if (note) {
+    try {
+      if (!localStorage.getItem('skadprodukt-info-ok')) note.classList.remove('hidden');
+    } catch (e) { note.classList.remove('hidden'); }
+    var okBtn = document.getElementById('info-ok');
+    if (okBtn) okBtn.addEventListener('click', function () {
+      note.classList.add('hidden');
+      try { localStorage.setItem('skadprodukt-info-ok', '1'); } catch (e) { }
+    });
+  }
+
+  // ---------- odsłanianie e-maila (anty-scraping: adres składany dopiero na żądanie) ----------
+  function revealEmail(el) {
+    var addr = el.getAttribute('data-user') + '@' + el.getAttribute('data-dom');
+    var a = document.createElement('a');
+    a.href = 'mailto:' + addr;
+    a.textContent = addr;
+    a.className = 'mail-shown';
+    el.replaceWith(a);
+  }
+  var mrs = document.querySelectorAll('.mailrev');
+  for (var mi = 0; mi < mrs.length; mi++) {
+    (function (el) {
+      el.addEventListener('click', function () { revealEmail(el); });
+      el.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); revealEmail(el); } });
+    })(mrs[mi]);
+  }
 })();

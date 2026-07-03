@@ -68,6 +68,15 @@ const categories = [...new Set(products.map(p => p.category))].sort((a, b) => a.
 // ikona YouTube (inline SVG — zgodne z CSP, bez zewnętrznych zasobów)
 const YT_ICON = `<svg class="yt-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.5 15.5v-7L15.8 12l-6.3 3.5z"/></svg>`;
 
+// Administrator danych (RODO art. 13). E-mail celowo NIE w statycznym HTML —
+// składany przez app.js po kliknięciu (data-user/data-dom bez znaku @), więc
+// scrapery i boty nie wyciągną adresu z kodu; człowiek dostaje go jednym klikiem.
+const ADMIN_NAME = 'Kacper Hołda';
+const EMAIL_USER = 'holda.kacper';
+const EMAIL_DOM = 'outlook.com';
+const mailReveal = () =>
+  `<span class="mailrev" data-user="${EMAIL_USER}" data-dom="${EMAIL_DOM}" role="button" tabindex="0" data-i18n="priv.showEmail">Pokaż adres e-mail</span>`;
+
 // ---------- szablon strony ----------
 function page({ title, desc, urlPath, body, extraHead = '', bodyClass = '' }) {
   const ogImg = `${SITE_URL}/assets/og.png`;
@@ -116,9 +125,16 @@ ${body}
 </main>
 <footer class="site-footer">
   <p><strong>${esc(SITE_NAME)}</strong> — ${esc(TAGLINE)}. <span data-i18n="footer.disclaimer">Serwis informacyjno-edukacyjny. Dane pochodzą z publicznych źródeł (etykiety, rejestry KRS, raporty instytucji, publikacje prasowe) — przy każdej informacji podajemy źródło. Struktury własności i pochodzenie surowców zmieniają się w czasie; przed powołaniem się na dane sprawdź źródło i jego datę.</span></p>
-  <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a> · <a class="yt-link" href="https://www.youtube.com/@skadprodukt" target="_blank" rel="noopener">${YT_ICON} YouTube: @skadprodukt</a></p>
+  <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/prywatnosc/" data-i18n="footer.privacy">Prywatność i cookies</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a> · <a class="yt-link" href="https://www.youtube.com/@skadprodukt" target="_blank" rel="noopener">${YT_ICON} YouTube: @skadprodukt</a></p>
   <p class="fine">© skadprodukt.org 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> ${BUILD_DATE} · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
 </footer>
+<div id="info-note" class="info-note hidden" role="region" aria-label="Informacja o prywatności">
+  <p data-i18n="note.text">Ta strona zapisuje wyłącznie Twój wybór języka i korzysta z technicznych plików hostingu (Cloudflare). Nie zbieramy danych analitycznych ani marketingowych, nie śledzimy Cię.</p>
+  <div class="info-note-act">
+    <a href="/prywatnosc/" class="note-link" data-i18n="note.more">Szczegóły</a>
+    <button id="info-ok" class="btn btn-sm" data-i18n="note.ok">Rozumiem</button>
+  </div>
+</div>
 <script src="/assets/app.js"></script>
 </body>
 </html>`;
@@ -497,6 +513,50 @@ function methodPage() {
   });
 }
 
+// ---------- polityka prywatności i cookies ----------
+function privacyPage() {
+  const body = `
+<article class="legal">
+  <h1 data-i18n="priv.title">Prywatność i cookies</h1>
+  <p class="lead" data-i18n="priv.lead">W skrócie: nie śledzimy Cię. Nie używamy analityki, reklam ani ciasteczek marketingowych. Poniżej — dokładnie co, po co i na jakiej podstawie prawnej.</p>
+
+  <h2 data-i18n="priv.h1">Administrator danych</h2>
+  <p><span data-i18n="priv.admin">Administratorem danych osobowych przetwarzanych w związku z serwisem skadprodukt.org jest ${esc(ADMIN_NAME)}. Kontakt:</span> ${mailReveal()} <span data-i18n="priv.adminOr">lub przez</span> <a href="/zglos/" data-i18n="priv.form">formularz zgłoszeń</a>.</p>
+
+  <h2 data-i18n="priv.h2">Co przechowujemy na Twoim urządzeniu (cookies / localStorage)</h2>
+  <p data-i18n="priv.storeIntro">Serwis jest statyczny i ogranicza to do absolutnego minimum. Nie używamy Google Analytics, pikseli, reklam ani żadnych trackerów (twarda polityka CSP dopuszcza wyłącznie zasoby z naszej domeny).</p>
+  <table class="facts">
+    <tr><th data-i18n="priv.tWhat">Co</th><th data-i18n="priv.tPurpose">Po co</th><th data-i18n="priv.tBasis">Podstawa</th></tr>
+    <tr><td><code>skadprodukt-lang</code> (localStorage)</td><td data-i18n="priv.langP">Zapamiętanie wybranego przez Ciebie języka (PL/EN) — zapisywane dopiero gdy klikniesz przełącznik.</td><td data-i18n="priv.langB">Funkcja żądana przez użytkownika — bez zgody (art. 399 ust. 3 pkt 2 PKE).</td></tr>
+    <tr><td><code>skadprodukt-info-ok</code> (localStorage)</td><td data-i18n="priv.noteP">Zapamiętanie, że zamknąłeś notę informacyjną (by nie pokazywać jej ponownie).</td><td data-i18n="priv.noteB">Funkcja żądana przez użytkownika — bez zgody.</td></tr>
+    <tr><td data-i18n="priv.cfC"><code>__cf_bm</code> i podobne (Cloudflare)</td><td data-i18n="priv.cfP">Techniczne pliki hostingu/zabezpieczenia (ochrona przed botami), ustawiane przez Cloudflare.</td><td data-i18n="priv.cfB">Niezbędne technicznie — bez zgody.</td></tr>
+  </table>
+  <p data-i18n="priv.noConsent">Dlatego <strong>nie wyświetlamy okna zgody na cookies</strong> — nie używamy żadnych plików, które takiej zgody wymagają. Reżim przechowywania informacji w urządzeniu końcowym reguluje art. 399 ustawy Prawo komunikacji elektronicznej (Dz.U. 2024 poz. 1221); nasze zastosowania mieszczą się w wyjątku „niezbędności” z ust. 3.</p>
+  <p data-i18n="priv.browser">Wybrany język i zamknięcie noty możesz w każdej chwili usunąć, czyszcząc dane witryny w ustawieniach przeglądarki.</p>
+
+  <h2 data-i18n="priv.h3">Dane z formularza zgłoszeń</h2>
+  <p data-i18n="priv.formIntro">Jeśli skorzystasz z <a href="/zglos/">formularza sugestii</a>, przetwarzamy:</p>
+  <ul>
+    <li data-i18n="priv.f1"><strong>treść zgłoszenia</strong> i opcjonalne <strong>źródło</strong> — aby zweryfikować i poprawić dane w serwisie;</li>
+    <li data-i18n="priv.f2"><strong>kontakt zwrotny</strong> (opcjonalnie, tylko jeśli sam podasz) — aby odpowiedzieć;</li>
+    <li data-i18n="priv.f3"><strong>adres IP</strong> — wyłącznie po stronie serwera, na potrzeby limitu antyspamowego; nie zapisujemy go razem z treścią zgłoszenia.</li>
+  </ul>
+  <p data-i18n="priv.formBasis"><strong>Podstawa prawna:</strong> art. 6 ust. 1 lit. f RODO (prawnie uzasadniony interes — obsługa zgłoszenia i ochrona serwisu przed nadużyciami), a co do dobrowolnego kontaktu — art. 6 ust. 1 lit. a RODO (zgoda przez podanie danych). <strong>Retencja:</strong> zgłoszenia przechowujemy do czasu rozpatrzenia i przez rozsądny okres archiwalny, po czym je usuwamy; licznik antyspamowy z IP wygasa automatycznie po 24 godzinach.</p>
+  <p data-i18n="priv.processor"><strong>Podmioty przetwarzające:</strong> serwis hostuje Cloudflare, Inc. (Cloudflare Pages i magazyn KV) — dane mogą być przetwarzane na infrastrukturze dostawcy zgodnie z jego polityką i standardowymi klauzulami ochrony danych.</p>
+
+  <h2 data-i18n="priv.h4">Twoje prawa</h2>
+  <p><span data-i18n="priv.rights">Masz prawo do: dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz przenoszenia danych. Możesz też wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (<a href="https://uodo.gov.pl" rel="nofollow noopener" target="_blank">uodo.gov.pl</a>). W sprawach danych pisz na </span> ${mailReveal()}.</p>
+
+  <p class="disclaimer"><span data-i18n="priv.updated">Dokument informacyjny, stan na</span> ${BUILD_DATE}.</p>
+</article>`;
+  return page({
+    title: `Prywatność i cookies | ${SITE_NAME}`,
+    desc: 'Polityka prywatności i cookies skadprodukt.org: nie śledzimy, brak analityki i reklam. Co przechowujemy (język, techniczne cookies), dane z formularza, podstawa prawna (RODO, PKE) i Twoje prawa.',
+    urlPath: '/prywatnosc/',
+    body,
+  });
+}
+
 // ---------- o serwisie ----------
 function aboutPage() {
   const body = `
@@ -540,7 +600,7 @@ function formPage() {
     <button type="submit" class="btn" id="f-submit" data-i18n="form.send">Wyślij zgłoszenie</button>
     <p id="f-status" class="form-status" role="status" aria-live="polite"></p>
   </form>
-  <p class="disclaimer" data-i18n="form.note">Zgłoszenia trafiają do prywatnej skrzynki serwisu. Nie zbieramy danych, których nie podasz dobrowolnie.</p>
+  <p class="disclaimer" data-i18n="form.note">Zgłoszenia trafiają do prywatnej skrzynki serwisu. Nie zbieramy danych, których nie podasz dobrowolnie. Zasady przetwarzania: <a href="/prywatnosc/">Prywatność i cookies</a>.</p>
 </article>`;
   return page({
     title: `Zgłoś poprawkę lub sugestię | ${SITE_NAME}`,
@@ -569,6 +629,7 @@ write('skladniki/index.html', ingredientsPage());
 write('statystyki/index.html', statsPage());
 write('metodologia/index.html', methodPage());
 write('o-serwisie/index.html', aboutPage());
+write('prywatnosc/index.html', privacyPage());
 write('zglos/index.html', formPage());
 write('assets/style.css', CSS);
 write('assets/app.js', APP_JS);
@@ -577,7 +638,7 @@ write('assets/world-map.svg', WORLD_MAP);
 const ogSrc = path.join(ROOT, 'assets-src', 'og.png');
 if (fs.existsSync(ogSrc)) write('assets/og.png', fs.readFileSync(ogSrc));
 
-const urls = ['/', '/marki/', '/skladniki/', '/statystyki/', '/metodologia/', '/o-serwisie/', '/zglos/'];
+const urls = ['/', '/marki/', '/skladniki/', '/statystyki/', '/metodologia/', '/o-serwisie/', '/prywatnosc/', '/zglos/'];
 for (const p of products) { write(`p/${p.slug}/index.html`, productPage(p)); urls.push(`/p/${p.slug}/`); }
 for (const ing of ingredients) { write(`skladnik/${ing.slug}/index.html`, ingredientPage(ing)); urls.push(`/skladnik/${ing.slug}/`); }
 for (const [cc] of statsSorted) {

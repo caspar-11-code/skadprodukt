@@ -194,6 +194,19 @@ mark{background:#fde3dd;color:#b3321b;font-weight:650;padding:0 3px;border-radiu
 .form-status.err{color:var(--foreign)}
 
 /* footer */
+/* nota informacyjna (NIE baner zgody) */
+.info-note{position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:14px 16px;box-shadow:0 8px 30px rgba(0,0,0,.18);z-index:60;font-size:.86rem}
+.info-note p{margin:0 0 10px}
+.info-note-act{display:flex;gap:14px;align-items:center;justify-content:flex-end}
+.note-link{color:var(--muted);text-decoration:underline}
+.btn-sm{padding:6px 16px;font-size:.85rem}
+/* odsłaniany e-mail (anty-scraping) */
+.mailrev{color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.mailrev:hover{opacity:.85}
+.mail-shown{color:var(--accent)}
+article.legal table.facts th{background:var(--bg)}
+article.legal code{background:var(--bg);padding:1px 5px;border-radius:5px;font-size:.9em}
+
 .site-footer{max-width:1040px;margin:0 auto;padding:26px 20px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
 .site-footer p:first-child{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
 .site-footer a{color:var(--muted)}
