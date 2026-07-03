@@ -4,7 +4,7 @@
  * node tools/generate_shorts.js  →  output/shorts/*.json + *.txt  oraz  output/cards/*.svg
  *
  * Format JSON jest zgodny z silnikiem C:\Users\hkacp\auto-content-engine
- * (make_short.py: hook → lines[] → cta; lektor edge-tts en-US-BrianMultilingualNeural).
+ * (make_short.py: hook → lines[] → cta; lektor edge-tts de-DE-FlorianMultilingualNeural).
  * Karty SVG (1080x1350) można wrzucać bezpośrednio jako grafiki na social
  * lub renderować do PNG (przeglądarka / ffmpeg).
  */
@@ -48,7 +48,7 @@ function shortScript(p, i) {
     cta: `Więcej marek sprawdzisz na ${SITE}. Obserwuj po kolejne!`,
     hashtags: ['#skadprodukt', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#swiadomykonsument',
       p.capitalCountry === 'PL' ? '#polskamarka' : '#zagranicznykapital'],
-    voice: 'en-US-BrianMultilingualNeural',
+    voice: 'de-DE-FlorianMultilingualNeural',
     card: `output/cards/${p.slug}.svg`,
     disclaimer: `Dane z publicznych źródeł, stan na ${p.updated}. Szczegóły i źródła: ${SITE}/p/${p.slug}/`,
     confidence: p.confidence,
