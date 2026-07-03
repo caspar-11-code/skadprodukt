@@ -28,15 +28,13 @@ Tworzy dla każdego rekordu z `confidence: "publiczne"`:
 
 Rekordy `do-weryfikacji` są **celowo pomijane** — nie publikujemy niepotwierdzonych twierdzeń o firmach.
 
-## 1a. Kanał YouTube — UTWORZONY (2026-07-03)
+## 1a. Kanał YouTube — DZIAŁA W PEŁNI AUTOMATYCZNIE (2026-07-03)
 
 - Konto: `WolnyStrzelec111@gmail.com` · kanał: **SkądProdukt** · handle: **@skadprodukt** · ID: `UCDYpMzQn0anBjh-n2aP48qQ` · https://www.youtube.com/@skadprodukt
-- Do zrobienia przy pierwszej publikacji (kroki jak w `SETUP.md` silnika auto-content-engine, konto WolnyStrzelec111):
-  1. Google Cloud: projekt + włączenie **YouTube Data API v3**,
-  2. OAuth consent screen w trybie **Production** (inaczej token wygasa co 7 dni!), klient OAuth „Desktop",
-  3. `youtube_upload.py` z silnika — pierwsze uruchomienie otwiera przeglądarkę do zgody,
-  4. `run_daily.py` + Task Scheduler (`scripts/register_task.ps1`) — 1 Short dziennie z kolejki `output/shorts/`.
-- Opis każdego filmu = pole `disclaimer` z JSON-a (źródła + link do strony marki) — ruch wraca do serwisu.
+- **Cały pipeline skonfigurowany i zweryfikowany:** Google Cloud projekt `skadprodukt-yt`, YouTube Data API v3 włączone, ekran zgody „SkadProdukt Uploader" opublikowany w **Production** (token bez 7-dniowego wygasania), klient OAuth Desktop, token w `auto-content-engine/secrets/token.json`.
+- **Pierwszy film opublikowany:** https://www.youtube.com/watch?v=xVrwlXhRa60 (Wedel).
+- **Automat dzienny:** Task Scheduler „SkadProdukt Daily Short" — codziennie 16:00 uruchamia `skadprodukt_daily.py` (render kolejnego z `output/shorts/` + upload; stan w `content/skadprodukt_state.json`, log w `logs/skadprodukt_daily.log`). Ręczne sterowanie: `python skadprodukt_daily.py [--slug X] [--dry-run]`.
+- Opis każdego filmu = `disclaimer` z JSON-a (źródła + link do strony marki) — ruch wraca do serwisu. Rekordy „do-weryfikacji" nie mają plików w output/shorts, więc nigdy nie trafią na kanał.
 
 ## 2. Montaż wideo — istniejący silnik `auto-content-engine`
 
