@@ -49,8 +49,9 @@
     'note.more': 'Details', 'note.ok': 'Got it',
     'priv.title': 'Privacy & cookies',
     'priv.lead': 'In short: we don’t track you. No analytics, no ads, no marketing cookies. Below — exactly what, why and on what legal basis.',
-    'priv.h1': 'Data controller',
-    'priv.admin': 'The controller of personal data processed in connection with skadprodukt.org is ' + 'Kacper Hołda' + '. Contact:',
+    'priv.adminSummary': 'Data controller & contact',
+    'priv.admin': 'skadprodukt.org is an editorial project. The controller of personal data processed in connection with the site is the person responsible for the project:',
+    'priv.adminContact': 'Contact for data-protection matters:',
     'priv.adminOr': 'or via', 'priv.form': 'the suggestion form', 'priv.showEmail': 'Show e-mail address',
     'priv.h2': 'What we store on your device (cookies / localStorage)',
     'priv.storeIntro': 'The site is static and keeps this to an absolute minimum. We use no Google Analytics, pixels, ads or trackers (a strict CSP allows only resources from our own domain).',
@@ -72,7 +73,7 @@
     'priv.formBasis': '<strong>Legal basis:</strong> art. 6(1)(f) GDPR (legitimate interest — handling the submission and protecting the site from abuse), and for voluntary contact art. 6(1)(a) GDPR (consent by providing the data). <strong>Retention:</strong> submissions are kept until handled plus a reasonable archival period, then deleted; the IP-based anti-spam counter expires automatically after 24 hours.',
     'priv.processor': '<strong>Processors:</strong> the site is hosted by Cloudflare, Inc. (Cloudflare Pages and KV storage) — data may be processed on the provider’s infrastructure under its policy and standard data-protection clauses.',
     'priv.h4': 'Your rights',
-    'priv.rights': 'You have the right to: access, rectification, erasure, restriction of processing, objection and data portability. You may also lodge a complaint with the President of the Personal Data Protection Office (<a href="https://uodo.gov.pl" rel="nofollow noopener" target="_blank">uodo.gov.pl</a>). For data matters write to',
+    'priv.rights': 'You have the right to: access, rectification, erasure, restriction of processing, objection and data portability. You may also lodge a complaint with the President of the Personal Data Protection Office (<a href="https://uodo.gov.pl" rel="nofollow noopener" target="_blank">uodo.gov.pl</a>). The controller’s contact details are at the bottom of this page.',
     'priv.updated': 'Informational document, as of'
   };
 

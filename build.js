@@ -520,9 +520,6 @@ function privacyPage() {
   <h1 data-i18n="priv.title">Prywatność i cookies</h1>
   <p class="lead" data-i18n="priv.lead">W skrócie: nie śledzimy Cię. Nie używamy analityki, reklam ani ciasteczek marketingowych. Poniżej — dokładnie co, po co i na jakiej podstawie prawnej.</p>
 
-  <h2 data-i18n="priv.h1">Administrator danych</h2>
-  <p><span data-i18n="priv.admin">Administratorem danych osobowych przetwarzanych w związku z serwisem skadprodukt.org jest ${esc(ADMIN_NAME)}. Kontakt:</span> ${mailReveal()} <span data-i18n="priv.adminOr">lub przez</span> <a href="/zglos/" data-i18n="priv.form">formularz zgłoszeń</a>.</p>
-
   <h2 data-i18n="priv.h2">Co przechowujemy na Twoim urządzeniu (cookies / localStorage)</h2>
   <p data-i18n="priv.storeIntro">Serwis jest statyczny i ogranicza to do absolutnego minimum. Nie używamy Google Analytics, pikseli, reklam ani żadnych trackerów (twarda polityka CSP dopuszcza wyłącznie zasoby z naszej domeny).</p>
   <table class="facts">
@@ -545,7 +542,12 @@ function privacyPage() {
   <p data-i18n="priv.processor"><strong>Podmioty przetwarzające:</strong> serwis hostuje Cloudflare, Inc. (Cloudflare Pages i magazyn KV) — dane mogą być przetwarzane na infrastrukturze dostawcy zgodnie z jego polityką i standardowymi klauzulami ochrony danych.</p>
 
   <h2 data-i18n="priv.h4">Twoje prawa</h2>
-  <p><span data-i18n="priv.rights">Masz prawo do: dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz przenoszenia danych. Możesz też wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (<a href="https://uodo.gov.pl" rel="nofollow noopener" target="_blank">uodo.gov.pl</a>). W sprawach danych pisz na </span> ${mailReveal()}.</p>
+  <p data-i18n="priv.rights">Masz prawo do: dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz przenoszenia danych. Możesz też wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (<a href="https://uodo.gov.pl" rel="nofollow noopener" target="_blank">uodo.gov.pl</a>). Dane kontaktowe administratora znajdziesz na końcu tej strony.</p>
+
+  <details class="admin-details">
+    <summary data-i18n="priv.adminSummary">Administrator danych i kontakt</summary>
+    <p><span data-i18n="priv.admin">Serwis skadprodukt.org jest projektem redakcyjnym. Administratorem danych osobowych przetwarzanych w związku z serwisem jest osoba odpowiedzialna za projekt:</span> ${esc(ADMIN_NAME)}. <span data-i18n="priv.adminContact">Kontakt w sprawach danych osobowych:</span> ${mailReveal()} <span data-i18n="priv.adminOr">lub przez</span> <a href="/zglos/" data-i18n="priv.form">formularz zgłoszeń</a>.</p>
+  </details>
 
   <p class="disclaimer"><span data-i18n="priv.updated">Dokument informacyjny, stan na</span> ${BUILD_DATE}.</p>
 </article>`;

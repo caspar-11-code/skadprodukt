@@ -206,6 +206,13 @@ mark{background:#fde3dd;color:#b3321b;font-weight:650;padding:0 3px;border-radiu
 .mail-shown{color:var(--accent)}
 article.legal table.facts th{background:var(--bg)}
 article.legal code{background:var(--bg);padding:1px 5px;border-radius:5px;font-size:.9em}
+/* dane administratora — dyskretnie, rozwijane (prawnie dostępne, nie na widoku) */
+.admin-details{margin:26px 0 8px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.admin-details summary{cursor:pointer;padding:12px 16px;color:var(--muted);font-size:.9rem;font-weight:600;list-style:none}
+.admin-details summary::-webkit-details-marker{display:none}
+.admin-details summary::before{content:"▸ ";color:var(--accent)}
+.admin-details[open] summary::before{content:"▾ "}
+.admin-details p{padding:0 16px 14px;margin:0;color:var(--muted);font-size:.9rem;text-align:justify}
 
 .site-footer{max-width:1040px;margin:0 auto;padding:26px 20px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
 .site-footer p:first-child{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
