@@ -587,8 +587,25 @@ ${urls.map(u => `<url><loc>${SITE_URL}${u}</loc><lastmod>${BUILD_DATE}</lastmod>
 </urlset>`);
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: ${SITE_URL}/sitemap.xml\n`);
 
-// www → apex (Cloudflare Pages _redirects; www musi być dodane jako custom domain projektu)
-write('_redirects', `https://www.skadprodukt.org/* ${SITE_URL}/:splat 301\n`);
+// 404: obecność 404.html wyłącza fallback SPA (bez niej Pages zwraca 200 ze stroną główną
+// dla KAŻDEGO nieistniejącego adresu — soft-404, złe dla SEO)
+write('404.html', page({
+  title: `404 — nie znaleziono | ${SITE_NAME}`,
+  desc: 'Strona nie istnieje.',
+  urlPath: '/404.html',
+  body: `
+<section class="hero">
+  <h1>404 — nic tu nie ma 🧭</h1>
+  <p class="lead">Ta strona nie istnieje albo zmieniła adres. Sprawdź bazę marek lub składników:</p>
+  <div class="hub-tiles">
+    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong>Marki i kapitał</strong><span>kto jest właścicielem</span></a>
+    <a class="tile" href="/skladniki/"><span class="tile-ico">🌍</span><strong>Składniki i mapa</strong><span>skąd pochodzą surowce</span></a>
+    <a class="tile" href="/"><span class="tile-ico">🏠</span><strong>Strona główna</strong><span>skadprodukt.org</span></a>
+  </div>
+</section>`,
+}));
+// Uwaga: przekierowanie www→apex robi reguła Redirect Rules w strefie Cloudflare
+// (Pages _redirects nie wspiera dopasowania po hoście — to składnia Netlify).
 
 // Twarde nagłówki bezpieczeństwa (standard jak w candle/hub + backend formularza)
 write('_headers', `/*
