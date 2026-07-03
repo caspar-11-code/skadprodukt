@@ -28,6 +28,16 @@ Tworzy dla każdego rekordu z `confidence: "publiczne"`:
 
 Rekordy `do-weryfikacji` są **celowo pomijane** — nie publikujemy niepotwierdzonych twierdzeń o firmach.
 
+## 1a. Kanał YouTube — UTWORZONY (2026-07-03)
+
+- Konto: `WolnyStrzelec111@gmail.com` · kanał: **SkądProdukt** · handle: **@skadprodukt** · ID: `UCDYpMzQn0anBjh-n2aP48qQ` · https://www.youtube.com/@skadprodukt
+- Do zrobienia przy pierwszej publikacji (kroki jak w `SETUP.md` silnika auto-content-engine, konto WolnyStrzelec111):
+  1. Google Cloud: projekt + włączenie **YouTube Data API v3**,
+  2. OAuth consent screen w trybie **Production** (inaczej token wygasa co 7 dni!), klient OAuth „Desktop",
+  3. `youtube_upload.py` z silnika — pierwsze uruchomienie otwiera przeglądarkę do zgody,
+  4. `run_daily.py` + Task Scheduler (`scripts/register_task.ps1`) — 1 Short dziennie z kolejki `output/shorts/`.
+- Opis każdego filmu = pole `disclaimer` z JSON-a (źródła + link do strony marki) — ruch wraca do serwisu.
+
 ## 2. Montaż wideo — istniejący silnik `auto-content-engine`
 
 Masz już działający pipeline w `C:\Users\hkacp\auto-content-engine` (edge-tts + ffmpeg, zweryfikowany 2026-06-30). Adaptacja pod SkądProdukt.org:

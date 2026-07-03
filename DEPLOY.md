@@ -20,7 +20,11 @@ Dashboard Cloudflare → Workers & Pages → **Create → Pages → Connect to G
 - Save and Deploy → dostajesz `https://skadprodukt.pages.dev`.
 
 ## 4. Custom domain — ZROBIONE (2026-07-02)
-`skadprodukt.org` (Active) i `www.skadprodukt.org` dodane w Pages → Custom domains (rekordy DNS utworzone automatycznie). Przekierowanie **301 www → apex** robi plik `public/_redirects` (generowany w build.js) — działa, gdy www jest podpięte do projektu. Uwaga: po dodaniu domeny status „Initializing"/błąd 522 może potrwać do kilkudziesięciu minut (prowizjonowanie certyfikatu).
+`skadprodukt.org` (Active) i `www.skadprodukt.org` (Active) dodane w Pages → Custom domains (rekordy DNS utworzone automatycznie). Uwaga: po dodaniu domeny status „Initializing"/błąd 522 może potrwać do ~1 h (prowizjonowanie).
+
+**www → apex (301), JEDYNY ręczny krok, który został:** Pages `_redirects` NIE wspiera dopasowania po hoście (składnia Netlify), więc www serwuje obecnie stronę wprost (200; canonical wskazuje apex, więc SEO jest bezpieczne). Aby mieć czyste 301: dashboard → strefa `skadprodukt.org` → **Rules → Redirect Rules → Create rule → szablon „Redirect from WWW to Root"** → Deploy. (Podczas konfiguracji 2026-07-02 sekcja Rules w dashboardzie nie chciała się załadować — spróbuj ponownie.)
+
+**404:** w `public/` jest `404.html` (generowany w build.js) — bez niego Pages włącza fallback SPA i każdy nieistniejący adres dostaje 200 ze stroną główną (soft-404, złe dla SEO).
 
 ## 5. Backend formularza sugestii (KV)
 Formularz `/zglos/` zapisuje zgłoszenia do KV.
