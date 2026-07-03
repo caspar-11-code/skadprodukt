@@ -209,6 +209,8 @@ article.legal code{background:var(--bg);padding:1px 5px;border-radius:5px;font-s
 
 .site-footer{max-width:1040px;margin:0 auto;padding:26px 20px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
 .site-footer p:first-child{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+/* justowanie treści (na wszystkich szerokościach): polityka, nota, akapity artykułów */
+article.legal p,.info-note p,.product .lead,.ingredient .lead,.about-lead,article.legal li,.legal .lead{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
 .site-footer a{color:var(--muted)}
 .site-footer a:hover{color:var(--accent)}
 .site-footer .fine{font-size:.78rem;margin-top:8px}
