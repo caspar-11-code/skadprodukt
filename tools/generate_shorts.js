@@ -4,7 +4,7 @@
  * node tools/generate_shorts.js  →  output/shorts/*.json + *.txt  oraz  output/cards/*.svg
  *
  * Format JSON jest zgodny z silnikiem C:\Users\hkacp\auto-content-engine
- * (make_short.py: hook → lines[] → cta; lektor edge-tts pl-PL-MarekNeural).
+ * (make_short.py: hook → lines[] → cta; lektor edge-tts pl-PL-ZofiaNeural).
  * Karty SVG (1080x1350) można wrzucać bezpośrednio jako grafiki na social
  * lub renderować do PNG (przeglądarka / ffmpeg).
  */
@@ -22,19 +22,23 @@ const flag = cc => cc === 'EU' ? '🇪🇺' : cc === 'XX' ? '🌐' : String.from
 const clean = s => String(s == null ? '' : s).replace(/==/g, ''); // ==wyróżnienia== są tylko dla www
 
 const HOOKS = [
-  b => `Czy wiesz, do kogo naprawdę należy ${b}?`,
-  b => `${b} — polska marka? Sprawdźmy, dokąd płyną pieniądze.`,
-  b => `Kupujesz ${b}? Zobacz, kto na tym zarabia.`,
-  b => `Skąd tak naprawdę pochodzi ${b}? Odpowiedź może zaskoczyć.`,
+  (b, c) => `Do kogo NAPRAWDĘ należy ${b}?`,
+  (b, c) => `${b} — myślisz, że wiesz, czyje to? Błąd.`,
+  (b, c) => `Kupujesz ${b}? Zgadnij, dokąd płyną pieniądze.`,
+  (b, c) => `${b}: tego nie ma na etykiecie.`,
 ];
 
 function shortScript(p, i) {
-  const hook = HOOKS[i % HOOKS.length](p.brand);
+  const hook = HOOKS[i % HOOKS.length](p.brand, p.capitalCountry);
+  const foreign = p.capitalCountry !== 'PL';
   const lines = [
-    `Produkcja: ${cname(p.productionCountry)}. ${p.plants[0] && p.plants[0].length < 80 ? 'Konkretnie: ' + p.plants[0] + '.' : ''}`,
-    `Właściciel marki: ${p.brandOwner}.`,
-    `A kapitał? ${cname(p.capitalCountry)}.`,
+    `Produkcja? ${cname(p.productionCountry)}. ${p.plants[0] && p.plants[0].length < 60 ? 'Konkretnie: ' + p.plants[0] + '.' : ''}`,
+    `Ale właściciel marki to ${p.brandOwner}.`,
+    foreign
+      ? `Kapitał? ${cname(p.capitalCountry).toUpperCase()}. Tam trafiają zyski.`
+      : `A kapitał? Tu niespodzianka: ${cname(p.capitalCountry).toUpperCase()}.`,
     clean(p.story),
+    `Wszystko legalne i jawne. Tylko nikt o tym nie mówi.`,
   ].filter(Boolean);
   return {
     slug: p.slug,
@@ -44,7 +48,7 @@ function shortScript(p, i) {
     cta: `Więcej marek sprawdzisz na ${SITE}. Obserwuj po kolejne!`,
     hashtags: ['#skadprodukt', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#swiadomykonsument',
       p.capitalCountry === 'PL' ? '#polskamarka' : '#zagranicznykapital'],
-    voice: 'pl-PL-MarekNeural',
+    voice: 'pl-PL-ZofiaNeural',
     card: `output/cards/${p.slug}.svg`,
     disclaimer: `Dane z publicznych źródeł, stan na ${p.updated}. Szczegóły i źródła: ${SITE}/p/${p.slug}/`,
     confidence: p.confidence,
