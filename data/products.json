@@ -1758,6 +1758,123 @@
       ],
       "confidence": "publiczne",
       "updated": "2026-07-02"
+    },
+    {
+      "slug": "heinz",
+      "brand": "Heinz",
+      "category": "spożywcze",
+      "producer": "The Kraft Heinz Company (produkcja europejska)",
+      "productionCountry": "EU",
+      "plants": [
+        "Elstal (Niemcy)",
+        "Kitt Green (Wielka Brytania)"
+      ],
+      "brandOwner": "The Kraft Heinz Company",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "==Ketchup i sosy Heinz to marka amerykańskiego Kraft Heinz== (fuzja Kraft Foods i H.J. Heinz w 2015 r.; inwestorzy m.in. Berkshire Hathaway i fundusz 3G Capital). Ketchup na rynek europejski powstaje m.in. w Niemczech (Elstal) i Wielkiej Brytanii (Kitt Green). Uwaga: polską markę i zakład Pudliszki Kraft Heinz sprzedał w 2022 r. — to dziś osobna, polska firma Foodwell.",
+      "story": "Heinz to nie polski ketchup — marka należy do amerykańskiego giganta Kraft Heinz.",
+      "sources": [
+        {
+          "label": "Kraft Heinz — Pudliszki/Polska (o firmie)",
+          "url": "https://www.kraftheinz.com/pl-PL/pudliszki/o-nas"
+        },
+        {
+          "label": "Heinz — nasza historia (PL)",
+          "url": "https://www.heinz.com/pl-PL/nasza-historia"
+        },
+        {
+          "label": "Lolipop.pl — gdzie produkowany jest ketchup Heinz (Elstal, Kitt Green)",
+          "url": "https://www.lolipop.pl/gdzie-jest-produkowany-ketchup-heinz/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-04"
+    },
+    {
+      "slug": "zywiec-zdroj",
+      "brand": "Żywiec Zdrój",
+      "category": "woda",
+      "producer": "Żywiec Zdrój S.A. (grupa Danone)",
+      "productionCountry": "PL",
+      "plants": [
+        "Cięcina k. Żywca (Beskidy)"
+      ],
+      "brandOwner": "Danone",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "==Woda Żywiec Zdrój od 2001 r. należy do francuskiej grupy Danone==. Źródło i rozlewnia zostają w Beskidach, ale marka jest częścią francuskiego koncernu (który połączył w Polsce spółki Danone, Nutricia i Żywiec Zdrój).",
+      "story": "Górska woda Żywiec Zdrój brzmi swojsko, ale jej właścicielem jest francuski Danone.",
+      "sources": [
+        {
+          "label": "Danone — marka Żywiec Zdrój",
+          "url": "https://www.danone.com/brands/waters/zywiec-zdroj.html"
+        },
+        {
+          "label": "Żywiec Zdrój — o nas",
+          "url": "https://zywiec-zdroj.pl/o-nas"
+        },
+        {
+          "label": "Wikipedia — Żywiec Zdrój (własność Danone)",
+          "url": "https://en.wikipedia.org/wiki/%C5%BBywiec_Zdr%C3%B3j"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-04"
+    },
+    {
+      "slug": "vegeta",
+      "brand": "Vegeta",
+      "category": "przyprawy",
+      "producer": "Podravka (+ licencjobiorcy w Austrii i na Węgrzech)",
+      "productionCountry": "HR",
+      "plants": [
+        "Koprivnica (Chorwacja)"
+      ],
+      "brandOwner": "Podravka d.d.",
+      "ownerCountry": "HR",
+      "capitalCountry": "HR",
+      "capitalNote": "==Vegeta to chorwacka przyprawa koncernu Podravka== (od 1959 r.), sprzedawana w kilkudziesięciu krajach. Produkcja w Koprivnicy w Chorwacji oraz u licencjobiorców w Austrii i na Węgrzech.",
+      "story": "Vegeta stoi w polskich kuchniach od dekad — ale to chorwacka marka koncernu Podravka.",
+      "sources": [
+        {
+          "label": "Podravka — marka Vegeta (PL)",
+          "url": "https://www.podravka.pl/marka/vegeta/"
+        },
+        {
+          "label": "Wikipedia — Podravka / Vegeta (Chorwacja)",
+          "url": "https://en.wikipedia.org/wiki/Podravka"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-04"
+    },
+    {
+      "slug": "lajkonik",
+      "brand": "Lajkonik",
+      "category": "przekąski",
+      "producer": "Lajkonik Snacks (Lorenz Bahlsen Snack-World)",
+      "productionCountry": "PL",
+      "plants": [
+        "Skawina k. Krakowa"
+      ],
+      "brandOwner": "The Lorenz Bahlsen Snack-World",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "==Paluszki i precle Lajkonik od 1993 r. należą do niemieckiej grupy Lorenz Bahlsen Snack-World==. Fabryka w Skawinie pod Krakowem produkuje dziesiątki tysięcy ton przekąsek rocznie.",
+      "story": "Krakowski Lajkonik? Owszem, ale marka od 1993 r. jest w rękach niemieckiego Lorenz Bahlsen.",
+      "sources": [
+        {
+          "label": "Lajkonik — historia zakładu (przejęcie przez Bahlsen 1993)",
+          "url": "https://lajkonik.pl/historia-zakladu/"
+        },
+        {
+          "label": "investmap.pl — fabryka Lajkonik Skawina (Lorenz Bahlsen)",
+          "url": "https://investmap.pl/fabryka-slonych-przekasek-lajkonik-pod-krakowem-przeszla-kompleksowa-rozbudowe-i-modernizacje.a307817"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-04"
     }
   ]
 }
