@@ -272,28 +272,39 @@
       "slug": "milka",
       "brand": "Milka",
       "category": "słodycze",
-      "producer": "Mondelēz International (zakłady w UE, m.in. w Polsce)",
+      "producer": "Mondelēz International — zakłady w Lörrach (DE), Skarbimierzu (PL) i na Słowacji",
       "productionCountry": "EU",
       "plants": [
-        "m.in. Lörrach (DE); część produkcji w zakładach Mondelēz w Polsce"
+        "Lörrach (DE) — historyczny zakład Milki, produkcja od 1901 r.",
+        "Skarbimierz (PL) — m.in. sezonowe wyroby czekoladowe Milki (jajka, figury) na całą Europę; 600+ pracowników, 10 linii",
+        "Słowacja — część produkcji tabliczek"
       ],
       "brandOwner": "Mondelēz International",
       "ownerCountry": "US",
       "capitalCountry": "US",
-      "capitalNote": "==Alpejska krowa, szwajcarskie skojarzenia — ale Milka należy do amerykańskiego Mondelēz.== Miejsce produkcji zależy od konkretnego produktu (sprawdź etykietę).",
-      "story": "Milka = Szwajcaria? Nie. Marka należy do amerykańskiego Mondelēz, a tabliczki powstają m.in. w Niemczech i w Polsce.",
+      "capitalNote": "==Alpejska krowa i szwajcarski rodowód (Suchard), ale od 2012 r. Milka należy do amerykańskiego koncernu Mondelēz International== (wydzielonego z Kraft Foods). Kraj produkcji zależy od konkretnego wyrobu — rozstrzyga etykieta.",
+      "story": "Milka kojarzy się ze Szwajcarią, ale to marka amerykańskiego Mondelēza — tabliczki dla Europy powstają głównie w niemieckim Lörrach, a czekoladowe jajka i figury sezonowe w polskim Skarbimierzu.",
       "ingredients": [
         "kakao",
         "olej-palmowy"
       ],
       "sources": [
         {
-          "label": "Mondelēz International",
-          "url": "https://www.mondelezinternational.com"
+          "label": "Wikipedia (EN) — Milka: właściciel i miejsca produkcji",
+          "url": "https://en.wikipedia.org/wiki/Milka"
+        },
+        {
+          "label": "Mondelez Polska — inwestycja w produkcję czekolady w Skarbimierzu (Milka, Oreo, Cadbury, 3Bit)",
+          "url": "https://www.mynewsdesk.com/pl/mondelez-poland/pressreleases/mondelez-inwestuje-w-nowoczesna-produkcje-czekolady-w-skarbimierzu-3361406"
+        },
+        {
+          "label": "Mondelēz International — Mondelez Polska Production (7 zakładów w Polsce)",
+          "url": "https://www.mondelezinternational.com/poland-baltics/mondelez-polska-production-sp-zoo/index.html"
         }
       ],
-      "confidence": "do-weryfikacji",
-      "updated": "2026-07-02"
+      "confidence": "publiczne",
+      "updated": "2026-07-06",
+      "funFact": "Fabryka w Lörrach produkuje Milkę nieprzerwanie od 1901 r., a polski Skarbimierz stał się europejskim centrum jej wyrobów sezonowych — wielkanocne jajka Milki na cały kontynent jadą z Opolszczyzny."
     },
     {
       "slug": "prince-polo",
@@ -610,24 +621,55 @@
       "slug": "wawel",
       "brand": "Wawel",
       "category": "słodycze",
-      "producer": "Wawel S.A. (zakład Dobczyce)",
+      "producer": "Wawel S.A. (zakład w Dobczycach)",
       "productionCountry": "PL",
       "plants": [
         "Dobczyce k. Krakowa"
       ],
-      "brandOwner": "Wawel S.A. (GPW; znaczący akcjonariusz: Hosta International AG)",
+      "brandOwner": "Wawel S.A. (spółka notowana na GPW)",
       "ownerCountry": "PL",
       "capitalCountry": "CH",
-      "capitalNote": "==Wawel jest notowany na GPW, ale pakiet kontrolny ma szwajcarska Hosta International AG.== Produkcja w całości w Małopolsce.",
-      "story": "Czekolady 'Wawel' spod Krakowa — ale największy akcjonariusz spółki to szwajcarski holding. Niby polskie, a jednak nie do końca.",
+      "capitalNote": "==Notowany na GPW Wawel ma szwajcarskiego głównego akcjonariusza: Hosta International AG kontroluje ok. 52% akcji== — a za tym holdingiem stoi niemiecka rodzina Opferkuch, właściciele grupy cukierniczej Hosta ze Stimpfach.",
+      "story": "Czekolady Wawel powstają w całości w Dobczycach pod Krakowem, ale ponad połowę akcji krakowskiej spółki od lat kontroluje szwajcarski holding niemieckiej rodziny Opferkuch.",
       "sources": [
         {
-          "label": "Wawel S.A. — relacje inwestorskie",
-          "url": "https://www.wawel.com.pl"
+          "label": "BiznesRadar — akcjonariat Wawel SA (Hosta International AG 52,13%, dane 28.04.2026)",
+          "url": "https://www.biznesradar.pl/akcjonariat/WAWEL"
+        },
+        {
+          "label": "Strefa Inwestorów — akcjonariat Wawel SA",
+          "url": "https://strefainwestorow.pl/notowania/spolki/PLWAWEL00013/akcjonariat"
+        },
+        {
+          "label": "Wikipedia (DE) — Hosta (grupa Opferkuch, Stimpfach; w grupie Wawel S.A.)",
+          "url": "https://de.wikipedia.org/wiki/Hosta_(Unternehmen)"
         }
       ],
-      "confidence": "do-weryfikacji",
-      "updated": "2026-07-02"
+      "confidence": "publiczne",
+      "updated": "2026-07-06",
+      "funFact": "Grupa Hosta, do której należy pakiet kontrolny Wawelu, produkuje w Niemczech orzechowe batony Mr. Tom i ma w portfelu holenderską markę czekolady Droste.",
+      "stakes": [
+        {
+          "holder": "Hosta International AG",
+          "pct": "52,1%",
+          "country": "CH"
+        },
+        {
+          "holder": "Wawel S.A. (akcje własne, bez prawa głosu)",
+          "pct": "13,9%",
+          "country": "PL"
+        },
+        {
+          "holder": "Allianz Polska OFE",
+          "pct": "7,9%",
+          "country": "PL"
+        },
+        {
+          "holder": "Generali OFE",
+          "pct": "6,6%",
+          "country": "PL"
+        }
+      ]
     },
     {
       "slug": "nutella-kinder",
@@ -1586,28 +1628,33 @@
       "slug": "algida",
       "brand": "Algida",
       "category": "lody",
-      "producer": "fabryka lodów w Baninie k. Gdańska",
+      "producer": "The Magnum Ice Cream Company (dawniej Unilever) — fabryka lodów w Baninie k. Gdańska",
       "productionCountry": "PL",
       "plants": [
-        "Banino k. Gdańska"
+        "Banino k. Gdańska (od 1993 r., ponad 500 pracowników)"
       ],
-      "brandOwner": "The Magnum Ice Cream Company (do 2025 r. dział lodów Unilevera)",
+      "brandOwner": "The Magnum Ice Cream Company",
       "ownerCountry": "NL",
       "capitalCountry": "NL",
-      "capitalNote": "Lody Algida z Banina przez lata były marką koncernu Unilever; ==w 2025 r. dział lodów wydzielono jako osobną spółkę The Magnum Ice Cream Company== z siedzibą w Amsterdamie.",
-      "story": "Algida brzmi włosko, produkuje pod Gdańskiem, a należy do wydzielonego z Unilevera lodowego giganta z Amsterdamu.",
+      "capitalNote": "Algida przez dekady należała do Unilevera; ==1 lipca 2025 r. dział lodów wydzielono jako The Magnum Ice Cream Company z siedzibą w Amsterdamie==, a 8 grudnia 2025 r. spółka zadebiutowała na giełdach w Amsterdamie, Londynie i Nowym Jorku (ticker MICC).",
+      "story": "Włoska z nazwy, kaszubska z produkcji — lody Algida trafiły do Polski w 1993 r. wraz z zakupem fabryki w Baninie, gdzie do dziś powstają m.in. Big Milk i Cornetto.",
       "sources": [
         {
-          "label": "Unilever — wydzielenie działu lodów",
-          "url": "https://www.unilever.com"
+          "label": "Wikipedia (EN) — The Magnum Ice Cream Company (wydzielenie 1.07.2025, debiut 8.12.2025, Amsterdam)",
+          "url": "https://en.wikipedia.org/wiki/The_Magnum_Ice_Cream_Company"
         },
         {
-          "label": "Wikipedia — The Magnum Ice Cream Company",
-          "url": "https://en.wikipedia.org/wiki/The_Magnum_Ice_Cream_Company"
+          "label": "Wikipedia (PL) — Algida (fabryka w Baninie od 1993 r.)",
+          "url": "https://pl.wikipedia.org/wiki/Algida"
+        },
+        {
+          "label": "Trojmiasto.pl — The Magnum Ice Cream Company Banino (profil zakładu)",
+          "url": "https://www.trojmiasto.pl/The-Magnum-Ice-Cream-Company-o48095.html"
         }
       ],
-      "confidence": "do-weryfikacji",
-      "updated": "2026-07-02"
+      "confidence": "publiczne",
+      "updated": "2026-07-06",
+      "funFact": "Algida to tylko jedno z wcieleń globalnej marki-serduszka: te same lody w Wielkiej Brytanii nazywają się Wall's, w Niemczech Langnese, a w Holandii Ola."
     },
     {
       "slug": "byd",

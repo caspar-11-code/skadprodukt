@@ -44,7 +44,7 @@
     'stats.paradoxLead': 'Cases where the market defies common sense — documented, with sources.',
     'stats.paradoxMore': 'full data and sources →',
     'search.ph': 'Search a brand, manufacturer, owner…', 'search.phIng': 'Search an ingredient…',
-    'footer.privacy': 'Privacy & cookies',
+    'footer.privacy': 'Privacy & cookies', 'footer.support': 'Support the project',
     'note.text': 'This site only stores your language choice and uses technical hosting files (Cloudflare). We collect no analytics or marketing data and do not track you.',
     'note.more': 'Details', 'note.ok': 'Got it',
     'priv.title': 'Privacy & cookies',

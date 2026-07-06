@@ -27,6 +27,27 @@ const HOOKS = [
   (b, c) => `Kupujesz ${b}? Zgadnij, dokąd płyną pieniądze.`,
   (b, c) => `${b}: tego nie ma na etykiecie.`,
 ];
+const CLOSERS = [
+  `Wszystko legalne i jawne. Tylko nikt o tym nie mówi.`,
+  `Na etykiecie tego nie znajdziesz.`,
+  `W reklamie tego nie usłyszysz.`,
+  `A na półce wygląda swojsko, prawda?`,
+];
+const CTAS = [
+  `Więcej marek sprawdzisz na ${SITE}. Obserwuj po kolejne!`,
+  `Pełna baza i źródła na ${SITE}. Zostań — będzie więcej.`,
+  `Sprawdź swoją ulubioną markę na ${SITE} i obserwuj.`,
+];
+
+// dodatkowa ciekawostka: pole funFact z rekordu, a gdy go brak — pierwsze zdanie
+// capitalNote, o ile nie dubluje story (urozmaica short ponad schemat nazwa→kraj)
+function extraFact(p) {
+  if (p.funFact) return clean(p.funFact);
+  const s1 = (clean(p.capitalNote).split(/(?<=[.!?])\s+/)[0] || '').trim();
+  const story = clean(p.story);
+  if (s1 && s1.length >= 30 && s1.length <= 170 && !story.includes(s1.slice(0, 25)) && !s1.includes(story.slice(0, 25))) return s1;
+  return null;
+}
 
 function shortScript(p, i) {
   const hook = HOOKS[i % HOOKS.length](p.brand, p.capitalCountry);
@@ -38,14 +59,15 @@ function shortScript(p, i) {
       ? `Kapitał? ${cname(p.capitalCountry).toUpperCase()}. Tam trafiają zyski.`
       : `A kapitał? Tu niespodzianka: ${cname(p.capitalCountry).toUpperCase()}.`,
     clean(p.story),
-    `Wszystko legalne i jawne. Tylko nikt o tym nie mówi.`,
+    extraFact(p),
+    CLOSERS[i % CLOSERS.length],
   ].filter(Boolean);
   return {
     slug: p.slug,
     title: `${p.brand} — skąd to pochodzi? ${flag(p.productionCountry)}→${flag(p.capitalCountry)}`,
     hook,
     lines,
-    cta: `Więcej marek sprawdzisz na ${SITE}. Obserwuj po kolejne!`,
+    cta: CTAS[i % CTAS.length],
     hashtags: ['#skadprodukt', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#swiadomykonsument',
       p.capitalCountry === 'PL' ? '#polskamarka' : '#zagranicznykapital'],
     voice: 'piper:pl_PL-mc_speech-medium',
