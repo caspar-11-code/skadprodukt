@@ -25,7 +25,7 @@ const COUNTRIES = {
   BR: { pl: 'Brazylia', en: 'Brazil' }, TR: { pl: 'Turcja', en: 'Turkey' }, MG: { pl: 'Madagaskar', en: 'Madagascar' },
   ID: { pl: 'Indonezja', en: 'Indonesia' }, MY: { pl: 'Malezja', en: 'Malaysia' }, VN: { pl: 'Wietnam', en: 'Vietnam' },
   IN: { pl: 'Indie', en: 'India' }, GH: { pl: 'Ghana', en: 'Ghana' }, CI: { pl: 'Wybrzeże K. Słoniowej', en: 'Ivory Coast' },
-  RU: { pl: 'Rosja', en: 'Russia' }, BY: { pl: 'Białoruś', en: 'Belarus' }, TH: { pl: 'Tajlandia', en: 'Thailand' }, RS: { pl: 'Serbia', en: 'Serbia' },
+  RU: { pl: 'Rosja', en: 'Russia' }, RO: { pl: 'Rumunia', en: 'Romania' }, IL: { pl: 'Izrael', en: 'Israel' }, BY: { pl: 'Białoruś', en: 'Belarus' }, TH: { pl: 'Tajlandia', en: 'Thailand' }, RS: { pl: 'Serbia', en: 'Serbia' },
   AR: { pl: 'Argentyna', en: 'Argentina' }, DK: { pl: 'Dania', en: 'Denmark' }, SE: { pl: 'Szwecja', en: 'Sweden' },
   AT: { pl: 'Austria', en: 'Austria' }, BE: { pl: 'Belgia', en: 'Belgium' }, IT: { pl: 'Włochy', en: 'Italy' },
   ES: { pl: 'Hiszpania', en: 'Spain' }, NO: { pl: 'Norwegia', en: 'Norway' }, CZ: { pl: 'Czechy', en: 'Czechia' },

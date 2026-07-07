@@ -2032,6 +2032,845 @@
       ],
       "confidence": "publiczne",
       "updated": "2026-07-06"
+    },
+    {
+      "slug": "dacia",
+      "brand": "Dacia",
+      "category": "motoryzacja",
+      "producer": "Automobile Dacia S.A. (Grupa Renault) — Mioveni; Renault Tanger — Maroko",
+      "productionCountry": "RO",
+      "plants": [
+        "Mioveni (RO) — Duster, Bigster, Sandero Stepway, Logan, Jogger",
+        "Tanger (MA) — Sandero, Jogger"
+      ],
+      "brandOwner": "Renault Group",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Dacia od 1999 r. należy do ==francuskiej Grupy Renault==. Duster i Bigster powstają w rumuńskim Mioveni, ale bestsellerowe Sandero zjeżdża z taśm w marokańskim Tangerze — fabryce należącej w 100% do Renault.",
+      "story": "Rumuńska legenda w rękach Francuzów — Dacia to marka Grupy Renault, a jej hity powstają w Rumunii i Maroku.",
+      "funFact": "Sandero — od lat najchętniej kupowane przez klientów prywatnych auto w Europie — w obecnej generacji nie powstaje w Europie: produkcję przeniesiono do Maroka.",
+      "stakes": [
+        {
+          "holder": "Renault Group (Automobile Dacia S.A.)",
+          "pct": "≈99,4%",
+          "country": "FR"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Renault Group — zakład Mioveni (historyczna fabryka Dacii)",
+          "url": "https://www.renaultgroup.com/en/group/locations/mioveni-plant/"
+        },
+        {
+          "label": "Renault Group — zakład Tanger (Renault SA 100%, produkcja Sandero i Joggera)",
+          "url": "https://www.renaultgroup.com/en/group/locations/tangier-plant/"
+        },
+        {
+          "label": "Dacia Media — plan przemysłowy marki (Mioveni i Tanger)",
+          "url": "https://media.dacia.com/?p=85363"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "lynk-co",
+      "brand": "Lynk & Co",
+      "category": "motoryzacja",
+      "producer": "Lynk & Co Auto (Zeekr Group / Geely) — zakłady Geely w Chinach",
+      "productionCountry": "CN",
+      "plants": [
+        "zakłady Geely w Chinach"
+      ],
+      "brandOwner": "Zeekr Group (51%) i Geely Auto (49%)",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "Po restrukturyzacji ogłoszonej w listopadzie 2024 r. ==51% Lynk & Co przejął Zeekr, a 49% zachowało Geely Auto== — wcześniejszy udziałowiec, Volvo Cars, sprzedał całe swoje 30%. Wszystko odbyło się wewnątrz imperium Geely, które w 2025 r. ogłosiło dodatkowo pełne przejęcie Grupy Zeekr.",
+      "story": "Marka o szwedzkim rodowodzie designu i chińskim kapitale — po przetasowaniach w imperium Geely należy do grupy Zeekr; w Polsce dostępna na razie tylko przez niezależnych importerów.",
+      "funFact": "Volvo Cars było przez lata udziałowcem Lynk & Co (30%), ale w restrukturyzacji 2024 r. sprzedało cały pakiet siostrzanej marce Zeekr — kupujący i sprzedający należą do tego samego właściciela, Geely.",
+      "stakes": [
+        {
+          "holder": "Zeekr Group",
+          "pct": "51%",
+          "country": "CN"
+        },
+        {
+          "holder": "Geely Auto",
+          "pct": "49%",
+          "country": "CN"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Zhejiang Geely Holding — komunikat o integracji Zeekr i Lynk & Co (14.11.2024)",
+          "url": "https://zgh.com/media-center/news/2024-11-14/?lang=en"
+        },
+        {
+          "label": "Automotive Manufacturing Solutions — Zeekr konsoliduje Lynk & Co (51/49)",
+          "url": "https://www.automotivemanufacturingsolutions.com/regions/zeekr-consolidates-lynk-co-to-streamline-production-enhance-cost-efficiencies-and-accelerate-ev-manufacturing-under-geelys-restructuring/526409"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "lotus",
+      "brand": "Lotus",
+      "category": "motoryzacja",
+      "producer": "Lotus Cars (Hethel, Wielka Brytania) i Lotus Technology (Wuhan, Chiny)",
+      "productionCountry": "GB",
+      "plants": [
+        "Hethel (GB) — sportowa Emira",
+        "Wuhan (CN) — elektryczne Eletre i Emeya"
+      ],
+      "brandOwner": "Lotus Technology / Zhejiang Geely Holding",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "W 2017 r. ==51% Grupy Lotus kupiło chińskie Geely==, a 49% zatrzymała malezyjska Etika Automotive. W 2025 r. oba pakiety Lotus UK trafiły — w drodze opcji put — do Lotus Technology, spółki notowanej na Nasdaq i kontrolowanej przez Geely, które wciąż panuje nad całością.",
+      "story": "Brytyjska legenda lekkich aut sportowych od 2017 r. jeździ na chińskim kapitale Geely — z malezyjskim akcentem Etiki Automotive w tle.",
+      "funFact": "Elektryczne Lotusy Eletre i Emeya nie powstają w Anglii, lecz w fabryce w chińskim Wuhan — kultowe Hethel zostało przy sportowej Emirze.",
+      "stakes": [
+        {
+          "holder": "Zhejiang Geely Holding (Group Lotus, 2017–2025)",
+          "pct": "51%",
+          "country": "CN"
+        },
+        {
+          "holder": "Etika Automotive (Group Lotus, 2017–2025)",
+          "pct": "49%",
+          "country": "MY"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Zhejiang Geely Holding — finalizacja przejęcia Group Lotus (51/49, 29.09.2017)",
+          "url": "https://zgh.com/media-center/news/20170929_1/?lang=en"
+        },
+        {
+          "label": "CarBuzz — konsolidacja Lotus UK w Lotus Technology (2025), kontrola pozostaje przy Geely",
+          "url": "https://carbuzz.com/lotus-buys-lotus-from-geely-but-its-all-still-owned-by-geely/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "ebro",
+      "brand": "Ebro",
+      "category": "motoryzacja",
+      "producer": "Ebro Factory — joint venture Ebro-EV Motors i Chery (Zona Franca, Barcelona)",
+      "productionCountry": "ES",
+      "plants": [
+        "Barcelona, Zona Franca (ES) — dawna fabryka Nissana zamknięta w 2021 r."
+      ],
+      "brandOwner": "Ebro-EV Motors (grupa EV Motors)",
+      "ownerCountry": "ES",
+      "capitalCountry": "ES",
+      "capitalNote": "Reaktywowana hiszpańska marka Ebro produkuje SUV-y w ==dawnej fabryce Nissana w Barcelonie, w joint venture z chińskim Chery== (umowa z kwietnia 2024, start produkcji 23 listopada 2024). Modele s700 i s800 bazują na Chery Tiggo 7 i Tiggo 8 — hiszpańska marka, chińska technologia.",
+      "story": "Hiszpańska marka ciężarówek sprzed dekad wróciła jako producent SUV-ów — dzięki technologii i kapitałowi chińskiego Chery w dawnej fabryce Nissana w Barcelonie.",
+      "funFact": "Chery został poprzez to joint venture pierwszym chińskim koncernem produkującym samochody w Europie — a reaktywacja Ebro zbiegła się z 70-leciem marki i celem 150 tys. aut rocznie do 2029 r.",
+      "stakes": [],
+      "sources": [
+        {
+          "label": "Xinhua — start produkcji w joint venture Chery-Ebro w Barcelonie (23.11.2024)",
+          "url": "https://english.news.cn/20241125/b1a67c0d3d2041b59daf394903a5ef4e/c.html"
+        },
+        {
+          "label": "Just Auto — Chery rozpoczyna produkcję Ebro w Hiszpanii (s700/s800 na bazie Tiggo)",
+          "url": "https://www.just-auto.com/news/chery-begins-ebro-production-in-spain/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "omoda-jaecoo",
+      "brand": "Omoda / Jaecoo",
+      "category": "motoryzacja",
+      "producer": "Chery Automobile (Wuhu, Chiny)",
+      "productionCountry": "CN",
+      "plants": [
+        "Wuhu, Anhui (CN) — zakłady Chery"
+      ],
+      "brandOwner": "Chery Automobile",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "Omoda i Jaecoo to ==eksportowe marki chińskiego koncernu Chery== — od ponad 20 lat największego chińskiego eksportera samochodów osobowych. W Polsce oficjalnie od 11 czerwca 2024 r., poprzez importera Omoda Auto Poland.",
+      "story": "Dwie „nowe” marki, jeden właściciel — za Omodą i Jaecoo stoi chiński gigant Chery, który zadebiutował w Polsce w czerwcu 2024 r. i błyskawicznie rozbudował sieć dealerską.",
+      "funFact": "Według danych producenta Omoda i Jaecoo sprzedały globalnie ponad 600 tys. aut w zaledwie 27 miesięcy w 47 krajach — to jedne z najszybciej rosnących nowych marek motoryzacyjnych świata.",
+      "stakes": [
+        {
+          "holder": "Chery Automobile",
+          "pct": "100%",
+          "country": "CN"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Miesięcznik Dealer — polski debiut marek Omoda i Jaecoo (11.06.2024)",
+          "url": "https://www.miesiecznikdealer.pl/rynek/aktualnosci/polski-debiut-marek-omoda-i-jaecoo"
+        },
+        {
+          "label": "Omoda & Jaecoo Polska — pierwszy rok marki i wyniki grupy Chery",
+          "url": "https://www.omodajaecoo.pl/o-nas/nowosci-i-wydarzenia/artykul/omoda-jaecoo-swietuje-pierwszy-rok-i-globalne-imponujace-wyniki-grupy"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "knorr",
+      "brand": "Knorr",
+      "category": "spożywcze",
+      "producer": "Unilever Polska — fabryka przy ul. Bałtyckiej w Poznaniu (zupy, buliony, fixy, sosy)",
+      "productionCountry": "PL",
+      "plants": [
+        "Poznań, ul. Bałtycka 43 (Unilever, 25 linii produkcyjnych)"
+      ],
+      "brandOwner": "Unilever plc",
+      "ownerCountry": "GB",
+      "capitalCountry": "GB",
+      "capitalNote": "Knorr to niemiecka marka z 1838 r., którą ==od 2000 r. (fuzja z Bestfoods) kontroluje brytyjski koncern Unilever plc z siedzibą w Londynie==. Zupy, buliony i fixy na rynek polski i europejski powstają w poznańskiej fabryce — trzecim co do wielkości zakładzie spożywczym Unilevera na świecie (ok. 10 tys. ton miesięcznie).",
+      "story": "Marka założona w 1838 r. w niemieckim Heilbronn, dziś warta ponad 5 mld euro rocznie własność brytyjskiego Unilevera — a jej zupy dla Europy powstają w Poznaniu.",
+      "funFact": "Poznańska fabryka przy Bałtyckiej powstała w 1932 r. właśnie dla Knorra, w PRL produkowała Amino, a po prywatyzacji wróciła pod markę Knorr — historia zatoczyła pełne koło.",
+      "stakes": [
+        {
+          "holder": "Unilever plc",
+          "pct": "100% (marka)",
+          "country": "GB"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Unilever Poznań — oficjalna strona fabryki (Knorr, Amino, Hellmann's)",
+          "url": "https://unileverpoznan.pl/"
+        },
+        {
+          "label": "dlahandlu.pl — Knorr z sercem w Poznaniu, polska fabryka napędza globalną sprzedaż",
+          "url": "https://www.dlahandlu.pl/detal-hurt/knorr-z-sercem-w-poznaniu-polska-fabryka-napedza-globalna-sprzedaz,152224.html"
+        },
+        {
+          "label": "Wikipedia — Knorr (historia marki, przejęcie przez Unilever w 2000)",
+          "url": "https://pl.wikipedia.org/wiki/Knorr"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "amino",
+      "brand": "Amino",
+      "category": "spożywcze",
+      "producer": "Unilever Polska — fabryka przy ul. Bałtyckiej w Poznaniu",
+      "productionCountry": "PL",
+      "plants": [
+        "Poznań, ul. Bałtycka 43 (Unilever)"
+      ],
+      "brandOwner": "Unilever plc",
+      "ownerCountry": "GB",
+      "capitalCountry": "GB",
+      "capitalNote": "Poznańska marka Amino (znak znany od 1968 r.) po prywatyzacji w 1992 r. trafiła do amerykańskiego CPC (od 1998 Bestfoods Polska), a ==od 2000 r. — po fuzji Unilevera z Bestfoods — należy do brytyjskiego Unilever plc==. Zupy Amino nadal powstają w tej samej fabryce w Poznaniu.",
+      "story": "Kultowe zupy z PRL o swojskiej poznańskiej metryce od ćwierćwiecza należą do brytyjskiego giganta Unilever — choć nie ruszyły się z Poznania.",
+      "funFact": "To właśnie w zakładach Amino w Poznaniu w czasach PRL, gdy brakowało prawdziwej kawy, stworzono kultową kawę zbożową Inka.",
+      "stakes": [
+        {
+          "holder": "Unilever plc",
+          "pct": "100% (marka)",
+          "country": "GB"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia — Amino (prywatyzacja 1992, CPC/Bestfoods, przejęcie przez Unilever 2000)",
+          "url": "https://pl.wikipedia.org/wiki/Amino"
+        },
+        {
+          "label": "Unilever Poznań — oficjalna strona fabryki (Knorr, Amino, Hellmann's)",
+          "url": "https://unileverpoznan.pl/"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "delicje-szampanskie",
+      "brand": "Delicje Szampańskie",
+      "category": "słodycze",
+      "producer": "Mondelez Polska (dawniej LU Polska) — fabryka w Płońsku",
+      "productionCountry": "PL",
+      "plants": [
+        "Płońsk (produkcja nieprzerwanie od 1976 r.)"
+      ],
+      "brandOwner": "Mondelēz International",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "Marka przeszła długą wędrówkę: Wedel → PepsiCo (1991) → Danone/LU Polska (1999) → Kraft Foods (2007). ==Dziś Delicje należą do amerykańskiego Mondelēz International== — tego samego koncernu, który ma Milkę, Oreo i Prince Polo. Biszkopty od 1976 r. bez przerwy powstają w Płońsku.",
+      "story": "Biszkopty z galaretką, które smakują jak Wedel z dzieciństwa, od lat należą do amerykańskiego giganta Mondelēz — choć wciąż powstają w tej samej fabryce w Płońsku.",
+      "funFact": "Logo Wedla widniało na opakowaniach Delicji aż do 2011 r., mimo że marka od dawna nie należała do Wedla — kolejni zagraniczni właściciele po prostu płacili za nie licencję.",
+      "stakes": [
+        {
+          "holder": "Mondelēz International",
+          "pct": "100% (marka)",
+          "country": "US"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia — Delicje Szampańskie (historia właścicieli, fabryka w Płońsku)",
+          "url": "https://pl.wikipedia.org/wiki/Delicje_Szampa%C5%84skie"
+        },
+        {
+          "label": "ccProgres — Delicje: kto jest właścicielem?",
+          "url": "https://ccprogres.pl/wlasciciele/delicje/"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "drosed",
+      "brand": "Drosed",
+      "category": "mięso i wędliny",
+      "producer": "Drosed S.A. z siedzibą w Siedlcach (grupa obejmuje też Roldrob, Sedar, Drop, Konspol, Indykpol)",
+      "productionCountry": "PL",
+      "plants": [
+        "Siedlce, ul. Sokołowska 154",
+        "Tomaszów Mazowiecki (Roldrob)",
+        "Nowy Sącz (zakład Konspol, w grupie od 2024)"
+      ],
+      "brandOwner": "Groupe LDC (Lambert Dodard Chancereul)",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "==Od kwietnia 2000 r. Drosed należy do francuskiej grupy LDC== — europejskiego lidera rynku drobiu z obrotami ponad 6,3 mld euro. Wokół siedleckiej spółki Francuzi zbudowali grupę o przychodach ok. 3,5 mld zł, która przejęła m.in. zakład Konspolu i Indykpol.",
+      "story": "Pasztet Podlaski w żółtej puszce i kurczaki z Siedlec — od 2000 r. własność francuskiego potentata drobiowego LDC.",
+      "funFact": "Francuska grupa LDC zebrała pod jednym dachem trzy filary polskiego drobiarstwa — Drosed, zakład Konspolu i Indykpol — więc spora część polskiego kurczaka ma dziś francuskiego właściciela.",
+      "stakes": [
+        {
+          "holder": "Groupe LDC",
+          "pct": "kontrolny (od 2000)",
+          "country": "FR"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia — Drosed (od 2000 w grupie LDC, historia od 1957)",
+          "url": "https://pl.wikipedia.org/wiki/Drosed"
+        },
+        {
+          "label": "Drosed Holding — Grupa Drosed (LDC, spółki grupy, Indykpol, Konspol)",
+          "url": "https://drosedholding.pl/en/drosed-group/"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "mk-cafe",
+      "brand": "MK Cafe",
+      "category": "napoje",
+      "producer": "Strauss Cafe Poland — palarnia kawy w Swadzimiu (gm. Tarnowo Podgórne) k. Poznania",
+      "productionCountry": "PL",
+      "plants": [
+        "Swadzim k. Poznania (jedna z najnowocześniejszych palarni w Europie)"
+      ],
+      "brandOwner": "Strauss Group Ltd.",
+      "ownerCountry": "IL",
+      "capitalCountry": "IL",
+      "capitalNote": "MK Cafe to największa marka Strauss Cafe Poland (dawniej Elite Cafe), spółki ==izraelskiego koncernu Strauss Group — drugiej największej firmy spożywczej Izraela==, notowanej na giełdzie w Tel Awiwie. Grupa Strauss-Elite odkupiła markę wraz z technologią produkcji od jej polskiego twórcy w 2005 r.",
+      "story": "Kawa o swojsko brzmiącej nazwie wziętej od inicjałów założyciela Marka Kwaśnickiego z Koszalina — dziś flagowa polska marka izraelskiego koncernu Strauss.",
+      "funFact": "Izraelski Strauss-Elite negocjował odkupienie MK Cafe od Marka Kwaśnickiego co najmniej trzy lata — a 'MK' w nazwie to po prostu inicjały polskiego założyciela, które zostały na paczkach do dziś.",
+      "stakes": [
+        {
+          "holder": "Strauss Group Ltd.",
+          "pct": "100% (marka, przez Strauss Cafe Poland)",
+          "country": "IL"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia — Strauss Cafe Poland (właściciel: Strauss Group Ltd., palarnia w Swadzimiu)",
+          "url": "https://pl.wikipedia.org/wiki/Strauss_Cafe_Poland"
+        },
+        {
+          "label": "ccProgres — MK Cafe: kto jest właścicielem?",
+          "url": "https://ccprogres.pl/wlasciciele/mk-cafe/"
+        },
+        {
+          "label": "Strauss Cafe Poland — Nasze marki (MK Cafe największą marką portfolio)",
+          "url": "https://strauss-cafe.pl/nasze-marki/"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "mieszko",
+      "brand": "Mieszko",
+      "category": "słodycze",
+      "producer": "ZPC Mieszko S.A. — dwa zakłady w Raciborzu (Michaszki, Zozole, bombonierki Cherrissimo i Amoretta)",
+      "productionCountry": "PL",
+      "plants": [
+        "Racibórz, ul. Starowiejska 75",
+        "Racibórz, ul. Opawska 172"
+      ],
+      "brandOwner": "Bisantio Investments (właściciel 100% akcji ZPC Mieszko S.A.)",
+      "ownerCountry": "LT",
+      "capitalCountry": "LT",
+      "capitalNote": "==Od końca 2014 r. 100% akcji Mieszka kontroluje litewska spółka Bisantio Investments== litewskiego inwestora Vladasa Numavičiusa. Po przymusowym wykupie akcjonariuszy mniejszościowych spółka zniknęła z warszawskiej giełdy, na której była notowana od 1997 r.",
+      "story": "Michaszki i Zozole z Raciborza — marka nosząca imię pierwszego władcy Polski należy w całości do litewskiego kapitału.",
+      "funFact": "Paradoks przejęcia: to Mieszko kupił w 2011 r. litewskiego producenta czekoladek Vilniaus Pergalė — a trzy lata później sam został w całości przejęty przez litewskiego inwestora.",
+      "stakes": [
+        {
+          "holder": "Bisantio Investments (Vladas Numavičius)",
+          "pct": "100%",
+          "country": "LT"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia — Mieszko (przedsiębiorstwo): wykup akcji i delisting 2014, zakłady w Raciborzu",
+          "url": "https://pl.wikipedia.org/wiki/Mieszko_(przedsi%C4%99biorstwo)"
+        },
+        {
+          "label": "ccProgres — Mieszko: kto jest właścicielem? (Bisantio Investments, Numavičius)",
+          "url": "https://ccprogres.pl/wlasciciele/mieszko/"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "kujawski",
+      "brand": "Kujawski (olej)",
+      "category": "spożywcze",
+      "producer": "Bunge Polska sp. z o.o. (dawniej ZT Kruszwica S.A.) — tłocznie w Kobylnikach k. Kruszwicy i w Brzegu",
+      "productionCountry": "PL",
+      "plants": [
+        "Kobylniki k. Kruszwicy (zakład główny)",
+        "Brzeg (olej Kujawski i margaryny)"
+      ],
+      "brandOwner": "Bunge (przez Bunge Polska sp. z o.o.)",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "Olej Kujawski produkują dawne Zakłady Tłuszczowe Kruszwica, w których ==amerykański koncern rolno-spożywczy Bunge (notowany na NYSE) jest głównym akcjonariuszem od 2002 r.==; w 2021 r. przejął spółkę w całości, zdjął ją z giełdy, a od grudnia 2021 r. działa ona jako Bunge Polska.",
+      "story": "Nazwa od Kujaw i rzepak z polskich pól, ale marka najpopularniejszego polskiego oleju należy do amerykańskiego giganta handlu surowcami rolnymi.",
+      "funFact": "Właściciel swojskiego Kujawskiego to jedno z legendarnych 'ABCD' światowego handlu zbożem — czterech koncernów (ADM, Bunge, Cargill, Louis Dreyfus), które kontrolują większość globalnego obrotu ziarnem.",
+      "stakes": [
+        {
+          "holder": "Bunge",
+          "pct": "100% (od 2021, wcześniej 64%)",
+          "country": "US"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia — Zakłady Tłuszczowe Kruszwica (Bunge od 2002, fuzja w Bunge Polska 2021)",
+          "url": "https://pl.wikipedia.org/wiki/Zak%C5%82ady_T%C5%82uszczowe_%E2%80%9EKruszwica%E2%80%9D"
+        },
+        {
+          "label": "ccProgres — ZT Kruszwica: kto jest właścicielem? (Bunge, NYSE)",
+          "url": "https://ccprogres.pl/wlasciciele/zt-kruszwica/"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "krakuski",
+      "brand": "Krakuski",
+      "category": "słodycze",
+      "producer": "Bahlsen Polska — zakłady w Skawinie i Jaworniku (Małopolska)",
+      "productionCountry": "PL",
+      "plants": [
+        "Skawina (od 1993, dawne Zakłady Koncentratów Spożywczych)",
+        "Jawornik"
+      ],
+      "brandOwner": "Bahlsen GmbH & Co. KG",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Krakuski — największa marka ciastek pakowanych w Polsce — należą do ==niemieckiej firmy rodzinnej Bahlsen z Hanoweru, założonej w 1889 r.==, która w 1993 r. kupiła zakład w Skawinie. W latach 1999-2018 jedynym udziałowcem całej grupy był Werner Michael Bahlsen, dziś przewodniczący rady firmy.",
+      "story": "'Krakowskie' ciastka pieczone w Skawinie — od 1993 r. własność rodziny Bahlsenów z Hanoweru, twórców herbatników Leibniz.",
+      "funFact": "Ta sama fabryka w Skawinie piecze swojskie Krakuski i niemieckie herbatniki Leibniz, a przez niemal 20 lat cała globalna grupa miała jednego jedynego udziałowca — Wernera Michaela Bahlsena.",
+      "stakes": [
+        {
+          "holder": "Bahlsen GmbH & Co. KG (rodzina Bahlsen)",
+          "pct": "100% (marka)",
+          "country": "DE"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Bahlsen Polska — o firmie (marki HIT, Krakuski, Leibniz; w Polsce od 1993, Skawina)",
+          "url": "https://bahlsen.com/pl/thebahlsenfamily"
+        },
+        {
+          "label": "Wikipedia (EN) — Bahlsen (rodzinna firma z Hanoweru, fabryki w Skawinie i Jaworniku)",
+          "url": "https://en.wikipedia.org/wiki/Bahlsen"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "kubus",
+      "brand": "Kubuś",
+      "category": "napoje",
+      "producer": "Grupa Maspex Wadowice (zakład Tymbark w Olsztynku)",
+      "productionCountry": "PL",
+      "plants": [
+        "Olsztynek"
+      ],
+      "brandOwner": "Grupa Maspex Wadowice",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Kubuś należy do Maspeksu z Wadowic — ==największej prywatnej polskiej firmy spożywczej==, kontrolowanej przez polskich założycieli, m.in. Krzysztofa Pawińskiego. Sok powstaje w zakładzie w Olsztynku na Mazurach, a zyski i decyzje zostają w Polsce.",
+      "story": "Marchwiowy sok dla dzieci od polskiego Maspeksu — lider rynku w Polsce i siedmiu innych krajach Europy Środkowej.",
+      "funFact": "Kubuś kontroluje 74% polskiego rynku soków przecierowych i trafia do 30 krajów — a Maspex zainwestował w produkujący go Olsztynek ponad 625 mln zł.",
+      "stakes": [
+        {
+          "holder": "polscy założyciele Maspeksu (m.in. Krzysztof Pawiński)",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Maspex — marka Kubuś",
+          "url": "https://maspex.com/marki/kubus"
+        },
+        {
+          "label": "Maspex — o firmie",
+          "url": "https://maspex.com/o-firmie"
+        },
+        {
+          "label": "Hurt i Detal — kompleks Tymbark w Olsztynku",
+          "url": "https://hurtidetal.pl/article/art_id,22606/maspex-otwiera-w-zakladzie-tymbark-w-olsztynku-nowoczesny-kompleks-produkcyjnoulogistyczny-o-wartosci-170-mln-zl/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "tarczynski",
+      "brand": "Tarczyński",
+      "category": "mięso i wędliny",
+      "producer": "Tarczyński S.A.",
+      "productionCountry": "PL",
+      "plants": [
+        "Ujeździec Mały",
+        "Bielsko-Biała"
+      ],
+      "brandOwner": "Tarczyński S.A. (rodzina Tarczyńskich)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Spółka jest notowana na GPW, ale ==ponad 75% akcji kontroluje rodzina założycieli== — Jacek i Elżbieta Tarczyńscy poprzez EJT Investment i rodzinną fundację EJDT. Pozostałe większe pakiety mają polskie fundusze emerytalne (Allianz, Nationale-Nederlanden).",
+      "story": "Rodzinna firma z Ujeźdźca Małego pod Trzebnicą, która od 1991 r. urosła do czołowego producenta kabanosów i parówek premium.",
+      "funFact": "Mimo debiutu giełdowego w 2013 r. Tarczyńscy systematycznie skupowali akcje z powrotem — dziś rodzina kontroluje 75,01% spółki, a jej przekąski docierają do ok. 30 krajów na trzech kontynentach.",
+      "stakes": [
+        {
+          "holder": "Jacek i Elżbieta Tarczyńscy (EJT Investment, EJT Sp. z o.o., EJDT Fundacja Rodzinna)",
+          "pct": "75,01%",
+          "country": "PL"
+        },
+        {
+          "holder": "PTE Allianz Polska",
+          "pct": "14,37%",
+          "country": "PL"
+        },
+        {
+          "holder": "Nationale-Nederlanden PTE",
+          "pct": "8,81%",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Grupa Tarczyński — o nas",
+          "url": "https://grupatarczynski.pl/o-nas/"
+        },
+        {
+          "label": "StockWatch — akcjonariat Tarczyński S.A.",
+          "url": "https://www.stockwatch.pl/gpw/tarczynski,akcjonariat,wycena.aspx"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "piatnica",
+      "brand": "Piątnica",
+      "category": "nabiał",
+      "producer": "Okręgowa Spółdzielnia Mleczarska w Piątnicy",
+      "productionCountry": "PL",
+      "plants": [
+        "Piątnica",
+        "Ostrołęka"
+      ],
+      "brandOwner": "OSM Piątnica (spółdzielnia rolników)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Piątnica to spółdzielnia — ==właścicielami jest ponad 2 tysiące rolników== z Podlasia, Mazowsza i Kurpi, którzy dostarczają mleko i dzielą się zyskami. Kapitał w całości polski, bez zewnętrznych inwestorów i koncernów.",
+      "story": "Spółdzielcza mleczarnia spod Łomży, która serkiem wiejskim i skyrem podbiła polskie lodówki — bez udziału żadnego koncernu.",
+      "funFact": "To Piątnica w 1992 r. jako pierwsza wprowadziła na polski rynek serek wiejski — dziś kultowy produkt, którego producentem niezmiennie jest spółdzielnia należąca do rolników, a nie fundusz czy korporacja.",
+      "stakes": [
+        {
+          "holder": "ponad 2000 rolników-członków spółdzielni",
+          "pct": "100%",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Piątnica — nasza spółdzielnia",
+          "url": "https://piatnica.com.pl/nasza-spoldzielnia/"
+        },
+        {
+          "label": "ccProgres — OSM Piątnica: kto jest właścicielem",
+          "url": "https://ccprogres.pl/wlasciciele/osm-piatnica/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "bakoma",
+      "brand": "Bakoma",
+      "category": "nabiał",
+      "producer": "Bakoma Sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "Elżbietów"
+      ],
+      "brandOwner": "rodzina Komorowskich (Bakoma / grupa BZK)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Bakoma od założenia w 1989 r. pozostaje w rękach rodziny Komorowskich — ==rodzina odkupiła nawet udziały od francuskiego Danone'a==, który przez lata zabiegał o przejęcie firmy. Dziś główną właścicielką jest Barbara Komorowska, a prezesem syn założycieli, Piotr Komorowski.",
+      "story": "Jogurtowe imperium rodziny Komorowskich z mazowieckiego Elżbietowa, które oparło się przejęciu przez światowego giganta.",
+      "funFact": "W 1999 r. jeden ze wspólników sprzedał swoje udziały w Bakomie Danone'owi za 130 mln zł — po latach sporów Komorowscy odkupili pakiet od francuskiego koncernu i firma pozostała rodzinna.",
+      "stakes": [
+        {
+          "holder": "rodzina Komorowskich (Barbara Komorowska)",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Forbes — sylwetka Zbigniewa Komorowskiego",
+          "url": "https://www.forbes.pl/sylwetka/zbigniew-komorowski"
+        },
+        {
+          "label": "INNPoland — kim jest król jogurtów, założyciel Bakomy",
+          "url": "https://innpoland.pl/120189,komorowski-odszedl-z-polityki-ale-wciaz-dziala-w-biznesie-kim-jest-krol-jogurtow-i-zalozyciel-bakomy"
+        },
+        {
+          "label": "Polska Rolna — właścicielka Bakomy",
+          "url": "https://polskarolna.pl/krolowa-jogurtow-dba-o-prywatnosc-co-wiemy-o-wlascicielce-bakomy,2,0,208,2,27780.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "goplana",
+      "brand": "Goplana",
+      "category": "słodycze",
+      "producer": "Colian sp. z o.o.",
+      "productionCountry": "PL",
+      "brandOwner": "Grupa Colian",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Goplana należy do Grupy Colian z Opatówka, kontrolowanej przez Barbarę i Jana Kolańskich. To rzadki przypadek, gdy ==polska firma odkupiła markę od zagranicznego koncernu== — w 2004 r. Jutrzenka (dziś Colian) przejęła Goplanę od szwajcarskiego Nestlé.",
+      "story": "Czekoladowa marka z 1912 r., która po latach w rękach Nestlé wróciła do polskiego właściciela — rodziny Kolańskich.",
+      "funFact": "Jutrzenka była pierwszą polską firmą cukierniczą, która odkupiła od zagranicznej korporacji fabrykę i prawa do marki — za Goplanę i poznański zakład zapłaciła Nestlé ok. 66 mln zł.",
+      "stakes": [
+        {
+          "holder": "Barbara i Jan Kolańscy (główni udziałowcy Colian)",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Colian — 20 lat temu Colian przejął Goplanę",
+          "url": "https://colian.com/2024/10/18/20-lat-temu-colian-przejal-goplane/"
+        },
+        {
+          "label": "Colian — strona firmowa i portfolio marek",
+          "url": "https://colian.com/"
+        },
+        {
+          "label": "Forbes — sylwetka Barbary i Jana Kolańskich",
+          "url": "https://www.forbes.pl/sylwetka/barbara-i-jan-kolanscy"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07",
+      "plants": [
+        "zakłady Colian (m.in. Opatówek k. Kalisza)"
+      ]
+    },
+    {
+      "slug": "herbapol",
+      "brand": "Herbapol",
+      "category": "napoje",
+      "producer": "Herbapol-Lublin S.A.",
+      "productionCountry": "PL",
+      "plants": [
+        "Lublin",
+        "Białystok",
+        "Lubawa"
+      ],
+      "brandOwner": "Herbapol-Lublin S.A. (rodzina Staraków)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Największa spółka posługująca się marką Herbapol — Herbapol-Lublin — należy od 2000 r. do ==rodziny Staraków, właścicieli farmaceutycznej Polpharmy==. To prywatny polski kapitał; odrębne spółki Herbapol (Wrocław, Kraków, Poznań) mają własnych właścicieli.",
+      "story": "Zielarska marka z czasów PRL, którą po prywatyzacji skonsolidował i utrzymał w polskich rękach Jerzy Starak.",
+      "funFact": "Markę Herbapol rozpoznaje ponad 80% Polaków — a kultowy syrop malinowy powstaje w Lublinie u tego samego właściciela, do którego należy farmaceutyczny gigant Polpharma.",
+      "stakes": [
+        {
+          "holder": "rodzina Staraków (Jerzy Starak)",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Forbes — Herbapol: marka, którą od 2000 r. rządzi rodzina Staraków",
+          "url": "https://www.forbes.pl/biznes/herbapol-jak-powstawala-marka-ktora-rzadzi-od-2000-roku-rodzina-starakow/qhntbdx"
+        },
+        {
+          "label": "Fabryki w Polsce — Herbapol-Lublin przejmuje fabrykę w Lubawie",
+          "url": "https://fabrykiwpolsce.pl/widzimy-obszary-ktore-maja-potencjal-i-chcemy-to-wykorzystac-herbapol-lublin-przejmuje-fabryke-w-lubawie/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "bakalland",
+      "brand": "Bakalland",
+      "category": "przekąski",
+      "producer": "Grupa FoodWell (dawniej Bakalland S.A.)",
+      "productionCountry": "PL",
+      "plants": [
+        "Janów Podlaski",
+        "Włocławek"
+      ],
+      "brandOwner": "FoodWell — Marian Owerko (Uno Capital) i Rafał Brzoska (O&R Holding)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "W lutym 2022 r. założyciel Marian Owerko wraz z Rafałem Brzoską, twórcą InPostu, ==odkupili ok. 90% akcji Bakallandu od funduszu Innova Capital==. Marka wróciła do polskich rąk, a po fuzji z Purellą grupa działa pod nazwą korporacyjną FoodWell.",
+      "story": "Lider polskich bakalii, który po latach w rękach funduszu wrócił do swojego założyciela — wspartego przez twórcę InPostu.",
+      "funFact": "Marian Owerko sprzedał założony przez siebie Bakalland funduszowi w 2015 r., by w 2022 r. — z Rafałem Brzoską z InPostu — odkupić firmę i ponownie zasiąść w fotelu prezesa.",
+      "stakes": [
+        {
+          "holder": "Uno Capital (Marian Owerko)",
+          "country": "PL"
+        },
+        {
+          "holder": "O&R Holding (Rafał Brzoska)",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Portal Spożywczy — Bakalland sprzedany Owerce i funduszowi Brzoski",
+          "url": "https://www.portalspozywczy.pl/owoce-warzywa/wiadomosci/bakalland-sprzedany-zarzadzac-nim-beda-marian-owerko-i-fundusz-rafala-brzoski,207923.html"
+        },
+        {
+          "label": "Wiadomości Handlowe — finalizacja sprzedaży Bakallandu przez Innova Capital",
+          "url": "https://www.wiadomoscihandlowe.pl/przemysl-i-producenci/rynek-slodyczy-i-przekasek/sprzedaz-bakallandu-przez-innova-capital-sfinalizowana-rafal-brzoska-i-marian-owerko-beda-wspolnie-rozwijac-firme-2394658"
+        },
+        {
+          "label": "Portal Spożywczy — Bakalland i Purella łączą się jako FoodWell",
+          "url": "https://www.portalspozywczy.pl/zywnosc-roslinna/wiadomosci/bakalland-laczy-sie-z-purella-i-zmienia-nazwe-foodwell-stawia-m-in-na-roslinne-zamienniki,214808.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "pepco",
+      "brand": "Pepco",
+      "category": "sieci handlowe",
+      "producer": "Pepco Group N.V. — towary marek własnych od dostawców z Azji (własne biura zakupowe PGS)",
+      "productionCountry": "XX",
+      "brandOwner": "Pepco Group N.V.",
+      "ownerCountry": "NL",
+      "capitalCountry": "NL",
+      "capitalNote": "Pepco wyrosło z Polski — pierwszy sklep otwarto w 2004 r. w Poznaniu — ale ==kapitał nigdy nie był polski==: sieć zbudował południowoafrykański Steinhoff, a po jego upadku ok. 72% akcji kontroluje Ibex, wehikuł międzynarodowych funduszy-wierzycieli. Spółka jest zarejestrowana w Holandii i notowana na GPW.",
+      "story": "Dyskont urodzony w Poznaniu i notowany w Warszawie, którego towary powstają głównie w Azji, a kapitał — od Steinhoffa po fundusze-wierzycieli — zawsze był zagraniczny.",
+      "funFact": "Południowoafrykański właściciel Pepco, Steinhoff, upadł po jednym z największych skandali księgowych w historii — jego pakiet akcji Pepco wart ok. 14 mld zł przeszedł na wierzycieli, a sieć urosła do ponad 4300 sklepów w 18 krajach.",
+      "stakes": [
+        {
+          "holder": "Ibex Retail Investments (Europe) Ltd — wehikuł wierzycieli Steinhoffa",
+          "pct": "71,97%",
+          "country": "NL"
+        },
+        {
+          "holder": "free float (GPW)",
+          "pct": "28,03%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Bankier.pl — akcjonariat Pepco Group NV",
+          "url": "https://www.bankier.pl/gielda/notowania/akcje/PEPCO/akcjonariat"
+        },
+        {
+          "label": "Pepco Group — strona korporacyjna",
+          "url": "https://pepcogroup.eu/"
+        },
+        {
+          "label": "Wiadomości Handlowe — likwidacja Steinhoff International",
+          "url": "https://www.wiadomoscihandlowe.pl/najwieksze-sieci-handlowe/pepco/steinhoff-international-holdings-wiekszosciowy-akcjonariusz-spolki-pepco-zostanie-zlikwidowany-taka-decyzje-podjelo-w-srode-26-lipca-nadzwyczajne-zgromadzenie-akcjonariuszy-aktywa-firmy-zostana-sprzedane-w-celu-zaspokojenia-wierzycieli-akcje-pepco-warte-o-2486519"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07",
+      "plants": [
+        "towar od dostawców z wielu krajów (marki własne)"
+      ]
+    },
+    {
+      "slug": "soplica",
+      "brand": "Soplica",
+      "category": "alkohole",
+      "producer": "CEDC International sp. z o.o. (Grupa Maspex)",
+      "productionCountry": "PL",
+      "plants": [
+        "Oborniki",
+        "Białystok"
+      ],
+      "brandOwner": "Grupa Maspex Wadowice",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Od lutego 2022 r. Soplica należy do polskiego Maspeksu, który za 3,477 mld zł przejął CEDC International od Roust Corporation. ==Po latach w zagranicznych rękach marka wróciła do polskiego kapitału== — media nazwały transakcję 'repolonizacją wódki'.",
+      "story": "Nalewkowa klasyka z ponad 130-letnią tradycją, która w 2022 r. wróciła do polskiego właściciela — Grupy Maspex z Wadowic.",
+      "funFact": "Soplica to ósma najlepiej sprzedająca się wódka świata — Maspex przejął ją razem z Żubrówką za 3,477 mld zł w jednej z największych transakcji w historii polskiej branży spożywczej.",
+      "stakes": [
+        {
+          "holder": "Grupa Maspex (polscy założyciele)",
+          "country": "PL"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Maspex — CEDC dołącza do Grupy Maspex",
+          "url": "https://maspex.com/aktualnosci/cedc-dolacza-do-grupy-maspex"
+        },
+        {
+          "label": "Portal Spożywczy — Maspex sfinalizował przejęcie CEDC",
+          "url": "https://www.portalspozywczy.pl/alkohole-uzywki/wiadomosci/zubrowka-i-soplica-znow-sa-polskie-maspex-sfinalizowal-przejecie-cedc,208285.html"
+        },
+        {
+          "label": "Portal Spożywczy — szczegóły przejęcia CEDC (cena 3,477 mld zł)",
+          "url": "https://www.portalspozywczy.pl/alkohole-uzywki/wiadomosci/maspex-o-szczegolach-przejecia-cedc,208484.html"
+        },
+        {
+          "label": "Maspex — marka Soplica",
+          "url": "https://maspex.com/marki/soplica"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-07"
     }
   ]
 }
