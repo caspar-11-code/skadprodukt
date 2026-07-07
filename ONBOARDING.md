@@ -67,7 +67,8 @@ Pełny ranking w `POPULARNOSC-SEKTOROW.md`. Skrót: **jedzenie/FMCG to filar** (
 
 | Objaw | Co zrobić |
 |---|---|
-| Upload padł / brak tokenu | `cd C:\Users\hkacp\auto-content-engine && .venv\Scripts\python.exe youtube_upload.py auth` (przeglądarka → konto WolnyStrzelec111) |
+| Upload padł / brak tokenu | `cd C:\Users\hkacp\auto-content-engine && .venv\Scripts\python.exe youtube_upload.py auth` (przeglądarka → konto WolnyStrzelec111; token ma scope upload+force-ssl, backup w secrets/token.backup.json) |
+| Trzeba hurtowo poprawić opisy/tagi istniejących filmów | edytuj listę VIDEOS i teksty w `update_yt_all.py`, potem `.venv\Scripts\python.exe update_yt_all.py` |
 | `curl` błąd CRYPT_E_NO_REVOCATION_CHECK | dodaj flagę `--ssl-no-revoke` (specyfika Windows/schannel) |
 | Statystyki „nieaktualne" na stronie | to cache karty przeglądarki — Ctrl+F5; serwer ma `max-age=0` |
 | Głos przekręca nazwę | dopisz wymowę do `custom\pronunciations.json`, wyrenderuj ponownie |
