@@ -1,7 +1,4 @@
 # Kolejka marek/składników do dodania (jedna nazwa na linię).
 # Przetwarzanie: skill /dodaj-marke ("przerób kolejkę"). Po dodaniu usuń linię.
-Krakus chrzan/przetwory (Maspex?) — w trakcie
-Xiaomi (auta SU7?) — w trakcie (sprawdzić czy oficjalnie w PL)
-InPost — w trakcie
-składnik: olej rzepakowy — w trakcie
-składnik: ziemniaki/frytki (Belgia?) — w trakcie
+# --- Do rozważenia w przyszłości: ---
+Xiaomi (auta SU7/YU7) — WSTRZYMANE: oficjalne wejście do UE dopiero 2027 (Niemcy pierwsze). Dodać, gdy wejdzie na rynek PL.
