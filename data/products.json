@@ -946,7 +946,7 @@
       "sources": [
         {
           "label": "Volkswagen Group — marki",
-          "url": "https://www.volkswagen-group.com/en/brands-and-models-15805"
+          "url": "https://www.volkswagen-group.com/en/brands-and-models-15811"
         },
         {
           "label": "Škoda Auto (Wikipedia, z odnośnikami)",
@@ -1046,8 +1046,8 @@
       "story": "Najbardziej brytyjskie auto świata — Rolls-Royce — od 2003 r. należy do niemieckiego BMW. Silniki lotnicze Rolls-Royce to już inna, brytyjska firma.",
       "sources": [
         {
-          "label": "BMW Group — marki",
-          "url": "https://www.bmwgroup.com/en/brands.html"
+          "label": "Wikipedia (EN) — Rolls-Royce Motor Cars (własność BMW Group)",
+          "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars"
         },
         {
           "label": "Rolls-Royce Motor Cars (Wikipedia, z odnośnikami)",
@@ -1170,8 +1170,8 @@
           "url": "https://www.stockspirits.com"
         },
         {
-          "label": "Wikipedia — Stock Polska",
-          "url": "https://pl.wikipedia.org/wiki/Stock_Polska"
+          "label": "Wikipedia — Stock Spirits (właściciel marki)",
+          "url": "https://pl.wikipedia.org/wiki/Stock_Spirits"
         }
       ],
       "confidence": "publiczne",
@@ -2870,6 +2870,105 @@
         }
       ],
       "confidence": "publiczne",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "krakus-przetwory",
+      "brand": "Krakus (przetwory)",
+      "category": "spożywcze",
+      "producer": "Grupa Maspex sp. z o.o. (zakład w Łowiczu)",
+      "productionCountry": "PL",
+      "plants": [
+        "zakład Maspex w Łowiczu (dawny Agros Nova; produkcja m.in. przetworów Krakus, Kotlin, Włocławek, Łowicz)"
+      ],
+      "brandOwner": "Grupa Maspex (Wadowice)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Marka Krakus w segmencie przetworów (chrzan, ćwikła, ogórki, buraczki, zupy) należy do polskiej Grupy Maspex z Wadowic — to inny właściciel niż Krakus w wędlinach.== Maspex przejął tę markę wraz z częścią aktywów Agros Nova (transakcja z 2015 r., po zgodzie UOKiK; razem z markami Łowicz, Kotlin, Włocławek oraz zakładami w Łowiczu i Wąsoszu). Ta sama nazwa jest więc podzielona: przetwory to polski Maspex, a wędliny Krakus produkuje Animex należący (przez Smithfield Foods) do chińskiej WH Group.",
+      "story": "„Ta sama nazwa, dwóch właścicieli”: Krakus w chrzanie, ćwikle i ogórkach to polski Maspex z Wadowic — w przeciwieństwie do wędlin Krakus, które przez Smithfield należą do chińskiej WH Group.",
+      "funFact": "Jedna kultowa marka „Krakus” jest rozdarta między dwie zupełnie różne firmy z różnych krajów — przetwory produkuje polski Maspex, a wędliny chiński koncern WH Group.",
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Maspex — marka Krakus (strona producenta)",
+          "url": "https://maspex.com/en/brand/krakus"
+        },
+        {
+          "label": "Maspex — produkty Krakus (ogórki, chrzan, buraczki, zupy)",
+          "url": "https://maspex.com/en/products/krakus/"
+        },
+        {
+          "label": "PFPZ — Maspex przejmuje aktywa Agros Nova (marki Łowicz, Krakus, Kotlin, Włocławek, Fruktus, Tarczyn, DrWitt; zakłady w Łowiczu i Wąsoszu)",
+          "url": "https://www.pfpz.pl/nowosci/?id_news=5068&lang_id=1"
+        },
+        {
+          "label": "Maspex — o firmie (siedziba: ul. Chopina 10, 34-100 Wadowice; największa polska prywatna firma spożywcza)",
+          "url": "https://maspex.com/o-firmie"
+        }
+      ],
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "inpost",
+      "brand": "InPost",
+      "category": "usługi",
+      "producer": "InPost sp. z o.o. (operator sieci Paczkomatów w Polsce, siedziba operacyjna w Krakowie, ul. Pana Tadeusza 4)",
+      "productionCountry": "PL",
+      "brandOwner": "InPost S.A.",
+      "ownerCountry": "LU",
+      "capitalCountry": "XX",
+      "capitalNote": "Marka i sieć Paczkomatów to w 100% polski pomysł Rafała Brzoski, działający głównie w Polsce — ale ==kapitałowo InPost nie jest już polski: spółka-matka InPost S.A. jest zarejestrowana w Luksemburgu i notowana na giełdzie Euronext Amsterdam, a jej akcjonariat jest rozproszony i międzynarodowy.== Największy pojedynczy pakiet (ok. 28,75%) ma czeski fundusz PPF — więcej niż sam założyciel (ok. 12,5%). W lutym 2026 r. konsorcjum Advent, FedEx, PPF i spółki Brzoski ogłosiło wezwanie (ok. 7,8 mld EUR), które ma zdjąć InPost z giełdy; po transakcji kontrolę objęliby amerykańscy Advent (37%) i FedEx (37%).",
+      "story": "Polski fenomen z paczkomatami na każdym rogu — ale spółka-matka siedzi w Luksemburgu, notuje się w Amsterdamie, a jej kapitał jest już międzynarodowy.",
+      "funFact": "Choć InPost to duma polskiej gospodarki, jego założyciel Rafał Brzoska poprzez spółkę A&R Investments ma tylko ok. 12,5% akcji — mniej niż czeski PPF Group, który jako największy pojedynczy akcjonariusz kontroluje niemal 29%.",
+      "stakes": [
+        {
+          "holder": "PPF Group N.V. (kontrolowana przez AMALAR Holding s.r.o.)",
+          "country": "CZ",
+          "pct": "28,75%"
+        },
+        {
+          "holder": "A&R Investments Ltd (wehikuł Rafała Brzoski, założyciela i CEO)",
+          "country": "PL",
+          "pct": "12,49%"
+        },
+        {
+          "holder": "Norges Bank (norweski fundusz państwowy)",
+          "country": "NO",
+          "pct": "6,96%"
+        },
+        {
+          "holder": "Advent International Corporation (fundusz private equity)",
+          "country": "US",
+          "pct": "6,50%"
+        },
+        {
+          "holder": "Free float / pozostali inwestorzy",
+          "country": "XX",
+          "pct": "45,30%"
+        }
+      ],
+      "plants": [
+        "—"
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "InPost EU — oficjalna struktura akcjonariatu (stan na 23.02.2026)",
+          "url": "https://inpost.eu/corporate-governance/shareholder"
+        },
+        {
+          "label": "Euronext — karta spółki InPost S.A. (ISIN LU2290522684, Euronext Amsterdam)",
+          "url": "https://live.euronext.com/en/product/equities/LU2290522684-XAMS/company-information"
+        },
+        {
+          "label": "CEP-Research — wezwanie konsorcjum Advent/FedEx/PPF/A&R po 15,60 EUR (7,8 mld EUR), luty 2026",
+          "url": "https://www.cep-research.com/2026/02/09/fedex-financial-investors-make-compelling-e7-8bn-offer-for-inpost/"
+        },
+        {
+          "label": "Wikipedia (EN) — InPost: założyciel Brzoska, siedziba Kraków, IPO Euronext Amsterdam styczeń 2021",
+          "url": "https://en.wikipedia.org/wiki/InPost"
+        }
+      ],
       "updated": "2026-07-07"
     }
   ]

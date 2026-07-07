@@ -611,6 +611,155 @@
         "proszek jajeczny w przetworach"
       ],
       "updated": "2026-07-02"
+    },
+    {
+      "slug": "olej-rzepakowy",
+      "name": "Olej rzepakowy",
+      "emoji": "🌼",
+      "category": "składnik",
+      "originCountries": [
+        {
+          "cc": "PL",
+          "share": "~3,3 mln ton rzepaku (2024), ~17% UE",
+          "note": "Polska jest trzecim producentem rzepaku w UE — po Francji i Niemczech; odpowiada za ok. 17% unijnych zbiorów, a olej rzepakowy to najczęściej używany olej roślinny w polskiej kuchni i przetwórstwie."
+        },
+        {
+          "cc": "FR",
+          "share": "~4,4 mln ton (2024)",
+          "note": "Francja — największy producent rzepaku w UE-27."
+        },
+        {
+          "cc": "DE",
+          "share": "~4,1 mln ton (2024)",
+          "note": "Niemcy — drugi producent rzepaku w UE; częsty kierunek eksportu polskiego rzepaku."
+        },
+        {
+          "cc": "UA",
+          "note": "Ukraina — główne pozaunijne źródło importu rzepaku do Polski w latach 2022–2023, po zniesieniu ceł mocno tańszego od krajowego."
+        }
+      ],
+      "stats": [
+        {
+          "text": "Produkcja rzepaku w Polsce w 2024 r. wyniosła ok. 3,3 mln ton (dane GUS); pod względem wielkości zbiorów i areału Polskę wyprzedzają w UE tylko Francja i Niemcy. Ok. 2/3 krajowych nasion trafia do przemysłu biopaliwowego, a tylko pozostała część na cele spożywcze.",
+          "sourceLabel": "Poradnik Handlowca — Produkcja rzepaku w Polsce w 2024 r. wyniosła 3,3 mln ton (dane GUS)",
+          "sourceUrl": "https://poradnikhandlowca.com.pl/artykuly/produkcja-rzepaku-w-polsce-w-2024-r-wyniosla-33-mln-ton/",
+          "sourceDate": "2025"
+        },
+        {
+          "text": "Wg Ministerstwa Rolnictwa Polska to jeden z trzech największych producentów rzepaku w UE (ok. 17% zbiorów UE-27 w latach 2018–2022), ale w latach słabszych zbiorów traci samowystarczalność i staje się importerem netto rzepaku — a importerem netto samego oleju rzepakowego jest już od 2017 r.",
+          "sourceLabel": "gov.pl / Ministerstwo Rolnictwa i Rozwoju Wsi — Rynek rzepaku",
+          "sourceUrl": "https://www.gov.pl/web/rolnictwo/rynek-rzepaku",
+          "sourceDate": "2024"
+        },
+        {
+          "text": "Całkowita produkcja rzepaku w UE-27 w 2024 r. szacowana była na ok. 19,4 mln ton, z Francją (~4,4 mln t), Niemcami (~4,1 mln t) i Polską (~3,5 mln t) na czele.",
+          "sourceLabel": "Biofuels International — France remains primary rapeseed producer of the EU-27",
+          "sourceUrl": "https://biofuels-news.com/news/france-remains-primary-rapeseed-producer-of-the-eu-27/",
+          "sourceDate": "2024"
+        }
+      ],
+      "issues": [
+        {
+          "title": "Na etykiecie musi być 'olej rzepakowy', ale nie kraj pochodzenia",
+          "text": "Prawo UE (rozp. 1169/2011) wymaga, by zamiast ogólnego 'olej roślinny' podać konkretny rodzaj oleju — czyli 'olej rzepakowy'. Nie ma jednak obowiązku podawania kraju pochodzenia samego oleju: wskazanie kraju lub miejsca pochodzenia jest obowiązkowe tylko dla wybranych kategorii (m.in. świeże mięso, oliwa z oliwek, miód, ryby, owoce i warzywa) oraz wtedy, gdy jego brak wprowadzałby konsumenta w błąd (art. 26). Olej z butelki może więc być tłoczony z polskiego, unijnego lub importowanego rzepaku bez śladu na etykiecie.",
+          "sourceLabel": "Narodowe Centrum Edukacji Żywieniowej (PZH) — Kraj i miejsce pochodzenia w etykietowaniu żywności",
+          "sourceUrl": "https://ncez.pzh.gov.pl/dla-producentow-zywnosci/kraj-i-miejsce-pochodzenia-w-etykietowaniu-prezentacji-i-reklamie-zywnosci/",
+          "sourceDate": "2024"
+        },
+        {
+          "title": "Reguła podstawowego składnika (od kwietnia 2020)",
+          "text": "Od 1 kwietnia 2020 r., jeśli olej rzepakowy jest podstawowym składnikiem produktu, a jego pochodzenie różni się od deklarowanego pochodzenia całego wyrobu (np. 'polski' produkt z importowanego oleju), producent musi to na etykiecie zaznaczyć. W praktyce jednak większość producentów podaje ogólne 'UE/spoza UE', co niewiele mówi konsumentowi.",
+          "sourceLabel": "gov.pl / WIJHARS Olsztyn — Kraj i miejsce pochodzenia żywności (art. 26 rozp. 1169/2011)",
+          "sourceUrl": "https://www.gov.pl/web/wijhars-olsztyn/kraj-i-miejsce-pochodzenia-zywnosci",
+          "sourceDate": "2024"
+        },
+        {
+          "title": "Napływ taniego rzepaku z Ukrainy",
+          "text": "Kontrola NIK wykazała, że od 1 stycznia 2022 r. do 30 kwietnia 2023 r. do Polski trafiło ponad 4 mln ton zbóż i nasion oleistych (w tym rzepaku) z Ukrainy po cenach niższych niż krajowe, co zbiło ceny i doprowadziło do wprowadzenia embarga w 2023 r. Tańszy surowiec mógł trafiać do przerobu na olej.",
+          "sourceLabel": "Najwyższa Izba Kontroli — Zboże i rzepak z Ukrainy: kto zarobił, a kto stracił",
+          "sourceUrl": "https://www.nik.gov.pl/aktualnosci/import-zboza-z-ukrainy.html",
+          "sourceDate": "2024"
+        }
+      ],
+      "plRelevance": "Olej rzepakowy to najpopularniejszy olej w polskiej kuchni i podstawa wielu przetworów, margaryn i dań gotowych. Choć Polska jest europejską potęgą w uprawie rzepaku, większość zbiorów idzie na biopaliwa, a olej z butelki może pochodzić z surowca krajowego, unijnego lub importowanego — czego etykieta zwykle nie zdradza.",
+      "usedIn": [
+        "kujawski",
+        "rama-flora-delma"
+      ],
+      "paradox": "Polska jest ==trzecim producentem rzepaku w UE== (ok. 17% unijnych zbiorów), a mimo to ==od 2017 r. jest importerem netto oleju rzepakowego==, a w latach słabszych zbiorów — również samego rzepaku. Powód: ==około 2/3 krajowego rzepaku trafia nie na talerz, lecz do zbiorników — na produkcję biopaliw==, więc surowiec do jadalnego oleju trzeba uzupełniać importem.",
+      "updated": "2026-07-07"
+    },
+    {
+      "slug": "ziemniaki-frytki",
+      "name": "Ziemniaki i frytki",
+      "emoji": "🥔",
+      "category": "składnik",
+      "originCountries": [
+        {
+          "cc": "PL",
+          "share": "4. producent UE (2024)",
+          "note": "Polska to jeden z największych producentów ziemniaka w UE — wg danych GUS 4. miejsce w 2024 r. (po Niemczech, Francji i Holandii), ze zbiorami ok. 5,8 mln ton przy areale ok. 200 tys. ha."
+        },
+        {
+          "cc": "BE",
+          "share": "światowy lider eksportu mrożonych frytek",
+          "note": "Belgia to największy na świecie eksporter mrożonych przetworów ziemniaczanych; przetwarza ponad 6 mln ton ziemniaków rocznie i wysyła frytki do ponad 150 krajów."
+        },
+        {
+          "cc": "NL",
+          "note": "Holandia — obok Belgii czołowy europejski eksporter mrożonych frytek; siedziba globalnych koncernów frytkowych (m.in. Aviko, Farm Frites, Lamb Weston/Meijer)."
+        }
+      ],
+      "stats": [
+        {
+          "text": "Wg danych GUS Polska była w 2024 r. czwartym producentem ziemniaków w UE (po Niemczech, Francji i Holandii), ze zbiorami ok. 5,8 mln ton, przy powierzchni uprawy ok. 200 tys. ha skupionej głównie w Wielkopolsce, Łódzkiem i na Mazowszu.",
+          "sourceLabel": "Warzywa Polowe (za GUS)",
+          "sourceUrl": "https://www.warzywapolowe.pl/polska-czwartym-producentem-ziemniakow-w-ue-w-2024-roku/",
+          "sourceDate": "2024"
+        },
+        {
+          "text": "Belgia to największy na świecie eksporter mrożonych ziemniaków: przetworzone produkty ziemniaczane trafiają z niej do ponad 150 krajów, a sam eksport daje wartość netto ponad 1,75 mld euro rocznie.",
+          "sourceLabel": "Produce Processing — „Why Belgium is the world's largest exporter of frozen fries\"",
+          "sourceUrl": "https://produceprocessing.net/article/why-belgium-largest-exporter-frozen-fries-world/",
+          "sourceDate": "2019"
+        },
+        {
+          "text": "Wg branżowej organizacji Belgapom Belgia przetworzyła ponad 6,2 mln ton ziemniaków (rekord), w tym 2,8 mln ton mrożonych frytek, i wyeksportowała ok. 3,02 mln ton — czyli 82% produkcji.",
+          "sourceLabel": "Belgapom — dane sektora przetwórstwa ziemniaka",
+          "sourceUrl": "https://belgapom.be/en/blog/steady-growth-for-belgian-potatoe-industry-but-rising-costs-cast-a-shadow-146/",
+          "sourceDate": "2022"
+        }
+      ],
+      "issues": [
+        {
+          "title": "Kraj ziemniaka, a przetwórstwo w rękach zachodnich koncernów",
+          "text": "Mimo że Polska jest jednym z największych producentów ziemniaka w UE, światowe przetwórstwo na mrożone frytki jest skoncentrowane w Belgii, Holandii i Niemczech, a rynek zdominowały zachodnie koncerny (McCain, Aviko, Farm Frites, Lamb Weston). Część z nich prowadzi wprawdzie zakłady w Polsce (m.in. Farm Frites w Lęborku czy McCain w Strzelinie, przerabiające krajowy surowiec), ale technologia, marki i kluczowe moce przerobowe pozostają w rękach firm z Europy Zachodniej — a Polska jest importerem netto przetworów ziemniaczanych.",
+          "sourceLabel": "Przemysł Spożywczy — rynek frytek mrożonych",
+          "sourceUrl": "https://przemysl-spozywczy.pl/frytki-mrozone-rynek/",
+          "sourceDate": "2025"
+        },
+        {
+          "title": "Pochodzenie ziemniaka znika w przetworze",
+          "text": "Prawo UE nakazuje podawanie kraju pochodzenia dla świeżych warzyw sprzedawanych luzem, ale w przetworach — mrożonych frytkach, chipsach, puree czy daniach gotowych — pochodzenie surowca jest dla konsumenta praktycznie niewidoczne. Obowiązek oznaczania pochodzenia dotyczy przede wszystkim produktów świeżych, a w daniach przetworzonych liczy się zwykle miejsce przetworzenia, nie pola, z których pochodzi ziemniak.",
+          "sourceLabel": "Komisja Europejska — znakowanie pochodzenia żywności",
+          "sourceUrl": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/origin-labelling_en",
+          "sourceDate": "2025"
+        },
+        {
+          "title": "Nadprodukcja u lidera odbija się na cenach",
+          "text": "Wg doniesień branżowych Belgia — „światowa stolica frytek\" — po rekordowych zbiorach mierzy się z nadpodażą ziemniaków (nawet ok. 5 mln ton), spadkiem cen skupu niemal do zera i cłami USA, co destabilizuje cały europejski rynek przetworów, na którym opiera się także polska gastronomia.",
+          "sourceLabel": "top agrar Polska — nadprodukcja ziemniaków w Belgii",
+          "sourceUrl": "https://www.topagrar.pl/articles/ziemniaki/swiatowa-stolica-frytek-tonie-w-ziemniakach-rolnicy-wyrzucaja-plony-na-pola-2682450",
+          "sourceDate": "2026-06-12"
+        }
+      ],
+      "plRelevance": "Ziemniak to podstawa polskiej kuchni, a Polska jest jednym z największych jego producentów w UE. Mimo to przetwórstwo na mrożone frytki zdominowały zachodnie koncerny z Belgii, Holandii i Niemiec, a Polska pozostaje importerem netto przetworów ziemniaczanych. Na luzem sprzedawanym ziemniaku zobaczysz kraj pochodzenia, ale we frytkach, chipsach i daniach gotowych pochodzenie surowca już ginie.",
+      "usedIn": [
+        "hortex",
+        "frosta"
+      ],
+      "paradox": "Polska to jeden z największych producentów ziemniaka w Unii Europejskiej — a mimo to ==światowe przetwórstwo frytek zdominowały zachodnie koncerny==, a kraj pozostaje importerem netto przetworów ziemniaczanych. Największym na świecie eksporterem mrożonych frytek jest ==Belgia==, która sama przetwarza ponad 6 mln ton ziemniaków rocznie i wysyła je do ponad 150 krajów. Kraj ziemniaka nie kontroluje własnej frytki.",
+      "updated": "2026-07-07"
     }
   ]
 }
