@@ -1,0 +1,16 @@
+[Unit]
+Description=skadprodukt — render + publikacja jednego Shorta (kolejka)
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/skadprodukt.env
+# WorkingDirectory NIE rozwija zmiennych z EnvironmentFile — dlatego cd robimy w bash -lc.
+# Kadencja „co 2 dni" jest w skadprodukt_daily.py (--min-interval-days), nie w timerze.
+# single-owner: ta usługa działa TYLKO na serwerze (laptopowy Task Scheduler wyłączony).
+ExecStart=/bin/bash -lc 'cd "$SKADPRODUKT_ENGINE" && "$SKADPRODUKT_PY" skadprodukt_daily.py'
+ExecStopPost=/bin/bash -lc '"$SKADPRODUKT_REPO"/deploy/heartbeat.sh daily $EXIT_STATUS'
+TimeoutStartSec=2700
+Nice=10
+
+[Install]
+WantedBy=default.target

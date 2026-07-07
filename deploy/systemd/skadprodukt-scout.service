@@ -1,0 +1,15 @@
+[Unit]
+Description=skadprodukt — scout trendów (pomysły na shorty, tylko podpowiedzi)
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/skadprodukt.env
+# scraping + matcher + scoring; NIC nie publikuje — pisze content/pomysly.json + digest.
+# cd w bash -lc, bo WorkingDirectory nie rozwija zmiennych z EnvironmentFile.
+ExecStart=/bin/bash -lc 'cd "$SKADPRODUKT_REPO" && "$SKADPRODUKT_PY" trend_scout/scout.py --scorer "$SCOUT_SCORER"'
+ExecStopPost=/bin/bash -lc '"$SKADPRODUKT_REPO"/deploy/heartbeat.sh scout $EXIT_STATUS'
+TimeoutStartSec=1200
+Nice=15
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,14 @@
+[Unit]
+Description=skadprodukt — wyzwalacz publikacji Shorta (codziennie 12:30; odstęp pilnuje kod)
+
+[Timer]
+# Timer odpala CODZIENNIE 12:30. Faktyczną kadencję „co 2 dni" wymusza
+# skadprodukt_daily.py (--min-interval-days=2, stan last_publish). Dzięki temu
+# odstęp jest równy 48h niezależnie od przestojów, bez zagęszczania na przełomie miesiąca.
+# Uwaga: OnCalendar liczy się w SYSTEMOWEJ strefie — ustaw ją: timedatectl set-timezone Europe/Warsaw.
+OnCalendar=*-*-* 12:30:00
+Persistent=true
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

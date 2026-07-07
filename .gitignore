@@ -2,3 +2,7 @@ output/
 node_modules/
 *.log
 client_secret*.json
+# artefakty scouta (generowane codziennie na serwerze — nie wersjonujemy)
+content/pomysly.json
+content/POMYSLY-DIGEST.md
+trend_scout/__pycache__/
