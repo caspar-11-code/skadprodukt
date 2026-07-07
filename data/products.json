@@ -1972,6 +1972,66 @@
       ],
       "confidence": "publiczne",
       "updated": "2026-07-06"
+    },
+    {
+      "slug": "greenfield-tess",
+      "brand": "Greenfield / TESS",
+      "category": "napoje",
+      "producer": "Orimi Trade — fabryka w obwodzie leningradzkim (Rosja)",
+      "productionCountry": "RU",
+      "plants": [
+        "obwód leningradzki k. Petersburga (RU)"
+      ],
+      "brandOwner": "Orimi Trade (Petersburg)",
+      "ownerCountry": "RU",
+      "capitalCountry": "RU",
+      "capitalNote": "==Herbaty Greenfield i TESS oraz kawa Jardin brzmią międzynarodowo, ale należą do rosyjskiego koncernu Orimi z Petersburga.== Spółkę Greenfield Tea Ltd. zarejestrowano w Wielkiej Brytanii na zlecenie Orimi — angielska nazwa to fasada marki. Produkty wciąż można kupić w polskich sklepach.",
+      "story": "Angielska nazwa, petersburski właściciel — herbata Greenfield to marka rosyjskiego Orimi, wciąż obecna na polskich półkach.",
+      "funFact": "Greenfield Tea Ltd. założono w Wielkiej Brytanii w 2003 r. po to, by rosyjska herbata wyglądała na angielską.",
+      "sources": [
+        {
+          "label": "Wiadomości Spożywcze — rosyjskie firmy i produkty w Polsce (Greenfield/Jardin = Orimi z Petersburga)",
+          "url": "https://wiadomoscispozywcze.pl/artykuly/10889/rosyjskie-firmy-i-rosyjskie-produkty-w-polsce/"
+        },
+        {
+          "label": "WspieramRozwoj.pl — Greenfield Tea (rosyjska marka, kapitał zagraniczny, brak produkcji w PL)",
+          "url": "https://wspieramrozwoj.pl/greenfield-tea/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-06"
+    },
+    {
+      "slug": "santa-bremor",
+      "brand": "Santa Bremor",
+      "category": "ryby i przetwory",
+      "producer": "Bremor (grupa Santa) — zakłady w Brześciu (Białoruś)",
+      "productionCountry": "BY",
+      "plants": [
+        "Brześć, ul. Katin Bor 106 (BY) — ponad 8000 pracowników"
+      ],
+      "brandOwner": "Bremor / Santa Bremor (grupa Santa, Brześć)",
+      "ownerCountry": "BY",
+      "capitalCountry": "BY",
+      "capitalNote": "==Popularne śledziki a'la Matjas z polskich marketów produkuje Santa Bremor — białorusko-niemieckie joint venture z Brześcia== (dziś marka Bremor w grupie Santa). Produkty trafiają do 42 krajów, w Polsce są m.in. w dużych sieciach handlowych i sklepach internetowych.",
+      "story": "Śledzie Santa Bremor z lodówek polskich marketów przyjeżdżają z białoruskiego Brześcia — spod samej polskiej granicy.",
+      "funFact": "Santa Bremor robi śledzie w kraju bez dostępu do morza — surowiec importuje z Atlantyku, a przetwarza go w Brześciu, kilkanaście kilometrów od polskiej granicy.",
+      "sources": [
+        {
+          "label": "Bremor.com — oficjalna strona (Brześć, grupa Santa, eksport do 42 krajów)",
+          "url": "https://www.bremor.com/"
+        },
+        {
+          "label": "Ambasada Białorusi w RP — Santa Bremor na targach E.Leclerc (eksport na rynek polski)",
+          "url": "https://poland.mfa.gov.by/pl/embassy/news/d99a72af7c32789a.html"
+        },
+        {
+          "label": "Frisco.pl — Santa Bremor filety śledziowe a'la Matjas (dostępność w PL)",
+          "url": "https://www.frisco.pl/pid,106903/n,santa-bremor-filety-sledziowe-a%60la-matjas-o-smaku-dymu/stn,product"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-06"
     }
   ]
 }
