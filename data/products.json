@@ -1922,6 +1922,56 @@
       ],
       "confidence": "publiczne",
       "updated": "2026-07-04"
+    },
+    {
+      "slug": "cupra",
+      "brand": "Cupra",
+      "category": "motoryzacja",
+      "producer": "SEAT S.A. oraz zakłady Volkswagen Group (Martorell, Zwickau, Győr, Hefei)",
+      "productionCountry": "EU",
+      "plants": [
+        "Martorell (ES) — Formentor, Leon, Raval (od VI 2026)",
+        "Zwickau (DE) — Born",
+        "Győr (HU) — Terramar (fabryka Audi)",
+        "Hefei/Anhui (CN) — Tavascan (Volkswagen Anhui)"
+      ],
+      "brandOwner": "SEAT S.A. (Volkswagen Group)",
+      "ownerCountry": "ES",
+      "capitalCountry": "DE",
+      "capitalNote": "Cupra to marka spółki SEAT S.A. z Martorell, ==w 100% należącej do niemieckiego Volkswagen Group==. Auta powstają w Hiszpanii, Niemczech i na Węgrzech, a elektryczny Tavascan — w Chinach.",
+      "story": "Hiszpański temperament, niemiecki właściciel — Cupra to marka SEAT-a, który w całości należy do Volkswagen Group.",
+      "funFact": "Elektryczny Cupra Tavascan — sztandarowy „hiszpański” SUV — jest produkowany wyłącznie w chińskim Hefei przez Volkswagen Anhui (75% VW, 25% JAC). Dodatkowe cło UE 20,7% na chińskie elektryki niemal wyzerowało zysk marki, ale w lutym 2026 Tavascan jako pierwszy „chiński” elektryk został z niego zwolniony — Komisja Europejska przyjęła zobowiązanie cenowe Volkswagena.",
+      "stakes": [
+        {
+          "holder": "Volkswagen AG (poprzez SEAT S.A.)",
+          "pct": "100%",
+          "country": "DE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Volkswagen Group — marki koncernu (CUPRA w grupie Core)",
+          "url": "https://www.volkswagen-group.com/en/brands-and-models-15811"
+        },
+        {
+          "label": "SEAT/CUPRA Media Center — start produkcji Terramara w Győr",
+          "url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/cupra-news/2024/Production-of-the-new-CUPRA-Terramar-begins-at-the-Audi-plant-in-Gyor"
+        },
+        {
+          "label": "CnEVPost — VW Anhui rozpoczyna produkcję Cupry Tavascan na eksport do Europy",
+          "url": "https://cnevpost.com/2023/12/30/vw-anhui-starts-production-cupra-tavascan-export-europe/"
+        },
+        {
+          "label": "Volkswagen Newsroom — Martorell rusza z produkcją Cupry Raval i VW ID. Polo (VI 2026)",
+          "url": "https://www.volkswagen-newsroom.com/en/press-releases/seat-and-cupra-plant-in-martorell-starts-production-of-cupra-raval-and-volkswagen-id-polo-leading-a-new-era-of-mobility-in-europe-20459"
+        },
+        {
+          "label": "CnEVPost — Tavascan zwolniony z ceł UE na chińskie EV (zobowiązanie cenowe, II 2026)",
+          "url": "https://cnevpost.com/2026/02/11/vw-cupra-tavascan-exempted-from-eu-tariffs-on-chinese-evs/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-06"
     }
   ]
 }
