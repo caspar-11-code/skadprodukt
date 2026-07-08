@@ -2970,6 +2970,630 @@
         }
       ],
       "updated": "2026-07-07"
+    },
+    {
+      "slug": "nivea",
+      "brand": "Nivea",
+      "category": "kosmetyki",
+      "producer": "Beiersdorf AG",
+      "productionCountry": "XX",
+      "brandOwner": "Beiersdorf AG",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Nivea to marka niemieckiego koncernu Beiersdorf AG z Hamburga, notowanego na giełdzie we Frankfurcie, ale kontrolowanego przez holding maxingvest ag (grupa maxingvest ma ok. 53,5% akcji) należący do rodziny Herzów. ==Kontrolny kapitał kultowej niebieskiej puszki jest niemiecki, choć część kosmetyków na polski rynek powstaje w fabryce Beiersdorfa w Poznaniu.==",
+      "story": "Niebieski krem, który Polacy uważają za swojski, od ponad wieku należy do niemieckiego Beiersdorfa z Hamburga.",
+      "funFact": "Ten sam rodzinny holding (maxingvest, dawniej Tchibo Holding), który kontroluje Niveę, stoi też za siecią kawiarni i kawą Tchibo.",
+      "stakes": [
+        {
+          "holder": "maxingvest ag (rodzina Herz)",
+          "country": "DE",
+          "pct": "ok. 53,5%"
+        },
+        {
+          "holder": "akcje własne (treasury)",
+          "country": "DE",
+          "pct": "ok. 9,4%"
+        },
+        {
+          "holder": "free float / giełda",
+          "country": "różne",
+          "pct": "ok. 37%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Beiersdorf - struktura akcjonariatu",
+          "url": "https://www.beiersdorf.com/investor-relations/shares/shareholder-structure"
+        },
+        {
+          "label": "Beiersdorf - marki: NIVEA",
+          "url": "https://www.beiersdorf.com/brands/nivea"
+        },
+        {
+          "label": "Wikipedia (EN): Beiersdorf",
+          "url": "https://en.wikipedia.org/wiki/Beiersdorf"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "garnier",
+      "brand": "Garnier",
+      "category": "kosmetyki",
+      "producer": "L'Oréal S.A.",
+      "productionCountry": "XX",
+      "brandOwner": "L'Oréal S.A.",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Garnier (Laboratoires Garnier, zał. 1904 przez Alfreda Amoura Garnier) od lat 60. XX w. należy do francuskiego koncernu L'Oréal, największej firmy kosmetycznej świata z siedzibą w Clichy pod Paryżem. ==Mimo francuskiego rodowodu marki, to część globalnego imperium L'Oréal, współkontrolowanego przez rodzinę Bettencourt i szwajcarskie Nestlé.==",
+      "story": "Zielona, roślinna Garnier to jedna z masowych marek francuskiego giganta L'Oréal, który sam narodził się od farby do włosów w 1909 roku.",
+      "funFact": "Największym pojedynczym akcjonariuszem L'Oréal, właściciela Garnier, jest przez dekady szwajcarski koncern spożywczy Nestlé.",
+      "stakes": [
+        {
+          "holder": "Rodzina Bettencourt Meyers",
+          "country": "FR",
+          "pct": "ok. 34%"
+        },
+        {
+          "holder": "Nestlé",
+          "country": "CH",
+          "pct": "ok. 20%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia (EN): Garnier",
+          "url": "https://en.wikipedia.org/wiki/Garnier"
+        },
+        {
+          "label": "Britannica Money: L'Oréal",
+          "url": "https://www.britannica.com/money/LOreal"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "hebe",
+      "brand": "Hebe",
+      "category": "drogerie",
+      "producer": "Jeronimo Martins Drogerie i Farmacja Sp. z o.o.",
+      "productionCountry": "PL",
+      "brandOwner": "Grupa Jerónimo Martins",
+      "ownerCountry": "PT",
+      "capitalCountry": "PT",
+      "capitalNote": "Sieć drogerii Hebe działa w Polsce, ale jej właścicielem jest portugalska Grupa Jerónimo Martins z siedzibą w Lizbonie, kontrolowana przez rodzinę Soares dos Santos. ==Hebe ma dokładnie tego samego portugalskiego właściciela co Biedronka — obie sieci to część jednej grupy z Portugalii.==",
+      "story": "Polsko brzmiąca drogeria Hebe należy do tej samej portugalskiej grupy co Biedronka — Jerónimo Martins.",
+      "funFact": "Jerónimo Martins to firma z ponad 225-letnią historią handlu, a jej polska Biedronka odpowiada za około dwie trzecie przychodów całej portugalskiej grupy.",
+      "stakes": [
+        {
+          "holder": "Rodzina Soares dos Santos (przez Sociedade Francisco Manuel dos Santos)",
+          "country": "PT",
+          "pct": "ok. 56%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Biedronka/O nas: Grupa Jerónimo Martins",
+          "url": "https://onas.biedronka.pl/releases/grupa-jeronimo-martins"
+        },
+        {
+          "label": "Wikipedia (EN): Jerónimo Martins",
+          "url": "https://en.wikipedia.org/wiki/Jer%C3%B3nimo_Martins"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "ziaja",
+      "brand": "Ziaja",
+      "category": "kosmetyki",
+      "producer": "Ziaja Ltd Zakład Produkcji Leków Sp. z o.o.",
+      "productionCountry": "PL",
+      "brandOwner": "Rodzina Ziaja",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Ziaja to gdańska firma rodzinna założona w 1989 r. przez farmaceutę Zenona Ziaję i jego żonę Aleksandrę, z produkcją w Gdańsku i Kolbudach. ==Kapitał jest w 100% polski, a udziały dzielą między siebie założyciel i jego dzieci — Bartosz i Barbara.==",
+      "story": "Jedna z najbardziej rozpoznawalnych polskich marek kosmetycznych zaczęła się w 1989 r. od kremu wyrabianego w przerobionej maszynie do lodów.",
+      "funFact": "Pierwszy hit Ziai — krem oliwkowy — powstawał na starej maszynie do robienia lodów przerobionej na mieszalnik kosmetyków.",
+      "sources": [
+        {
+          "label": "Ziaja Polska: historia firmy",
+          "url": "https://pl.ziaja.com/poznaj-firme-ziaja/historia"
+        },
+        {
+          "label": "Wikipedia (EN): Ziaja (company)",
+          "url": "https://en.wikipedia.org/wiki/Ziaja_(company)"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "inglot",
+      "brand": "Inglot",
+      "category": "kosmetyki",
+      "producer": "Inglot Sp. z o.o.",
+      "productionCountry": "PL",
+      "brandOwner": "Rodzina Inglot",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Inglot to polska marka kolorowych kosmetyków założona w 1983 r. w Przemyślu przez chemika Wojciecha Inglota; po jego śmierci w 2013 r. firmę poprowadziła rodzina (prezesem został brat Zbigniew Inglot, dziś w radzie nadzorczej jako współwłaściciele zasiadają Zbigniew, Elżbieta i Barbara Inglot, a firmą kieruje CEO Grzegorz Inglot z drugiego pokolenia). ==To polski kapitał rodzinny z Przemyśla, gdzie do dziś powstaje ok. 95% produktów sprzedawanych w ok. 90 krajach.==",
+      "story": "Globalna marka makijażu obecna w tysiącach punktów sprzedaży na świecie wciąż produkuje ok. 95% asortymentu w Przemyślu i pozostaje w rękach rodziny Inglotów.",
+      "funFact": "Inglot zasłynął systemem palet Freedom System oraz lakierem O2M, reklamowanym jako przepuszczalny dla powietrza i wody.",
+      "sources": [
+        {
+          "label": "Wikipedia (EN): Inglot Cosmetics",
+          "url": "https://en.wikipedia.org/wiki/Inglot_Cosmetics"
+        },
+        {
+          "label": "INGLOT Cosmetics: Company overview (korporacyjna, właściciele i produkcja w Przemyślu)",
+          "url": "https://corp.inglotcosmetics.com/about-us/company-overview/"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "dr-irena-eris",
+      "brand": "Dr Irena Eris",
+      "category": "kosmetyki",
+      "producer": "Dr Irena Eris S.A.",
+      "productionCountry": "PL",
+      "brandOwner": "Rodzina Orfinger (Irena Eris i Henryk Orfinger)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Dr Irena Eris S.A. z siedzibą w Piasecznie to polska firma rodzinna założona w 1983 r. przez dr Irenę Eris (z domu Szołomicką-Orfinger) i jej męża Henryka Orfingera. ==W pełni polski kapitał rodzinny — od 2019 r. firmą kieruje syn założycieli, Paweł Orfinger.==",
+      "story": "Marka premium sygnowana nazwiskiem realnej doktor farmacji zaczęła się w 1983 r. od jednego kremu robionego w metalowym garnku.",
+      "funFact": "Firma nie tylko wytwarza kosmetyki — prowadzi też własne hotele SPA z certyfikatem, a jej właścicielka trafiła na listy najbogatszych i najbardziej wpływowych Polek.",
+      "sources": [
+        {
+          "label": "Wikipedia (PL): Dr Irena Eris",
+          "url": "https://pl.wikipedia.org/wiki/Dr_Irena_Eris"
+        },
+        {
+          "label": "Forbes: Dr Irena Eris — historia producenta kosmetyków",
+          "url": "https://www.forbes.pl/biznes/dr-irena-eris-debiut-polskiej-firmy-kosmetycznej-historia-producenta-kosmetykow/ts7qq05"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "bielenda",
+      "brand": "Bielenda",
+      "category": "kosmetyki",
+      "producer": "Bielenda Group S.A.",
+      "productionCountry": "PL",
+      "brandOwner": "Bielenda Group S.A. (rodzina Bielenda + Innova Capital)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Bielenda to krakowska firma kosmetyczna założona w 1990 r. przez Barbarę Bielendę, wciąż zarządzana przez kolejne pokolenie rodziny. ==Fundamentem jest polski kapitał rodzinny, ale od 2020 r. inwestorem i partnerem strategicznym jest polski fundusz private equity Innova Capital.==",
+      "story": "Marka, która zaczęła się w przydomowym garażu Barbary Bielendy, dziś sprzedaje kosmetyki w niemal 60 krajach, łącząc rodzinne korzenie z kapitałem funduszu Innova.",
+      "funFact": "Pod parasolem Bielenda Group kryje się kilkanaście marek, m.in. BodyBoom, Soraya, Dermika czy Tołpa.",
+      "stakes": [
+        {
+          "holder": "Rodzina Bielenda",
+          "country": "PL",
+          "pct": "współwłaściciele"
+        },
+        {
+          "holder": "Innova Capital",
+          "country": "PL",
+          "pct": "inwestor strategiczny od 2020"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Bielenda Group S.A. — O nas",
+          "url": "https://bielendagroup.com/o-nas/"
+        },
+        {
+          "label": "Wikipedia (PL): Bielenda Group",
+          "url": "https://pl.wikipedia.org/wiki/Bielenda_Group"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "lpp",
+      "brand": "Reserved, Sinsay, Cropp, House, Mohito (LPP)",
+      "category": "moda",
+      "producer": "LPP SA",
+      "productionCountry": "XX",
+      "brandOwner": "LPP SA",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Reserved, Sinsay, Cropp, House i Mohito brzmią jak sieci zachodnie, tymczasem wszystkie należą do jednej gdańskiej spółki LPP. ==To firma z polskim kapitałem, notowana na GPW od 2001 r., kontrolowana przez założycieli (Fundacja Semper Simul / Marek Piechocki).== Szycie zlecane jest głównie w Azji, ale marki, projekt i właściciel są polskie.",
+      "story": "Pięć osobnych, zagranicznie brzmiących szyldów to w rzeczywistości marki jednej gdańskiej spółki LPP.",
+      "funFact": "Angielsko brzmiące Reserved i House projektuje firma założona w 1991 r. w Gdańsku przez dwóch Polaków.",
+      "stakes": [
+        {
+          "holder": "Fundacja Semper Simul (Marek Piechocki)",
+          "country": "PL",
+          "pct": "większościowy pakiet głosów (~60%)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia – LPP (company)",
+          "url": "https://en.wikipedia.org/wiki/LPP_(company)"
+        },
+        {
+          "label": "LPP – oficjalna strona",
+          "url": "https://www.lpp.com/en/"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "4f",
+      "brand": "4F",
+      "category": "moda",
+      "producer": "OTCF SA",
+      "productionCountry": "XX",
+      "brandOwner": "OTCF SA",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Sportowe 4F kojarzy się z globalnym koncernem, a należy do polskiej spółki OTCF spod Krakowa (Wieliczka). ==To firma z polskim kapitałem, zbudowana przez Igora Klaję, która ubiera polskich olimpijczyków i jest wyłącznym dystrybutorem Under Armour w Polsce.==",
+      "story": "Sportowe 4F to nie zachodni gigant, lecz polska OTCF Igora Klai spod Krakowa.",
+      "funFact": "Marka ubierająca polską reprezentację olimpijską należy do firmy z Wieliczki, nie do zagranicznego koncernu.",
+      "stakes": [
+        {
+          "holder": "Igor Klaja",
+          "country": "PL",
+          "pct": "założyciel i główny właściciel"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia – OTCF",
+          "url": "https://pl.wikipedia.org/wiki/OTCF"
+        },
+        {
+          "label": "OTCF – O nas",
+          "url": "https://www.otcf.pl/o-nas"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "medicine",
+      "brand": "Medicine",
+      "category": "moda",
+      "producer": "BRANDBQ Sp. z o.o.",
+      "productionCountry": "XX",
+      "brandOwner": "BRANDBQ Sp. z o.o.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Angielska nazwa Medicine sugeruje zagraniczny rodowód, w rzeczywistości ==to polska marka krakowskiej spółki BRANDBQ, założona w 2013 r. przez braci Krzysztofa i Arkadiusza Bajołków.== Marka słynie z kolekcji tworzonych we współpracy z artystami i grafikami.",
+      "story": "Medicine brzmi po angielsku, ale to krakowska marka spółki BRANDBQ.",
+      "funFact": "Markę o angielskiej nazwie Medicine stworzyli w Krakowie polscy bracia Bajołkowie.",
+      "sources": [
+        {
+          "label": "Wikipedia – Medicine (marka odzieżowa)",
+          "url": "https://pl.wikipedia.org/wiki/Medicine_(marka_odzie%C5%BCowa)"
+        },
+        {
+          "label": "Medicine – oficjalny sklep",
+          "url": "https://wearmedicine.com/"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "ccc",
+      "brand": "CCC",
+      "category": "moda",
+      "producer": "CCC SA",
+      "productionCountry": "XX",
+      "brandOwner": "Modivo SA (dawniej CCC SA)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Trzyliterowe CCC bywa brane za zagraniczny brand, a to polska sieć obuwnicza z Polkowic. ==Notowana na GPW od 2004 r. i zbudowana przez Dariusza Miłka; w lutym 2026 r. spółka-matka zmieniła nazwę na Modivo S.A., ale szyld sklepów CCC pozostał bez zmian.==",
+      "story": "CCC to nie zagraniczna sieć, lecz polski obuwniczy gigant z Polkowic zbudowany przez Dariusza Miłka.",
+      "funFact": "Twórca CCC Dariusz Miłek zaczynał od sprzedaży butów z łóżka polowego na bazarze.",
+      "stakes": [
+        {
+          "holder": "Dariusz Miłek (przez Ultro)",
+          "country": "PL",
+          "pct": "26,86%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Money.pl – CCC/Modivo, o firmie (GPW, Polkowice)",
+          "url": "https://www.money.pl/gielda/spolki-gpw/plccc0000016,o_firmie.html"
+        },
+        {
+          "label": "Wirtualne Media – CCC zmienia nazwę na Modivo",
+          "url": "https://www.wirtualnemedia.pl/ccc-nowa-nazwa-modivo-jak-dziala-program-modivo-club,7254015779502400a"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "wojas",
+      "brand": "Wojas",
+      "category": "moda",
+      "producer": "Wojas SA",
+      "productionCountry": "PL",
+      "brandOwner": "Wojas SA",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Nazwisko Wojas jest jednoznacznie polskie — i słusznie: ==to rodzinna spółka obuwnicza z Nowego Targu, w 100% należąca do jej założyciela Wiesława Wojasa.== Firma wciąż produkuje skórzane buty w Polsce, a w 2024 r. dobrowolnie wycofała się z GPW po 16 latach notowań.",
+      "story": "Wojas to rodzinna marka z Nowego Targu, produkująca skórzane buty w Polsce od 1990 r.",
+      "funFact": "Wojas w 2024 r. sam poprosił o wycofanie z warszawskiej giełdy, tłumacząc to kosztami statusu spółki publicznej.",
+      "plants": [
+        "Nowy Targ (PL)"
+      ],
+      "stakes": [
+        {
+          "holder": "Wiesław Wojas (przez AW Invest)",
+          "country": "PL",
+          "pct": "100%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia – Wojas",
+          "url": "https://pl.wikipedia.org/wiki/Wojas"
+        },
+        {
+          "label": "Wojas – O nas",
+          "url": "https://wojas.pl/firma/o-nas"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "gino-rossi",
+      "brand": "Gino Rossi",
+      "category": "moda",
+      "producer": "Gino Rossi (marka grupy CCC)",
+      "productionCountry": "XX",
+      "brandOwner": "CCC S.A. (Polkowice)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Włosko brzmiące „Gino Rossi\" to polska marka obuwia — w 2019 r. w całości przejęta przez CCC S.A. z Polkowic i wycofana z giełdy.== Fabrykę w Słupsku zamknięto; dziś Gino Rossi to marka w ofercie (private label) sieci CCC.",
+      "story": "Gino Rossi brzmi jak włoski szewc, a to polska marka obuwia — od 2019 r. własność CCC z Polkowic.",
+      "funFact": "Mimo włoskiego imienia Gino Rossi nigdy nie był włoską firmą — powstał w Polsce, dziś to marka sieci CCC.",
+      "stakes": [
+        {
+          "holder": "Grupa CCC (Modivo SA)",
+          "country": "PL",
+          "pct": "przejęcie 2019, ponad 66% w wezwaniu"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Parkiet – CCC finalizuje przejęcie Gino Rossi",
+          "url": "https://www.parkiet.com/handel-i-konsumpcja/art20246871-ccc-finalizuje-przejecie-gino-rossi"
+        },
+        {
+          "label": "Money.pl – CCC zamyka fabrykę Gino Rossi w Słupsku",
+          "url": "https://www.money.pl/gospodarka/ccc-zamyka-fabryke-gino-rossi-w-slupsku-firma-zapewnia-ze-nie-ma-to-zwiazku-z-pandemia-6632112382757408a.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "dino",
+      "brand": "Dino",
+      "category": "sieci handlowe",
+      "producer": "Dino Polska S.A. (Krotoszyn)",
+      "productionCountry": "PL",
+      "brandOwner": "Dino Polska S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Dino to jedna z nielicznych dużych sieci spożywczych w Polsce z rodzimym kapitałem. ==Spółka jest notowana na GPW, a jej założyciel i główny akcjonariusz Tomasz Biernacki kontroluje 51,16% akcji== – w przeciwieństwie do zagranicznych dyskontów i hipermarketów.",
+      "story": "Polska sieć proximity ze wsi i małych miast, zbudowana od jednego sklepu w 1999 r. do ponad 2500 placówek pod kontrolą rodzimego miliardera.",
+      "funFact": "Tomasz Biernacki, najbogatszy właściciel sieci handlowej w Polsce, jest tak dyskretny, że przez lata niemal nie istniał publicznie żaden jego wizerunek.",
+      "stakes": [
+        {
+          "holder": "Tomasz Biernacki (z podmiotem zależnym)",
+          "pct": "51,16%",
+          "country": "PL"
+        },
+        {
+          "holder": "Pozostali akcjonariusze / free float",
+          "pct": "48,84%",
+          "country": "XX"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Dino Polska – Akcjonariat (relacje inwestorskie)",
+          "url": "https://grupadino.pl/en/shareholders/"
+        },
+        {
+          "label": "Wiadomości Handlowe – Tomasz Biernacki ma ponad 51 proc. akcji Dino",
+          "url": "https://www.wiadomoscihandlowe.pl/handel-i-dystrybucja/hipermarkety-i-supermarkety/tomasz-biernacki-ma-ponad-51-proc-akcji-dino-ile-maja-pozostali-czlonkowie-organow-spolki-kto-ma-najwiecej-2447735"
+        }
+      ],
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "stokrotka",
+      "brand": "Stokrotka",
+      "category": "sieci handlowe",
+      "producer": "Stokrotka Sp. z o.o. / Emperia Holding",
+      "productionCountry": "PL",
+      "brandOwner": "Emperia (grupa Vilniaus Prekyba)",
+      "ownerCountry": "LT",
+      "capitalCountry": "LT",
+      "capitalNote": "==Stokrotka to kapitał litewski: przez lata w grupie Maxima, a w 2026 r. sprzedana — w ramach wewnętrznej reorganizacji litewskiej grupy Vilniaus Prekyba — spółce Paretas B.V.== Marka i ok. 1000 sklepów zostają w Polsce, ale właściciel pozostaje w litewskim ekosystemie Vilniaus Prekyba (rozdział rynków bałtyckich i międzynarodowych ma potrwać do 2027 r.).",
+      "story": "Stokrotka wygląda swojsko, a kapitałowo jest litewska — od lat w orbicie grupy Vilniaus Prekyba, także po sprzedaży w 2026 r.",
+      "funFact": "W 2026 r. Stokrotka zmieniła formalnego właściciela (Paretas B.V.), ale nie opuściła litewskiego holdingu Vilniaus Prekyba.",
+      "stakes": [
+        {
+          "holder": "Vilniaus Prekyba (via Paretas B.V.)",
+          "pct": "100%",
+          "country": "LT"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Retailnet.pl – Stokrotka zmienia właściciela, ale marka pozostaje",
+          "url": "https://retailnet.pl/2026/05/20/stokrotka-zmienia-wlasciciela-ale/"
+        },
+        {
+          "label": "dlahandlu.pl – Sklepy sieci Stokrotka sprzedane. Gigant z Litwy tasuje karty",
+          "url": "https://www.dlahandlu.pl/detal-hurt/sklepy-sieci-stokrotka-sprzedane-gigant-z-litwy-tasuje-karty,167842.html"
+        }
+      ],
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "amica",
+      "brand": "Amica",
+      "category": "AGD",
+      "producer": "Amica S.A., Wronki",
+      "productionCountry": "PL",
+      "brandOwner": "Amica S.A. (Grupa Amica)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Amica to ==polski producent AGD z fabryką we Wronkach, notowany na GPW od 1997 r. i kontrolowany przez Holding Wronki Jacka Rutkowskiego== (ok. 41% kapitału i 57% głosów). To rzadki przypadek dużego rodzimego producenta kuchenek i piekarników.",
+      "story": "Producent kuchni z Wronek, który z rodzimym kapitałem urósł do jednego z większych wytwórców AGD w Europie Środkowej.",
+      "funFact": "Amica sprzedaje sprzęt pod kilkoma markami skrojonymi pod regiony – Hansa na Wschód, Gram w Skandynawii, CDA w Wielkiej Brytanii i Fagor na rynek hiszpańsko-francuski.",
+      "plants": [
+        "Wronki (Polska) – Fabryka Kuchni"
+      ],
+      "stakes": [
+        {
+          "holder": "Holding Wronki (Jacek Rutkowski)",
+          "pct": "ok. 41% kapitału / 57% głosów",
+          "country": "PL"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Amica – Relacje inwestorskie (Spółka)",
+          "url": "https://ir.amica.pl/spolka"
+        },
+        {
+          "label": "SII – Amica: jeden z największych producentów AGD w Europie (akcjonariat)",
+          "url": "https://www.sii.org.pl/6661/analizy/raporty-analityczne/amica-jeden-z-najwiekszych-producentow-sprzetu-agd-w-europie.html"
+        }
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "kruger-matz",
+      "brand": "Krüger&Matz",
+      "category": "elektronika",
+      "producer": "Lechpol Electronics (Miętne k. Garwolina)",
+      "productionCountry": "XX",
+      "brandOwner": "Lechpol Electronics (Miętne k. Garwolina)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Krüger&Matz to polska marka (należy do Lechpol Electronics spod Garwolina), ale sprzęt — smartfony, tablety, audio — powstaje głównie w Chinach.== Dobry przykład, że „polska marka\" nie znaczy „polska produkcja\"; część oferty (telewizory) montuje się w Polsce w zakładzie chińskiego TCL w Żyrardowie.",
+      "story": "Krüger&Matz brzmi z niemiecka, jest polską marką Lechpolu — a większość sprzętu i tak powstaje w Chinach.",
+      "funFact": "Nazwa brzmi niemiecko, marka jest polska, produkcja głównie chińska — trzy różne tropy w jednym logo.",
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia (PL): Krüger&Matz (marka Lechpol, produkcja w Chinach)",
+          "url": "https://pl.wikipedia.org/wiki/Kr%C3%BCger&Matz"
+        },
+        {
+          "label": "Money.pl: Krüger&Matz — z Chin do Polski (montaż TV w Żyrardowie)",
+          "url": "https://www.money.pl/gospodarka/wiadomosci/artykul/chiny-polska-fabryka-krugermatz,29,0,2258973.html"
+        }
+      ],
+      "plants": [
+        "gł. Chiny (import); telewizory montowane w Polsce w zakładzie chińskiego TCL w Żyrardowie"
+      ],
+      "updated": "2026-07-08"
+    },
+    {
+      "slug": "auchan",
+      "brand": "Auchan",
+      "category": "sieci handlowe",
+      "producer": "Auchan Retail S.A.",
+      "productionCountry": "FR",
+      "brandOwner": "Association Familiale Mulliez (rodzina Mulliez)",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Auchan to ==francuska sieć założona w 1961 r. przez Gérarda Mullieza, kontrolowana przez rodzinę Mulliez (ok. 95% udziałów) za pośrednictwem holdingu Association Familiale Mulliez==. Na polski rynek weszła w 1996 r., a w 2018 r. przejęła 91 hipermarketów Real od Metro AG.",
+      "story": "Francuski hipermarket z Lille należący do jednej z najbogatszych rodzin Europy – klanu Mulliez, który steruje nim przez rodzinny holding.",
+      "funFact": "Ten sam rodzinny holding Mulliez, który kontroluje Auchan, stoi też m.in. za Decathlonem i Leroy Merlin.",
+      "stakes": [
+        {
+          "holder": "Rodzina Mulliez (Association Familiale Mulliez)",
+          "pct": "ok. 95%",
+          "country": "FR"
+        }
+      ],
+      "confidence": "publiczne",
+      "sources": [
+        {
+          "label": "Wikipedia – Auchan (ownership, Croix/France, Poland 1996)",
+          "url": "https://en.wikipedia.org/wiki/Auchan"
+        },
+        {
+          "label": "Wikipedia – Association Familiale Mulliez (holding rodziny Mulliez)",
+          "url": "https://en.wikipedia.org/wiki/Association_Familiale_Mulliez"
+        }
+      ],
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-08"
     }
   ]
 }
