@@ -83,7 +83,7 @@ async function get(url) {
     const tail = fs.readFileSync(log, 'utf8').trim().split('\n').slice(-15).join('\n');
     /OPUBLIKOWANO|dry-run/.test(tail) ? ok('ostatni wpis loga automatu wygląda zdrowo')
       : warn('sprawdź koniec loga automatu: ' + log);
-  } else warn('log automatu jeszcze nie istnieje (pierwszy run: 2026-07-12 12:30)');
+  } else warn('log automatu jeszcze nie istnieje (pierwszy run: 2026-07-18 12:30)');
 
   // 7. token YouTube
   fs.existsSync(path.join(ENGINE, 'secrets', 'token.json'))
