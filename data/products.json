@@ -3594,6 +3594,412 @@
         "—"
       ],
       "updated": "2026-07-08"
+    },
+    {
+      "slug": "zubr",
+      "brand": "Żubr",
+      "category": "piwo",
+      "producer": "Kompania Piwowarska S.A. (Browar Dojlidy, Białystok)",
+      "productionCountry": "PL",
+      "brandOwner": "Asahi Group Holdings (poprzez Asahi Europe & International / Kompanię Piwowarską S.A.)",
+      "ownerCountry": "JP",
+      "capitalCountry": "JP",
+      "capitalNote": "Żubr warzony jest w Browarze Dojlidy w Białymstoku przez Kompanię Piwowarską, lidera polskiego rynku piwa. ==Choć marka jest ikoną polskości, od 2017 r. jej właścicielem jest japoński koncern Asahi Group Holdings== (poprzez Asahi Europe & International), który przejął polskie browary w ramach globalnego rozpadu SABMiller po fuzji z AB InBev. Stan potwierdzony na 2025/2026.",
+      "story": "Najbardziej rozpoznawalne piwo w Polsce, z żubrem w godle i japońskim właścicielem w księgach.",
+      "funFact": "Mimo wizerunku dzikiej przyrody Podlasia zyski z marki Żubr płyną dziś do Tokio.",
+      "plants": [
+        "Browar Dojlidy, Białystok, PL"
+      ],
+      "stakes": [
+        {
+          "holder": "Asahi Group Holdings (poprzez Asahi Europe & International)",
+          "country": "JP",
+          "pct": "100% (właściciel Kompanii Piwowarskiej)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia (EN) – Kompania Piwowarska (Żubr = Browar Dojlidy, właściciel Asahi od 2017)",
+          "url": "https://en.wikipedia.org/wiki/Kompania_Piwowarska"
+        },
+        {
+          "label": "money.pl – Kompanię Piwowarską (Tyskie, Lech, Żubr) przejął japoński Asahi",
+          "url": "https://www.money.pl/gospodarka/wiadomosci/artykul/tyskie-lech-asahi-group-piwo-przejecie,125,0,2217597.html"
+        },
+        {
+          "label": "bizblog.spidersweb.pl – Kompania Piwowarska własnością Asahi (Japonia)",
+          "url": "https://bizblog.spidersweb.pl/piwo-browary-polskie-zagraniczne"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "lech",
+      "brand": "Lech",
+      "category": "piwo",
+      "producer": "Kompania Piwowarska S.A. (Lech Browary Wielkopolski, Poznań)",
+      "productionCountry": "PL",
+      "brandOwner": "Asahi Group Holdings (poprzez Kompanię Piwowarską S.A.)",
+      "ownerCountry": "JP",
+      "capitalCountry": "JP",
+      "capitalNote": "Lech powstaje w browarze Lech Browary Wielkopolski w Poznaniu, w ramach Kompanii Piwowarskiej. ==Od 2017 r. marka należy do japońskiej grupy Asahi==, która przejęła polskie browary po transakcji Anheuser-Busch InBev–SABMiller.",
+      "story": "Poznańskie piwo z duszą kibica, dziś w 100% pod japońskim parasolem Asahi.",
+      "funFact": "Nazwa nawiązuje do legendarnego założyciela państwa Polan, ale kapitałowo Lech jest dziś całkowicie japoński.",
+      "plants": [
+        "Lech Browary Wielkopolski, Poznań, PL"
+      ],
+      "stakes": [
+        {
+          "holder": "Asahi Group Holdings",
+          "country": "JP",
+          "pct": "100% (właściciel Kompanii Piwowarskiej)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia (EN) – Kompania Piwowarska (Lech = Poznań, właściciel Asahi od 2017)",
+          "url": "https://en.wikipedia.org/wiki/Kompania_Piwowarska"
+        },
+        {
+          "label": "money.pl – Tyskie i Lech w japońskich rękach (Asahi)",
+          "url": "https://www.money.pl/gospodarka/wiadomosci/artykul/tyskie-lech-asahi-group-piwo-przejecie,125,0,2217597.html"
+        },
+        {
+          "label": "bizblog.spidersweb.pl – Kompania Piwowarska (Lech) własnością Asahi",
+          "url": "https://bizblog.spidersweb.pl/piwo-browary-polskie-zagraniczne"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "harnas",
+      "brand": "Harnaś",
+      "category": "piwo",
+      "producer": "Carlsberg Polska Sp. z o.o. (Browar Okocim, Brzesko)",
+      "productionCountry": "PL",
+      "brandOwner": "Carlsberg Group",
+      "ownerCountry": "DK",
+      "capitalCountry": "DK",
+      "capitalNote": "Harnaś warzony jest w Browarze Okocim w Brzesku przez Carlsberg Polska. ==Marka należy do duńskiego koncernu Carlsberg Group, a NIE — wbrew częstemu przekonaniu — do Grupy Żywiec/Heinekena==; Carlsberg jest właścicielem browaru w Brzesku od 1996 r. (całość udziałów od 2004 r.). Stan aktualny 2025/2026: brak zmian właścicielskich — Carlsberg Polska nadal w 100% w Grupie Carlsberg, której kontrolującym akcjonariuszem pozostaje duńska Fundacja Carlsberga (Carlsberg Foundation).",
+      "story": "Góralski zbój na etykiecie, duński właściciel w księgach.",
+      "funFact": "Harnaś dzieli browar w Brzesku z Okocimiem — obie 'polskie' marki rozlewa dziś duński Carlsberg.",
+      "plants": [
+        "Browar Okocim, Brzesko, PL"
+      ],
+      "stakes": [
+        {
+          "holder": "Carlsberg Group",
+          "country": "DK",
+          "pct": "100% (poprzez Carlsberg Polska)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia (PL) – Carlsberg Polska (Harnaś wśród marek, właściciel duński Carlsberg Group, Browar Okocim w Brzesku)",
+          "url": "https://pl.wikipedia.org/wiki/Carlsberg_Polska"
+        },
+        {
+          "label": "bizblog.spidersweb.pl – Harnaś wśród piw Carlsberg Polska, część duńskiego Carlsberg Group",
+          "url": "https://bizblog.spidersweb.pl/piwo-browary-polskie-zagraniczne"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "perla",
+      "brand": "Perła",
+      "category": "piwo",
+      "producer": "Perła – Browary Lubelskie S.A. (Lublin)",
+      "productionCountry": "PL",
+      "brandOwner": "Marconia Enterprises Ltd (Cypr, większość 50,7%) i Royal Unibrew A/S (Dania, 48%)",
+      "ownerCountry": "CY",
+      "capitalCountry": "CY",
+      "capitalNote": "Perła powstaje w Browarach Lubelskich w Lublinie i uchodzi za symbol ostatniego niezależnego, polskiego browaru. ==W rzeczywistości kapitał jest zagraniczny: większościowy pakiet (ok. 51%) kontroluje cypryjska spółka Marconia Enterprises (za którą stoją m.in. William Richardson i rodzina Skotnickich), a 48% akcji ma duński Royal Unibrew.== Potwierdzone źródłami z 2024 r. (m.in. spór obu akcjonariuszy na walnym zgromadzeniu).",
+      "story": "Piwo uważane za ostatnie polskie i niezależne — którego kapitał wcale już polski nie jest.",
+      "funFact": "Reklamowana jako lubelska duma Perła jest kontrolowana przez spółkę z Cypru (Marconia Enterprises, 50,7%) i duńskiego giganta Royal Unibrew (48%).",
+      "plants": [
+        "Browary Lubelskie, Lublin, PL"
+      ],
+      "stakes": [
+        {
+          "holder": "Marconia Enterprises Ltd (benef. William R. Richardson)",
+          "country": "CY",
+          "pct": "50,7%"
+        },
+        {
+          "holder": "Royal Unibrew A/S",
+          "country": "DK",
+          "pct": "48%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Parkiet (2024) — Royal Unibrew ma poważne kłopoty z lubelską Perłą (spór akcjonariuszy: Marconia vs Royal Unibrew)",
+          "url": "https://www.parkiet.com/handel-i-konsumpcja/art23802461-royal-unibrew-ma-powazne-klopoty-z-lubelska-perla"
+        },
+        {
+          "label": "ccProgres — właściciele Perły (Marconia/Cypr ~51% + Royal Unibrew/Dania 48%)",
+          "url": "https://ccprogres.pl/wlasciciele/perla/"
+        },
+        {
+          "label": "Portal Spożywczy — akcjonariusze lubelskiej Perły",
+          "url": "https://www.portalspozywczy.pl/inne/wiadomosci/kanadyjscy-akcjonariusze-lubelskiej-perly-zapowiadaja-milionowe-inwestycje,61347.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "orlen",
+      "brand": "Orlen",
+      "category": "paliwa",
+      "producer": "Orlen S.A. (dawniej PKN Orlen S.A.)",
+      "productionCountry": "PL",
+      "brandOwner": "Orlen S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Orlen to spółka giełdowa notowana na GPW z dominującym udziałem państwa. ==Po fuzjach z Grupą Lotos (sierpień 2022) i PGNiG (listopad 2022) udział Skarbu Państwa w kapitale wzrósł do niemal 50% (49,90%)==, a pozostała część akcji znajduje się w wolnym obrocie. Stan potwierdzony w akcjonariacie z 2025/2026 r.",
+      "story": "Największy polski koncern paliwowy, w którym prawie połowa akcji należy do Skarbu Państwa.",
+      "funFact": "Przed fuzjami z Lotosem i PGNiG w 2022 r. Skarb Państwa miał tylko ok. 27,5% akcji Orlenu (dokładnie 27,52%) — po połączeniach udział skoczył do 49,9%.",
+      "stakes": [
+        {
+          "holder": "Skarb Państwa",
+          "country": "PL",
+          "pct": "49,90%"
+        },
+        {
+          "holder": "Nationale-Nederlanden OFE",
+          "pct": "ok. 5,3%"
+        },
+        {
+          "holder": "Pozostali akcjonariusze / free float",
+          "pct": "ok. 45%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "wnp.pl — po fuzji z Lotosem udział SP wzrósł do 35,66% (z 27,52%)",
+          "url": "https://www.wnp.pl/energia/paliwa/po-fuzji-z-lotosem-wzrosl-udzial-skarbu-panstwa-w-orlenie,613306.html"
+        },
+        {
+          "label": "BiznesAlert — Skarb Państwa będzie miał prawie 50% po przejęciu Lotosu i PGNiG",
+          "url": "https://biznesalert.pl/skarb-panstwa-bedzie-mial-prawie-50-procent-udzialow-w-orlenie-po-przejeciu-lotosu-i-pgnig/"
+        },
+        {
+          "label": "StockWatch — Skarb Państwa zwiększył udział w PKN Orlen do 49,9% po połączeniu z PGNiG (2 XI 2022)",
+          "url": "https://www.stockwatch.pl/wiadomosci/skarb-panstwa-zwiekszyl-udzial-w-pkn-orlen-do-499-proc-po-polaczeniu-koncernu-z-pgnig,akcje,301260"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "circle-k",
+      "brand": "Circle K",
+      "category": "paliwa",
+      "producer": "Circle K Polska Sp. z o.o.",
+      "productionCountry": "PL",
+      "brandOwner": "Alimentation Couche-Tard Inc.",
+      "ownerCountry": "CA",
+      "capitalCountry": "CA",
+      "capitalNote": "Stacje Circle K w Polsce to dawne Statoile. ==Należą do kanadyjskiego koncernu Alimentation Couche-Tard z siedzibą w Kanadzie, notowanego na giełdzie w Toronto==, który w 2012 r. kupił Statoil Fuel & Retail, a od 2016 r. przeprowadził w Polsce rebranding na markę Circle K. Właściciel pozostaje niezmieniony w 2025/2026 r.",
+      "story": "Dawne stacje Statoil w Polsce, dziś część kanadyjskiego giganta convenience.",
+      "funFact": "Kanadyjski Couche-Tard przejął Statoil Fuel & Retail w 2012 r. za ok. 2,8 mld USD, a rebranding polskich stacji ze Statoil na Circle K ruszył na początku 2017 r.",
+      "stakes": [
+        {
+          "holder": "Alimentation Couche-Tard Inc. (spółka publiczna, TSX)",
+          "country": "CA"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Circle K Polska — o grupie Alimentation Couche-Tard",
+          "url": "https://www.circlek.pl/o-nas/grupa-alimentation-couchetard"
+        },
+        {
+          "label": "energia.rp.pl — Stacje paliw Statoil w Polsce zamienia się w Circle K, Couche-Tard kupuje CST Brands",
+          "url": "https://energia.rp.pl/energetyka/art3343031-stacje-paliw-statoil-w-polsce-zamienia-sie-w-circle-k-alimentation-couche-tard-kupuje-cst-brands"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "moya",
+      "brand": "Moya",
+      "category": "paliwa",
+      "producer": "Anwim S.A.",
+      "productionCountry": "PL",
+      "brandOwner": "Anwim S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Moya to trzecia co do wielkości sieć stacji w Polsce, należąca do Anwim S.A. ==Obecnie (2026) kapitał jest polski (założyciele + Polish Enterprise Fund VIII / Enterprise Investors), ale 31 maja 2026 r. akcjonariusze podpisali umowę sprzedaży 100% akcji Anwim konsorcjum Stonepeak i Energy Equation Partners — finalizacja planowana na II połowę 2026 r. i wymaga zgód regulatorów.==",
+      "story": "Trzecia sieć stacji w Polsce z polskim kapitałem — w trakcie przejęcia przez zagraniczny fundusz.",
+      "funFact": "Kupujące Moyę konsorcjum Stonepeak i Energy Equation Partners w 2025 r. przejęło już 65% sieci ok. 1000 stacji JET w Niemczech i Austrii od Phillips 66 (za ok. 2,5 mld euro).",
+      "stakes": [
+        {
+          "holder": "Polish Enterprise Fund VIII (Enterprise Investors) + założyciele — stan przed transakcją",
+          "country": "PL"
+        },
+        {
+          "holder": "Stonepeak (fundusz infrastrukturalny, Nowy Jork) — nabywca, umowa 31.05.2026, finalizacja w toku",
+          "country": "US"
+        },
+        {
+          "holder": "Energy Equation Partners — nabywca (JV)",
+          "country": "US"
+        }
+      ],
+      "sources": [
+        {
+          "label": "energia.rp.pl — Anwim/Moya zmienia właściciela, sprzedaż do Stonepeak i EEP",
+          "url": "https://energia.rp.pl/paliwa/art44611051-moya-anwim-sprzedaz-stonepeak-energy-equation-partners"
+        },
+        {
+          "label": "money.pl — duża sieć stacji paliw w Polsce sprzedana, umowa podpisana",
+          "url": "https://www.money.pl/biznes/duza-siec-stacji-paliw-w-polsce-sprzedana-7295639599478816a.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "allegro",
+      "brand": "Allegro",
+      "category": "usługi",
+      "producer": "Allegro.eu S.A. (operacje: Grupa Allegro, Poznań)",
+      "productionCountry": "PL",
+      "brandOwner": "Allegro.eu S.A.",
+      "ownerCountry": "LU",
+      "capitalCountry": "XX",
+      "capitalNote": "Allegro to spółka holdingowa Allegro.eu S.A. ==zarejestrowana w Luksemburgu i notowana na warszawskiej GPW, z centrum operacyjnym w Poznaniu==. Fundusze private equity (Cinven, Permira, Mid Europa), które kupiły Allegro w 2016 r., stopniowo wyszły z akcjonariatu. Ostatni z nich, Permira, sprzedał cały swój pakiet (ok. 12,4%) w czerwcu 2026 r. — od tego czasu niemal całość akcji jest w wolnym obrocie (free float ok. 87%), a jedynymi akcjonariuszami powyżej progu 5% pozostają inwestorzy instytucjonalni: NN PTE (OFE) ok. 7,2% i BlackRock ok. 5,7%.",
+      "story": "Największa polska platforma e-commerce — luksemburski holding notowany na warszawskiej giełdzie.",
+      "funFact": "Choć markę zna niemal każdy Polak, formalnie spółka-matka Allegro jest zarejestrowana w Luksemburgu, a nie w Polsce.",
+      "stakes": [
+        {
+          "holder": "Free float / pozostali",
+          "pct": "ok. 87%"
+        },
+        {
+          "holder": "NN PTE (OFE) via fundusze",
+          "country": "PL",
+          "pct": "ok. 7,2%"
+        },
+        {
+          "holder": "BlackRock Inc.",
+          "country": "US",
+          "pct": "ok. 5,7%"
+        },
+        {
+          "holder": "Akcje własne (treasury)",
+          "country": "LU",
+          "pct": "ok. 0,02%"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Bankier.pl — aktualny akcjonariat Allegro.eu S.A. (stan 2026)",
+          "url": "https://www.bankier.pl/gielda/notowania/akcje/ALLEGRO/akcjonariat"
+        },
+        {
+          "label": "Permira — Cinven, Permira i Mid Europa przejmują Allegro (2016)",
+          "url": "https://www.permira.com/news-and-insights/announcements/cinven-permira-and-mid-europa-to-acquire-allegro"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "olx",
+      "brand": "OLX",
+      "category": "usługi",
+      "producer": "OLX Group / Grupa OLX Sp. z o.o. (Polska)",
+      "productionCountry": "PL",
+      "brandOwner": "OLX Group (Prosus N.V.)",
+      "ownerCountry": "NL",
+      "capitalCountry": "ZA",
+      "capitalNote": "OLX Group ma siedzibę w Amsterdamie i należy do holenderskiej spółki Prosus N.V. (notowanej na Euronext Amsterdam, tickery PRX). ==Kapitałowo grupę kontroluje południowoafrykański koncern medialny Naspers, który pozostaje większościowym udziałowcem Prosus.== Po rozliczeniu wzajemnego cross-holdingu (2023) udział ekonomiczny Naspers w Prosus wynosi ok. 43%, ale Naspers zachowuje kontrolę większościową dzięki akcjom o wzmocnionym prawie głosu.",
+      "story": "Popularny w Polsce serwis ogłoszeniowy z kapitałem holendersko-południowoafrykańskim.",
+      "funFact": "Ta sama grupa (Prosus/OLX) posiada w Polsce również Otomoto i Otodom.",
+      "stakes": [
+        {
+          "holder": "Prosus N.V. (właściciel OLX Group)",
+          "country": "NL"
+        },
+        {
+          "holder": "Naspers (większościowy udziałowiec / kontrola głosów w Prosus)",
+          "country": "ZA",
+          "pct": "udział ekonom. ok. 43%, kontrola większościowa"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia (EN) — OLX: siedziba Amsterdam, właściciel Prosus/Naspers",
+          "url": "https://en.wikipedia.org/wiki/OLX"
+        },
+        {
+          "label": "Wikipedia (EN) — Prosus: Naspers jako większościowy udziałowiec (parent)",
+          "url": "https://en.wikipedia.org/wiki/Prosus"
+        },
+        {
+          "label": "Naspers — Prosus jako spółka zależna Naspers, działalność ogłoszeniowa (OLX)",
+          "url": "https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-13"
+    },
+    {
+      "slug": "vinted",
+      "brand": "Vinted",
+      "category": "usługi",
+      "producer": "Vinted UAB (Vinted Group)",
+      "productionCountry": "LT",
+      "brandOwner": "Vinted UAB (Vinted Group)",
+      "ownerCountry": "LT",
+      "capitalCountry": "LT",
+      "capitalNote": "Vinted to litewska spółka Vinted UAB z siedzibą w Wilnie, założona w 2008 r. przez Mildę Mitkutė i Justasa Janauskasa. Firma pozostaje niezależna i nienotowana na giełdzie — kapitał jest rozproszony między założycieli, pracowników (opcje) oraz międzynarodowe fundusze venture/growth. Nie doszło do przejęcia ani przeniesienia kontroli za granicę. W kwietniu 2026 r. przeprowadzono transakcję wtórną (secondary) o wartości ok. 880 mln euro przy wycenie 8 mld euro, prowadzoną przez EQT (zwiększyło udział) wraz z nowymi inwestorami: BlackRock, Schroders Capital, Teachers' Venture Growth, Lombard Odier, Pinegrove; pozycje zwiększyli też m.in. Baillie Gifford. Dokładna struktura akcjonariatu nie jest publicznie ujawniana.",
+      "story": "Litewski jednorożec — platforma z używaną odzieżą, która wyrosła w Wilnie.",
+      "funFact": "Vinted był pierwszym litewskim startupem, który osiągnął status jednorożca (wycena 1 mld euro) — w rundzie finansowania w 2019 r. prowadzonej przez Lightspeed Venture Partners.",
+      "stakes": [
+        {
+          "holder": "Założyciele + pracownicy + fundusze VC/growth (EQT, Lightspeed, Accel, Insight Partners, Baillie Gifford, BlackRock, Schroders Capital, Teachers' Venture Growth)",
+          "country": "LT"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia (EN) — Vinted: siedziba Wilno, założyciele, inwestorzy, status jednorożca 2019 (Lightspeed)",
+          "url": "https://en.wikipedia.org/wiki/Vinted"
+        },
+        {
+          "label": "Rekvizitai (rekv.lt) — Vinted UAB, dane rejestrowe spółki (Wilno, Litwa)",
+          "url": "https://rekv.lt/Vinted_UAB?id=247349&lang=pl"
+        }
+      ],
+      "confidence": "publiczne",
+      "plants": [
+        "—"
+      ],
+      "updated": "2026-07-13"
     }
   ]
 }

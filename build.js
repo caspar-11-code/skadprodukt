@@ -31,6 +31,7 @@ const COUNTRIES = {
   ES: { pl: 'Hiszpania', en: 'Spain' }, NO: { pl: 'Norwegia', en: 'Norway' }, CZ: { pl: 'Czechy', en: 'Czechia' },
   EG: { pl: 'Egipt', en: 'Egypt' }, CO: { pl: 'Kolumbia', en: 'Colombia' }, PE: { pl: 'Peru', en: 'Peru' },
   EC: { pl: 'Ekwador', en: 'Ecuador' }, SK: { pl: 'Słowacja', en: 'Slovakia' }, KW: { pl: 'Kuwejt', en: 'Kuwait' },
+  CY: { pl: 'Cypr', en: 'Cyprus' }, CA: { pl: 'Kanada', en: 'Canada' }, ZA: { pl: 'RPA', en: 'South Africa' },
   HK: { pl: 'Hongkong', en: 'Hong Kong' }, HR: { pl: 'Chorwacja', en: 'Croatia' }, XX: { pl: 'różne kraje', en: 'various countries' },
   EU: { pl: 'Unia Europejska (różne)', en: 'European Union (various)' },
 };

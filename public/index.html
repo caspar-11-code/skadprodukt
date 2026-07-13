@@ -48,7 +48,7 @@
     <input type="search" id="search" name="q" placeholder="Szukaj marki, producenta, właściciela…" data-i18n-ph="search.ph" autocomplete="off" aria-label="Szukaj">
   </form>
   <div class="hub-tiles">
-    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">109 marek — kto jest właścicielem</span></a>
+    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">119 marek — kto jest właścicielem</span></a>
     <a class="tile" href="/skladniki/"><span class="tile-ico">🌍</span><strong data-i18n="tile.ing">Składniki i mapa</strong><span data-i18n="tile.ingSub">13 surowców — skąd pochodzą</span></a>
     <a class="tile" href="/statystyki/"><span class="tile-ico">📊</span><strong data-i18n="tile.stats">Statystyki</strong><span data-i18n="tile.statsSub">produkcja vs kapitał</span></a>
   </div>
@@ -57,7 +57,20 @@
 <section class="home-sec">
   <div class="sec-head"><h2 data-i18n="home.brands">Wybrane marki</h2><a href="/marki/" data-i18n="home.allBrands">wszystkie →</a></div>
   <div class="grid">
-    <a class="card card-foreign" href="/p/biedronka/" data-search="biedronka — (sieć handlowa; marki własne od dostawców, głównie z polski) jerónimo martins sieci handlowe" data-capital="PT" data-category="sieci handlowe">
+    <a class="card card-foreign" href="/p/allegro/" data-search="allegro allegro.eu s.a. (operacje: grupa allegro, poznań) allegro.eu s.a. usługi" data-capital="XX" data-category="usługi">
+  <div class="card-head"><h3>Allegro</h3><span class="cat">usługi</span></div>
+  <div class="card-flags">
+    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
+    <span class="arrow">→</span>
+    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🌐 różne kraje</span>
+  </div>
+  <p class="card-owner">Allegro.eu S.A.</p>
+  <div class="card-badges">
+    
+    
+  </div>
+</a>
+<a class="card card-foreign" href="/p/biedronka/" data-search="biedronka — (sieć handlowa; marki własne od dostawców, głównie z polski) jerónimo martins sieci handlowe" data-capital="PT" data-category="sieci handlowe">
   <div class="card-head"><h3>Biedronka</h3><span class="cat">sieci handlowe</span></div>
   <div class="card-flags">
     <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇵🇱 Polska</span>
@@ -117,19 +130,6 @@
     <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇮🇹 Włochy</span>
   </div>
   <p class="card-owner">Ferrero International S.A.</p>
-  <div class="card-badges">
-    
-    
-  </div>
-</a>
-<a class="card card-foreign" href="/p/pirelli/" data-search="pirelli (opony) pirelli &amp; c. s.p.a. pirelli &amp; c. s.p.a. (gpw: mediolan) motoryzacja" data-capital="CN" data-category="motoryzacja">
-  <div class="card-head"><h3>Pirelli (opony)</h3><span class="cat">motoryzacja</span></div>
-  <div class="card-flags">
-    <span title="Kraj produkcji"><small data-i18n="card.made">produkcja</small> 🇮🇹 Włochy</span>
-    <span class="arrow">→</span>
-    <span title="Pochodzenie kapitału"><small data-i18n="card.capital">kapitał</small> 🇨🇳 Chiny</span>
-  </div>
-  <p class="card-owner">Pirelli &amp; C. S.p.A. (GPW: Mediolan)</p>
   <div class="card-badges">
     
     
@@ -204,32 +204,42 @@
   <div class="bars"><a class="bar-row" href="/kraj/pl/">
       <span class="bar-label">🇵🇱 Polska</span>
       <span class="bar-track"><span class="bar-fill bar-pl" data-pct="100"></span></span>
-      <span class="bar-num">33</span>
+      <span class="bar-num">35</span>
     </a>
 <a class="bar-row" href="/kraj/de/">
       <span class="bar-label">🇩🇪 Niemcy</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="39"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="37"></span></span>
       <span class="bar-num">13</span>
     </a>
 <a class="bar-row" href="/kraj/cn/">
       <span class="bar-label">🇨🇳 Chiny</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="33"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="31"></span></span>
       <span class="bar-num">11</span>
     </a>
 <a class="bar-row" href="/kraj/us/">
       <span class="bar-label">🇺🇸 USA</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="27"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="26"></span></span>
       <span class="bar-num">9</span>
     </a>
 <a class="bar-row" href="/kraj/fr/">
       <span class="bar-label">🇫🇷 Francja</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="24"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="23"></span></span>
       <span class="bar-num">8</span>
     </a>
 <a class="bar-row" href="/kraj/nl/">
       <span class="bar-label">🇳🇱 Holandia</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="15"></span></span>
+      <span class="bar-track"><span class="bar-fill" data-pct="14"></span></span>
       <span class="bar-num">5</span>
+    </a>
+<a class="bar-row" href="/kraj/dk/">
+      <span class="bar-label">🇩🇰 Dania</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="11"></span></span>
+      <span class="bar-num">4</span>
+    </a>
+<a class="bar-row" href="/kraj/lt/">
+      <span class="bar-label">🇱🇹 Litwa</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="11"></span></span>
+      <span class="bar-num">4</span>
     </a>
 <a class="bar-row" href="/kraj/gb/">
       <span class="bar-label">🇬🇧 Wielka Brytania</span>
@@ -241,8 +251,8 @@
       <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">3</span>
     </a>
-<a class="bar-row" href="/kraj/lt/">
-      <span class="bar-label">🇱🇹 Litwa</span>
+<a class="bar-row" href="/kraj/jp/">
+      <span class="bar-label">🇯🇵 Japonia</span>
       <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">3</span>
     </a>
@@ -251,20 +261,25 @@
       <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">3</span>
     </a>
-<a class="bar-row" href="/kraj/dk/">
-      <span class="bar-label">🇩🇰 Dania</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
-      <span class="bar-num">3</span>
-    </a>
 <a class="bar-row" href="/kraj/lu/">
       <span class="bar-label">🇱🇺 Luksemburg</span>
       <span class="bar-track"><span class="bar-fill" data-pct="9"></span></span>
       <span class="bar-num">3</span>
     </a>
+<a class="bar-row" href="/kraj/xx/">
+      <span class="bar-label">🌐 różne kraje</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="6"></span></span>
+      <span class="bar-num">2</span>
+    </a>
 <a class="bar-row" href="/kraj/pt/">
       <span class="bar-label">🇵🇹 Portugalia</span>
       <span class="bar-track"><span class="bar-fill" data-pct="6"></span></span>
       <span class="bar-num">2</span>
+    </a>
+<a class="bar-row" href="/kraj/ca/">
+      <span class="bar-label">🇨🇦 Kanada</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
+      <span class="bar-num">1</span>
     </a>
 <a class="bar-row" href="/kraj/kr/">
       <span class="bar-label">🇰🇷 Korea Płd.</span>
@@ -273,11 +288,6 @@
     </a>
 <a class="bar-row" href="/kraj/ru/">
       <span class="bar-label">🇷🇺 Rosja</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
-      <span class="bar-num">1</span>
-    </a>
-<a class="bar-row" href="/kraj/xx/">
-      <span class="bar-label">🌐 różne kraje</span>
       <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
       <span class="bar-num">1</span>
     </a>
@@ -296,6 +306,16 @@
       <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
       <span class="bar-num">1</span>
     </a>
+<a class="bar-row" href="/kraj/za/">
+      <span class="bar-label">🇿🇦 RPA</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
+      <span class="bar-num">1</span>
+    </a>
+<a class="bar-row" href="/kraj/cy/">
+      <span class="bar-label">🇨🇾 Cypr</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
+      <span class="bar-num">1</span>
+    </a>
 <a class="bar-row" href="/kraj/ua/">
       <span class="bar-label">🇺🇦 Ukraina</span>
       <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
@@ -303,11 +323,6 @@
     </a>
 <a class="bar-row" href="/kraj/by/">
       <span class="bar-label">🇧🇾 Białoruś</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
-      <span class="bar-num">1</span>
-    </a>
-<a class="bar-row" href="/kraj/jp/">
-      <span class="bar-label">🇯🇵 Japonia</span>
       <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
       <span class="bar-num">1</span>
     </a>
@@ -322,7 +337,7 @@
 <footer class="site-footer">
   <p><strong>Skąd Produkt?</strong> — Portal świadomego konsumenta. <span data-i18n="footer.disclaimer">Serwis informacyjno-edukacyjny. Dane pochodzą z publicznych źródeł (etykiety, rejestry KRS, raporty instytucji, publikacje prasowe) — przy każdej informacji podajemy źródło. Struktury własności i pochodzenie surowców zmieniają się w czasie; przed powołaniem się na dane sprawdź źródło i jego datę.</span></p>
   <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/prywatnosc/" data-i18n="footer.privacy">Prywatność i cookies</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a> · <a class="yt-link" href="https://www.youtube.com/@skadprodukt" target="_blank" rel="noopener"><svg class="yt-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.5 15.5v-7L15.8 12l-6.3 3.5z"/></svg> YouTube: @skadprodukt</a> · <a class="support-link" href="https://buycoffee.to/skadprodukt" target="_blank" rel="noopener">☕ <span data-i18n="footer.support">Wesprzyj projekt</span></a></p>
-  <p class="fine">© skadprodukt.org 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> 2026-07-08 · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
+  <p class="fine">© skadprodukt.org 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> 2026-07-13 · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
 </footer>
 <div id="info-note" class="info-note hidden" role="region" aria-label="Informacja o prywatności">
   <p data-i18n="note.text">Ta strona zapisuje wyłącznie Twój wybór języka i korzysta z technicznych plików hostingu (Cloudflare). Nie zbieramy danych analitycznych ani marketingowych, nie śledzimy Cię.</p>

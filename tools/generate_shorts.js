@@ -16,7 +16,7 @@ const ROOT = path.join(__dirname, '..');
 const SITE = (process.env.SITE_URL || 'https://skadprodukt.org').replace('https://', '');
 const db = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
 
-const COUNTRY_PL = { PL: 'Polska', DE: 'Niemcy', CH: 'Szwajcaria', US: 'USA', NL: 'Holandia', JP: 'Japonia', KR: 'Korea Południowa', PT: 'Portugalia', LU: 'Luksemburg', UA: 'Ukraina', LT: 'Litwa', HU: 'Węgry', CN: 'Chiny', DK: 'Dania', IT: 'Włochy', IN: 'Indie', SE: 'Szwecja', CZ: 'Czechy', GB: 'Wielka Brytania', FR: 'Francja', ES: 'Hiszpania', HK: 'Hongkong', HR: 'Chorwacja', RU: 'Rosja', BY: 'Białoruś', RO: 'Rumunia', IL: 'Izrael', XX: 'różne kraje', EU: 'Unia Europejska' };
+const COUNTRY_PL = { PL: 'Polska', DE: 'Niemcy', CH: 'Szwajcaria', US: 'USA', NL: 'Holandia', JP: 'Japonia', KR: 'Korea Południowa', PT: 'Portugalia', LU: 'Luksemburg', UA: 'Ukraina', LT: 'Litwa', HU: 'Węgry', CN: 'Chiny', DK: 'Dania', IT: 'Włochy', IN: 'Indie', SE: 'Szwecja', CZ: 'Czechy', GB: 'Wielka Brytania', FR: 'Francja', ES: 'Hiszpania', HK: 'Hongkong', HR: 'Chorwacja', RU: 'Rosja', CY: 'Cypr', CA: 'Kanada', ZA: 'RPA', DK: 'Dania', BY: 'Białoruś', RO: 'Rumunia', IL: 'Izrael', XX: 'różne kraje', EU: 'Unia Europejska' };
 const cname = cc => COUNTRY_PL[cc] || cc;
 const flag = cc => cc === 'EU' ? '🇪🇺' : cc === 'XX' ? '🌐' : String.fromCodePoint(...[...cc].map(c => 0x1f1a5 + c.charCodeAt(0)));
 const clean = s => String(s == null ? '' : s).replace(/==/g, ''); // ==wyróżnienia== są tylko dla www
