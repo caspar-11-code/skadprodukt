@@ -217,7 +217,7 @@ function productPage(p) {
   <h2 data-i18n="product.stakes">Powiązania kapitałowe</h2>
   <p class="muted" data-i18n="product.stakesLead">Kto realnie ma udziały — wbrew „narodowym" etykietkom.</p>
   <table class="facts stakes-table">
-    ${p.stakes.map(s => `<tr><th>${esc(s.holder)} ${flag(s.holderCountry)}</th><td>${s.pct ? `<strong>${esc(s.pct)}</strong> — ` : ''}${fmt(s.note)}</td></tr>`).join('\n    ')}
+    ${p.stakes.map(s => { const cc = s.holderCountry || s.country; return `<tr><th>${esc(s.holder)}${cc ? ' ' + flag(cc) : ''}</th><td>${s.pct ? `<strong>${esc(s.pct)}</strong> — ` : ''}${fmt(s.note)}</td></tr>`; }).join('\n    ')}
   </table>` : '';
   const aidBlock = p.stateAid ? `
   <aside class="state-aid">

@@ -39,35 +39,73 @@ const CTAS = [
   `Sprawdź swoją ulubioną markę na ${SITE} i obserwuj.`,
 ];
 
-// dodatkowa ciekawostka: pole funFact z rekordu, a gdy go brak — pierwsze zdanie
-// capitalNote, o ile nie dubluje story (urozmaica short ponad schemat nazwa→kraj)
-function extraFact(p) {
-  if (p.funFact) return clean(p.funFact);
-  const s1 = (clean(p.capitalNote).split(/(?<=[.!?])\s+/)[0] || '').trim();
-  const story = clean(p.story);
-  if (s1 && s1.length >= 30 && s1.length <= 170 && !story.includes(s1.slice(0, 25)) && !s1.includes(story.slice(0, 25))) return s1;
-  return null;
+// --- dedup + wydłużanie narracji do sweet-spotu retencji (30–45 s, research 2026) ---
+// Zasada redakcyjna: NIE dopisujemy treści dla długości — dokładamy WYŁĄCZNIE zweryfikowane
+// fakty z rekordu (funFact, podział udziałów `stakes`, zdania `capitalNote`), z deduplikacją
+// względem story. Marki o ubogich danych zostają krótsze — świadomie, bez waty.
+const norm = s => clean(s).toLowerCase().replace(/[^a-ząćęłńóśźż0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+const stems = s => norm(s).split(' ').filter(w => w.length >= 5).map(w => w.slice(0, 6));
+function similar(a, b) { // podobieństwo po rdzeniach (odporne na polską fleksję)
+  const A = new Set(stems(a)), B = stems(b);
+  if (!A.size || !B.length) return false;
+  let common = 0; for (const w of B) if (A.has(w)) common++;
+  return common / Math.min(A.size, B.length) >= 0.42;
+}
+const dupAny = (s, pool) => pool.some(x => similar(s, x));
+const sentencesOf = s => clean(s).split(/(?<=[.!?])\s+/).map(x => x.trim()).filter(x => x.length >= 28);
+
+function stakesLine(p) { // konkretny podział % — dotąd nieużywany w narracji
+  if (!Array.isArray(p.stakes) || !p.stakes.length) return null;
+  const skip = /free[\s-]?float|pozosta|inni akcjonar/i;
+  const parts = p.stakes
+    .filter(s => s && s.holder && s.pct && !skip.test(s.holder))
+    .slice(0, 3)
+    .map(s => `${String(s.holder).replace(/\s*\([^)]*\)/g, '').replace(/\//g, ' ').replace(/\s+/g, ' ').trim()} ${String(s.pct).trim()}`);
+  return parts.length ? `Udziały: ${parts.join(', ')}.` : null;
+}
+
+function bodyFacts(p) {
+  const said = [clean(p.story)];
+  const body = [clean(p.story)];
+  const fun = clean(p.funFact);
+  if (fun && !dupAny(fun, said)) { body.push(fun); said.push(fun); }
+  const sl = stakesLine(p);
+  if (sl) body.push(sl);
+  const words = () => body.join(' ').split(/\s+/).filter(Boolean).length;
+  for (const s of sentencesOf(p.capitalNote)) {
+    if (words() >= 52) break; // miękki limit — sweet-spot ~30–40 s, bez przekraczania ~45 s
+    if (!dupAny(s, said) && !dupAny(s, body)) { body.push(s); said.push(s); }
+  }
+  return body;
 }
 
 function shortScript(p, i) {
   const hook = HOOKS[i % HOOKS.length](p.brand, p.capitalCountry);
   const foreign = p.capitalCountry !== 'PL';
+  const city = (p.plants[0] && p.plants[0].length < 60 && /[a-ząćęłńóśźż0-9]/i.test(p.plants[0]))
+    ? 'Konkretnie: ' + p.plants[0] + '.' : '';
   const lines = [
-    `Produkcja? ${cname(p.productionCountry)}. ${p.plants[0] && p.plants[0].length < 60 ? 'Konkretnie: ' + p.plants[0] + '.' : ''}`,
+    `Produkcja? ${cname(p.productionCountry)}. ${city}`.trim(),
     `Ale właściciel marki to ${p.brandOwner}.`,
     foreign
       ? `Kapitał? ${cname(p.capitalCountry).toUpperCase()}. Tam trafiają zyski.`
       : `A kapitał? Tu niespodzianka: ${cname(p.capitalCountry).toUpperCase()}.`,
-    clean(p.story),
-    extraFact(p),
+    ...bodyFacts(p),
     CLOSERS[i % CLOSERS.length],
   ].filter(Boolean);
+  const cta = CTAS[i % CTAS.length];
+  // Twardy limit długości: realny render ≈ szac.(słów/2.9) + narzut zdań (do ~10 s).
+  // Celujemy w ≤ ~44 s realnego renderu → CAP na słowa całej narracji. Przycinamy opcjonalne
+  // fakty OD KOŃCA (capitalNote → stakes → funFact), NIGDY story ani rdzenia/closera.
+  const CAP = 96;
+  const wc = () => (hook + ' ' + lines.join(' ') + ' ' + cta).split(/\s+/).filter(Boolean).length;
+  while (wc() > CAP && lines.length > 5) lines.splice(lines.length - 2, 1);
   return {
     slug: p.slug,
     title: `${p.brand} — skąd to pochodzi? ${flag(p.productionCountry)}→${flag(p.capitalCountry)}`,
     hook,
     lines,
-    cta: CTAS[i % CTAS.length],
+    cta,
     hashtags: ['#shorts', '#skadprodukt', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#swiadomykonsument',
       p.capitalCountry === 'PL' ? '#polskamarka' : '#zagranicznykapital',
       '#' + String(p.category || '').toLowerCase().replace(/[^a-ząćęłńóśźż0-9]/g, ''),

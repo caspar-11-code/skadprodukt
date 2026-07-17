@@ -4000,6 +4000,317 @@
         "—"
       ],
       "updated": "2026-07-13"
+    },
+    {
+      "slug": "play",
+      "brand": "Play",
+      "category": "usługi",
+      "producer": "P4 sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "Siedziba: Warszawa (P4 sp. z o.o.)",
+        "Ogólnopolska sieć komórkowa; od 2023 także internet i TV po przejęciu UPC Polska"
+      ],
+      "brandOwner": "iliad S.A. (Grupa Iliad)",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Play (P4 sp. z o.o.) był polską spółką notowaną na GPW, ale ==w 2020 r. przejęła go w wezwaniu francuska Grupa Iliad — dziś jest w 100% francuski (kontrolowany ostatecznie przez miliardera Xaviera Niela), a spółkę wycofano z giełdy.==",
+      "stakes": [
+        {
+          "holder": "iliad S.A. (Grupa Iliad)",
+          "pct": "100%",
+          "country": "FR"
+        }
+      ],
+      "story": "Play to największy polski operator komórkowy, ale od 2020 r. w całości należy do francuskiej Grupy Iliad.",
+      "funFact": "W 2023 r. Play wchłonął UPC Polska, dokładając telewizję i internet światłowodowy dla ponad 3,7 mln gospodarstw.",
+      "sources": [
+        {
+          "label": "P4 — relacje inwestorskie (akcjonariat: 100% Iliad)",
+          "url": "https://ir.play.pl/shareholders"
+        },
+        {
+          "label": "iliad — komunikat: wezwanie na Play zakończone sukcesem (96,7%)",
+          "url": "https://www.globenewswire.com/news-release/2020/11/20/2131023/0/en/iliad-press-release-iliad-s-friendly-public-tender-offer-for-the-Polish-telecom-operator-Play-is-a-success-with-iliad-now-holding-96-7-of-Play-s-capital-and-voting-rights.html"
+        },
+        {
+          "label": "Telecompaper — Iliad to acquire Polish operator Play for EUR 2.2 billion",
+          "url": "https://www.telecompaper.com/news/iliad-to-acquire-polish-operator-play-for-eur-2-2-billion--1354635"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-16"
+    },
+    {
+      "slug": "plus",
+      "brand": "Plus",
+      "category": "usługi",
+      "producer": "Polkomtel sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "Siedziba: Warszawa (Polkomtel sp. z o.o.)",
+        "Ogólnopolska sieć komórkowa Plus"
+      ],
+      "brandOwner": "Polkomtel sp. z o.o. (Grupa Polsat Plus / Cyfrowy Polsat S.A.)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "Plus prowadzi Polkomtel, spółka giełdowej Grupy Polsat Plus (Cyfrowy Polsat). ==Kapitał jest ostatecznie polski — kontroluje go rodzina Solorza — ale sprawowany przez zagraniczny łańcuch: cypryjski Reddev Investments (ok. 60% akcji Cyfrowego Polsatu) należący do fundacji w Liechtensteinie.== Po wyrokach sądów w Liechtensteinie (2025) kontrolę w rodzinie przejęły dzieci założyciela.",
+      "stakes": [
+        {
+          "holder": "Reddev Investments Ltd. (rodzina Solorza, przez fundację w Liechtensteinie)",
+          "pct": "ok. 60% akcji / 69% głosów Cyfrowego Polsatu",
+          "country": "CY"
+        },
+        {
+          "holder": "Pozostali akcjonariusze / free float (GPW)",
+          "pct": "ok. 40% akcji"
+        }
+      ],
+      "story": "„Polski\" Plus jest kontrolowany przez polską rodzinę Solorza — ale przez łańcuch spółek na Cyprze i fundację w Liechtensteinie.",
+      "funFact": "Pasywną infrastrukturę wież Plusa (Polkomtel Infrastruktura) grupa sprzedała hiszpańskiemu Cellnex za ok. 7 mld zł, ale samą sieć nadal operuje Polkomtel.",
+      "sources": [
+        {
+          "label": "Grupa Polsat Plus — struktura akcjonariatu",
+          "url": "https://grupapolsatplus.pl/en/corporate-governance/shareholder-structure"
+        },
+        {
+          "label": "Money.pl — fundacje w Liechtensteinie, spółki na Cyprze: tak Solorz kontroluje imperium",
+          "url": "https://www.money.pl/gospodarka/fundacje-w-liechtensteinie-spolki-na-cyprze-tak-solorz-kontroluje-imperium-7080186311899744a.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-16"
+    },
+    {
+      "slug": "orange-polska",
+      "brand": "Orange Polska",
+      "category": "usługi",
+      "producer": "Orange Polska S.A.",
+      "productionCountry": "PL",
+      "plants": [
+        "Siedziba: Warszawa",
+        "Ogólnopolska sieć komórkowa i światłowodowa"
+      ],
+      "brandOwner": "Orange Polska S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "FR",
+      "capitalNote": "Orange Polska (dawna Telekomunikacja Polska) to spółka giełdowa z GPW. ==Kontroluje ją francuska Orange S.A. z pakietem ok. 50,7% akcji (stan 2026) — a sama Orange S.A. jest częściowo w rękach państwa francuskiego.==",
+      "stakes": [
+        {
+          "holder": "Orange S.A.",
+          "pct": "50,67%",
+          "country": "FR"
+        },
+        {
+          "holder": "Allianz Polska OFE",
+          "pct": "8,12%",
+          "country": "PL"
+        },
+        {
+          "holder": "Nationale-Nederlanden OFE",
+          "pct": "ok. 6,6%",
+          "country": "PL"
+        },
+        {
+          "holder": "Pozostali / free float",
+          "pct": "ok. 34,6%"
+        }
+      ],
+      "story": "Orange Polska wyrosła z dawnej Telekomunikacji Polskiej, a dziś kontroluje ją francuska Orange S.A. z ponad połową akcji.",
+      "funFact": "Marka Orange w pełni zastąpiła dawną markę TP (Telekomunikacja Polska) w 2013 roku.",
+      "sources": [
+        {
+          "label": "Orange Polska — relacje inwestorskie: akcjonariat (stan 04.2026)",
+          "url": "https://www.orange-ir.pl/shares/"
+        },
+        {
+          "label": "Bankier.pl — akcjonariat Orange Polska SA",
+          "url": "https://www.bankier.pl/gielda/notowania/akcje/ORANGEPL/akcjonariat"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-16"
+    },
+    {
+      "slug": "leroy-merlin",
+      "brand": "Leroy Merlin",
+      "category": "sieci handlowe",
+      "producer": "Leroy Merlin Polska sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "Ponad 80 marketów budowlano-remontowych w Polsce (2025) + sklep internetowy"
+      ],
+      "brandOwner": "Groupe Adeo",
+      "ownerCountry": "FR",
+      "capitalCountry": "FR",
+      "capitalNote": "Leroy Merlin należy do francuskiej grupy Adeo. ==Adeo kontroluje francuska Association Familiale Mulliez — ta sama rodzina, do której należą Auchan i Decathlon.== To ten sam kapitał, co za siecią Auchan w naszej bazie.",
+      "stakes": [
+        {
+          "holder": "Association Familiale Mulliez (przez Groupe Adeo)",
+          "pct": "kontrola (dokładny % niejawny)",
+          "country": "FR"
+        }
+      ],
+      "story": "Leroy Merlin i Auchan mają tego samego właściciela — francuską rodzinę Mulliez (przez grupę Adeo).",
+      "funFact": "Do 2007 r. cała grupa nazywała się Leroy Merlin — przemianowano ją na Adeo, by odróżnić holding od flagowej marki.",
+      "sources": [
+        {
+          "label": "Wikipedia — Adeo (kontrola Association Familiale Mulliez)",
+          "url": "https://en.wikipedia.org/wiki/Adeo"
+        },
+        {
+          "label": "Wikipedia — Association Familiale Mulliez (Auchan, Leroy Merlin, Decathlon)",
+          "url": "https://en.wikipedia.org/wiki/Association_Familiale_Mulliez"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-16"
+    },
+    {
+      "slug": "media-expert",
+      "brand": "Media Expert",
+      "category": "elektronika",
+      "producer": "Terg S.A.",
+      "productionCountry": "PL",
+      "plants": [
+        "Centrala: Złotów (woj. wielkopolskie)",
+        "Ok. 650 sklepów w całej Polsce (2025/2026)"
+      ],
+      "brandOwner": "Terg S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Media Expert to w pełni polska firma rodzinna — operator Terg S.A. ze Złotowa jest kontrolowany przez rodzinę Grzebitów (ok. 89,8% akcji).== Mimo obcobrzmiącej nazwy nie ma tu zagranicznego kapitału.",
+      "stakes": [
+        {
+          "holder": "Rodzina Grzebita (Terg S.A.)",
+          "pct": "ok. 89,8%",
+          "country": "PL"
+        }
+      ],
+      "story": "Media Expert brzmi zagranicznie, ale to polska firma rodzinna ze Złotowa (Terg S.A.), która wyprzedziła Media Markt i Saturn.",
+      "funFact": "Media Expert wyrósł z jednego sklepu do największej sieci elektromarketów w Polsce — przychody grupy przekroczyły 21 mld zł.",
+      "sources": [
+        {
+          "label": "Forbes — Teresa Grzebita i synowie (rodzina kontroluje Terg, 89,77%)",
+          "url": "https://www.forbes.pl/sylwetka/teresa-grzebita-i-synowie"
+        },
+        {
+          "label": "Rejestr.io — Terg S.A. (KRS 0000427063, Złotów)",
+          "url": "https://rejestr.io/krs/427063/terg"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-16"
+    },
+    {
+      "slug": "roleski",
+      "brand": "Roleski",
+      "category": "przyprawy",
+      "producer": "Firma Roleski sp.j.",
+      "productionCountry": "PL",
+      "plants": [
+        "Zbylitowska Góra / Zgłobice k. Tarnowa (woj. małopolskie)"
+      ],
+      "brandOwner": "Firma Roleski sp.j. (rodzina Roleski)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Roleski to polska firma rodzinna ze 100% polskim kapitałem, założona w 1972 r. i kontrolowana przez rodzinę Roleskich.== Producent musztard, ketchupów, majonezów i sosów spod Tarnowa.",
+      "stakes": [
+        {
+          "holder": "Rodzina Roleski (spółka jawna)",
+          "pct": "100%",
+          "country": "PL"
+        }
+      ],
+      "story": "Roleski to jeden z niewielu dużych producentów spożywczych w całości polskich i rodzinnych — musztardy i ketchupy spod Tarnowa.",
+      "funFact": "Założyciel Marek Roleski uchwalił firmową „konstytucję\", która ma prawnie utrzymać firmę w rękach rodziny.",
+      "sources": [
+        {
+          "label": "Roleski — O nas (100% polski kapitał, firma rodzinna)",
+          "url": "https://roleski.pl/o-firmie/o-nas/"
+        },
+        {
+          "label": "Forbes.pl — Marek Roleski, polski król musztardy",
+          "url": "https://www.forbes.pl/biznes/polski-krol-musztardy-stworzylem-firme-ktora-bedzie-trwac-wiecznie/508gxft"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-16"
+    },
+    {
+      "slug": "namyslow",
+      "brand": "Namysłów",
+      "category": "piwo",
+      "producer": "Browar Namysłów sp. z o.o. (Grupa Żywiec)",
+      "productionCountry": "PL",
+      "plants": [
+        "Namysłów (historyczny browar — likwidowany z początkiem 2026)",
+        "Produkcja marki przenoszona do zakładów Grupy Żywiec (Żywiec, Warka, Elbląg)"
+      ],
+      "brandOwner": "Grupa Żywiec S.A.",
+      "ownerCountry": "PL",
+      "capitalCountry": "NL",
+      "capitalNote": "==Namysłów nie jest polskim wyjątkiem: marka należy do Grupy Żywiec, a tę kontroluje holenderski Heineken (ok. 99% akcji).== Historyczny browar w Namysłowie właściciel likwiduje z początkiem 2026 r., przenosząc produkcję do innych zakładów w Polsce.",
+      "stakes": [
+        {
+          "holder": "Heineken International B.V. (przez Grupę Żywiec)",
+          "pct": "ok. 99%",
+          "country": "NL"
+        }
+      ],
+      "story": "Piwo Namysłów warzono w Namysłowie od stuleci, ale od 2019 r. marka należy do Grupy Żywiec (Heineken), a historyczny browar znika w 2026 r.",
+      "funFact": "Browar w Namysłowie przetrwał potop szwedzki i dwie wojny światowe — ale nie przetrwał decyzji nowego właściciela: jest likwidowany w 2026 r.",
+      "sources": [
+        {
+          "label": "Money.pl — Browar Namysłów kończy produkcję piwa; Grupa Żywiec (Heineken)",
+          "url": "https://www.money.pl/gospodarka/browar-namyslow-konczy-z-produkcja-piwa-grupa-zywiec-wyjasnia-co-dalej-7211458150206400a.html"
+        },
+        {
+          "label": "Bankier.pl — Browar Namysłów kończy produkcję piwa",
+          "url": "https://www.bankier.pl/wiadomosc/Browar-Namyslow-konczy-produkcje-piwa-Grupa-Zywiec-sie-tlumaczy-9025208.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-16"
+    },
+    {
+      "slug": "media-markt",
+      "brand": "Media Markt",
+      "category": "elektronika",
+      "producer": "Media Saturn Holding Polska sp. z o.o. (grupa MediaMarktSaturn / Ceconomy AG)",
+      "productionCountry": "PL",
+      "plants": [
+        "Ponad 80 elektromarketów Media Markt w Polsce"
+      ],
+      "brandOwner": "Ceconomy AG (MediaMarktSaturn)",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "Media Markt to niemiecka sieć z grupy Ceconomy AG. ==Chiński JD.com przejmuje Ceconomy — zabezpieczył ok. 85% akcji, ale na połowę 2026 transakcja nie jest sfinalizowana (trwa postępowanie KE ws. subsydiów; zamknięcie zapowiadane na II poł. 2026).== Do zamknięcia kapitał pozostaje niemiecki, potem przejdzie pod kontrolę chińską.",
+      "stakes": [
+        {
+          "holder": "JD.com (przejęcie w toku, z Convergentą)",
+          "pct": "ok. 85%",
+          "country": "CN"
+        },
+        {
+          "holder": "Convergenta Invest (rodzina Kellerhals)",
+          "pct": "ok. 25%",
+          "country": "DE"
+        }
+      ],
+      "story": "„Niemiecki\" Media Markt właśnie przejmuje chiński gigant JD.com — transakcja domyka się w 2026 r., czekając na zgodę Komisji Europejskiej.",
+      "sources": [
+        {
+          "label": "Ceconomy / EQS News — JD.com zabezpiecza 59,8% (łącznie ok. 85,2%)",
+          "url": "https://www.eqs-news.com/news/corporate/jd-com-successfully-secures-59-8-of-ceconomy-as-final-result-after-end-of-additional-acceptance-period/fb8514ab-acd5-4103-824f-25c92567e30a_en"
+        },
+        {
+          "label": "South China Morning Post (2026) — zgoda Niemiec, postępowanie KE ws. subsydiów, zamknięcie II poł. 2026",
+          "url": "https://www.scmp.com/tech/policy/article/3358902/jdcoms-bid-europes-ceconomy-clears-german-hurdle-eu-subsidy-probe-looms"
+        }
+      ],
+      "confidence": "do-weryfikacji",
+      "updated": "2026-07-16"
     }
   ]
 }

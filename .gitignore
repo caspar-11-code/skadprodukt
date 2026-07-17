@@ -6,3 +6,5 @@ client_secret*.json
 content/pomysly.json
 content/POMYSLY-DIGEST.md
 trend_scout/__pycache__/
+# lokalny handoff/stan projektu — NIE publikować (prywatne notatki, ID filmów, plany)
+PROJEKT-STAN.md
