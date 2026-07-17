@@ -4285,7 +4285,7 @@
       "brandOwner": "Ceconomy AG (MediaMarktSaturn)",
       "ownerCountry": "DE",
       "capitalCountry": "DE",
-      "capitalNote": "Media Markt to niemiecka sieć z grupy Ceconomy AG. ==Chiński JD.com przejmuje Ceconomy — zabezpieczył ok. 85% akcji, ale na połowę 2026 transakcja nie jest sfinalizowana (trwa postępowanie KE ws. subsydiów; zamknięcie zapowiadane na II poł. 2026).== Do zamknięcia kapitał pozostaje niemiecki, potem przejdzie pod kontrolę chińską.",
+      "capitalNote": "Media Markt to niemiecka sieć z grupy Ceconomy AG. ==Chiński JD.com przejmuje Ceconomy — zabezpieczył ok. 85% akcji, ale na lipiec 2026 transakcja wciąż NIE jest sfinalizowana: Komisja Europejska prowadzi pogłębione postępowanie ws. subsydiów zagranicznych (decyzja spodziewana ok. 2 października 2026), a zamknięcie zapowiadane jest na II połowę 2026.== Do zamknięcia kapitał pozostaje niemiecki, po niej przejdzie pod kontrolę chińską.",
       "stakes": [
         {
           "holder": "JD.com (przejęcie w toku, z Convergentą)",
@@ -4307,10 +4307,14 @@
         {
           "label": "South China Morning Post (2026) — zgoda Niemiec, postępowanie KE ws. subsydiów, zamknięcie II poł. 2026",
           "url": "https://www.scmp.com/tech/policy/article/3358902/jdcoms-bid-europes-ceconomy-clears-german-hurdle-eu-subsidy-probe-looms"
+        },
+        {
+          "label": "Komisja Europejska — pogłębione postępowanie ws. subsydiów zagranicznych (JD.com/Ceconomy)",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1164"
         }
       ],
       "confidence": "do-weryfikacji",
-      "updated": "2026-07-16"
+      "updated": "2026-07-17"
     }
   ]
 }
