@@ -53,6 +53,9 @@ const SPEAK_NAMES = {
   'SAIC': 'Es A I Si', 'BMW': 'Be Em Wu', 'CVC': 'Ce Wu Ce', 'KKR': 'Ka Ka Er', 'Roshen': 'Roszen',
   'Leapmotor': 'Lipmotor', 'Polestar': 'Polstar', 'Unilever': 'Unilewer', 'Foodwell': 'Fudwel',
   'Smithfield': 'Smitfild', 'Salling': 'Saling', 'Lidl': 'Lidl',
+  'Leroy Merlin': 'Lerła Merlę', 'Auchan': 'Oszą', 'Cellnex': 'Selneks',
+  'ketchupów': 'keczupów', 'ketchupy': 'keczupy', 'ketchup': 'keczup',
+  'SUV-ów': 'suwów', 'SUV-y': 'suwy', 'SUV': 'suw', 'USA': 'u es a',
 };
 const _ONES = ['', 'jeden', 'dwa', 'trzy', 'cztery', 'pięć', 'sześć', 'siedem', 'osiem', 'dziewięć'];
 const _TEENS = ['dziesięć', 'jedenaście', 'dwanaście', 'trzynaście', 'czternaście', 'piętnaście', 'szesnaście', 'siedemnaście', 'osiemnaście', 'dziewiętnaście'];
@@ -93,14 +96,24 @@ function sentenceToSpeak(sent) {
   s = s.replace(/(\d+),(\d+)\s*%/g, (m, a, b) => numWords(+a) + ' przecinek ' + numWords(+b) + ' procent');
   s = s.replace(/(\d+)\s*%/g, (m, a) => numWords(+a) + ' procent');
   s = s.replace(/(\d+),(\d+)/g, (m, a, b) => numWords(+a) + ' przecinek ' + numWords(+b));
-  s = s.replace(/\bmln\b/g, 'milionów').replace(/\bmld\b/g, 'miliardów').replace(/\bzł\b/g, 'złotych')
+  s = s.replace(/\bmln\b/g, 'milionów').replace(/\bmld\b/g, 'miliardów')
+    .replace(/\bzł(?![a-ząćęłńóśźż])/gi, 'złotych')   // „zł" kończy się na ł -> \b w JS zawodzi
     .replace(/\bUSD\b/g, 'dolarów').replace(/\bEUR\b/g, 'euro');
   s = s.replace(/\br\./g, 'roku').replace(/\bnp\./g, 'na przykład').replace(/\bm\.in\./g, 'między innymi')
     .replace(/\bok\./g, 'około').replace(/\btzw\./g, 'tak zwany').replace(/\bitd\./g, 'i tak dalej')
+    .replace(/\btj\./g, 'to jest').replace(/\bul\./gi, 'ulica').replace(/\bal\./gi, 'aleja')
+    .replace(/\bpl\./gi, 'plac').replace(/\bnr\b/gi, 'numer').replace(/\bwoj\./gi, 'województwo')
+    .replace(/\bk\.(?=\s)/g, 'koło')   // „Kobylniki k. Kruszwicy" -> „koło" (nie „ka")
     .replace(/\bGPW\b/g, 'gie pe wu').replace(/\bUE\b/g, 'Unii Europejskiej');
+  s = s.replace(/śledzie/g, 'śledźie');   // Piper czyta „śledzie" jako „śledze"
   s = s.replace(/\bskadprodukt\.org\b/gi, 'skadprodukt kropka org');
+  // treść w nawiasie -> czytana z pauzą; „X, czyli Y" (chyba że zaczyna się od przyimka -> zwykła pauza)
+  s = s.replace(/\s*\(([^)]+)\)/g, (m, inner) => {
+    inner = inner.trim();
+    return /^(przez|od|do|we|w|ze|z|dla|dawniej|obecnie|m\.in|ok|tj|nr)\b/i.test(inner) ? ', ' + inner : ', czyli ' + inner;
+  });
   s = s.replace(/\d+/g, (m) => { const n = +m; return n <= 999999 ? numWords(n) : m; });
-  s = s.replace(/\(\s*\)/g, '').replace(/\s{2,}/g, ' ').replace(/\s+([.,!?:)])/g, '$1');
+  s = s.replace(/\s{2,}/g, ' ').replace(/\s+([.,!?:)])/g, '$1').replace(/,\s*,/g, ',');
   return s.trim();
 }
 
@@ -112,7 +125,8 @@ function _splitSents(t) {
   const parts = t.trim().split(/(?<=[.!?:])\s+/).map(x => x.trim()).filter(Boolean);
   const out = [];
   for (const p of parts) {
-    if (out.length && _ABBR_END.test(out[out.length - 1]) && /^[a-ząćęłńóśźż0-9]/.test(p)) out[out.length - 1] += ' ' + p;
+    const prev = out[out.length - 1];
+    if (out.length && (/ k\.$/.test(prev) || (_ABBR_END.test(prev) && /^[a-ząćęłńóśźż0-9]/.test(p)))) out[out.length - 1] += ' ' + p;
     else out.push(p);
   }
   return out;
@@ -126,18 +140,36 @@ function buildSpeak(narration) {
   return (_splitSents(speak).length === _splitSents(narration).length) ? speak : null;
 }
 
-const HOOKS = [
-  (b, c) => `Do kogo NAPRAWDĘ należy ${b}?`,
-  (b, c) => `${b} — myślisz, że wiesz, czyje to? Błąd.`,
-  (b, c) => `Kupujesz ${b}? Zgadnij, dokąd płyną pieniądze.`,
-  (b, c) => `${b}: tego nie ma na etykiecie.`,
+// hooki UNIWERSALNE (pasują też do usług/sieci/aut) + „produktowe" (kupujesz/etykieta) tylko dla fizycznych
+const HOOKS_UNI = [
+  (b) => `Do kogo NAPRAWDĘ należy ${b}?`,
+  (b) => `${b} - myślisz, że wiesz, czyje to? Błąd.`,
+  (b) => `Kto zarabia na marce ${b}? Nie zgadniesz.`,
 ];
-const CLOSERS = [
+const HOOKS_SHELF = [
+  (b) => `Kupujesz ${b}? Zgadnij, dokąd płyną pieniądze.`,
+  (b) => `${b}: tego nie ma na etykiecie.`,
+];
+function hookFor(p, i) {
+  const pool = NO_SHELF.has(p.category) ? HOOKS_UNI : HOOKS_UNI.concat(HOOKS_SHELF);
+  return pool[i % pool.length](p.brand);
+}
+// closery UNIWERSALNE (pasują też do usług/aut/sieci) + „półkowe" tylko dla fizycznych produktów
+const CLOSERS_UNI = [
   `Wszystko legalne i jawne. Tylko nikt o tym nie mówi.`,
-  `Na etykiecie tego nie znajdziesz.`,
   `W reklamie tego nie usłyszysz.`,
+  `Sprawdź, zanim uwierzysz w "polskie".`,
+  `Kapitał nie ma flagi - warto wiedzieć, do kogo trafia.`,
+];
+const CLOSERS_SHELF = [
+  `Na etykiecie tego nie znajdziesz.`,
   `A na półce wygląda swojsko, prawda?`,
 ];
+const NO_SHELF = new Set(['usługi', 'motoryzacja', 'sieci handlowe', 'elektronika', 'AGD', 'paliwa']);
+function closerFor(p, i) {
+  const pool = NO_SHELF.has(p.category) ? CLOSERS_UNI : CLOSERS_UNI.concat(CLOSERS_SHELF);
+  return pool[i % pool.length];
+}
 // CTA: adres serwisu ZAWSZE na końcu i BEZ kropki po nim (lepiej się „reklamuje", ładna ramka końcowa)
 const CTAS = [
   `Obserwuj po więcej — pełną bazę marek masz na ${SITE}`,
@@ -186,24 +218,40 @@ function bodyFacts(p) {
   return body;
 }
 
+// myślniki „—"/„–" w WYŚWIETLANYM tekście brzydko wyglądają -> zwykły „-"
+const dispDash = s => String(s).replace(/[—–]/g, '-').replace(/\s{2,}/g, ' ').trim();
+
+// zróżnicowane otwarcia (żeby nie zawsze zaczynać od „Produkcja? Polska.") — rotowane po indeksie
+function openingLines(p, i, city, owner) {
+  const prod = cname(p.productionCountry);
+  const CAP = cname(p.capitalCountry).toUpperCase();
+  const b = p.brand, foreign = p.capitalCountry !== 'PL';
+  const capA = foreign ? `Kapitał? ${CAP}. Tam trafiają zyski.` : `A kapitał? Tu niespodzianka: ${CAP}.`;
+  const capB = foreign ? `A pieniądze płyną do: ${CAP}.` : `A kapitał? ${CAP} - i to dobra wiadomość.`;
+  const prodLine = city ? `Produkcja? ${prod}. ${city}` : `Produkcja? ${prod}.`;
+  const V = [
+    [prodLine, `Ale właściciel marki to ${owner}.`, capA],
+    [`Właściciel marki ${b}? ${owner}.`, prodLine, capA],
+    [`Kto zarabia na marce ${b}? ${owner}.`, prodLine, capB],
+    [`Marka ${b} - właściciel to ${owner}.`, prodLine, capB],
+  ];
+  return V[i % V.length];
+}
+
 function shortScript(p, i) {
-  const hook = HOOKS[i % HOOKS.length](p.brand, p.capitalCountry);
-  const foreign = p.capitalCountry !== 'PL';
+  const hook = hookFor(p, i);
   // „Konkretnie: <miasto>" tylko dla realnego zakładu produkcji — nie dla siedziby/centrali/sieci sklepów
   const pl0 = p.plants[0] || '';
   const city = (pl0 && pl0.length < 60 && /[a-ząćęłńóśźż0-9]/i.test(pl0)
     && !/^(Siedziba|Centrala|Ogólnopolska|Sieć|Ponad|Ok\.|ok\.|\d)/i.test(pl0))
     ? 'Konkretnie: ' + pl0 + '.' : '';
+  const owner = cleanLegal(p.brandOwner);
   const lines = [
-    `Produkcja? ${cname(p.productionCountry)}. ${city}`.trim(),
-    `Ale właściciel marki to ${cleanLegal(p.brandOwner)}.`,
-    foreign
-      ? `Kapitał? ${cname(p.capitalCountry).toUpperCase()}. Tam trafiają zyski.`
-      : `A kapitał? Tu niespodzianka: ${cname(p.capitalCountry).toUpperCase()}.`,
+    ...openingLines(p, i, city, owner),
     ...bodyFacts(p),
-    CLOSERS[i % CLOSERS.length],
-  ].filter(Boolean);
-  const cta = CTAS[i % CTAS.length];
+    closerFor(p, i),
+  ].filter(Boolean).map(dispDash);
+  const cta = dispDash(CTAS[i % CTAS.length]);
   // Twardy limit długości: realny render ≈ szac.(słów/2.9) + narzut zdań (do ~10 s).
   // Celujemy w ≤ ~44 s realnego renderu → CAP na słowa całej narracji. Przycinamy opcjonalne
   // fakty OD KOŃCA (capitalNote → stakes → funFact), NIGDY story ani rdzenia/closera.
@@ -215,8 +263,9 @@ function shortScript(p, i) {
   return {
     slug: p.slug,
     speak: speak || undefined,
+    support: (i % 4 === 3) || undefined,   // co 4. short: napis o wsparciu (link w opisie), niewypowiadany
     title: `${p.brand} — skąd to pochodzi? ${flag(p.productionCountry)}→${flag(p.capitalCountry)}`,
-    hook,
+    hook: dispDash(hook),
     lines,
     cta,
     hashtags: ['#shorts', '#skadprodukt', '#pochodzenieproduktow', '#' + p.slug.replace(/-/g, ''), '#zakupy', '#swiadomykonsument',

@@ -48,7 +48,7 @@
     <input type="search" id="search" name="q" placeholder="Szukaj marki, producenta, właściciela…" data-i18n-ph="search.ph" autocomplete="off" aria-label="Szukaj">
   </form>
   <div class="hub-tiles">
-    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">127 marek — kto jest właścicielem</span></a>
+    <a class="tile" href="/marki/"><span class="tile-ico">🏷️</span><strong data-i18n="tile.brands">Marki i kapitał</strong><span data-i18n="tile.brandsSub">133 marek — kto jest właścicielem</span></a>
     <a class="tile" href="/skladniki/"><span class="tile-ico">🌍</span><strong data-i18n="tile.ing">Składniki i mapa</strong><span data-i18n="tile.ingSub">13 surowców — skąd pochodzą</span></a>
     <a class="tile" href="/statystyki/"><span class="tile-ico">📊</span><strong data-i18n="tile.stats">Statystyki</strong><span data-i18n="tile.statsSub">produkcja vs kapitał</span></a>
   </div>
@@ -208,23 +208,23 @@
     </a>
 <a class="bar-row" href="/kraj/de/">
       <span class="bar-label">🇩🇪 Niemcy</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="37"></span></span>
-      <span class="bar-num">14</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="39"></span></span>
+      <span class="bar-num">15</span>
+    </a>
+<a class="bar-row" href="/kraj/cn/">
+      <span class="bar-label">🇨🇳 Chiny</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="32"></span></span>
+      <span class="bar-num">12</span>
     </a>
 <a class="bar-row" href="/kraj/fr/">
       <span class="bar-label">🇫🇷 Francja</span>
       <span class="bar-track"><span class="bar-fill" data-pct="29"></span></span>
       <span class="bar-num">11</span>
     </a>
-<a class="bar-row" href="/kraj/cn/">
-      <span class="bar-label">🇨🇳 Chiny</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="29"></span></span>
-      <span class="bar-num">11</span>
-    </a>
 <a class="bar-row" href="/kraj/us/">
       <span class="bar-label">🇺🇸 USA</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="24"></span></span>
-      <span class="bar-num">9</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="29"></span></span>
+      <span class="bar-num">11</span>
     </a>
 <a class="bar-row" href="/kraj/nl/">
       <span class="bar-label">🇳🇱 Holandia</span>
@@ -233,6 +233,11 @@
     </a>
 <a class="bar-row" href="/kraj/dk/">
       <span class="bar-label">🇩🇰 Dania</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="11"></span></span>
+      <span class="bar-num">4</span>
+    </a>
+<a class="bar-row" href="/kraj/jp/">
+      <span class="bar-label">🇯🇵 Japonia</span>
       <span class="bar-track"><span class="bar-fill" data-pct="11"></span></span>
       <span class="bar-num">4</span>
     </a>
@@ -248,11 +253,6 @@
     </a>
 <a class="bar-row" href="/kraj/es/">
       <span class="bar-label">🇪🇸 Hiszpania</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="8"></span></span>
-      <span class="bar-num">3</span>
-    </a>
-<a class="bar-row" href="/kraj/jp/">
-      <span class="bar-label">🇯🇵 Japonia</span>
       <span class="bar-track"><span class="bar-fill" data-pct="8"></span></span>
       <span class="bar-num">3</span>
     </a>
@@ -273,6 +273,11 @@
     </a>
 <a class="bar-row" href="/kraj/pt/">
       <span class="bar-label">🇵🇹 Portugalia</span>
+      <span class="bar-track"><span class="bar-fill" data-pct="5"></span></span>
+      <span class="bar-num">2</span>
+    </a>
+<a class="bar-row" href="/kraj/ua/">
+      <span class="bar-label">🇺🇦 Ukraina</span>
       <span class="bar-track"><span class="bar-fill" data-pct="5"></span></span>
       <span class="bar-num">2</span>
     </a>
@@ -316,11 +321,6 @@
       <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
       <span class="bar-num">1</span>
     </a>
-<a class="bar-row" href="/kraj/ua/">
-      <span class="bar-label">🇺🇦 Ukraina</span>
-      <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
-      <span class="bar-num">1</span>
-    </a>
 <a class="bar-row" href="/kraj/by/">
       <span class="bar-label">🇧🇾 Białoruś</span>
       <span class="bar-track"><span class="bar-fill" data-pct="3"></span></span>
@@ -337,7 +337,7 @@
 <footer class="site-footer">
   <p><strong>Skąd Produkt?</strong> — Portal świadomego konsumenta. <span data-i18n="footer.disclaimer">Serwis informacyjno-edukacyjny. Dane pochodzą z publicznych źródeł (etykiety, rejestry KRS, raporty instytucji, publikacje prasowe) — przy każdej informacji podajemy źródło. Struktury własności i pochodzenie surowców zmieniają się w czasie; przed powołaniem się na dane sprawdź źródło i jego datę.</span></p>
   <p><a href="/zglos/" data-i18n="footer.report">Zgłoś poprawkę lub sugestię</a> · <a href="/metodologia/" data-i18n="footer.method">Metodologia i źródła</a> · <a href="/prywatnosc/" data-i18n="footer.privacy">Prywatność i cookies</a> · <a href="/o-serwisie/" data-i18n="footer.about">O serwisie</a> · <a class="yt-link" href="https://www.youtube.com/@skadprodukt" target="_blank" rel="noopener"><svg class="yt-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.5 15.5v-7L15.8 12l-6.3 3.5z"/></svg> YouTube: @skadprodukt</a> · <a class="support-link" href="https://buycoffee.to/skadprodukt" target="_blank" rel="noopener">☕ <span data-i18n="footer.support">Wesprzyj projekt</span></a></p>
-  <p class="fine">© skadprodukt.org 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> 2026-07-17 · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
+  <p class="fine">© skadprodukt.org 2026 · PolyForm Noncommercial 1.0.0 · <span data-i18n="footer.updated">aktualizacja:</span> 2026-07-21 · <span data-i18n="footer.mapcredit">mapa:</span> <a href="https://www.amcharts.com/" rel="nofollow noopener" target="_blank">amCharts</a></p>
 </footer>
 <div id="info-note" class="info-note hidden" role="region" aria-label="Informacja o prywatności">
   <p data-i18n="note.text">Ta strona zapisuje wyłącznie Twój wybór języka i korzysta z technicznych plików hostingu (Cloudflare). Nie zbieramy danych analitycznych ani marketingowych, nie śledzimy Cię.</p>

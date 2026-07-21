@@ -4315,6 +4315,192 @@
       ],
       "confidence": "do-weryfikacji",
       "updated": "2026-07-17"
+    },
+    {
+      "slug": "ursus",
+      "brand": "Ursus",
+      "category": "maszyny rolnicze",
+      "producer": "M.I. Crow sp. z o.o. (Polska; kapitał ukraiński)",
+      "productionCountry": "PL",
+      "plants": [
+        "Dobre Miasto (woj. warmińsko-mazurskie)",
+        "Lublin"
+      ],
+      "brandOwner": "M.I. Crow sp. z o.o. (Oleg Krot, holding Techiia)",
+      "ownerCountry": "PL",
+      "capitalCountry": "UA",
+      "capitalNote": "==Legendarna marka ciągników Ursus w 2024 r. trafiła do spółki M.I. Crow, kontrolowanej przez ukraiński kapitał== (Oleg Krot, partner zarządzający holdingu Techiia). Znak towarowy i zakłady (Dobre Miasto, Lublin) kupiono za ok. 74 mln zł w przetargu syndyka; nowy właściciel zapowiada wznowienie produkcji.",
+      "stakes": [
+        {
+          "holder": "M.I. Crow sp. z o.o. (Oleg Krot, Techiia)",
+          "pct": "nabywca aktywów marki",
+          "country": "UA"
+        }
+      ],
+      "story": "Ursus, symbol polskiego rolnictwa, od 2024 r. jest w rękach inwestora z Ukrainy.",
+      "sources": [
+        {
+          "label": "PAP — Ursus wznawia produkcję, właściciel zdradził plany",
+          "url": "https://www.pap.pl/aktualnosci/legendarny-ursus-wznawia-produkcje-wlasciciel-zdradzil-plany"
+        },
+        {
+          "label": "Ceny Rolnicze — Ursus sprzedany za 74 mln zł",
+          "url": "https://www.cenyrolnicze.pl/wiadomosci/technika-rolnicza/36788-legendarna-marka-ma-nowego-wlasciciela-ursus-sprzedany-za-74-mln-zl"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "graal",
+      "brand": "Graal",
+      "category": "ryby i przetwory",
+      "producer": "Lisner (grupa Theo Müller)",
+      "productionCountry": "PL",
+      "plants": [
+        "Wejherowo"
+      ],
+      "brandOwner": "Unternehmensgruppe Theo Müller (przez Lisner)",
+      "ownerCountry": "DE",
+      "capitalCountry": "DE",
+      "capitalNote": "==Biznes konserw rybnych Graala (paprykarz, tuńczyk, dania gotowe) w 2024 r. przejął niemiecki Lisner, część grupy Theo Müller.== Zgodę wydał UOKiK (wrzesień 2024), transakcję domknięto pod koniec 2024 r. Produkcja pozostaje w Polsce (Wejherowo).",
+      "story": "Paprykarz Graal w puszce? Od 2024 r. jego producent należy do niemieckiej grupy Theo Müller.",
+      "sources": [
+        {
+          "label": "Portal Spożywczy — przejęcie dekady w branży rybnej (Lisner/Graal)",
+          "url": "https://www.portalspozywczy.pl/ryby/wiadomosci/3-lata-rozmow-1-5-roku-w-uokik-tak-wygladalo-przejecie-dekady-w-branzy-rybnej,286756.html"
+        },
+        {
+          "label": "Interia Biznes — niemiecki gigant przejmie polskiego przetwórcę ryb (zgoda)",
+          "url": "https://biznes.interia.pl/gospodarka/news-niemiecki-gigant-przejmie-polskiego-przetworce-ryb-jest-zgod,nId,7776989"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-21",
+      "ingredients": [
+        "ryby-owoce-morza"
+      ]
+    },
+    {
+      "slug": "techland",
+      "brand": "Techland",
+      "category": "gry",
+      "producer": "Techland S.A. (Wrocław)",
+      "productionCountry": "PL",
+      "plants": [
+        "Wrocław",
+        "Warszawa"
+      ],
+      "brandOwner": "Tencent (pakiet większościowy) i Paweł Marchewka",
+      "ownerCountry": "CN",
+      "capitalCountry": "CN",
+      "capitalNote": "==Wrocławskie studio Techland (Dying Light, Dead Island) w 2023 r. przejął chiński Tencent, obejmując ok. 67% udziałów.== Założyciel Paweł Marchewka zachował ok. 33% i pozostał prezesem; studio dalej działa w Polsce i zachowuje prawa do swoich gier.",
+      "stakes": [
+        {
+          "holder": "Tencent",
+          "pct": "ok. 67%",
+          "country": "CN"
+        },
+        {
+          "holder": "Paweł Marchewka (założyciel)",
+          "pct": "ok. 33%",
+          "country": "PL"
+        }
+      ],
+      "story": "Dying Light powstaje w Polsce, ale większość Techlandu ma dziś chiński Tencent.",
+      "sources": [
+        {
+          "label": "TechCrunch — Techland joins Tencent's global empire",
+          "url": "https://techcrunch.com/2023/07/25/zombie-game-maker-techland-joins-tencents-global-empire-in-latest-acquisition/"
+        },
+        {
+          "label": "Game World Observer — Tencent–Techland 67% stake",
+          "url": "https://gameworldobserver.com/2024/01/10/tencent-techland-1-5-billion-deal-67-percent-stake"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "neptune-ai",
+      "brand": "Neptune.ai",
+      "category": "technologie",
+      "producer": "Neptune Labs (Warszawa)",
+      "productionCountry": "PL",
+      "plants": [
+        "Warszawa"
+      ],
+      "brandOwner": "OpenAI",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "==Warszawski startup Neptune.ai (narzędzia do trenowania i monitorowania modeli AI) w grudniu 2025 r. przejęło amerykańskie OpenAI.== To pierwsza inwestycja OpenAI w Europie Środkowo-Wschodniej; zespół dołącza do OpenAI, a samodzielny produkt jest wygaszany.",
+      "story": "Polscy inżynierowie od sztucznej inteligencji trafili do OpenAI — twórcy ChatGPT przejęli warszawski Neptune.",
+      "sources": [
+        {
+          "label": "CNBC — OpenAI to acquire Neptune",
+          "url": "https://www.cnbc.com/2025/12/03/openai-to-acquire-neptune-an-ai-model-training-assistance-startup.html"
+        },
+        {
+          "label": "Bloomberg — OpenAI agrees to acquire Neptune",
+          "url": "https://www.bloomberg.com/news/articles/2025-12-03/openai-agrees-to-acquire-neptune-to-improve-ai-model-training"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "motionvfx",
+      "brand": "MotionVFX",
+      "category": "technologie",
+      "producer": "MotionVFX (Polska; zał. Szymon Masiak)",
+      "productionCountry": "PL",
+      "plants": [
+        "Polska"
+      ],
+      "brandOwner": "Apple",
+      "ownerCountry": "US",
+      "capitalCountry": "US",
+      "capitalNote": "==Polska firma MotionVFX, znana z wtyczek i szablonów do Final Cut Pro oraz DaVinci Resolve, w marcu 2026 r. została przejęta przez Apple.== Ok. 70 osób z zespołu dołącza do Apple, a narzędzia mają trafić do usług koncernu z Kalifornii.",
+      "story": "Wtyczki MotionVFX zna cały świat montażu wideo — a od 2026 r. tę polską firmę ma Apple.",
+      "sources": [
+        {
+          "label": "TechCrunch — Apple acquires MotionVFX",
+          "url": "https://techcrunch.com/2026/03/16/apple-acquires-video-editing-software-company-motionvfx/"
+        },
+        {
+          "label": "9to5Mac — Apple acquires MotionVFX",
+          "url": "https://9to5mac.com/2026/03/16/apple-acquires-motionvfx-maker-of-popular-final-cut-pro-plugins-and-more/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "sushi-food-factor",
+      "brand": "Sushi & Food Factor",
+      "category": "żywność",
+      "producer": "Sushi & Food Factor (Robakowo k. Poznania)",
+      "productionCountry": "PL",
+      "plants": [
+        "Robakowo (k. Poznania)"
+      ],
+      "brandOwner": "Zensho Holdings (przez Wonderfield Group)",
+      "ownerCountry": "JP",
+      "capitalCountry": "JP",
+      "capitalNote": "==Gotowe sushi sprzedawane m.in. w Biedronce, Żabce i Lidlu produkuje polska firma Sushi & Food Factor spod Poznania — w 2026 r. przejęła ją japońska grupa Zensho== (przez brytyjski Wonderfield Group). Zgody wydały urzędy w Polsce i w Niemczech; produkcja zostaje w Robakowie.",
+      "story": "Gotowe sushi z polskich sklepów robi firma spod Poznania — od 2026 r. w rękach japońskiego giganta Zensho.",
+      "sources": [
+        {
+          "label": "Wiadomości Handlowe — Sushi & Food Factor przejęty przez Zensho",
+          "url": "https://www.wiadomoscihandlowe.pl/handel-i-dystrybucja/fuzje-i-przejecia-w-handlu/sushi-food-factor-przejety-przez-japonska-grupe-zensho-2535515"
+        },
+        {
+          "label": "Portal Spożywczy — Japończycy przejmują polskiego producenta sushi",
+          "url": "https://www.portalspozywczy.pl/mieso/wiadomosci/japonczycy-przejmuja-polskiego-producenta-sushi,289343.html"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-21"
     }
   ]
 }
