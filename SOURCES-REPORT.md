@@ -1,16 +1,18 @@
-# Raport źródeł — 2026-07-20
+# Raport źródeł — 2026-07-27
 
-Sprawdzono **295** unikalnych URL-i. OK: 275 · ostrzeżenia (blokada botów itp.): 16 · **martwe: 4**
+Sprawdzono **307** unikalnych URL-i. OK: 284 · ostrzeżenia (blokada botów itp.): 18 · **martwe: 5**
 
 ## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
 - `fetch failed` https://www.lidl.pl
   - używane w: marka:lidl-marki-wlasne
+- `This operation was aborted` https://www.coca-colahellenic.com
+  - używane w: marka:coca-cola
 - `fetch failed` https://www.roshen.com
   - używane w: marka:roshen
 - `fetch failed` https://www.miesiecznikdealer.pl/rynek/aktualnosci/polski-debiut-marek-omoda-i-jaecoo
   - używane w: marka:omoda-jaecoo
-- `fetch failed` https://grupapolsatplus.pl/en/corporate-governance/shareholder-structure
-  - używane w: marka:plus
+- `This operation was aborted` https://grupatarczynski.pl/o-nas/
+  - używane w: marka:tarczynski
 
 ## ⚠ Ostrzeżenia (status ≥400, ale strona istnieje — zwykle blokada botów; sprawdź ręcznie raz na jakiś czas)
 - `403` https://www.nestle.pl (marka:winiary, marka:nalenczowianka)
@@ -24,10 +26,12 @@ Sprawdzono **295** unikalnych URL-i. OK: 275 · ostrzeżenia (blokada botów itp
 - `403` https://wspieramrozwoj.pl/greenfield-tea/ (marka:greenfield-tess)
 - `418` https://zgh.com/media-center/news/2024-11-14/?lang=en (marka:lynk-co)
 - `418` https://zgh.com/media-center/news/20170929_1/?lang=en (marka:lotus)
+- `403` https://www.stockwatch.pl/gpw/tarczynski,akcjonariat,wycena.aspx (marka:tarczynski)
 - `403` https://www.britannica.com/money/LOreal (marka:garnier)
 - `403` https://wojas.pl/firma/o-nas (marka:wojas)
 - `403` https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations (marka:olx)
 - `403` https://rejestr.io/krs/427063/terg (marka:media-expert)
+- `403` https://www.bloomberg.com/news/articles/2025-12-03/openai-agrees-to-acquire-neptune-to-improve-ai-model-training (marka:neptune-ai)
 - `403` https://www.fas.usda.gov/data/coffee-world-markets-and-trade (składnik:kawa/stat)
 
 _Generowane automatycznie przez tools/check_sources.js (GitHub Actions, co poniedziałek)._
