@@ -4501,6 +4501,155 @@
       ],
       "confidence": "publiczne",
       "updated": "2026-07-21"
+    },
+    {
+      "slug": "ciechan",
+      "brand": "Ciechan",
+      "category": "piwo",
+      "producer": "Browary Regionalne Jakubiak sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "Ciechanów"
+      ],
+      "brandOwner": "Browary Regionalne Jakubiak (Marek Jakubiak)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Piwo Ciechan to w pełni polski, niezależny browar== — należy do Browarów Regionalnych Jakubiak (Marek Jakubiak). Regionalna marka z Ciechanowa, alternatywa dla piw wielkich koncernów.",
+      "stakes": [
+        {
+          "holder": "Browary Regionalne Jakubiak (Marek Jakubiak)",
+          "pct": "100%",
+          "country": "PL"
+        }
+      ],
+      "story": "Ciechan to jeden z polskich, niezależnych browarów — alternatywa dla koncernowego piwa.",
+      "sources": [
+        {
+          "label": "Wikipedia — Browar Ciechan",
+          "url": "https://pl.wikipedia.org/wiki/Browar_Ciechan"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-22"
+    },
+    {
+      "slug": "kormoran",
+      "brand": "Kormoran",
+      "category": "piwo",
+      "producer": "Browar Kormoran sp. z o.o.",
+      "productionCountry": "PL",
+      "plants": [
+        "Olsztyn"
+      ],
+      "brandOwner": "Browar Kormoran (D. Klicki, A. Olkowski, M. Mikulewicz)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Browar Kormoran z Olsztyna to polska, niezależna firma== — należy do trójki polskich wspólników. Nagradzana marka regionalna, alternatywa dla piw koncernowych.",
+      "story": "Kormoran z Olsztyna to niezależny polski browar z polskim kapitałem.",
+      "sources": [
+        {
+          "label": "Rejestr.io — Browar Kormoran",
+          "url": "https://rejestr.io/krs/139259/browar-kormoran"
+        },
+        {
+          "label": "Wikipedia — Browar Kormoran",
+          "url": "https://pl.wikipedia.org/wiki/Browar_Kormoran"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-22"
+    },
+    {
+      "slug": "browar-amber",
+      "brand": "Amber",
+      "category": "piwo",
+      "producer": "Browar Amber",
+      "productionCountry": "PL",
+      "plants": [
+        "Bielkówko (k. Gdańska)"
+      ],
+      "brandOwner": "Browar Amber (rodzina Przybyło)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Browar Amber to polski browar rodzinny== założony w 1994 r. przez rodzinę Przybyło (Bielkówko k. Gdańska). W pełni polski kapitał.",
+      "story": "Amber to rodzinny polski browar spod Gdańska — piwo z polskim kapitałem.",
+      "sources": [
+        {
+          "label": "Wikipedia — Browar Amber",
+          "url": "https://pl.wikipedia.org/wiki/Browar_Amber"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-22"
+    },
+    {
+      "slug": "browar-jablonowo",
+      "brand": "Jabłonowo",
+      "category": "piwo",
+      "producer": "Browar Jabłonowo",
+      "productionCountry": "PL",
+      "plants": [
+        "Jabłonowo"
+      ],
+      "brandOwner": "Browar Jabłonowo (rodzina Buksowicz)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Browar Jabłonowo to polski browar rodzinny== (rodzina Buksowicz), założony w 1992 r., deklarowany 100% polski kapitał.",
+      "story": "Jabłonowo to niezależny polski browar rodzinny.",
+      "sources": [
+        {
+          "label": "Browar Jabłonowo — o nas",
+          "url": "https://jablonowo.pl/about-us/brewery/"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-22"
+    },
+    {
+      "slug": "pinta",
+      "brand": "Pinta",
+      "category": "piwo",
+      "producer": "Browar Pinta",
+      "productionCountry": "PL",
+      "plants": [
+        "Wieprz"
+      ],
+      "brandOwner": "Browar Pinta (Z. Fałat, G. Zwierzyna, M. Semla)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Pinta to największy polski browar rzemieślniczy== — należy do trójki polskich założycieli. Pionier polskiej rewolucji craftowej.",
+      "story": "Pinta to flagowy polski browar craftowy — w pełni polski.",
+      "sources": [
+        {
+          "label": "Wikipedia — Browar Pinta",
+          "url": "https://pl.wikipedia.org/wiki/Browar_Pinta"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-22"
+    },
+    {
+      "slug": "browar-zamkowy-cieszyn",
+      "brand": "Browar Zamkowy Cieszyn",
+      "category": "piwo",
+      "producer": "Browar Zamkowy Cieszyn",
+      "productionCountry": "PL",
+      "plants": [
+        "Cieszyn"
+      ],
+      "brandOwner": "fundusze KDW FIZ / MJG FIZAN (Mirosław Gruszka)",
+      "ownerCountry": "PL",
+      "capitalCountry": "PL",
+      "capitalNote": "==Browar Zamkowy w Cieszynie to dziś polski, niezależny browar== — od 2023 r. kontrolowany przez polskiego przedsiębiorcę Mirosława Gruszkę (współwłaściciel Cisowianki). Do 2020 r. należał do Grupy Żywiec (Heineken), która chciała go zamknąć — uratował go polski kapitał.",
+      "story": "Browar Zamkowy Cieszyn Polacy odbili z rąk Heinekena — dziś znów polski i niezależny.",
+      "sources": [
+        {
+          "label": "Wikipedia — Browar Zamkowy Cieszyn",
+          "url": "https://pl.wikipedia.org/wiki/Browar_Zamkowy_Cieszyn"
+        }
+      ],
+      "confidence": "publiczne",
+      "updated": "2026-07-22"
     }
   ]
 }
