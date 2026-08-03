@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /*
  * Strażnik źródeł: sprawdza WSZYSTKIE sourceUrl/url w data/*.json.
- * - martwy link (błąd sieci, 404, 410) => exit 1 (czerwony run w GitHub Actions = mail do właściciela)
- * - 403/429/blokady botów => ostrzeżenie (nie failuje — strona żyje, tylko nie lubi botów)
+ * - MARTWY (404/410, albo DNS-nieznaleziony ENOTFOUND / odmowa połączenia ECONNREFUSED) => exit 1 (czerwony run = mail)
+ * - 403/429/reset/timeout połączenia (blokada botów z datacenter GitHuba) => ostrzeżenie (strona żyje, tylko nie lubi botów CI)
  * Wynik: SOURCES-REPORT.md (commitowany przez workflow) + stdout.
  * Uruchamianie: node tools/check_sources.js  (lokalnie lub w CI, Node 18+)
  */
@@ -52,19 +52,25 @@ async function probe(url) {
     if (status === 405 || status === 501 || status >= 400) status = await attempt('GET');
     return { status };
   } catch (e) {
-    return { status: 0, err: (e && e.message || 'network error').slice(0, 120) };
+    const code = (e && e.cause && e.cause.code) || (e && e.code) || '';
+    return { status: 0, err: (e && e.message || 'network error').slice(0, 120), code };
   }
 }
 
 (async () => {
   const map = collect();
   const dead = [], warn = [], ok = [];
+  // status 0 = błąd połączenia (nie HTTP). ENOTFOUND/ECONNREFUSED = domena nie istnieje / nic nie nasłuchuje => MARTWY.
+  // Reset/timeout/TLS (ECONNRESET, abort itp.) = serwer żyje, ale blokuje boty z datacenter GitHuba => tylko OSTRZEŻENIE
+  // (inaczej wielkie serwisy z anty-botem: lidl.pl, wedel.pl, roshen.com dają fałszywe "martwe" i czerwony run).
+  const HARD_DOWN = new Set(['ENOTFOUND', 'ECONNREFUSED']);
   let i = 0;
   for (const [url, wheres] of map) {
     i++;
-    const { status, err } = await probe(url);
-    const row = { url, wheres, status, err };
-    if (status === 0 || status === 404 || status === 410) dead.push(row);
+    const { status, err, code } = await probe(url);
+    const row = { url, wheres, status, err, code };
+    if (status === 404 || status === 410) dead.push(row);
+    else if (status === 0) (HARD_DOWN.has(code) ? dead : warn).push(row);
     else if (status >= 400) warn.push(row); // 403/429 itp. — żyje, ale blokuje boty
     else ok.push(row);
     process.stdout.write(`[${i}/${map.size}] ${status || 'ERR'} ${url}\n`);
@@ -77,7 +83,7 @@ async function probe(url) {
     ``,
     dead.length ? `## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")\n${dead.map(d => `- \`${d.status || d.err}\` ${d.url}\n  - używane w: ${d.wheres.join(', ')}`).join('\n')}` : `## ✅ Brak martwych linków`,
     ``,
-    warn.length ? `## ⚠ Ostrzeżenia (status ≥400, ale strona istnieje — zwykle blokada botów; sprawdź ręcznie raz na jakiś czas)\n${warn.map(d => `- \`${d.status}\` ${d.url} (${d.wheres.join(', ')})`).join('\n')}` : '',
+    warn.length ? `## ⚠ Ostrzeżenia (strona istnieje, ale blokuje boty z datacenter — status ≥400 albo reset/timeout połączenia; sprawdź ręcznie raz na jakiś czas)\n${warn.map(d => `- \`${d.status || d.code || d.err || 'blok'}\` ${d.url} (${d.wheres.join(', ')})`).join('\n')}` : '',
     ``,
     `_Generowane automatycznie przez tools/check_sources.js (GitHub Actions, co poniedziałek)._`,
   ].join('\n');
