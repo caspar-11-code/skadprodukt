@@ -1,8 +1,12 @@
-# Raport źródeł — 2026-08-17
+# Raport źródeł — 2026-08-24
 
-Sprawdzono **314** unikalnych URL-i. OK: 292 · ostrzeżenia (blokada botów itp.): 22 · **martwe: 0**
+Sprawdzono **314** unikalnych URL-i. OK: 289 · ostrzeżenia (blokada botów itp.): 23 · **martwe: 2**
 
-## ✅ Brak martwych linków
+## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
+- `404` https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html
+  - używane w: marka:mg/stateAid, marka:volvo-cars/stateAid, marka:byd, marka:byd/stateAid
+- `fetch failed` https://piatnica.com.pl/nasza-spoldzielnia/
+  - używane w: marka:piatnica
 
 ## ⚠ Ostrzeżenia (strona istnieje, ale blokuje boty z datacenter — status ≥400 albo reset/timeout połączenia; sprawdź ręcznie raz na jakiś czas)
 - `403` https://www.nestle.pl (marka:winiary, marka:nalenczowianka)
@@ -10,6 +14,7 @@ Sprawdzono **314** unikalnych URL-i. OK: 292 · ostrzeżenia (blokada botów itp
 - `403` https://www.theheinekencompany.com (marka:zywiec, marka:warka)
 - `UND_ERR_HEADERS_OVERFLOW` https://www.lidl.pl (marka:lidl-marki-wlasne)
 - `fetch failed` https://www.roshen.com (marka:roshen)
+- `503` https://www.oshee.eu (marka:oshee)
 - `503` https://www.ferrero.pl/Ferrero-w-Polsce/ (marka:nutella-kinder)
 - `403` https://group.mercedes-benz.com/investors/share/shareholder-structure/ (marka:mercedes-benz)
 - `403` https://www.stellantis.com/en/brands (marka:opel)
