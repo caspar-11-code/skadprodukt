@@ -1,12 +1,12 @@
-# Raport źródeł — 2026-08-24
+# Raport źródeł — 2026-08-31
 
-Sprawdzono **314** unikalnych URL-i. OK: 289 · ostrzeżenia (blokada botów itp.): 23 · **martwe: 2**
+Sprawdzono **314** unikalnych URL-i. OK: 290 · ostrzeżenia (blokada botów itp.): 22 · **martwe: 2**
 
 ## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
 - `404` https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html
   - używane w: marka:mg/stateAid, marka:volvo-cars/stateAid, marka:byd, marka:byd/stateAid
-- `fetch failed` https://piatnica.com.pl/nasza-spoldzielnia/
-  - używane w: marka:piatnica
+- `404` https://onas.biedronka.pl/releases/grupa-jeronimo-martins
+  - używane w: marka:hebe
 
 ## ⚠ Ostrzeżenia (strona istnieje, ale blokuje boty z datacenter — status ≥400 albo reset/timeout połączenia; sprawdź ręcznie raz na jakiś czas)
 - `403` https://www.nestle.pl (marka:winiary, marka:nalenczowianka)
@@ -29,7 +29,6 @@ Sprawdzono **314** unikalnych URL-i. OK: 289 · ostrzeżenia (blokada botów itp
 - `403` https://wojas.pl/firma/o-nas (marka:wojas)
 - `403` https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations (marka:olx)
 - `403` https://rejestr.io/krs/427063/terg (marka:media-expert)
-- `403` https://www.bloomberg.com/news/articles/2025-12-03/openai-agrees-to-acquire-neptune-to-improve-ai-model-training (marka:neptune-ai)
 - `403` https://rejestr.io/krs/139259/browar-kormoran (marka:kormoran)
 - `403` https://www.fas.usda.gov/data/coffee-world-markets-and-trade (składnik:kawa/stat)
 
