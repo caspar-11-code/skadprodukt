@@ -1,6 +1,6 @@
-# Raport źródeł — 2026-09-14
+# Raport źródeł — 2026-09-21
 
-Sprawdzono **314** unikalnych URL-i. OK: 287 · ostrzeżenia (blokada botów itp.): 26 · **martwe: 1**
+Sprawdzono **314** unikalnych URL-i. OK: 288 · ostrzeżenia (blokada botów itp.): 25 · **martwe: 1**
 
 ## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
 - `404` https://onas.biedronka.pl/releases/grupa-jeronimo-martins
@@ -16,16 +16,15 @@ Sprawdzono **314** unikalnych URL-i. OK: 287 · ostrzeżenia (blokada botów itp
 - `503` https://www.ferrero.pl/Ferrero-w-Polsce/ (marka:nutella-kinder)
 - `403` https://group.mercedes-benz.com/investors/share/shareholder-structure/ (marka:mercedes-benz)
 - `403` https://www.stellantis.com/en/brands (marka:opel)
-- `521` https://300gospodarka.pl/news/dlaczego-polski-fundusz-rozwoju-nie-wykupil-od-hiszpanow-pakietu-akcji-solarisa (marka:solaris)
 - `403` https://www.kaufland.pl (marka:kaufland)
 - `403` https://www.trojmiasto.pl/The-Magnum-Ice-Cream-Company-o48095.html (marka:algida)
 - `403` https://www.stellantis.com/en/news/press-releases/2023/october/stellantis-to-become-a-strategic-shareholder-of-leapmotor-with-1-5-billion-investment-and-bolster-leapmotor-s-global-electric-vehicle-business (marka:leapmotor)
 - `403` https://www.stellantis.com/en/news/press-releases/2024/may/leapmotor-international-begins-operations-to-expand-global-electric-vehicle-sales-starting-september-2024-in-nine-european-countries-followed-by-other-key-growth-regions (marka:leapmotor)
 - `403` https://wspieramrozwoj.pl/greenfield-tea/ (marka:greenfield-tess)
-- `UND_ERR_CONNECT_TIMEOUT` https://poland.mfa.gov.by/pl/embassy/news/d99a72af7c32789a.html (marka:santa-bremor)
 - `418` https://zgh.com/media-center/news/2024-11-14/?lang=en (marka:lynk-co)
 - `418` https://zgh.com/media-center/news/20170929_1/?lang=en (marka:lotus)
 - `UNABLE_TO_VERIFY_LEAF_SIGNATURE` https://www.miesiecznikdealer.pl/rynek/aktualnosci/polski-debiut-marek-omoda-i-jaecoo (marka:omoda-jaecoo)
+- `403` https://www.stockwatch.pl/gpw/tarczynski,akcjonariat,wycena.aspx (marka:tarczynski)
 - `403` https://www.britannica.com/money/LOreal (marka:garnier)
 - `403` https://wojas.pl/firma/o-nas (marka:wojas)
 - `403` https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations (marka:olx)
