@@ -1,4 +1,4 @@
-# Raport źródeł — 2026-09-28
+# Raport źródeł — 2026-10-05
 
 Sprawdzono **314** unikalnych URL-i. OK: 286 · ostrzeżenia (blokada botów itp.): 26 · **martwe: 2**
 
