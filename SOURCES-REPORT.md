@@ -1,10 +1,8 @@
-# Raport źródeł — 2026-10-05
+# Raport źródeł — 2026-10-12
 
-Sprawdzono **314** unikalnych URL-i. OK: 286 · ostrzeżenia (blokada botów itp.): 26 · **martwe: 2**
+Sprawdzono **314** unikalnych URL-i. OK: 290 · ostrzeżenia (blokada botów itp.): 23 · **martwe: 1**
 
 ## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
-- `404` https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html
-  - używane w: marka:mg/stateAid, marka:volvo-cars/stateAid, marka:byd, marka:byd/stateAid
 - `404` https://onas.biedronka.pl/releases/grupa-jeronimo-martins
   - używane w: marka:hebe
 
@@ -30,10 +28,7 @@ Sprawdzono **314** unikalnych URL-i. OK: 286 · ostrzeżenia (blokada botów itp
 - `403` https://wearmedicine.com/ (marka:medicine)
 - `403` https://wojas.pl/firma/o-nas (marka:wojas)
 - `403` https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations (marka:olx)
-- `UND_ERR_CONNECT_TIMEOUT` https://grupapolsatplus.pl/en/corporate-governance/shareholder-structure (marka:plus)
-- `403` https://rejestr.io/krs/427063/terg (marka:media-expert)
-- `403` https://www.bloomberg.com/news/articles/2025-12-03/openai-agrees-to-acquire-neptune-to-improve-ai-model-training (marka:neptune-ai)
-- `403` https://rejestr.io/krs/139259/browar-kormoran (marka:kormoran)
+- `403` https://www.globenewswire.com/news-release/2020/11/20/2131023/0/en/iliad-press-release-iliad-s-friendly-public-tender-offer-for-the-Polish-telecom-operator-Play-is-a-success-with-iliad-now-holding-96-7-of-Play-s-capital-and-voting-rights.html (marka:play)
 - `403` https://www.fas.usda.gov/data/coffee-world-markets-and-trade (składnik:kawa/stat)
 
 _Generowane automatycznie przez tools/check_sources.js (GitHub Actions, co poniedziałek)._
