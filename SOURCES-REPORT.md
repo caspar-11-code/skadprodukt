@@ -1,6 +1,6 @@
-# Raport źródeł — 2026-11-02
+# Raport źródeł — 2026-11-09
 
-Sprawdzono **314** unikalnych URL-i. OK: 289 · ostrzeżenia (blokada botów itp.): 23 · **martwe: 2**
+Sprawdzono **314** unikalnych URL-i. OK: 285 · ostrzeżenia (blokada botów itp.): 27 · **martwe: 2**
 
 ## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
 - `404` https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html
@@ -31,6 +31,10 @@ Sprawdzono **314** unikalnych URL-i. OK: 289 · ostrzeżenia (blokada botów itp
 - `403` https://wojas.pl/firma/o-nas (marka:wojas)
 - `403` https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations (marka:olx)
 - `403` https://www.globenewswire.com/news-release/2020/11/20/2131023/0/en/iliad-press-release-iliad-s-friendly-public-tender-offer-for-the-Polish-telecom-operator-Play-is-a-success-with-iliad-now-holding-96-7-of-Play-s-capital-and-voting-rights.html (marka:play)
+- `UND_ERR_CONNECT_TIMEOUT` https://grupapolsatplus.pl/en/corporate-governance/shareholder-structure (marka:plus)
+- `403` https://www.bloomberg.com/news/articles/2025-12-03/openai-agrees-to-acquire-neptune-to-improve-ai-model-training (marka:neptune-ai)
+- `403` https://www.mightyearth.org/ (składnik:kakao/issue)
 - `403` https://www.fas.usda.gov/data/coffee-world-markets-and-trade (składnik:kawa/stat)
+- `429` https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/origin-labelling_en (składnik:czosnek/issue, składnik:ziemniaki-frytki/issue)
 
 _Generowane automatycznie przez tools/check_sources.js (GitHub Actions, co poniedziałek)._
