@@ -1,6 +1,6 @@
-# Raport źródeł — 2026-11-09
+# Raport źródeł — 2026-11-16
 
-Sprawdzono **314** unikalnych URL-i. OK: 285 · ostrzeżenia (blokada botów itp.): 27 · **martwe: 2**
+Sprawdzono **314** unikalnych URL-i. OK: 284 · ostrzeżenia (blokada botów itp.): 28 · **martwe: 2**
 
 ## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
 - `404` https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html
@@ -17,6 +17,7 @@ Sprawdzono **314** unikalnych URL-i. OK: 285 · ostrzeżenia (blokada botów itp
 - `503` https://www.oshee.eu (marka:oshee)
 - `503` https://www.ferrero.pl/Ferrero-w-Polsce/ (marka:nutella-kinder)
 - `403` https://group.mercedes-benz.com/investors/share/shareholder-structure/ (marka:mercedes-benz)
+- `ETIMEDOUT` https://www.saicmotor.com/english/index.shtml (marka:mg)
 - `403` https://www.stellantis.com/en/brands (marka:opel)
 - `403` https://www.kaufland.pl (marka:kaufland)
 - `403` https://www.trojmiasto.pl/The-Magnum-Ice-Cream-Company-o48095.html (marka:algida)
@@ -31,10 +32,10 @@ Sprawdzono **314** unikalnych URL-i. OK: 285 · ostrzeżenia (blokada botów itp
 - `403` https://wojas.pl/firma/o-nas (marka:wojas)
 - `403` https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations (marka:olx)
 - `403` https://www.globenewswire.com/news-release/2020/11/20/2131023/0/en/iliad-press-release-iliad-s-friendly-public-tender-offer-for-the-Polish-telecom-operator-Play-is-a-success-with-iliad-now-holding-96-7-of-Play-s-capital-and-voting-rights.html (marka:play)
-- `UND_ERR_CONNECT_TIMEOUT` https://grupapolsatplus.pl/en/corporate-governance/shareholder-structure (marka:plus)
+- `403` https://www.scmp.com/tech/policy/article/3358902/jdcoms-bid-europes-ceconomy-clears-german-hurdle-eu-subsidy-probe-looms (marka:media-markt)
 - `403` https://www.bloomberg.com/news/articles/2025-12-03/openai-agrees-to-acquire-neptune-to-improve-ai-model-training (marka:neptune-ai)
-- `403` https://www.mightyearth.org/ (składnik:kakao/issue)
 - `403` https://www.fas.usda.gov/data/coffee-world-markets-and-trade (składnik:kawa/stat)
-- `429` https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/origin-labelling_en (składnik:czosnek/issue, składnik:ziemniaki-frytki/issue)
+- `ETIMEDOUT` https://www.gov.pl/web/rolnictwo/rynek-rzepaku (składnik:olej-rzepakowy/stat)
+- `ETIMEDOUT` https://www.gov.pl/web/wijhars-olsztyn/kraj-i-miejsce-pochodzenia-zywnosci (składnik:olej-rzepakowy/issue)
 
 _Generowane automatycznie przez tools/check_sources.js (GitHub Actions, co poniedziałek)._
