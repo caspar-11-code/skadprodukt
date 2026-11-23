@@ -1,12 +1,16 @@
-# Raport źródeł — 2026-11-16
+# Raport źródeł — 2026-11-23
 
-Sprawdzono **314** unikalnych URL-i. OK: 284 · ostrzeżenia (blokada botów itp.): 28 · **martwe: 2**
+Sprawdzono **314** unikalnych URL-i. OK: 282 · ostrzeżenia (blokada botów itp.): 28 · **martwe: 4**
 
 ## ❌ MARTWE — do naprawy (podmień źródło lub oznacz rekord "do-weryfikacji")
 - `404` https://www.prawo.pl/akty/dz-u-ue-l-2024-2754,72392667.html
   - używane w: marka:mg/stateAid, marka:volvo-cars/stateAid, marka:byd, marka:byd/stateAid
+- `404` https://www.forbes.pl/sylwetka/barbara-i-jan-kolanscy
+  - używane w: marka:goplana
 - `404` https://onas.biedronka.pl/releases/grupa-jeronimo-martins
   - używane w: marka:hebe
+- `404` https://www.forbes.pl/sylwetka/teresa-grzebita-i-synowie
+  - używane w: marka:media-expert
 
 ## ⚠ Ostrzeżenia (strona istnieje, ale blokuje boty z datacenter — status ≥400 albo reset/timeout połączenia; sprawdź ręcznie raz na jakiś czas)
 - `403` https://www.nestle.pl (marka:winiary, marka:nalenczowianka)
@@ -17,13 +21,13 @@ Sprawdzono **314** unikalnych URL-i. OK: 284 · ostrzeżenia (blokada botów itp
 - `503` https://www.oshee.eu (marka:oshee)
 - `503` https://www.ferrero.pl/Ferrero-w-Polsce/ (marka:nutella-kinder)
 - `403` https://group.mercedes-benz.com/investors/share/shareholder-structure/ (marka:mercedes-benz)
-- `ETIMEDOUT` https://www.saicmotor.com/english/index.shtml (marka:mg)
 - `403` https://www.stellantis.com/en/brands (marka:opel)
 - `403` https://www.kaufland.pl (marka:kaufland)
 - `403` https://www.trojmiasto.pl/The-Magnum-Ice-Cream-Company-o48095.html (marka:algida)
 - `403` https://www.stellantis.com/en/news/press-releases/2023/october/stellantis-to-become-a-strategic-shareholder-of-leapmotor-with-1-5-billion-investment-and-bolster-leapmotor-s-global-electric-vehicle-business (marka:leapmotor)
 - `403` https://www.stellantis.com/en/news/press-releases/2024/may/leapmotor-international-begins-operations-to-expand-global-electric-vehicle-sales-starting-september-2024-in-nine-european-countries-followed-by-other-key-growth-regions (marka:leapmotor)
 - `403` https://wspieramrozwoj.pl/greenfield-tea/ (marka:greenfield-tess)
+- `UNABLE_TO_VERIFY_LEAF_SIGNATURE` https://www.bremor.com/ (marka:santa-bremor)
 - `418` https://zgh.com/media-center/news/2024-11-14/?lang=en (marka:lynk-co)
 - `418` https://zgh.com/media-center/news/20170929_1/?lang=en (marka:lotus)
 - `UNABLE_TO_VERIFY_LEAF_SIGNATURE` https://www.miesiecznikdealer.pl/rynek/aktualnosci/polski-debiut-marek-omoda-i-jaecoo (marka:omoda-jaecoo)
@@ -33,9 +37,9 @@ Sprawdzono **314** unikalnych URL-i. OK: 284 · ostrzeżenia (blokada botów itp
 - `403` https://www.naspers.com/news-insights/group-updates/2023/prosus-n-v-prosus-naspers-s-subsidiary-focuses-classifieds-operations (marka:olx)
 - `403` https://www.globenewswire.com/news-release/2020/11/20/2131023/0/en/iliad-press-release-iliad-s-friendly-public-tender-offer-for-the-Polish-telecom-operator-Play-is-a-success-with-iliad-now-holding-96-7-of-Play-s-capital-and-voting-rights.html (marka:play)
 - `403` https://www.scmp.com/tech/policy/article/3358902/jdcoms-bid-europes-ceconomy-clears-german-hurdle-eu-subsidy-probe-looms (marka:media-markt)
-- `403` https://www.bloomberg.com/news/articles/2025-12-03/openai-agrees-to-acquire-neptune-to-improve-ai-model-training (marka:neptune-ai)
+- `403` https://www.mightyearth.org/ (składnik:kakao/issue)
+- `403` https://www.business-humanrights.org/en/latest-news/turkey-hazelnuts-in-ferrero-rocher-supply-chain-linked-to-child-labour-includes-company-comments/ (składnik:orzechy-laskowe/issue)
+- `403` https://www.business-humanrights.org/en/latest-news/uk-bbc-finds-supermarket-italian-tomato-purees-likely-contain-ingredients-produced-with-forced-labour-in-china-incl-cos-comments/ (składnik:koncentrat-pomidorowy/stat, składnik:koncentrat-pomidorowy/paradox)
 - `403` https://www.fas.usda.gov/data/coffee-world-markets-and-trade (składnik:kawa/stat)
-- `ETIMEDOUT` https://www.gov.pl/web/rolnictwo/rynek-rzepaku (składnik:olej-rzepakowy/stat)
-- `ETIMEDOUT` https://www.gov.pl/web/wijhars-olsztyn/kraj-i-miejsce-pochodzenia-zywnosci (składnik:olej-rzepakowy/issue)
 
 _Generowane automatycznie przez tools/check_sources.js (GitHub Actions, co poniedziałek)._
